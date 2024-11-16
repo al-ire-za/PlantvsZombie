@@ -37,6 +37,10 @@ public:
     QLabel *label_27;
     QLabel *label_28;
     QLabel *label_29;
+    QLabel *label_30;
+    QLabel *label_31;
+    QLabel *label_32;
+    QLabel *label_33;
 
     void setupUi(QMainWindow *Gameplay_page)
     {
@@ -48,52 +52,64 @@ public:
         centralwidget->setObjectName("centralwidget");
         label_14 = new QLabel(centralwidget);
         label_14->setObjectName("label_14");
-        label_14->setGeometry(QRect(480, 520, 90, 80));
+        label_14->setGeometry(QRect(490, 520, 90, 80));
         label_15 = new QLabel(centralwidget);
         label_15->setObjectName("label_15");
         label_15->setGeometry(QRect(350, 520, 90, 80));
         label_16 = new QLabel(centralwidget);
         label_16->setObjectName("label_16");
-        label_16->setGeometry(QRect(640, 520, 90, 80));
+        label_16->setGeometry(QRect(630, 520, 90, 80));
         label_17 = new QLabel(centralwidget);
         label_17->setObjectName("label_17");
         label_17->setGeometry(QRect(770, 520, 90, 80));
         label_18 = new QLabel(centralwidget);
         label_18->setObjectName("label_18");
-        label_18->setGeometry(QRect(640, 430, 90, 80));
+        label_18->setGeometry(QRect(630, 430, 90, 80));
         label_19 = new QLabel(centralwidget);
         label_19->setObjectName("label_19");
         label_19->setGeometry(QRect(770, 430, 90, 80));
         label_20 = new QLabel(centralwidget);
         label_20->setObjectName("label_20");
-        label_20->setGeometry(QRect(480, 430, 90, 80));
+        label_20->setGeometry(QRect(490, 430, 90, 80));
         label_21 = new QLabel(centralwidget);
         label_21->setObjectName("label_21");
         label_21->setGeometry(QRect(350, 430, 90, 80));
         label_22 = new QLabel(centralwidget);
         label_22->setObjectName("label_22");
-        label_22->setGeometry(QRect(640, 340, 90, 80));
+        label_22->setGeometry(QRect(630, 340, 90, 80));
         label_23 = new QLabel(centralwidget);
         label_23->setObjectName("label_23");
         label_23->setGeometry(QRect(770, 340, 90, 80));
         label_24 = new QLabel(centralwidget);
         label_24->setObjectName("label_24");
-        label_24->setGeometry(QRect(480, 340, 90, 80));
+        label_24->setGeometry(QRect(490, 340, 90, 80));
         label_25 = new QLabel(centralwidget);
         label_25->setObjectName("label_25");
         label_25->setGeometry(QRect(350, 340, 90, 80));
         label_26 = new QLabel(centralwidget);
         label_26->setObjectName("label_26");
-        label_26->setGeometry(QRect(640, 250, 90, 80));
+        label_26->setGeometry(QRect(630, 250, 90, 80));
         label_27 = new QLabel(centralwidget);
         label_27->setObjectName("label_27");
         label_27->setGeometry(QRect(770, 250, 90, 80));
         label_28 = new QLabel(centralwidget);
         label_28->setObjectName("label_28");
-        label_28->setGeometry(QRect(480, 250, 90, 80));
+        label_28->setGeometry(QRect(490, 250, 90, 80));
         label_29 = new QLabel(centralwidget);
         label_29->setObjectName("label_29");
         label_29->setGeometry(QRect(350, 250, 90, 80));
+        label_30 = new QLabel(centralwidget);
+        label_30->setObjectName("label_30");
+        label_30->setGeometry(QRect(710, 640, 90, 80));
+        label_31 = new QLabel(centralwidget);
+        label_31->setObjectName("label_31");
+        label_31->setGeometry(QRect(410, 640, 90, 80));
+        label_32 = new QLabel(centralwidget);
+        label_32->setObjectName("label_32");
+        label_32->setGeometry(QRect(510, 640, 90, 80));
+        label_33 = new QLabel(centralwidget);
+        label_33->setObjectName("label_33");
+        label_33->setGeometry(QRect(610, 640, 90, 80));
         Gameplay_page->setCentralWidget(centralwidget);
 
         retranslateUi(Gameplay_page);
@@ -120,6 +136,10 @@ public:
         label_27->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
         label_28->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
         label_29->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
+        label_30->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
+        label_31->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
+        label_32->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
+        label_33->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
     } // retranslateUi
 
 };

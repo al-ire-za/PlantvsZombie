@@ -19,6 +19,9 @@ public:
     void move_enemi(QLabel *labal);
     QVector<QLabel*> labels;
 
+protected:
+    void mousePressEvent(QMouseEvent *event) override;
+
 private:
     Ui::Gameplay_page *ui;
     QTimer *timer;

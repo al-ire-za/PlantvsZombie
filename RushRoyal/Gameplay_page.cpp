@@ -11,7 +11,7 @@
 #include <QVector>
 #include <QDebug>
 #include <QTimer>
-
+#include <QMouseEvent>
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
@@ -27,18 +27,53 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     int y = (screenRect.height() - height()) / 2;
     move(x, y);
 
-    QLabel *labal_agent1 = new QLabel(this);
-    labal_agent1->setGeometry(410, 640, 90, 80);
-    labal_agent1->setFrameShape(QFrame::Panel);
-    QLabel *labal_agent2 = new QLabel(this);
-    labal_agent2->setGeometry(510, 640, 90, 80);
-    labal_agent2->setFrameShape(QFrame::Panel);
-    QLabel *labal_agent3 = new QLabel(this);
-    labal_agent3->setGeometry(610, 640, 90, 80);
-    labal_agent3->setFrameShape(QFrame::Panel);
-    QLabel *labal_agent4 = new QLabel(this);
-    labal_agent4->setGeometry(710, 640, 90, 80);
-    labal_agent4->setFrameShape(QFrame::Panel);
+    // navar paiin
+    QLabel *agent_choice1 = new QLabel(this);
+    agent_choice1->setGeometry(410, 640, 90, 80);
+    agent_choice1->setFrameShape(QFrame::Panel);
+    QLabel *agent_choice2 = new QLabel(this);
+    agent_choice2->setGeometry(510, 640, 90, 80);
+    agent_choice2->setFrameShape(QFrame::Panel);
+    QLabel *agent_choice3 = new QLabel(this);
+    agent_choice3->setGeometry(610, 640, 90, 80);
+    agent_choice3->setFrameShape(QFrame::Panel);
+    QLabel *agent_choice4 = new QLabel(this);
+    agent_choice4->setGeometry(710, 640, 90, 80);
+    agent_choice4->setFrameShape(QFrame::Panel);
+
+    // board agent
+    QLabel *agent_board1 = new QLabel(this);
+    agent_board1->setGeometry(350, 250, 90, 80);
+    QLabel *agent_board2 = new QLabel(this);
+    agent_board2->setGeometry(490, 250, 90, 80);
+    QLabel *agent_board3 = new QLabel(this);
+    agent_board3->setGeometry(630, 250, 90, 80);
+    QLabel *agent_board4 = new QLabel(this);
+    agent_board4->setGeometry(770, 250, 90, 80);
+    QLabel *agent_board5 = new QLabel(this);
+    agent_board5->setGeometry(350, 340, 90, 80);
+    QLabel *agent_board6 = new QLabel(this);
+    agent_board6->setGeometry(490, 340, 90, 80);
+    QLabel *agent_board7 = new QLabel(this);
+    agent_board7->setGeometry(630, 340, 90, 80);
+    QLabel *agent_board8 = new QLabel(this);
+    agent_board8->setGeometry(770, 340, 90, 80);
+    QLabel *agent_board9 = new QLabel(this);
+    agent_board9->setGeometry(350, 430, 90, 80);
+    QLabel *agent_board10 = new QLabel(this);
+    agent_board10->setGeometry(490, 430, 90, 80);
+    QLabel *agent_board11 = new QLabel(this);
+    agent_board11->setGeometry(630, 430, 90, 80);
+    QLabel *agent_board12 = new QLabel(this);
+    agent_board12->setGeometry(770, 430, 90, 80);
+    QLabel *agent_board13 = new QLabel(this);
+    agent_board13->setGeometry(350, 520, 90, 80);
+    QLabel *agent_board14 = new QLabel(this);
+    agent_board14->setGeometry(490, 520, 90, 80);
+    QLabel *agent_board15 = new QLabel(this);
+    agent_board15->setGeometry(630, 520, 90, 80);
+    QLabel *agent_board16 = new QLabel(this);
+    agent_board16->setGeometry(770, 520, 90, 80);
 
 
 
@@ -99,6 +134,11 @@ void Gameplay_page :: move_enemi(QLabel *labal){
     });
 
     group->start();
+
+}
+
+void Gameplay_page :: mousePressEvent(QMouseEvent *event){
+    qDebug() << event->pos();
 
 }
 
