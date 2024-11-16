@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen",
+	"CMAKE_BINARY_DIR" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/darsi/mabani/Qt/RushRoyal",
+	"CMAKE_SOURCE_DIR" : "E:/darsi/mabani/Qt/RushRoyal",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/darsi/mabani/Qt/RushRoyal/images/Untitled-1.png",
+		"E:/darsi/mabani/Qt/RushRoyal/images/Untitled-2.png",
+		"E:/darsi/mabani/Qt/RushRoyal/images/map_gamplay.jpg",
+		"E:/darsi/mabani/Qt/RushRoyal/images/welcom_page.png",
+		"E:/darsi/mabani/Qt/RushRoyal/images/abi_playbutton.png"
+	],
+	"LOCK_FILE" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/RushRoyal_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.8.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/RushRoyal_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/darsi/mabani/Qt/RushRoyal/images.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
