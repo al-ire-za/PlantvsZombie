@@ -47,7 +47,8 @@ public:
         if (Gameplay_page->objectName().isEmpty())
             Gameplay_page->setObjectName("Gameplay_page");
         Gameplay_page->resize(1200, 800);
-        Gameplay_page->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/map_gamplay.jpg);"));
+        Gameplay_page->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/map_gamplay.jpg);\n"
+""));
         centralwidget = new QWidget(Gameplay_page);
         centralwidget->setObjectName("centralwidget");
         label_14 = new QLabel(centralwidget);
@@ -56,6 +57,7 @@ public:
         label_15 = new QLabel(centralwidget);
         label_15->setObjectName("label_15");
         label_15->setGeometry(QRect(350, 520, 90, 80));
+        label_15->setStyleSheet(QString::fromUtf8("image: url(:/prefix2/images/SANG3.png);"));
         label_16 = new QLabel(centralwidget);
         label_16->setObjectName("label_16");
         label_16->setGeometry(QRect(630, 520, 90, 80));
@@ -74,6 +76,7 @@ public:
         label_21 = new QLabel(centralwidget);
         label_21->setObjectName("label_21");
         label_21->setGeometry(QRect(350, 430, 90, 80));
+        label_21->setStyleSheet(QString::fromUtf8(""));
         label_22 = new QLabel(centralwidget);
         label_22->setObjectName("label_22");
         label_22->setGeometry(QRect(630, 340, 90, 80));
@@ -104,6 +107,7 @@ public:
         label_31 = new QLabel(centralwidget);
         label_31->setObjectName("label_31");
         label_31->setGeometry(QRect(410, 640, 90, 80));
+        label_31->setStyleSheet(QString::fromUtf8(""));
         label_32 = new QLabel(centralwidget);
         label_32->setObjectName("label_32");
         label_32->setGeometry(QRect(510, 640, 90, 80));

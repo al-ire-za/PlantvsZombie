@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QLabel>
+#include <QPoint>
 
 namespace Ui {
 class Gameplay_page;
@@ -19,12 +20,23 @@ public:
     void move_enemi(QLabel *labal);
     QVector<QLabel*> labels;
 
+
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
 private:
     Ui::Gameplay_page *ui;
     QTimer *timer;
+    QLabel *agent_board[16];
+
+    QLabel *current_choice;
+    QLabel *agent_choice1;
+    QLabel *agent_choice2;
+    QLabel *agent_choice3;
+    QLabel *agent_choice4;
+
+
+
 };
 
 #endif // GAMEPLAY_PAGE_H

@@ -4,11 +4,17 @@
         <file>images/abi_playbutton.png</file>
     </qresource>
     <qresource prefix="/prefix2">
-        <file>images/map_gamplay.jpg</file>
         <file>images/map_gamplayedit2.jpg</file>
-        <file>images/babr.jpg</file>
-        <file>images/gorg.jpg</file>
-        <file>images/kargadan.jpg</file>
-        <file>images/shir.jpg</file>
+        <file>images/babr_edit3.png</file>
+        <file>images/gorg_edit.png</file>
+        <file>images/kargadan_edit.png</file>
+        <file>images/shir_edit.png</file>
+        <file>images/SANG1.png</file>
+        <file>images/map_gamplay.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>images/red.png</file>
+        <file>images/sorati.jfif</file>
+        <file>images/zard.png</file>
     </qresource>
 </RCC>

@@ -14,7 +14,8 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/prefix2/images/map_gamplay.jpg);</string>
+   <string notr="true">background-image: url(:/prefix2/images/map_gamplay.jpg);
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_14">
@@ -38,6 +39,9 @@
       <width>90</width>
       <height>80</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/prefix2/images/SANG3.png);</string>
     </property>
     <property name="text">
      <string>TextLabel</string>
@@ -116,6 +120,9 @@
       <width>90</width>
       <height>80</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>TextLabel</string>
@@ -246,6 +253,9 @@
       <width>90</width>
       <height>80</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>TextLabel</string>
