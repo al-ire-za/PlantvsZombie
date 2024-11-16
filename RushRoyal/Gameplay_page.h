@@ -21,6 +21,7 @@ public:
 
 private:
     Ui::Gameplay_page *ui;
+    QTimer *timer;
 };
 
 #endif // GAMEPLAY_PAGE_H

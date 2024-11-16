@@ -4,8 +4,11 @@
         <file>images/abi_playbutton.png</file>
     </qresource>
     <qresource prefix="/prefix2">
-        <file>images/Untitled-1.png</file>
-        <file>images/Untitled-2.png</file>
         <file>images/map_gamplay.jpg</file>
+        <file>images/map_gamplayedit2.jpg</file>
+        <file>images/babr.jpg</file>
+        <file>images/gorg.jpg</file>
+        <file>images/kargadan.jpg</file>
+        <file>images/shir.jpg</file>
     </qresource>
 </RCC>
