@@ -9,8 +9,16 @@
         <file>images/gorg_edit.png</file>
         <file>images/kargadan_edit.png</file>
         <file>images/shir_edit.png</file>
-        <file>images/SANG1.png</file>
         <file>images/map_gamplay.jpg</file>
+        <file>images/felfelmoshaki2.png</file>
+        <file>images/gandom2.png</file>
+        <file>images/golmoshaki2.png</file>
+        <file>images/gorbemahi2.png</file>
+        <file>images/hendone_yakhi22.png</file>
+        <file>images/hendone2.png</file>
+        <file>images/jolback2.png</file>
+        <file>images/kalam2.png</file>
+        <file>images/sanng.png</file>
     </qresource>
     <qresource prefix="/new/prefix2">
         <file>images/red.png</file>
