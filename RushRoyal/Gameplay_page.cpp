@@ -29,26 +29,45 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     move(x, y);
 
 
+
+// "background-image: url(:/new/prefix1/images/abi_playbutton.png);"
+//         "background-image: url(:/new/prefix2/images/sorati.jfif);"
+//         "background-image: url(:/new/prefix2/images/red.png);"
+//         "background-image: url(:/new/prefix2/images/zard.png);"
     // navar paiin
+
+    randomImages = {
+        ":/new/prefix2/images/red.png",
+        ":/new/prefix2/images/zard.png",
+        ":/new/prefix2/images/sorati.jfif",
+        ":/new/prefix1/images/abi_playbutton.png"
+    };
+
     agent_choice1 = new QLabel(this);
     agent_choice1->setGeometry(410, 640, 90, 80);
-    agent_choice1->setStyleSheet("background-image: url(:/new/prefix1/images/abi_playbutton.png);");
+    randomImage1 = randomImages[std::rand() % randomImages.size()];
+    agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");");
     agent_choice1->setFrameShape(QFrame::Panel);
 
     agent_choice2 = new QLabel(this);
-    agent_choice2->setGeometry(510, 640, 90, 80); 
-    agent_choice2->setStyleSheet("background-image: url(:/new/prefix2/images/sorati.jfif);");
+    agent_choice2->setGeometry(510, 640, 90, 80);
+    randomImage2 = randomImages[std::rand() % randomImages.size()];
+    agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");");
     agent_choice2->setFrameShape(QFrame::Panel);
 
     agent_choice3 = new QLabel(this);
     agent_choice3->setGeometry(610, 640, 90, 80);
-    agent_choice3->setStyleSheet("background-image: url(:/new/prefix2/images/red.png);");
+    randomImage3 = randomImages[std::rand() % randomImages.size()];
+    agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");");
     agent_choice3->setFrameShape(QFrame::Panel);
 
     agent_choice4 = new QLabel(this);
     agent_choice4->setGeometry(710, 640, 90, 80);
-    agent_choice4->setStyleSheet("background-image: url(:/new/prefix2/images/zard.png);");
+    randomImage4 = randomImages[std::rand() % randomImages.size()];
+    agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");");
     agent_choice4->setFrameShape(QFrame::Panel);
+
+
 
 
 
@@ -95,7 +114,7 @@ void Gameplay_page :: create_enemi(){
     int randomInterval;
     QLabel *new_labal = new QLabel(this);
     count_enemi ++;
-    new_labal->setStyleSheet("background: transparent;background-image: url(:/prefix2/images/shir_edit.png);");
+    new_labal->setStyleSheet("background-image: url(:/prefix2/images/kargadan_edit.png);");
     new_labal->setGeometry(220, 700, 90, 80);
     new_labal->show();
     labels.append(new_labal);
@@ -170,7 +189,48 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
         }
 
+        if (current_choice) {
+            for (int i = 0; i < 16; ++i) {
+                if (event->pos().x() >= agent_board[i]->x() &&
+                    event->pos().x() <= agent_board[i]->x() + agent_board[i]->width() &&
+                    event->pos().y() >= agent_board[i]->y() &&
+                    event->pos().y() <= agent_board[i]->y() + agent_board[i]->height()) {
 
+
+                    if (agent_board[i]->styleSheet().isEmpty()){
+                        if (current_choice == agent_choice1) {
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage1 + ");");
+                        } else if (current_choice == agent_choice2) {
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage2 + ");");
+                        } else if (current_choice == agent_choice3) {
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage3 + ");");
+                        } else if (current_choice == agent_choice4) {
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage4 + ");");
+                        }
+
+
+                        if(current_choice == agent_choice1){
+                            randomImage1 = randomImages[std::rand() % randomImages.size()];
+                            agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");");
+                        } else if(current_choice == agent_choice2) {
+                            randomImage2 = randomImages[std::rand() % randomImages.size()];
+                            agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");");
+                        } else if(current_choice == agent_choice3){
+                            randomImage3 = randomImages[std::rand() % randomImages.size()];
+                            agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");");
+                        } else if(current_choice == agent_choice4){
+                            randomImage4 = randomImages[std::rand() % randomImages.size()];
+                            agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");");
+                        }
+
+                        current_choice = nullptr;
+
+                    }
+
+
+                }
+            }
+        }
     }
 }
 

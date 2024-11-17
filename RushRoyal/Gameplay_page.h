@@ -28,6 +28,11 @@ private:
     Ui::Gameplay_page *ui;
     QTimer *timer;
     QLabel *agent_board[16];
+    QStringList randomImages;
+    QString randomImage1;
+    QString randomImage2;
+    QString randomImage3;
+    QString randomImage4;
 
     QLabel *current_choice;
     QLabel *agent_choice1;
