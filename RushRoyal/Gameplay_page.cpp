@@ -110,40 +110,48 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 // background-image: url(:/prefix2/images/shir_edit.png);
 
 int count_enemi = 0;
+int wave = 0;
 void Gameplay_page :: create_enemi(){
     int randomInterval;
     QLabel *new_labal = new QLabel(this);
-    count_enemi ++;
+    count_enemi++ ;
     new_labal->setStyleSheet("background-image: url(:/prefix2/images/kargadan_edit.png);");
     new_labal->setGeometry(220, 700, 90, 80);
     new_labal->show();
     labels.append(new_labal);
     move_enemi(new_labal);
-    if(count_enemi % 5 != 0){ // %20
+
+    if(wave == 2){
+
+        QApplication::quit();
+    }
+
+    if((count_enemi) % ( 5 + wave ) != 0){ // %20
         randomInterval = (std::rand() % 1500) + 500;
     }
     else{
         randomInterval = 10000; //20000
+        wave++ ;
+        count_enemi = 0;
     }
 
+
     timer->start(randomInterval);
-
-
 }
 
 void Gameplay_page :: move_enemi(QLabel *labal){
     QPropertyAnimation *animation = new QPropertyAnimation(labal, "geometry");
-    animation->setDuration(5000); //5000
+    animation->setDuration(1000); //1000
     animation->setStartValue(QRect(215, 700, 90, 80));
     animation->setEndValue(QRect(215, 140, 90, 80));
 
     QPropertyAnimation *animation2 = new QPropertyAnimation(labal, "geometry");
-    animation2->setDuration(5000);
+    animation2->setDuration(1000);
     animation2->setStartValue(QRect(215, 140, 90, 80));
     animation2->setEndValue(QRect(900, 140, 90, 80));
 
     QPropertyAnimation *animation3 = new QPropertyAnimation(labal, "geometry");
-    animation3->setDuration(5000);
+    animation3->setDuration(1000);
     animation3->setStartValue(QRect(900, 140, 90, 80));
     animation3->setEndValue(QRect(900, 625, 90, 80));
 
