@@ -18,6 +18,7 @@ public:
     ~Gameplay_page();
     void create_enemi();
     void move_enemi(QLabel *labal);
+    void logEvent(const QString &event);
     QVector<QLabel*> labels;
 
 

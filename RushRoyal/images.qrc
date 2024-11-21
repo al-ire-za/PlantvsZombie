@@ -20,9 +20,5 @@
         <file>images/kalam2.png</file>
         <file>images/sanng.png</file>
     </qresource>
-    <qresource prefix="/new/prefix2">
-        <file>images/red.png</file>
-        <file>images/sorati.jfif</file>
-        <file>images/zard.png</file>
-    </qresource>
+    <qresource prefix="/new/prefix2"/>
 </RCC>

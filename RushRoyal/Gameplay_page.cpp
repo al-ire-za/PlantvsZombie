@@ -13,6 +13,10 @@
 #include <QTimer>
 #include <QMouseEvent>
 #include <QPoint>
+#include <QFile>
+#include <QTextStream>
+
+
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
@@ -120,6 +124,8 @@ void Gameplay_page :: create_enemi(){
     labels.append(new_labal);
     move_enemi(new_labal);
 
+    logEvent(QString("DEnemy #%1 created.").arg(count_enemi));
+
     if(wave == 2){
 
         QApplication::quit();
@@ -132,6 +138,7 @@ void Gameplay_page :: create_enemi(){
         randomInterval = 10000; //20000
         wave++ ;
         count_enemi = 0;
+        logEvent(QString("Wave %1 completed.").arg(wave));
     }
 
 
@@ -141,17 +148,17 @@ void Gameplay_page :: create_enemi(){
 
 void Gameplay_page :: move_enemi(QLabel *labal){
     QPropertyAnimation *animation = new QPropertyAnimation(labal, "geometry");
-    animation->setDuration(1000); //1000
+    animation->setDuration(5000); //5000
     animation->setStartValue(QRect(215, 700, 90, 80));
     animation->setEndValue(QRect(215, 140, 90, 80));
 
     QPropertyAnimation *animation2 = new QPropertyAnimation(labal, "geometry");
-    animation2->setDuration(1000);
+    animation2->setDuration(5000);
     animation2->setStartValue(QRect(215, 140, 90, 80));
     animation2->setEndValue(QRect(900, 140, 90, 80));
 
     QPropertyAnimation *animation3 = new QPropertyAnimation(labal, "geometry");
-    animation3->setDuration(1000);
+    animation3->setDuration(5000);
     animation3->setStartValue(QRect(900, 140, 90, 80));
     animation3->setEndValue(QRect(900, 625, 90, 80));
 
@@ -173,29 +180,30 @@ void Gameplay_page :: move_enemi(QLabel *labal){
 void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
     if(event->button() == Qt::LeftButton){
+        QString logMessage;
 
         if (event->pos().x() >= 410 && event->pos().x() <= 500 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
             current_choice = agent_choice1;
-
+            logMessage = "Agent choice 1 selected.";
         }
 
         if (event->pos().x() >= 510 && event->pos().x() <= 600 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
             current_choice = agent_choice2;
-
+            logMessage = "Agent choice 2 selected.";
         }
 
         if (event->pos().x() >= 610 && event->pos().x() <= 700 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
             current_choice = agent_choice3;
-
+            logMessage = "Agent choice 3 selected.";
         }
 
         if (event->pos().x() >= 710 && event->pos().x() <= 800 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
             current_choice = agent_choice4;
-
+            logMessage = "Agent choice 4 selected.";
         }
 
         if (current_choice) {
@@ -207,6 +215,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
 
                     if (agent_board[i]->styleSheet() == "background-image: url(:/prefix2/images/sanng.png);" ){
+                        QString oldImage = agent_board[i]->styleSheet();
                         if (current_choice == agent_choice1) {
                             agent_board[i]->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(203, 176, 131);");
                         } else if (current_choice == agent_choice2) {
@@ -232,6 +241,9 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                             agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(255, 255, 255);");
                         }
 
+
+                        logMessage = QString("Changed tile at index %1 from %2 to new image.").arg(i).arg(oldImage);
+                        logEvent(logMessage);
                         current_choice = nullptr;
 
                     }
@@ -240,8 +252,23 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 }
             }
         }
+
+        if (!logMessage.isEmpty()) {
+            logEvent(logMessage);
+        }
     }
 }
+
+
+void Gameplay_page::logEvent(const QString &event) {
+    QFile file("game_log.txt");
+    if (file.open(QIODevice::Append | QIODevice::Text)) {
+        QTextStream out(&file);
+        out << event << "\n";
+        file.close();
+    }
+}
+
 
 
 
