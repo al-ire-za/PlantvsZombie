@@ -17,7 +17,6 @@
 #include <QTextStream>
 
 
-
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Gameplay_page)
@@ -164,7 +163,7 @@ void Gameplay_page :: move_enemi(QLabel *labal){
 }
 
 
-    void Gameplay_page :: mousePressEvent(QMouseEvent *event){
+void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
     if(event->button() == Qt::LeftButton){
         QString logMessage;
@@ -268,9 +267,6 @@ void Gameplay_page :: move_enemi(QLabel *labal){
             }
         }
 
-        if (!logMessage.isEmpty()) {
-            logEvent(logMessage);
-        }
     }
 }
 
