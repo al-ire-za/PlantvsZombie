@@ -19,6 +19,8 @@ public:
     void create_enemi();
     void move_enemi(QLabel *labal);
     void logEvent(const QString &event);
+    void updateStyleSheetAgentChoice(QWidget* widget, const QString& imageUrl);
+    void updateStyleSheetAgentBorad(QWidget* widget, const QString& imageUrl);
     QVector<QLabel*> labels;
 
 
