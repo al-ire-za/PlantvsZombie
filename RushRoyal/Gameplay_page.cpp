@@ -33,8 +33,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     move(x, y);
 
 
-    // navar paiin
-
     randomImages = {
         ":/prefix2/images/jolback2.png",
         ":/prefix2/images/kalam2.png",
@@ -59,18 +57,15 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     randomImage1 = randomImages[std::rand() % randomImages.size()];
     updateStyleSheetAgentChoice(agent_choice1, randomImage1);
 
-
     agent_choice2 = new QLabel(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage2 = randomImages[std::rand() % randomImages.size()];
     updateStyleSheetAgentChoice(agent_choice2, randomImage2);
 
-
     agent_choice3 = new QLabel(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage3 = randomImages[std::rand() % randomImages.size()];
     updateStyleSheetAgentChoice(agent_choice3, randomImage3);
-
 
     agent_choice4 = new QLabel(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -78,13 +73,10 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     updateStyleSheetAgentChoice(agent_choice4, randomImage4);
 
 
-
-
     for (int i = 0; i < 16; ++i) {
         agent_board[i] = new QLabel(this);
 
     }
-
 
     const int width_agent_board = 90;
     const int height_agent_borad = 80;
@@ -101,10 +93,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
         agent_board[i]->setStyleSheet("background-image: url(:/prefix2/images/sanng.png);");
     }
 
-
-
     current_choice = nullptr;
-
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
@@ -123,7 +112,6 @@ void Gameplay_page :: create_enemi(){
     new_labal->show();
     labels.append(new_labal);
     move_enemi(new_labal);
-
     logEvent(QString("DEnemy #%1 created.").arg(count_enemi));
 
     if(wave == 2){
@@ -140,7 +128,6 @@ void Gameplay_page :: create_enemi(){
         count_enemi = 0;
         logEvent(QString("Wave %1 completed.").arg(wave));
     }
-
 
     timer->start(randomInterval);
 }
@@ -177,33 +164,54 @@ void Gameplay_page :: move_enemi(QLabel *labal){
 }
 
 
-void Gameplay_page :: mousePressEvent(QMouseEvent *event){
+    void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
     if(event->button() == Qt::LeftButton){
         QString logMessage;
 
         if (event->pos().x() >= 410 && event->pos().x() <= 500 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
-            current_choice = agent_choice1;
-            logMessage = "Agent choice 1 selected.";
+            if (current_choice == agent_choice1) {
+                current_choice = nullptr;
+                logMessage = "Agent choice 1 deselected.";
+            } else {
+                current_choice = agent_choice1;
+                logMessage = "Agent choice 1 selected.";
+            }
         }
+
 
         if (event->pos().x() >= 510 && event->pos().x() <= 600 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
-            current_choice = agent_choice2;
-            logMessage = "Agent choice 2 selected.";
+            if (current_choice == agent_choice2) {
+                current_choice = nullptr;
+                logMessage = "Agent choice 2 deselected.";
+            } else {
+                current_choice = agent_choice2;
+                logMessage = "Agent choice 2 selected.";
+            }
         }
 
         if (event->pos().x() >= 610 && event->pos().x() <= 700 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
-            current_choice = agent_choice3;
-            logMessage = "Agent choice 3 selected.";
+            if (current_choice == agent_choice3) {
+                current_choice = nullptr;
+                logMessage = "Agent choice 3 deselected.";
+            } else {
+                current_choice = agent_choice3;
+                logMessage = "Agent choice 3 selected.";
+            }
         }
 
         if (event->pos().x() >= 710 && event->pos().x() <= 800 &&
             event->pos().y() >= 640 && event->pos().y() <= 720){
-            current_choice = agent_choice4;
-            logMessage = "Agent choice 4 selected.";
+            if (current_choice == agent_choice4) {
+                current_choice = nullptr;
+                logMessage = "Agent choice 4 deselected.";
+            } else {
+                current_choice = agent_choice4;
+                logMessage = "Agent choice 4 selected.";
+            }
         }
 
         if (current_choice) {
@@ -217,6 +225,8 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                     if (agent_board[i]->styleSheet() == "background-image: url(:/prefix2/images/sanng.png);" ){
                         QString oldImage = agent_board[i]->styleSheet();
                         QString newImage;
+
+                        //ezafe kardan aks agent choice be agent choice
                         if (current_choice == agent_choice1) {
                             updateStyleSheetAgentBorad(agent_board[i], randomImage1);
                             newImage = randomImage1;
@@ -231,7 +241,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                             newImage = randomImage4;
                         }
 
-
+                        //set kardan ye aks random baray egent choice
                         if(current_choice == agent_choice1){
                             randomImage1 = randomImages[std::rand() % randomImages.size()];
                             updateStyleSheetAgentChoice(agent_choice1, randomImage1);
