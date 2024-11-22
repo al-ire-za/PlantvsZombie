@@ -122,7 +122,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
     </property>
     <property name="text">
      <string>TextLabel</string>

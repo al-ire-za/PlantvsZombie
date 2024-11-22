@@ -33,49 +33,49 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     move(x, y);
 
 
-    // background-image: url(:/prefix2/images/felfelmoshaki2.png);
-    // background-image: url(:/prefix2/images/gorbemahi2.png);
-    // background-image: url(:/prefix2/images/golmoshaki2.png);
-    // background-image: url(:/prefix2/images/gandom2.png);
-    // background-image: url(:/prefix2/images/hendone_yakhi22.png);
-    // background-image: url(:/prefix2/images/hendone2.png);
-    // background-image: url(:/prefix2/images/kalam2.png);
-    // background-image: url(:/prefix2/images/jolback2.png);
     // navar paiin
 
     randomImages = {
         ":/prefix2/images/jolback2.png",
         ":/prefix2/images/kalam2.png",
         ":/prefix2/images/hendone2.png",
-        ":/prefix2/images/gandom2.png",
+        ":/prefix2/images/gandom22.png",
         ":/prefix2/images/golmoshaki2.png",
         ":/prefix2/images/gorbemahi2.png",
         ":/prefix2/images/felfelmoshaki2.png",
         ":/prefix2/images/hendone_yakhi22.png"
     };
 
+
+    const int width_aghent_choice = 90;
+    const int hight_aghent_choice = 80;
+    const int startx_agent_choice = 410;
+    const int starty_aghant_choice = 640;
+    const int spacing = 100;
+
+
     agent_choice1 = new QLabel(this);
-    agent_choice1->setGeometry(410, 640, 90, 80);
+    agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage1 = randomImages[std::rand() % randomImages.size()];
-    agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(255, 255, 255);");
+    agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(238, 145, 84)");
 
 
     agent_choice2 = new QLabel(this);
-    agent_choice2->setGeometry(510, 640, 90, 80);
+    agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage2 = randomImages[std::rand() % randomImages.size()];
-    agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");background-color: rgb(255, 255, 255);");
+    agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");background-color: rgb(238, 145, 84)");
 
 
     agent_choice3 = new QLabel(this);
-    agent_choice3->setGeometry(610, 640, 90, 80);
+    agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage3 = randomImages[std::rand() % randomImages.size()];
-    agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");background-color: rgb(255, 255, 255);");
+    agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");background-color: rgb(238, 145, 84)");
 
 
     agent_choice4 = new QLabel(this);
-    agent_choice4->setGeometry(710, 640, 90, 80);
+    agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     randomImage4 = randomImages[std::rand() % randomImages.size()];
-    agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(255, 255, 255);");
+    agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(238, 145, 84)");
 
 
 
@@ -86,8 +86,8 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     }
 
 
-    const int width = 90;
-    const int height = 80;
+    const int width_agent_board = 90;
+    const int height_agent_borad = 80;
     const int startX = 350;
     const int startY = 250;
     const int xOffset = 140;
@@ -97,7 +97,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
         int x = startX + (i % 4) * xOffset;
         int y = startY + (i / 4) * yOffset;
 
-        agent_board[i]->setGeometry(x, y, width, height);
+        agent_board[i]->setGeometry(x, y, width_agent_board, height_agent_borad);
         agent_board[i]->setStyleSheet("background-image: url(:/prefix2/images/sanng.png);");
     }
 
@@ -148,17 +148,17 @@ void Gameplay_page :: create_enemi(){
 
 void Gameplay_page :: move_enemi(QLabel *labal){
     QPropertyAnimation *animation = new QPropertyAnimation(labal, "geometry");
-    animation->setDuration(5000); //5000
+    animation->setDuration(1000); //1000
     animation->setStartValue(QRect(215, 700, 90, 80));
     animation->setEndValue(QRect(215, 140, 90, 80));
 
     QPropertyAnimation *animation2 = new QPropertyAnimation(labal, "geometry");
-    animation2->setDuration(5000);
+    animation2->setDuration(1000);
     animation2->setStartValue(QRect(215, 140, 90, 80));
     animation2->setEndValue(QRect(900, 140, 90, 80));
 
     QPropertyAnimation *animation3 = new QPropertyAnimation(labal, "geometry");
-    animation3->setDuration(5000);
+    animation3->setDuration(1000);
     animation3->setStartValue(QRect(900, 140, 90, 80));
     animation3->setEndValue(QRect(900, 625, 90, 80));
 
@@ -216,33 +216,38 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
                     if (agent_board[i]->styleSheet() == "background-image: url(:/prefix2/images/sanng.png);" ){
                         QString oldImage = agent_board[i]->styleSheet();
+                        QString newImage;
                         if (current_choice == agent_choice1) {
-                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(203, 176, 131);");
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage1 + ");background-color:  rgb(223, 195, 139);");
+                            newImage = randomImage1;
                         } else if (current_choice == agent_choice2) {
-                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage2 + ");background-color: rgb(203, 176, 131);");
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage2 + ");background-color:  rgb(223, 195, 139);");
+                            newImage = randomImage2;
                         } else if (current_choice == agent_choice3) {
-                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage3 + ");background-color: rgb(203, 176, 131);");
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage3 + ");background-color:  rgb(223, 195, 139);");
+                            newImage = randomImage3;
                         } else if (current_choice == agent_choice4) {
-                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(203, 176, 131);");
+                            agent_board[i]->setStyleSheet("background-image: url(" + randomImage4 + ");background-color:  rgb(223, 195, 139);");
+                            newImage = randomImage4;
                         }
 
 
                         if(current_choice == agent_choice1){
                             randomImage1 = randomImages[std::rand() % randomImages.size()];
-                            agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(255, 255, 255);");
+                            agent_choice1->setStyleSheet("background-image: url(" + randomImage1 + ");background-color: rgb(238, 145, 84);");
                         } else if(current_choice == agent_choice2) {
                             randomImage2 = randomImages[std::rand() % randomImages.size()];
-                            agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");background-color: rgb(255, 255, 255);");
+                            agent_choice2->setStyleSheet("background-image: url(" + randomImage2 + ");background-color: rgb(238, 145, 84);");
                         } else if(current_choice == agent_choice3){
                             randomImage3 = randomImages[std::rand() % randomImages.size()];
-                            agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");background-color: rgb(255, 255, 255);");
+                            agent_choice3->setStyleSheet("background-image: url(" + randomImage3 + ");background-color: rgb(238, 145, 84);");
                         } else if(current_choice == agent_choice4){
                             randomImage4 = randomImages[std::rand() % randomImages.size()];
-                            agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(255, 255, 255);");
+                            agent_choice4->setStyleSheet("background-image: url(" + randomImage4 + ");background-color: rgb(238, 145, 84);");
                         }
 
 
-                        logMessage = QString("Changed tile at index %1 from %2 to new image.").arg(i).arg(oldImage);
+                        logMessage = QString("Changed tile agent board at index %1 from %2 to new image %3.").arg(i).arg(oldImage).arg(newImage);
                         logEvent(logMessage);
                         current_choice = nullptr;
 

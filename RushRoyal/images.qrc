@@ -19,6 +19,6 @@
         <file>images/jolback2.png</file>
         <file>images/kalam2.png</file>
         <file>images/sanng.png</file>
+        <file>images/gandom22.png</file>
     </qresource>
-    <qresource prefix="/new/prefix2"/>
 </RCC>
