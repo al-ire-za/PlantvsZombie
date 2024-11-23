@@ -21,7 +21,7 @@ public:
     void logEvent(const QString &event);
     void updateStyleSheetAgentChoice(QWidget* widget, const QString& imageUrl);
     void updateStyleSheetAgentBorad(QWidget* widget, const QString& imageUrl);
-    QVector<QLabel*> labels;
+    QVector<QLabel*> enemi_list;
 
 
 protected:
@@ -31,7 +31,9 @@ private:
     Ui::Gameplay_page *ui;
     QTimer *timer;
     QLabel *agent_board[16];
-    QStringList randomImages;
+    QStringList randomImages_AgentChoice;
+    QStringList randomImages_Enemi;
+    QString random_enemi;
     QString randomImage1;
     QString randomImage2;
     QString randomImage3;

@@ -76,7 +76,7 @@ public:
         label_21 = new QLabel(centralwidget);
         label_21->setObjectName("label_21");
         label_21->setGeometry(QRect(350, 430, 90, 80));
-        label_21->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/sanng.png);"));
+        label_21->setStyleSheet(QString::fromUtf8(""));
         label_22 = new QLabel(centralwidget);
         label_22->setObjectName("label_22");
         label_22->setGeometry(QRect(630, 340, 90, 80));

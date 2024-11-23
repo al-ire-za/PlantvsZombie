@@ -5,13 +5,8 @@
     </qresource>
     <qresource prefix="/prefix2">
         <file>images/map_gamplayedit2.jpg</file>
-        <file>images/babr_edit3.png</file>
-        <file>images/gorg_edit.png</file>
-        <file>images/kargadan_edit.png</file>
-        <file>images/shir_edit.png</file>
         <file>images/map_gamplay.jpg</file>
         <file>images/felfelmoshaki2.png</file>
-        <file>images/gandom2.png</file>
         <file>images/golmoshaki2.png</file>
         <file>images/gorbemahi2.png</file>
         <file>images/hendone_yakhi22.png</file>
@@ -20,5 +15,11 @@
         <file>images/kalam2.png</file>
         <file>images/sanng.png</file>
         <file>images/gandom22.png</file>
+        <file>images/1_edit.png</file>
+        <file>images/33_editai.png</file>
+        <file>images/4_editai.png</file>
+        <file>images/2_editai.png</file>
+        <file>images/5_editai.png</file>
+        <file>images/6_editai.png</file>
     </qresource>
 </RCC>
