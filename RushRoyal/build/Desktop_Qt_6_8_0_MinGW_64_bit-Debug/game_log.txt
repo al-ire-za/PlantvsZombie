@@ -1,1503 +1,841 @@
 DEnemy #1 created.
 DEnemy #2 created.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #3 created.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-Changed tile at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 3 selected.
-DEnemy #3 created.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 1 selected.
-Changed tile at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 2 selected.
-Changed tile at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-Changed tile at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-DEnemy #1 created.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 1 selected.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 2 selected.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Changed tile at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 2 selected.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 2 selected.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-Agent choice 3 selected.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-Agent choice 1 selected.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 3 selected.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-Changed tile at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
 Agent choice 1 selected.
 DEnemy #3 created.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 1 selected.
-Changed tile at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 4 selected.
-Changed tile at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 3 selected.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 3 selected.
-Changed tile at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #4 created.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Agent choice 4 selected.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-Changed tile at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image.
-DEnemy #1 created.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/felfelmoshaki2.png);.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/felfelmoshaki2.png);.
-DEnemy #3 created.
-Agent choice 3 selected.
-Changed tile at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone_yakhi22.png);.
-Changed tile at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone_yakhi22.png);.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone2.png);.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone2.png);.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gandom2.png);.
-Changed tile at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gandom2.png);.
-Agent choice 1 selected.
-DEnemy #3 created.
-DEnemy #4 created.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Agent choice 2 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gorbemahi2.png);.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gorbemahi2.png);.
-Agent choice 3 selected.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 2 selected.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 1 selected.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/felfelmoshaki2.png);.
-Changed tile at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/felfelmoshaki2.png);.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Changed tile at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Agent choice 2 selected.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-DEnemy #1 created.
-Agent choice 1 selected.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-DEnemy #3 created.
-Agent choice 2 selected.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gandom2.png);.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/gandom2.png);.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/jolback2.png);.
-Agent choice 2 selected.
-DEnemy #3 created.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/kalam2.png);.
-Agent choice 3 selected.
-DEnemy #4 created.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone_yakhi22.png);.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/hendone_yakhi22.png);.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image background-image: url(:/prefix2/images/golmoshaki2.png);.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 1 selected.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 4 selected.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 2 selected.
-DEnemy #3 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 3 selected.
-DEnemy #4 created.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 3 selected.
-DEnemy #3 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #4 created.
-Agent choice 2 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #1 created.
-Agent choice 3 selected.
-DEnemy #2 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 3 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 2 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #2 created.
-Agent choice 1 selected.
-DEnemy #3 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-DEnemy #4 created.
-Agent choice 1 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #5 created.
-Agent choice 1 selected.
-DEnemy #6 created.
-Wave 2 completed.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-DEnemy #1 created.
-DEnemy #1 created.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-Agent choice 3 selected.
-DEnemy #2 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #3 created.
-Agent choice 3 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-Agent choice 2 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 2 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 1 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 4 selected.
-DEnemy #3 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #5 created.
-Agent choice 2 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #6 created.
-Wave 2 completed.
-Agent choice 3 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 4 selected.
-DEnemy #3 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-DEnemy #1 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #3 created.
-Agent choice 1 selected.
-DEnemy #4 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 2 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-DEnemy #1 created.
-Agent choice 2 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #2 created.
-Agent choice 4 selected.
-DEnemy #3 created.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 4 selected.
-DEnemy #4 created.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 1 selected.
-DEnemy #5 created.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #6 created.
-Wave 2 completed.
-Agent choice 2 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 3 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 3 selected.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 2 selected.
-DEnemy #3 created.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 3 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 2 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 3 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 3 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 2 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 2 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #3 created.
-Agent choice 1 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
 DEnemy #4 created.
 Agent choice 3 selected.
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-DEnemy #3 created.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 3 selected.
-DEnemy #4 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 4 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 3 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #1 created.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Agent choice 2 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 4 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
 Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #5 created.
-Wave 1 completed.
 Agent choice 4 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 2 selected.
-DEnemy #2 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #3 created.
-Agent choice 4 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 3 selected.
-DEnemy #3 created.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 2 selected.
-DEnemy #1 created.
-Agent choice 3 selected.
-DEnemy #2 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 2 selected.
-DEnemy #3 created.
-DEnemy #4 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 4 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 3 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #3 created.
-Agent choice 3 selected.
-DEnemy #4 created.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 2 selected.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Agent choice 4 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 4 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 1 selected.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 1 selected.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 1 selected.
-DEnemy #4 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 2 selected.
-DEnemy #5 created.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 1 selected.
-DEnemy #3 created.
-Agent choice 1 deselected.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Agent choice 1 deselected.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 2 selected.
-Agent choice 2 deselected.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Agent choice 3 deselected.
-Agent choice 4 selected.
-Agent choice 4 deselected.
-DEnemy #1 created.
-Agent choice 1 selected.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #2 created.
-Agent choice 1 selected.
-DEnemy #3 created.
-Agent choice 1 deselected.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 3 selected.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Agent choice 2 selected.
-Agent choice 2 deselected.
-Agent choice 4 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #3 created.
-Agent choice 2 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 4 selected.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 3 selected.
-Agent choice 3 deselected.
-Agent choice 4 selected.
-Agent choice 4 deselected.
-Agent choice 1 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 1 deselected.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 2 selected.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 2 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 2 selected.
-DEnemy #4 created.
-Agent choice 2 deselected.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Agent choice 3 deselected.
-Agent choice 4 selected.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #1 created.
-Agent choice 1 selected.
-DEnemy #2 created.
-Agent choice 1 deselected.
-Agent choice 2 selected.
-Agent choice 2 deselected.
-DEnemy #3 created.
-Agent choice 3 selected.
-Agent choice 3 deselected.
-Agent choice 4 selected.
-Agent choice 4 deselected.
-DEnemy #4 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Agent choice 2 selected.
-DEnemy #4 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Agent choice 1 selected.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Agent choice 1 selected.
-Agent choice 1 deselected.
-Agent choice 3 selected.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 3 selected.
-Agent choice 3 deselected.
-Agent choice 2 selected.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Agent choice 2 selected.
-Agent choice 2 deselected.
-DEnemy #1 created.
-DEnemy #2 created.
-Agent choice 4 selected.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-Agent choice 4 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-Agent choice 4 selected.
-Agent choice 4 deselected.
-Agent choice 4 selected.
-Agent choice 4 deselected.
-Agent choice 4 selected.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-DEnemy #3 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #3 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #4 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
 Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 4 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 4 selected.
+Agent choice 4 deselected.
 DEnemy #1 created.
+Agent choice 1 selected.
+Agent choice 1 deselected.
+Agent choice 2 selected.
 DEnemy #2 created.
+Agent choice 2 deselected.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #3 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #2 created.
+Agent choice 1 selected.
+Agent choice 1 deselected.
 DEnemy #3 created.
 DEnemy #4 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Agent choice 3 selected.
+DEnemy #2 created.
+Agent choice 3 deselected.
+DEnemy #3 created.
+Agent choice 3 selected.
+DEnemy #4 created.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
 DEnemy #5 created.
 Wave 1 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
 DEnemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
 DEnemy #2 created.
 DEnemy #3 created.
 DEnemy #4 created.
+DEnemy #1 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+DEnemy #4 created.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
 DEnemy #5 created.
 Wave 1 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+DEnemy #1 created.
+Agent choice 3 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #2 created.
 DEnemy #1 created.
 DEnemy #2 created.
+Agent choice 2 selected.
 DEnemy #3 created.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
 DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
 Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
 DEnemy #1 created.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #2 created.
+Agent choice 4 selected.
+DEnemy #3 created.
+DEnemy #1 created.
+Agent choice 2 selected.
+Placed bomb on the map at position: (258, 553).
 DEnemy #2 created.
 DEnemy #3 created.
 DEnemy #4 created.
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
-DEnemy #1 created.
-DEnemy #1 created.
-DEnemy #2 created.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 3 selected.
 Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone2.png.
-DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
+Agent choice 3 selected.
 DEnemy #1 created.
 DEnemy #2 created.
+Placed bomb on the map at position: (479, 178).
 DEnemy #3 created.
 DEnemy #4 created.
+Agent choice 1 selected.
 DEnemy #5 created.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Placed bomb on the map at position: (946, 502).
 DEnemy #6 created.
 Wave 2 completed.
+Agent choice 4 selected.
+Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
 DEnemy #1 created.
-DEnemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
 DEnemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
 DEnemy #3 created.
+Agent choice 2 selected.
+Agent choice 2 deselected.
 DEnemy #4 created.
+Agent choice 2 selected.
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
-Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Placed bomb on the map at position: (938, 190).
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 4 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 4 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
 DEnemy #1 created.
-Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
+Agent choice 4 selected.
+Placed bomb on the map at position: (957, 506).
 DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #5 created.
-DEnemy #6 created.
-Wave 2 completed.
 DEnemy #1 created.
+Agent choice 2 selected.
 DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
 DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
 DEnemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
+Agent choice 3 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 1 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 3 selected.
 DEnemy #1 created.
-DEnemy #2 created.
-DEnemy #3 created.
-DEnemy #4 created.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #3 created.
-DEnemy #4 created.
 Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #3 created.
+Agent choice 4 selected.
+DEnemy #4 created.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
 DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/hendone_yakhi22.png.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #6 created.
+Wave 2 completed.
+Agent choice 4 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 2 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 2 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+Placed bomb on the map at position: (282, 185).
 DEnemy #1 created.
 DEnemy #2 created.
 DEnemy #3 created.
 DEnemy #4 created.
-DEnemy #1 created.
-DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/jolback2.png.
-DEnemy #3 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-DEnemy #4 created.
+Agent choice 4 selected.
 DEnemy #5 created.
-Wave 1 completed.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
-DEnemy #1 created.
-DEnemy #2 created.
+DEnemy #6 created.
+Placed bomb on the map at position: (938, 356).
+DEnemy #7 created.
+Wave 3 completed.
 Agent choice 1 selected.
+Placed bomb on the map at position: (907, 364).
+DEnemy #1 created.
+DEnemy #2 created.
 DEnemy #3 created.
-Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
+DEnemy #4 created.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 3 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (945, 474).
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
 Agent choice 2 selected.
 Agent choice 2 deselected.
-DEnemy #4 created.
+Agent choice 2 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
+DEnemy #1 created.
 Agent choice 3 selected.
-Agent choice 3 deselected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 3 selected.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 1 selected.
+DEnemy #5 created.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 1 selected.
+DEnemy #6 created.
+Wave 2 completed.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 4 selected.
+Placed bomb on the map at position: (257, 559).
+Agent choice 4 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 4 selected.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #1 created.
+DEnemy #1 created.
+Agent choice 3 selected.
+DEnemy #2 created.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #3 created.
+Agent choice 4 selected.
+DEnemy #4 created.
+Placed bomb on the map at position: (937, 187).
 DEnemy #5 created.
 Wave 1 completed.
-Agent choice 4 selected.
-Agent choice 4 deselected.
 DEnemy #1 created.
 Agent choice 1 selected.
 DEnemy #2 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 2 selected.
+Placed bomb on the map at position: (258, 498).
 DEnemy #3 created.
-Agent choice 2 deselected.
-Agent choice 3 selected.
 DEnemy #4 created.
-Agent choice 3 deselected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 3 selected.
+DEnemy #3 created.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
 DEnemy #5 created.
 Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 1 selected.
+Placed bomb on the map at position: (261, 550).
+Agent choice 1 selected.
+Placed bomb on the map at position: (945, 365).
+Agent choice 1 selected.
+Placed bomb on the map at position: (270, 178).
+Agent choice 1 selected.
+Placed bomb on the map at position: (604, 167).
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (915, 213).
+Agent choice 1 selected.
+Placed bomb on the map at position: (260, 393).
+Agent choice 1 selected.
+Placed bomb on the map at position: (455, 172).
+Agent choice 1 selected.
+Placed bomb on the map at position: (773, 210).
+DEnemy #1 created.
+Agent choice 1 selected.
+Placed bomb on the map at position: (937, 514).
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 1 deselected.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+Wave 3 completed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (293, 507).
+Agent choice 1 selected.
+Placed bomb on the map at position: (279, 323).
+Agent choice 1 selected.
+Placed bomb on the map at position: (250, 278).
+Agent choice 1 selected.
+Placed bomb on the map at position: (398, 186).
+Agent choice 1 selected.
+Placed bomb on the map at position: (761, 182).
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Placed bomb on the map at position: (890, 167).
+DEnemy #3 created.
+DEnemy #1 created.
 Agent choice 4 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #2 created.
+Placed bomb on the map at position: (262, 530).
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
+DEnemy #4 created.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Placed bomb on the map at position: (263, 338).
+Agent choice 1 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 1 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+DEnemy #1 created.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #2 created.
+Agent choice 4 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (949, 197).
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
 DEnemy #1 created.
 DEnemy #2 created.
 Agent choice 1 selected.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Placed bomb on the map at position: (253, 171).
 DEnemy #3 created.
-Agent choice 2 selected.
 DEnemy #4 created.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/kalam2.png.
-Agent choice 3 selected.
+Agent choice 1 selected.
+Placed bomb on the map at position: (932, 174).
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
-Agent choice 4 selected.
-Agent choice 4 deselected.
 Agent choice 1 selected.
 Agent choice 1 deselected.
-----
+Agent choice 1 selected.
+Placed bomb on the map at position: (953, 505).
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 1 selected.
+Placed bomb on the map at position: (266, 497).
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (580, 168).
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+Wave 3 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 3 selected.
+DEnemy #3 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #4 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #4 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #4 created.
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+Placed bomb on the map at position: (246, 506).
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 1 selected.
+Placed bomb on the map at position: (258, 358).
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+DEnemy #3 created.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #4 created.
+Agent choice 4 selected.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 4 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 2 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 1 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 3 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #1 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #2 created.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+DEnemy #3 created.
+Agent choice 2 selected.
+DEnemy #4 created.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 4 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+Agent choice 2 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 3 selected.
+DEnemy #1 created.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #2 created.
+Agent choice 4 selected.
+Changed tile agent board at index 11 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+DEnemy #3 created.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 3 selected.
+DEnemy #4 created.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 4 selected.
+DEnemy #5 created.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 1 selected.
+DEnemy #6 created.
+Wave 2 completed.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 3 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (842, 177).
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Agent choice 2 selected.
+Placed bomb on the map at position: (237, 151).
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
 DEnemy #1 created.
 DEnemy #2 created.
 Agent choice 1 selected.
 DEnemy #3 created.
-Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
 DEnemy #4 created.
+Placed bomb on the map at position: (226, 160).
 DEnemy #5 created.
 Wave 1 completed.
 Agent choice 4 selected.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
-Agent choice 2 selected.
-Agent choice 2 deselected.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 1 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
 Agent choice 3 selected.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
 Agent choice 3 deselected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+Wave 3 completed.
 DEnemy #1 created.
 DEnemy #2 created.
 Agent choice 1 selected.
 DEnemy #3 created.
 Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
 DEnemy #4 created.
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 2 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 1 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+Wave 3 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (921, 185).
+DEnemy #1 created.
+Agent choice 3 selected.
+DEnemy #2 created.
+Placed bomb on the map at position: (940, 503).
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 3 selected.
+DEnemy #5 created.
+Placed bomb on the map at position: (222, 492).
+DEnemy #6 created.
+DEnemy #7 created.
+DEnemy #8 created.
+Wave 4 completed.
+DEnemy #1 created.
+Agent choice 4 selected.
+DEnemy #2 created.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+DEnemy #8 created.
+DEnemy #9 created.
+Wave 5 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+DEnemy #8 created.
+DEnemy #9 created.
+DEnemy #10 created.
+Wave 6 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+DEnemy #8 created.
+DEnemy #9 created.
+DEnemy #10 created.
+DEnemy #11 created.
+Wave 7 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+DEnemy #6 created.
+DEnemy #7 created.
+DEnemy #8 created.
+DEnemy #9 created.
+DEnemy #10 created.
+DEnemy #11 created.
+DEnemy #12 created.
+Wave 8 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #3 created.
+Agent choice 3 selected.
+DEnemy #4 created.
+Placed bomb on the map at position: (229, 156).
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Placed bomb on the map at position: (968, 162).
+Agent choice 4 selected.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 selected.
+Placed bomb on the map at position: (927, 557).
+Agent choice 1 selected.
+Placed bomb on the map at position: (221, 513).
+DEnemy #1 created.
+Agent choice 2 selected.
+DEnemy #2 created.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+DEnemy #3 created.
+----------------------------------DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+DEnemy #4 created.
+Placed bomb on the map at position: (254, 171).
 Agent choice 2 selected.
 DEnemy #5 created.
 Wave 1 completed.
-Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/felfelmoshaki2.png.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
 Agent choice 3 selected.
-Changed tile agent board at index 2 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 3 deselected.
+DEnemy #1 created.
+Agent choice 1 selected.
+Placed bomb on the map at position: (254, 187).
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #4 created.
+Agent choice 2 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 8 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png:/prefix2/images/gandom22.png.
+Agent choice 1 selected.
+Changed tile agent board at index 10 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+Agent choice 4 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gorbemahi2.png.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb.png.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #4 created.
+Agent choice 1 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+Agent choice 2 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/bomb_ice.png.
+Agent choice 2 selected.
+Placed bomb on the map at position: (969, 162).
+-----------------------------------------------------------------------------
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/gandom22.png.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/sanng.png); to new image :/prefix2/images/golmoshaki2.png.
+DEnemy #4 created.
+Agent choice 1 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Placed bomb on the map at position: (243, 161).
+Agent choice 3 selected.
+Agent choice 3 deselected.
 Agent choice 4 selected.
 Agent choice 4 deselected.

@@ -25,6 +25,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         images.qrc
         Gameplay_page.h Gameplay_page.cpp Gameplay_page.ui
+        Agentbase.h Agentbase.cpp
+        Gorbemahi.h Gorbemahi.cpp
+
+
+        Gandom.h Gandom.cpp
+        Bomb.h Bomb.cpp
+        Golmoshaki.h Golmoshaki.cpp
+        Bombice.h Bombice.cpp
+
 
 
     )

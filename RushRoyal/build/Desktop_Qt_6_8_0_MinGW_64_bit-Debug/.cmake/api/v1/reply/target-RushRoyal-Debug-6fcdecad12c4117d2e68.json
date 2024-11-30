@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 66,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 49,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
@@ -366,18 +366,24 @@
 				1,
 				2,
 				7,
-				12
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				24
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "RushRoyal::@6890427a1f51a3e7e1df",
@@ -491,7 +497,13 @@
 				1,
 				2,
 				7,
-				12
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				24
 			]
 		},
 		{
@@ -501,7 +513,13 @@
 				3,
 				6,
 				9,
-				10
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				22
 			]
 		},
 		{
@@ -511,15 +529,15 @@
 				4,
 				5,
 				8,
-				11
+				23
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13,
-				14
+				25,
+				26
 			]
 		}
 	],
@@ -574,6 +592,72 @@
 			"backtrace" : 4,
 			"path" : "Gameplay_page.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Agentbase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Agentbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Gorbemahi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Gorbemahi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Gandom.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Gandom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Bomb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Bomb.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Golmoshaki.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Golmoshaki.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Bombice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Bombice.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,

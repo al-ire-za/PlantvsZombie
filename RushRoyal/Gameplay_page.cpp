@@ -15,6 +15,17 @@
 #include <QPoint>
 #include <QFile>
 #include <QTextStream>
+// #include "Gorbemahi.h"
+// #include "Gandom.h"
+// #include "Golmoshaki.h"
+// #include "Bomb.h"
+// #include "Bombice.h"
+
+const int width_aghent_choice = 90;
+const int hight_aghent_choice = 80;
+const int startx_agent_choice = 410;
+const int starty_aghant_choice = 640;
+const int spacing = 100;
 
 
 Gameplay_page::Gameplay_page(QWidget *parent)
@@ -33,30 +44,28 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
 
     randomImages_AgentChoice = {
-        ":/prefix2/images/jolback2.png",
-        ":/prefix2/images/kalam2.png",
-        ":/prefix2/images/hendone2.png",
+        // ":/prefix2/images/jolback2.png",
+        // ":/prefix2/images/kalam2.png",
+        // ":/prefix2/images/hendone2.png",
         ":/prefix2/images/gandom22.png",
         ":/prefix2/images/golmoshaki2.png",
         ":/prefix2/images/gorbemahi2.png",
-        ":/prefix2/images/felfelmoshaki2.png",
-        ":/prefix2/images/hendone_yakhi22.png"
+        // ":/prefix2/images/felfelmoshaki2.png",
+        ":/prefix2/images/bomb.png",
+        ":/prefix2/images/bomb_ice.png"
+
+        // ":/prefix2/images/hendone_yakhi22.png"
     };
 
     randomImages_Enemi = {
         ":/prefix2/images/1_edit.png",
-        ":/prefix2/images/2_editai.png",
-        ":/prefix2/images/33_editai.png",
-        ":/prefix2/images/4_editai.png",
+        // ":/prefix2/images/2_editai.png",
+        // ":/prefix2/images/33_editai.png",
+        // ":/prefix2/images/4_editai.png",
         ":/prefix2/images/5_editai.png",
-        ":/prefix2/images/6_editai.png"
-};
+        // ":/prefix2/images/6_editai.png"
+    };
 
-    const int width_aghent_choice = 90;
-    const int hight_aghent_choice = 80;
-    const int startx_agent_choice = 410;
-    const int starty_aghant_choice = 640;
-    const int spacing = 100;
 
 
     agent_choice1 = new QLabel(this);
@@ -123,12 +132,12 @@ void Gameplay_page :: create_enemi(){
     move_enemi(new_labal);
     logEvent(QString("DEnemy #%1 created.").arg(count_enemi));
 
-    if(wave == 2){
+    if(wave == 10){
 
         QApplication::quit();
     }
 
-    if((count_enemi) % ( 5 + wave ) != 0){ // %20
+    if((count_enemi) % 5  != 0){ // %20
         randomInterval = (std::rand() % 1500) + 500;
     }
     else{
@@ -172,14 +181,13 @@ void Gameplay_page :: move_enemi(QLabel *labal){
 
 }
 
-
 void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
     if(event->button() == Qt::LeftButton){
         QString logMessage;
 
-        if (event->pos().x() >= 410 && event->pos().x() <= 500 &&
-            event->pos().y() >= 640 && event->pos().y() <= 720){
+        // بررسی انتخاب های مختلف و تغییر current_choice
+        if (event->pos().x() >= 410 && event->pos().x() <= 500 && event->pos().y() >= 640 && event->pos().y() <= 720){
             if (current_choice == agent_choice1) {
                 current_choice = nullptr;
                 logMessage = "Agent choice 1 deselected.";
@@ -190,10 +198,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 logEvent(logMessage);
             }
         }
-
-
-        if (event->pos().x() >= 510 && event->pos().x() <= 600 &&
-            event->pos().y() >= 640 && event->pos().y() <= 720){
+        if (event->pos().x() >= 510 && event->pos().x() <= 600 && event->pos().y() >= 640 && event->pos().y() <= 720){
             if (current_choice == agent_choice2) {
                 current_choice = nullptr;
                 logMessage = "Agent choice 2 deselected.";
@@ -204,9 +209,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 logEvent(logMessage);
             }
         }
-
-        if (event->pos().x() >= 610 && event->pos().x() <= 700 &&
-            event->pos().y() >= 640 && event->pos().y() <= 720){
+        if (event->pos().x() >= 610 && event->pos().x() <= 700 && event->pos().y() >= 640 && event->pos().y() <= 720){
             if (current_choice == agent_choice3) {
                 current_choice = nullptr;
                 logMessage = "Agent choice 3 deselected.";
@@ -217,9 +220,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 logEvent(logMessage);
             }
         }
-
-        if (event->pos().x() >= 710 && event->pos().x() <= 800 &&
-            event->pos().y() >= 640 && event->pos().y() <= 720){
+        if (event->pos().x() >= 710 && event->pos().x() <= 800 && event->pos().y() >= 640 && event->pos().y() <= 720){
             if (current_choice == agent_choice4) {
                 current_choice = nullptr;
                 logMessage = "Agent choice 4 deselected.";
@@ -230,62 +231,113 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 logEvent(logMessage);
             }
         }
+        if (current_choice &&
+            (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);")||
+            current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb_ice.png);"))) {
+
+            if ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
+                (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
+                (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620)) {
+
+                QPoint oldPos = current_choice->pos();
+
+                current_choice->move(event->pos().x(), event->pos().y());
+                logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
+                logEvent(logMessage);
+
+
+                QLabel *new_agentChoice = new QLabel(this);
+                QString randomImage = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
+                updateStyleSheetAgentChoice(new_agentChoice, randomImage);
+                new_agentChoice->setGeometry(oldPos.x(), oldPos.y(), width_aghent_choice, hight_aghent_choice);
+                new_agentChoice->show();
+
+
+                if (current_choice == agent_choice1) {
+                    agent_choice1 = new_agentChoice;
+                } else if (current_choice == agent_choice2) {
+                    agent_choice2 = new_agentChoice;
+                } else if (current_choice == agent_choice3) {
+                    agent_choice3 = new_agentChoice;
+                } else if (current_choice == agent_choice4) {
+                    agent_choice4 = new_agentChoice;
+                }
+
+                current_choice = nullptr;
+                return;
+            }
+        }
 
         if (current_choice) {
             for (int i = 0; i < 16; ++i) {
-                if (event->pos().x() >= agent_board[i]->x() &&
-                    event->pos().x() <= agent_board[i]->x() + agent_board[i]->width() &&
-                    event->pos().y() >= agent_board[i]->y() &&
-                    event->pos().y() <= agent_board[i]->y() + agent_board[i]->height()) {
-
+                if (event->pos().x() >= agent_board[i]->x()
+                    && event->pos().x() <= agent_board[i]->x() + agent_board[i]->width()
+                    && event->pos().y() >= agent_board[i]->y()
+                    && event->pos().y() <= agent_board[i]->y() + agent_board[i]->height()) {
 
                     if (agent_board[i]->styleSheet() == "background-image: url(:/prefix2/images/sanng.png);" ){
                         QString oldImage = agent_board[i]->styleSheet();
                         QString newImage;
 
-                        //ezafe kardan aks agent choice be agent choice
+
+                        current_choice->move(agent_board[i]->x(), agent_board[i]->y());
+                        current_choice->show();
+
+
                         if (current_choice == agent_choice1) {
                             updateStyleSheetAgentBorad(agent_board[i], randomImage1);
                             newImage = randomImage1;
+                            agent_board[i] = current_choice;
                         } else if (current_choice == agent_choice2) {
                             updateStyleSheetAgentBorad(agent_board[i], randomImage2);
                             newImage = randomImage2;
+                            agent_board[i] = current_choice;
                         } else if (current_choice == agent_choice3) {
                             updateStyleSheetAgentBorad(agent_board[i], randomImage3);
                             newImage = randomImage3;
+                            agent_board[i] = current_choice;
                         } else if (current_choice == agent_choice4) {
                             updateStyleSheetAgentBorad(agent_board[i], randomImage4);
                             newImage = randomImage4;
+                            agent_board[i] = current_choice;
                         }
 
-                        //set kardan ye aks random baray egent choice
-                        if(current_choice == agent_choice1){
+
+                        QLabel *new_agentChoice = new QLabel(this);
+                        if (current_choice == agent_choice1) {
                             randomImage1 = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
-                            updateStyleSheetAgentChoice(agent_choice1, randomImage1);
-                        } else if(current_choice == agent_choice2) {
+                            updateStyleSheetAgentChoice(new_agentChoice, randomImage1);
+                            new_agentChoice->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+                            agent_choice1 = new_agentChoice;
+                        } else if (current_choice == agent_choice2) {
                             randomImage2 = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
-                            updateStyleSheetAgentChoice(agent_choice2, randomImage2);
-                        } else if(current_choice == agent_choice3){
+                            updateStyleSheetAgentChoice(new_agentChoice, randomImage2);
+                            new_agentChoice->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+                            agent_choice2 = new_agentChoice;
+                        } else if (current_choice == agent_choice3) {
                             randomImage3 = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
-                            updateStyleSheetAgentChoice(agent_choice3, randomImage3);
-                        } else if(current_choice == agent_choice4){
+                            updateStyleSheetAgentChoice(new_agentChoice, randomImage3);
+                            new_agentChoice->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+                            agent_choice3 = new_agentChoice;
+                        } else if (current_choice == agent_choice4) {
                             randomImage4 = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
-                            updateStyleSheetAgentChoice(agent_choice4, randomImage4);
+                            updateStyleSheetAgentChoice(new_agentChoice, randomImage4);
+                            new_agentChoice->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+                            agent_choice4 = new_agentChoice;
                         }
-
+                        new_agentChoice->show();
 
                         logMessage = QString("Changed tile agent board at index %1 from %2 to new image %3.").arg(i).arg(oldImage).arg(newImage);
                         logEvent(logMessage);
+
                         current_choice = nullptr;
-
                     }
-
 
                 }
             }
         }
-
     }
+
 }
 
 
@@ -298,13 +350,22 @@ void Gameplay_page::logEvent(const QString &event) {
     }
 }
 
+// void Gameplay_page::initializeAgents() {
+//     agents.append(new Gorbemahi(this));
+//     agents.append(new Gandom(this));
+//     agents.append(new Golmoshaki(this));
+//     agents.append(new Bomb(this));
+//     agents.append(new Bombice(this));
+// }
+
+
 
 void Gameplay_page::updateStyleSheetAgentChoice(QWidget* widget, const QString& imageUrl) {
     widget->setStyleSheet("background-image: url(" + imageUrl + "); background-color: rgb(238, 145, 84);");
 }
 
 void Gameplay_page::updateStyleSheetAgentBorad(QWidget* widget, const QString& imageUrl){
-    widget->setStyleSheet("background-image: url(" + imageUrl + "); background-color: rgb(223, 195, 139);");
+    widget->setStyleSheet("background-image: url(" + imageUrl + "); background-color: rgb(238, 145, 84);");
 }
 
 Gameplay_page::~Gameplay_page()

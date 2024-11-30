@@ -21,5 +21,8 @@
         <file>images/2_editai.png</file>
         <file>images/5_editai.png</file>
         <file>images/6_editai.png</file>
+        <file>images/bomb.png</file>
+        <file>images/bomb_ice.png</file>
+        <file>images/bomb_level2.png</file>
     </qresource>
 </RCC>

@@ -5,6 +5,7 @@
 #include <QLabel>
 #include <QPoint>
 
+
 namespace Ui {
 class Gameplay_page;
 }
@@ -24,6 +25,8 @@ public:
     QVector<QLabel*> enemi_list;
 
 
+
+
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
@@ -38,7 +41,6 @@ private:
     QString randomImage2;
     QString randomImage3;
     QString randomImage4;
-
     QLabel *current_choice;
     QLabel *agent_choice1;
     QLabel *agent_choice2;
