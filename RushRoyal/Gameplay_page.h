@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QPoint>
+#include "Agentbase.h"
 
 
 namespace Ui {
@@ -20,8 +21,6 @@ public:
     void create_enemi();
     void move_enemi(QLabel *labal);
     void logEvent(const QString &event);
-    void updateStyleSheetAgentChoice(QWidget* widget, const QString& imageUrl);
-    void updateStyleSheetAgentBorad(QWidget* widget, const QString& imageUrl);
     QVector<QLabel*> enemi_list;
 
 
@@ -33,19 +32,17 @@ protected:
 private:
     Ui::Gameplay_page *ui;
     QTimer *timer;
-    QLabel *agent_board[16];
-    QStringList randomImages_AgentChoice;
+    QVector<AgentBase*> agents;
+    QVector<AgentBase*> agent_board;
     QStringList randomImages_Enemi;
     QString random_enemi;
-    QString randomImage1;
-    QString randomImage2;
-    QString randomImage3;
-    QString randomImage4;
-    QLabel *current_choice;
-    QLabel *agent_choice1;
-    QLabel *agent_choice2;
-    QLabel *agent_choice3;
-    QLabel *agent_choice4;
+    AgentBase *current_choice;
+    AgentBase *agent_choice1;
+    AgentBase *agent_choice2;
+    AgentBase *agent_choice3;
+    AgentBase *agent_choice4;
+    void initializeAgents();
+    QLabel *label_agentBorad;
 
 
 

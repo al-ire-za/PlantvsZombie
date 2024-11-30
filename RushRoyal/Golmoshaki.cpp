@@ -8,6 +8,11 @@ Golmoshaki::Golmoshaki(QWidget *parent)
 
 }
 
+Golmoshaki::Golmoshaki(const Golmoshaki &other)
+    : AgentBase(other){
+
+}
+
 Golmoshaki::~Golmoshaki()
 {
 

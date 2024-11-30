@@ -13,7 +13,8 @@ class Gandom : public AgentBase
     Q_OBJECT
 
 public:
-    explicit Gandom(QWidget *parent = nullptr);
+    Gandom(QWidget *parent = nullptr);
+    Gandom(const Gandom &other);
     ~Gandom();
 
 private:

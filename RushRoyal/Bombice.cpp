@@ -8,6 +8,12 @@ Bombice::Bombice(QWidget *parent)
 
 }
 
+Bombice::Bombice(const Bombice &other)
+    : AgentBase(other){
+
+}
+
+
 Bombice::~Bombice()
 {
 

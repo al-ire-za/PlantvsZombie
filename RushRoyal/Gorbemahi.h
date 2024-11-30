@@ -12,7 +12,8 @@ class Gorbemahi : public AgentBase
     Q_OBJECT
 
 public:
-    explicit Gorbemahi(QWidget *parent = nullptr);
+    Gorbemahi(QWidget *parent = nullptr);
+    Gorbemahi(const Gorbemahi &other);
     ~Gorbemahi();
 
 private:

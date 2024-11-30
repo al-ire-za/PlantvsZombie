@@ -839,3 +839,104 @@ Agent choice 3 selected.
 Agent choice 3 deselected.
 Agent choice 4 selected.
 Agent choice 4 deselected.
+Agent choice 1 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+Agent choice 4 selected.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 4 selected.
+DEnemy #3 created.
+Changed tile agent board at index 15 from background-image: url(:/prefix2/images/bomb.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Agent choice 4 selected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Agent choice 1 selected.
+Agent choice 1 selected.
+Agent choice 1 selected.
+DEnemy #1 created.
+Agent choice 2 selected.
+Agent choice 1 selected.
+Agent choice 2 selected.
+Agent choice 1 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 deselected.
+DEnemy #3 created.
+Agent choice 2 selected.
+DEnemy #4 created.
+Agent choice 1 selected.

@@ -1,10 +1,15 @@
 #include "Agentbase.h"
 
 AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int speed)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBasespeed(speed)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseSpeed(speed)
 
 {
     updateimagUrl(imageUrl);
+}
+
+AgentBase::AgentBase(const AgentBase &other): AgentBasePower(other.AgentBasePower), AgentBaseSpeed(other.AgentBaseSpeed),
+    AgentBaseimageUrl(other.AgentBaseimageUrl){
+    updateimagUrl(other.AgentBaseimageUrl);
 }
 
 AgentBase::~AgentBase()
@@ -17,7 +22,7 @@ int AgentBase::getpower() const{
 }
 
 int AgentBase::getspeed() const{
-    return AgentBasespeed;
+    return AgentBaseSpeed;
 }
 
 void AgentBase::updateimagUrl(const QString &image){

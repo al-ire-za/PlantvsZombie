@@ -8,6 +8,11 @@ Gorbemahi::Gorbemahi(QWidget *parent)
 
 }
 
+Gorbemahi::Gorbemahi(const Gorbemahi &other)
+    :AgentBase(other){
+
+}
+
 Gorbemahi::~Gorbemahi()
 {
 

@@ -13,7 +13,8 @@ class Bomb : public AgentBase
     Q_OBJECT
 
 public:
-    explicit Bomb(QWidget *parent = nullptr);
+    Bomb(QWidget *parent = nullptr);
+    Bomb(const Bomb &other);
     ~Bomb();
 
 private:

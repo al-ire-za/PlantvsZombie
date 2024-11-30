@@ -12,7 +12,8 @@ class AgentBase : public QLabel
     Q_OBJECT
 
 public:
-    explicit AgentBase(QWidget *parent = nullptr, const QString &imageUrl = "", int power = 10, int speed = 1);
+    AgentBase(QWidget *parent = nullptr, const QString &imageUrl = "", int power = 10, int speed = 1);
+    AgentBase(const AgentBase &other);
     ~AgentBase();
     int getpower() const;
     int getspeed() const;
@@ -20,7 +21,7 @@ public:
 
 protected:
     int AgentBasePower;
-    int AgentBasespeed;
+    int AgentBaseSpeed;
     QString AgentBaseimageUrl;
 
 

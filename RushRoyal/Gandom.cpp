@@ -8,6 +8,12 @@ Gandom::Gandom(QWidget *parent)
 
 }
 
+Gandom::Gandom(const Gandom &other)
+    :AgentBase(other){
+
+}
+
+
 Gandom::~Gandom()
 {
 

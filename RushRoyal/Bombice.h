@@ -12,7 +12,8 @@ class Bombice : public AgentBase
     Q_OBJECT
 
 public:
-    explicit Bombice(QWidget *parent = nullptr);
+    Bombice(QWidget *parent = nullptr);
+    Bombice(const Bombice &other);
     ~Bombice();
 
 private:

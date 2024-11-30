@@ -13,7 +13,8 @@ class Golmoshaki : public AgentBase
     Q_OBJECT
 
 public:
-    explicit Golmoshaki(QWidget *parent = nullptr);
+    Golmoshaki(QWidget *parent = nullptr);
+    Golmoshaki(const Golmoshaki &other);
     ~Golmoshaki();
 
 private:
