@@ -20,6 +20,9 @@
 #include "Golmoshaki.h"
 #include "Bomb.h"
 #include "Bombice.h"
+#include "Soldierenemy.h"
+#include "Bossenemy.h"
+#include "Enemy.h"
 
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
@@ -28,9 +31,17 @@ const int starty_aghant_choice = 640;
 const int spacing = 100;
 
 
+const int width_agent_board = 90;
+const int height_agent_board = 80;
+const int startX = 350;
+const int startY = 250;
+const int xOffset = 140;
+const int yOffset = 90;
+
+
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -41,17 +52,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     int x = (screenRect.width() - width()) / 2;
     int y = (screenRect.height() - height()) / 2;
     move(x, y);
-
-
-
-    randomImages_Enemi = {
-        ":/prefix2/images/1_edit.png",
-        // ":/prefix2/images/2_editai.png",
-        // ":/prefix2/images/33_editai.png",
-        // ":/prefix2/images/4_editai.png",
-        ":/prefix2/images/5_editai.png",
-        // ":/prefix2/images/6_editai.png"
-    };
 
     initializeAgents();
 
@@ -66,21 +66,10 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
-    const int width_agent_board = 90;
-    const int height_agent_borad = 80;
-    const int startX = 350;
-    const int startY = 250;
-    const int xOffset = 140;
-    const int yOffset = 90;
-
-    agent_board.resize(16, nullptr);
+    agent_board.resize(16);
 
     for (int i = 0; i < 16; ++i) {
-        int x = startX + (i % 4) * xOffset;
-        int y = startY + (i / 4) * yOffset;
-
-        agent_board[i]->setGeometry(x, y, width_agent_board, height_agent_borad);
-
+        agent_board[i] = nullptr;
 
     }
 
@@ -93,32 +82,39 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
 
 
-int count_enemi = 0;
-int wave = 0;
-void Gameplay_page :: create_enemi(){
+void Gameplay_page::create_enemi() {
     int randomInterval;
-    QLabel *new_labal = new QLabel(this);
-    count_enemi++ ;
-    random_enemi = randomImages_Enemi[std::rand() % randomImages_Enemi.size()];
-    new_labal->setStyleSheet("background-image: url("+ random_enemi +");");
-    new_labal->setGeometry(220, 700, 90, 80);
-    new_labal->show();
-    enemi_list.append(new_labal);
-    move_enemi(new_labal);
-    logEvent(QString("DEnemy #%1 created.").arg(count_enemi));
+    Enemy *new_enemy = nullptr;
 
-    if(wave == 10){
+    new_enemy = new SoldierEnemy(this);
+    new_enemy->setGeometry(220, 700, 90, 80);
+    new_enemy->show();
+    enemies.append(new_enemy);
+    move_enemi(new_enemy);
+    logEvent(QString("Soldier enemy #%1 created.").arg(++count_enemi));
 
+    if (wave % 2 == 0 && !bossSpawned) {
+        new_enemy = new BossEnemy(this);
+        new_enemy->setGeometry(220, 700, 90, 80);
+        new_enemy->show();
+        enemies.append(new_enemy);
+        move_enemi(new_enemy);
+        logEvent(QString("Boss enemy created."));
+        count_enemi++;
+        bossSpawned = true;
+    }
+
+    if (wave == 10) {
         QApplication::quit();
     }
 
-    if((count_enemi) % 5  != 0){ // %20
+    if (count_enemi % 5 != 0) {
         randomInterval = (std::rand() % 1500) + 500;
-    }
-    else{
-        randomInterval = 10000; //20000
-        wave++ ;
+    } else {
+        randomInterval = 10000;
+        wave++;
         count_enemi = 0;
+        bossSpawned = false;
         logEvent(QString("Wave %1 completed.").arg(wave));
     }
 
@@ -126,34 +122,34 @@ void Gameplay_page :: create_enemi(){
 }
 
 
-void Gameplay_page :: move_enemi(QLabel *labal){
-    QPropertyAnimation *animation = new QPropertyAnimation(labal, "geometry");
-    animation->setDuration(4000); //4000
-    animation->setStartValue(QRect(215, 700, 90, 80));
-    animation->setEndValue(QRect(215, 140, 90, 80));
+void Gameplay_page::move_enemi(Enemy *enemy) {
+    int durationFactor = 1000 / enemy->getspeed();
 
-    QPropertyAnimation *animation2 = new QPropertyAnimation(labal, "geometry");
-    animation2->setDuration(4000);
+    QPropertyAnimation *animation1 = new QPropertyAnimation(enemy, "geometry");
+    animation1->setDuration(durationFactor * 4);
+    animation1->setStartValue(QRect(215, 700, 90, 80));
+    animation1->setEndValue(QRect(215, 140, 90, 80));
+
+    QPropertyAnimation *animation2 = new QPropertyAnimation(enemy, "geometry");
+    animation2->setDuration(durationFactor * 4);
     animation2->setStartValue(QRect(215, 140, 90, 80));
     animation2->setEndValue(QRect(900, 140, 90, 80));
 
-    QPropertyAnimation *animation3 = new QPropertyAnimation(labal, "geometry");
-    animation3->setDuration(4000);
+    QPropertyAnimation *animation3 = new QPropertyAnimation(enemy, "geometry");
+    animation3->setDuration(durationFactor * 4);
     animation3->setStartValue(QRect(900, 140, 90, 80));
     animation3->setEndValue(QRect(900, 625, 90, 80));
 
-
     QSequentialAnimationGroup *group = new QSequentialAnimationGroup(this);
-    group->addAnimation(animation);
+    group->addAnimation(animation1);
     group->addAnimation(animation2);
     group->addAnimation(animation3);
 
-    connect(animation3, &QPropertyAnimation::finished, this, [this, labal]() {
-        labal->hide();
+    connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
+        enemy->hide();
     });
 
     group->start();
-
 }
 
 void Gameplay_page :: mousePressEvent(QMouseEvent *event){
@@ -161,7 +157,6 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
     if(event->button() == Qt::LeftButton){
         QString logMessage;
 
-        // بررسی انتخاب های مختلف و تغییر current_choice
         if (event->pos().x() >= 410 && event->pos().x() <= 500 && event->pos().y() >= 640 && event->pos().y() <= 720){
             if (current_choice == agent_choice1) {
                 current_choice = nullptr;
@@ -206,109 +201,55 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 logEvent(logMessage);
             }
         }
-        // if (current_choice &&
-        //     (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);")||
-        //     current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb_ice.png);"))) {
+        if (current_choice &&
+            (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);")||
+            current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb_ice.png);"))) {
 
-        //     if ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
-        //         (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
-        //         (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620)) {
+            if ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
+                (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
+                (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620)) {
 
-        //         QPoint oldPos = current_choice->pos();
+                current_choice->move(event->pos().x(), event->pos().y());
+                logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
+                logEvent(logMessage);
 
-        //         current_choice->move(event->pos().x(), event->pos().y());
-        //         logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
-        //         logEvent(logMessage);
+                updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
+                                                      (current_choice == agent_choice2) ? 1 :
+                                                      (current_choice == agent_choice3) ? 2 : 3);
+                current_choice = nullptr;
 
+            }
+        }
 
-        //         QLabel *new_agentChoice = new QLabel(this);
-        //         QString randomImage = randomImages_AgentChoice[std::rand() % randomImages_AgentChoice.size()];
-        //         updateStyleSheetAgentChoice(new_agentChoice, randomImage);
-        //         new_agentChoice->setGeometry(oldPos.x(), oldPos.y(), width_aghent_choice, hight_aghent_choice);
-        //         new_agentChoice->show();
-
-
-        //         if (current_choice == agent_choice1) {
-        //             agent_choice1 = new_agentChoice;
-        //         } else if (current_choice == agent_choice2) {
-        //             agent_choice2 = new_agentChoice;
-        //         } else if (current_choice == agent_choice3) {
-        //             agent_choice3 = new_agentChoice;
-        //         } else if (current_choice == agent_choice4) {
-        //             agent_choice4 = new_agentChoice;
-        //         }
-
-        //         current_choice = nullptr;
-        //         return;
-        //     }
-        // }
-
-        if (current_choice) {
+        if (current_choice && !current_choice->styleSheet().contains("bomb")) {
             for (int i = 0; i < 16; ++i) {
-                if (event->pos().x() >= agent_board[i]->x()
-                    && event->pos().x() <= agent_board[i]->x() + agent_board[i]->width()
-                    && event->pos().y() >= agent_board[i]->y()
-                    && event->pos().y() <= agent_board[i]->y() + agent_board[i]->height()) {
+                int x = startX + (i % 4) * xOffset;
+                int y = startY + (i / 4) * yOffset;
 
-                    if (agent_board[i] == nullptr){
+                QRect rect(x, y, width_agent_board, height_agent_board);
+                if (rect.contains(event->pos())) {
+                    if (agent_board[i] == nullptr) {
 
-                        current_choice->move(agent_board[i]->x(), agent_board[i]->y());
+                        current_choice->setParent(this);
+                        current_choice->setGeometry(rect);
                         current_choice->show();
-
-
                         agent_board[i] = current_choice;
 
-                        AgentBase *new_agentChoice = nullptr;
-                        int randomIndex = std::rand() % agents.size();
-
-                        if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex]))
-                        { new_agentChoice = new Gorbemahi(*gorbemahi);
-                        } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex]))
-                        { new_agentChoice = new Gandom(*gandom);
-                        }else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex]))
-                        { new_agentChoice = new Golmoshaki(*golmoshaki);
-                        }else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex]))
-                        { new_agentChoice = new Bomb(*bomb);
-                        } else if (auto bombice = dynamic_cast<Bombice*>(agents[randomIndex]))
-                        { new_agentChoice = new Bombice(*bombice);
-                        }
+                        updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
+                                                              (current_choice == agent_choice2) ? 1 :
+                                                              (current_choice == agent_choice3) ? 2 : 3);
 
 
 
-                        if (new_agentChoice) {
-                            if (current_choice == agent_choice1) {
-                                new_agentChoice->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-                                agent_choice1 = new_agentChoice;
-                                // agent_choice1->show();
-                            } else if (current_choice == agent_choice2) {
-                                new_agentChoice->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-                                agent_choice2 = new_agentChoice;
-                                // agent_choice2->show();
-                            } else if (current_choice == agent_choice3) {
-                                new_agentChoice->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-                                agent_choice3 = new_agentChoice;
-                                // agent_choice3->show();
-                            } else if (current_choice == agent_choice4) {
-                                new_agentChoice->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-                                agent_choice4 = new_agentChoice;
-                                // agent_choice4->show();
-                            }
-                            new_agentChoice->show();
-                            logMessage = QString("Changed tile agent board at index %1 from %2 to new image.").arg(i).arg(agent_board[i]->styleSheet());
-                            logEvent(logMessage);
-                            current_choice = nullptr;
-                        }
-
-
+                        logMessage = QString("Changed tile agent board at index %1 to new agent.").arg(i);
+                        logEvent(logMessage);
+                        current_choice = nullptr;
                     }
-
                 }
             }
         }
     }
-
 }
-
 
 void Gameplay_page::logEvent(const QString &event) {
     QFile file("game_log.txt");
@@ -327,7 +268,41 @@ void Gameplay_page::initializeAgents() {
     agents.append(new Bombice(this));
 }
 
+void Gameplay_page::createRandomAgent(AgentBase *&agent){
+    int randomIndex = std::rand() % agents.size();
 
+    if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
+        agent = new Gorbemahi(this);
+    } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
+        agent = new Gandom(this);
+    } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
+        agent = new Golmoshaki(this);
+    } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
+        agent = new Bomb(this);
+    } else if (auto bombice = dynamic_cast<Bombice*>(agents[randomIndex])) {
+        agent = new Bombice(this);
+    }
+}
+
+void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
+    AgentBase *new_agentChoice = nullptr;
+    createRandomAgent(new_agentChoice);
+
+    if (new_agentChoice) {
+        new_agentChoice->setGeometry(startx_agent_choice + index * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+
+        if (currentChoice == agent_choice1) {
+            agent_choice1 = new_agentChoice;
+        } else if (currentChoice == agent_choice2) {
+            agent_choice2 = new_agentChoice;
+        } else if (currentChoice == agent_choice3) {
+            agent_choice3 = new_agentChoice;
+        } else if (currentChoice == agent_choice4) {
+            agent_choice4 = new_agentChoice;
+        }
+        new_agentChoice->show();
+    }
+}
 
 Gameplay_page::~Gameplay_page()
 {

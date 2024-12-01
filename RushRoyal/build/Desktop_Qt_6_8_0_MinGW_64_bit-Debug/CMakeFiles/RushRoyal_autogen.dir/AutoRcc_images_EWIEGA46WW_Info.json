@@ -9,11 +9,12 @@
 	"INCLUDE_DIR" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include",
 	"INPUTS" : 
 	[
+		"E:/darsi/mabani/Qt/RushRoyal/SoldierEnemy.png",
+		"E:/darsi/mabani/Qt/RushRoyal/BossEnemy.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/jolback2.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/bomb_level2.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/6_editai.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/sanng.png",
-		"E:/darsi/mabani/Qt/RushRoyal/images/5_editai.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/hendone2.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/golmoshaki2.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/gandom22.png",
@@ -24,7 +25,6 @@
 		"E:/darsi/mabani/Qt/RushRoyal/images/map_gamplayedit2.jpg",
 		"E:/darsi/mabani/Qt/RushRoyal/images/map_gamplay.jpg",
 		"E:/darsi/mabani/Qt/RushRoyal/images/hendone_yakhi22.png",
-		"E:/darsi/mabani/Qt/RushRoyal/images/2_editai.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/kalam2.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/bomb_ice.png",
 		"E:/darsi/mabani/Qt/RushRoyal/images/4_editai.png",

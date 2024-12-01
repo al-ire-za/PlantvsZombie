@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 75,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 58,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -372,18 +372,21 @@
 				16,
 				18,
 				20,
-				24
+				22,
+				24,
+				26,
+				30
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df"
+			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "RushRoyal::@6890427a1f51a3e7e1df",
@@ -503,7 +506,10 @@
 				16,
 				18,
 				20,
-				24
+				22,
+				24,
+				26,
+				30
 			]
 		},
 		{
@@ -519,7 +525,10 @@
 				17,
 				19,
 				21,
-				22
+				23,
+				25,
+				27,
+				28
 			]
 		},
 		{
@@ -529,15 +538,15 @@
 				4,
 				5,
 				8,
-				23
+				29
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				25,
-				26
+				31,
+				32
 			]
 		}
 	],
@@ -657,6 +666,39 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "Bombice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Enemy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Enemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Soldierenemy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Soldierenemy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Bossenemy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Bossenemy.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

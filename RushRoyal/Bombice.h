@@ -14,7 +14,7 @@ class Bombice : public AgentBase
 public:
     Bombice(QWidget *parent = nullptr);
     Bombice(const Bombice &other);
-    ~Bombice();
+    virtual ~Bombice();
 
 private:
     Ui::Bombice *ui;

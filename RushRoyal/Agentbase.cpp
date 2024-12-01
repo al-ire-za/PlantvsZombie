@@ -8,7 +8,8 @@ AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int sp
 }
 
 AgentBase::AgentBase(const AgentBase &other): AgentBasePower(other.AgentBasePower), AgentBaseSpeed(other.AgentBaseSpeed),
-    AgentBaseimageUrl(other.AgentBaseimageUrl){
+    AgentBaseimageUrl(other.AgentBaseimageUrl)
+{
     updateimagUrl(other.AgentBaseimageUrl);
 }
 

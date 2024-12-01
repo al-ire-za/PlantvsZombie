@@ -27,8 +27,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_15">
@@ -41,10 +44,11 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/prefix2/images/SANG3.png);</string>
+     <string notr="true">image: url(:/prefix2/images/SANG3.png);
+background-image: url(:/prefix2/images/sanng.png);</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_16">
@@ -56,8 +60,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_17">
@@ -69,8 +76,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_18">
@@ -82,8 +92,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_19">
@@ -95,8 +108,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_20">
@@ -108,8 +124,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_21">
@@ -122,10 +141,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_22">
@@ -137,8 +156,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_23">
@@ -150,8 +172,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_24">
@@ -163,8 +188,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_25">
@@ -176,8 +204,12 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);
+</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_26">
@@ -189,8 +221,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_27">
@@ -202,8 +237,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_28">
@@ -215,8 +253,11 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_29">
@@ -228,8 +269,12 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/prefix2/images/sanng.png);</string>
+    </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_30">

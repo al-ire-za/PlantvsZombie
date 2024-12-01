@@ -14,7 +14,7 @@ class Gorbemahi : public AgentBase
 public:
     Gorbemahi(QWidget *parent = nullptr);
     Gorbemahi(const Gorbemahi &other);
-    ~Gorbemahi();
+    virtual ~Gorbemahi();
 
 private:
     Ui::Gorbemahi *ui;

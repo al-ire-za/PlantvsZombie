@@ -5,6 +5,8 @@
 #include <QLabel>
 #include <QPoint>
 #include "Agentbase.h"
+#include "Enemy.h"
+
 
 
 namespace Ui {
@@ -19,9 +21,12 @@ public:
     explicit Gameplay_page(QWidget *parent = nullptr);
     ~Gameplay_page();
     void create_enemi();
-    void move_enemi(QLabel *labal);
+    void move_enemi(Enemy *enemi);
     void logEvent(const QString &event);
-    QVector<QLabel*> enemi_list;
+    void createRandomAgent(AgentBase *&agent);
+    void updateAgentChoice(AgentBase *&currentChoice, int index);
+    void initializeAgents();
+
 
 
 
@@ -34,15 +39,15 @@ private:
     QTimer *timer;
     QVector<AgentBase*> agents;
     QVector<AgentBase*> agent_board;
-    QStringList randomImages_Enemi;
-    QString random_enemi;
     AgentBase *current_choice;
     AgentBase *agent_choice1;
     AgentBase *agent_choice2;
     AgentBase *agent_choice3;
     AgentBase *agent_choice4;
-    void initializeAgents();
-    QLabel *label_agentBorad;
+    QVector<Enemy*> enemies;
+    int count_enemi;
+    int wave;
+    bool bossSpawned;
 
 
 

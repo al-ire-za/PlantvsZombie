@@ -15,7 +15,7 @@ class Gandom : public AgentBase
 public:
     Gandom(QWidget *parent = nullptr);
     Gandom(const Gandom &other);
-    ~Gandom();
+    virtual ~Gandom();
 
 private:
     Ui::Gandom *ui;

@@ -940,3 +940,1097 @@ DEnemy #3 created.
 Agent choice 2 selected.
 DEnemy #4 created.
 Agent choice 1 selected.
+Agent choice 1 selected.
+Agent choice 1 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 deselected.
+DEnemy #3 created.
+Agent choice 2 selected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Agent choice 1 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 deselected.
+Agent choice 1 selected.
+Agent choice 1 deselected.
+DEnemy #3 created.
+Agent choice 3 selected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Agent choice 2 selected.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 2 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 4 selected.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/bomb.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 1 selected.
+Changed tile agent board at index 9 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/bomb_ice.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+DEnemy #4 created.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 4 selected.
+Changed tile agent board at index 3 from background-image: url(:/prefix2/images/bomb.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Agent choice 1 deselected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/bomb_ice.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Agent choice 2 deselected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 2 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 1 selected.
+DEnemy #1 created.
+Agent choice 1 deselected.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+DEnemy #4 created.
+Agent choice 1 deselected.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Agent choice 2 deselected.
+DEnemy #4 created.
+Agent choice 2 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 4 selected.
+Changed tile agent board at index 7 from background-image: url(:/prefix2/images/bomb.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 4 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #3 created.
+DEnemy #4 created.
+Agent choice 2 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 deselected.
+Agent choice 2 selected.
+Changed tile agent board at index 5 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 14 from background-image: url(:/prefix2/images/golmoshaki2.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 3 selected.
+Changed tile agent board at index 6 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 3 selected.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #3 created.
+Agent choice 2 selected.
+DEnemy #4 created.
+Agent choice 2 deselected.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 from background-image: url(:/prefix2/images/gorbemahi2.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Changed tile agent board at index 1 from background-image: url(:/prefix2/images/gandom22.png); background-color: rgb(238, 145, 84); to new image.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Agent choice 1 selected.
+DEnemy #1 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 5 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 3 selected.
+DEnemy #4 created.
+Changed tile agent board at index 14 to new agent.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 6 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 8 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #1 created.
+Agent choice 4 selected.
+Changed tile agent board at index 15 to new agent.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 2 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 4 completed.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 10 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Agent choice 1 deselected.
+Agent choice 1 selected.
+Changed tile agent board at index 1 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 2 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 4 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+DEnemy #4 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #5 created.
+Wave 1 completed.
+DEnemy #1 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Agent choice 1 deselected.
+Agent choice 1 selected.
+Changed tile agent board at index 1 to new agent.
+DEnemy #1 created.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+DEnemy #2 created.
+DEnemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #3 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Agent choice 2 deselected.
+DEnemy #4 created.
+Agent choice 2 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Changed tile agent board at index 1 to new agent.
+Agent choice 4 selected.
+Agent choice 3 selected.
+DEnemy #1 created.
+Changed tile agent board at index 2 to new agent.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 4 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 5 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 6 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 7 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 8 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 2 selected.
+Agent choice 3 selected.
+Changed tile agent board at index 1 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+Agent choice 2 selected.
+DEnemy #2 created.
+Changed tile agent board at index 4 to new agent.
+DEnemy #3 created.
+Agent choice 3 selected.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 2 selected.
+Agent choice 1 selected.
+Changed tile agent board at index 5 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 8 to new agent.
+Agent choice 2 selected.
+Agent choice 4 selected.
+DEnemy #1 created.
+Changed tile agent board at index 6 to new agent.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 4 completed.
+---------------------DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #3 created.
+Agent choice 2 selected.
+DEnemy #4 created.
+Changed tile agent board at index 1 to new agent.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+Agent choice 2 selected.
+DEnemy #3 created.
+Changed tile agent board at index 1 to new agent.
+Agent choice 3 selected.
+DEnemy #4 created.
+Changed tile agent board at index 2 to new agent.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 3 selected.
+Changed tile agent board at index 11 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+Agent choice 4 selected.
+Placed bomb on the map at position: (246, 181).
+DEnemy #3 created.
+Agent choice 4 selected.
+DEnemy #4 created.
+Placed bomb on the map at position: (923, 174).
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Changed tile agent board at index 6 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (231, 577).
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (534, 154).
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 4 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Placed bomb on the map at position: (925, 462).
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 4 completed.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+Agent choice 1 selected.
+DEnemy #3 created.
+Placed bomb on the map at position: (227, 150).
+DEnemy #4 created.
+Agent choice 2 selected.
+Agent choice 1 selected.
+Placed bomb on the map at position: (590, 145).
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 4 selected.
+Placed bomb on the map at position: (433, 152).
+Agent choice 3 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 1 selected.
+Agent choice 2 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 3 selected.
+Agent choice 2 selected.
+Changed tile agent board at index 8 to new agent.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+DEnemy #1 created.
+Agent choice 4 selected.
+DEnemy #2 created.
+Changed tile agent board at index 9 to new agent.
+DEnemy #3 created.
+Agent choice 4 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 7 to new agent.
+DEnemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 15 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 13 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 8 to new agent.
+Agent choice 1 selected.
+DEnemy #3 created.
+Changed tile agent board at index 4 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 1 to new agent.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 6 to new agent.
+DEnemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+DEnemy #2 created.
+Agent choice 4 selected.
+DEnemy #3 created.
+Agent choice 4 deselected.
+DEnemy #4 created.
+Agent choice 4 selected.
+DEnemy #5 created.
+Wave 1 completed.
+Placed bomb on the map at position: (927, 161).
+Agent choice 1 selected.
+Placed bomb on the map at position: (234, 152).
+Agent choice 4 selected.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #1 created.
+Agent choice 1 selected.
+DEnemy #2 created.
+Changed tile agent board at index 0 to new agent.
+DEnemy #3 created.
+Agent choice 1 selected.
+DEnemy #4 created.
+Placed bomb on the map at position: (223, 150).
+DEnemy #5 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+DEnemy #1 created.
+Agent choice 4 selected.
+DEnemy #2 created.
+Placed bomb on the map at position: (929, 540).
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 2 completed.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #3 created.
+DEnemy #4 created.
+DEnemy #5 created.
+Wave 3 completed.
+DEnemy #1 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #1 created.
+DEnemy #2 created.
+DEnemy #1 created.
+Agent choice 2 selected.
+DEnemy #2 created.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #5 created.
+Boss enemy created.
+Wave 1 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #5 created.
+Boss enemy created.
+Wave 1 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #5 created.
+Boss enemy created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 0 to new agent.
+Agent choice 3 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 10 to new agent.
+Agent choice 4 selected.
+Placed bomb on the map at position: (931, 161).
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #5 created.
+Boss enemy created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 6 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #2 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Boss enemy created.
+Soldier enemy #4 created.
+Boss enemy created.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 6 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 6 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #4 created.
+Agent choice 4 selected.
+Soldier enemy #5 created.
+Wave 5 completed.
+Placed bomb on the map at position: (226, 152).
+Agent choice 4 selected.
+Placed bomb on the map at position: (903, 162).
+Placed bomb on the map at position: (903, 162).
+Agent choice 4 selected.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 4 deselected.
+Soldier enemy #3 created.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Soldier enemy #4 created.
+Agent choice 4 selected.
+Soldier enemy #5 created.
+Wave 6 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 1 selected.
+Soldier enemy #1 created.
+Boss enemy created.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #3 created.
+Agent choice 4 selected.
+Soldier enemy #4 created.
+Agent choice 4 deselected.
+Soldier enemy #5 created.
+Wave 7 completed.
+Soldier enemy #1 created.
+Agent choice 4 selected.
+Soldier enemy #2 created.
+Placed bomb on the map at position: (919, 158).
+Soldier enemy #3 created.
+Agent choice 4 selected.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Agent choice 1 selected.
+Placed bomb on the map at position: (236, 160).
+Placed bomb on the map at position: (236, 160).
+Placed bomb on the map at position: (236, 160).
+Placed bomb on the map at position: (258, 185).
+Placed bomb on the map at position: (258, 185).
+Agent choice 1 selected.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent choice 1 deselected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 1 selected.
+Soldier enemy #5 created.
+Wave 3 completed.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (565, 186).
+Placed bomb on the map at position: (568, 190).
+Placed bomb on the map at position: (569, 191).
+Placed bomb on the map at position: (570, 192).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (575, 201).
+Placed bomb on the map at position: (582, 211).
+Placed bomb on the map at position: (583, 212).
+Placed bomb on the map at position: (587, 182).
+Placed bomb on the map at position: (587, 182).
+Placed bomb on the map at position: (554, 170).
+Placed bomb on the map at position: (546, 169).
+Soldier enemy #1 created.
+Placed bomb on the map at position: (545, 146).
+Placed bomb on the map at position: (699, 158).
+Soldier enemy #2 created.
+Placed bomb on the map at position: (490, 168).
+Placed bomb on the map at position: (699, 190).
+Soldier enemy #3 created.
+Placed bomb on the map at position: (550, 152).
+Soldier enemy #4 created.
+Agent choice 2 selected.
+Placed bomb on the map at position: (949, 470).
+Soldier enemy #5 created.
+Wave 4 completed.
+Placed bomb on the map at position: (922, 438).
+Placed bomb on the map at position: (908, 428).
+Placed bomb on the map at position: (926, 367).
+Placed bomb on the map at position: (930, 333).
+Soldier enemy #1 created.
+Agent choice 4 selected.
+Soldier enemy #2 created.
+Agent choice 4 selected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 4 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 4 selected.
+Soldier enemy #1 created.
+Agent choice 4 selected.
+Soldier enemy #2 created.
+Placed bomb on the map at position: (226, 154).
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 4 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Placed bomb on the map at position: (870, 167).
+Agent choice 4 selected.
+Changed tile agent board at index 6 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 4 to new agent.
+Agent choice 4 selected.
+Placed bomb on the map at position: (524, 149).
+Agent choice 3 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 4 selected.
+Changed tile agent board at index 11 to new agent.
+Agent choice 4 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent choice 1 selected.
+Changed tile agent board at index 3 to new agent.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #4 created.
+Agent choice 4 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 2 selected.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 2 deselected.
+Agent choice 2 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 3 selected.
+Placed bomb on the map at position: (224, 493).
+Soldier enemy #1 created.

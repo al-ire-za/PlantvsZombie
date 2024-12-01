@@ -15,7 +15,7 @@ class Golmoshaki : public AgentBase
 public:
     Golmoshaki(QWidget *parent = nullptr);
     Golmoshaki(const Golmoshaki &other);
-    ~Golmoshaki();
+    virtual ~Golmoshaki();
 
 private:
     Ui::Golmoshaki *ui;

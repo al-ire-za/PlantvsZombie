@@ -33,6 +33,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Bomb.h Bomb.cpp
         Golmoshaki.h Golmoshaki.cpp
         Bombice.h Bombice.cpp
+        Enemy.h Enemy.cpp
+        Soldierenemy.h Soldierenemy.cpp
+        Bossenemy.h Bossenemy.cpp
 
 
 

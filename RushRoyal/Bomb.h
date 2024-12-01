@@ -15,7 +15,7 @@ class Bomb : public AgentBase
 public:
     Bomb(QWidget *parent = nullptr);
     Bomb(const Bomb &other);
-    ~Bomb();
+    virtual ~Bomb();
 
 private:
     Ui::Bomb *ui;

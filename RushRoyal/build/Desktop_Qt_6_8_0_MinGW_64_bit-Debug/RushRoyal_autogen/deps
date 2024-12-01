@@ -1,11 +1,14 @@
 RushRoyal_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QPoint \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QSequentialAnimationGroup \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q23utility.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qabstractanimation.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qanimationgroup.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qanystringview.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qarraydata.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qarraydataops.h \
@@ -74,6 +77,7 @@ RushRoyal_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qrefcount.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qsequentialanimationgroup.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qset.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qshareddata.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qshareddata_impl.h \
@@ -542,7 +546,11 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt/RushRoyal/Bomb.h \
 	E:/darsi/mabani/Qt/RushRoyal/Bombice.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Bombice.h \
+	E:/darsi/mabani/Qt/RushRoyal/Bossenemy.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Bossenemy.h \
 	E:/darsi/mabani/Qt/RushRoyal/CMakeLists.txt \
+	E:/darsi/mabani/Qt/RushRoyal/Enemy.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Enemy.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gameplay_page.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Gameplay_page.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gandom.cpp \
@@ -551,6 +559,8 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt/RushRoyal/Golmoshaki.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gorbemahi.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Gorbemahi.h \
+	E:/darsi/mabani/Qt/RushRoyal/Soldierenemy.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Soldierenemy.h \
 	E:/darsi/mabani/Qt/RushRoyal/Welcom_page.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Welcom_page.h \
 	E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \

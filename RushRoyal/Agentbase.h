@@ -14,7 +14,7 @@ class AgentBase : public QLabel
 public:
     AgentBase(QWidget *parent = nullptr, const QString &imageUrl = "", int power = 10, int speed = 1);
     AgentBase(const AgentBase &other);
-    ~AgentBase();
+    virtual ~AgentBase();
     int getpower() const;
     int getspeed() const;
     void updateimagUrl(const QString &image);

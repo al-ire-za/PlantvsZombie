@@ -129,6 +129,30 @@ build CMakeFiles/RushRoyal.dir/Bombice.cpp.obj: CXX_COMPILER__RushRoyal_unscanne
   OBJECT_DIR = CMakeFiles\RushRoyal.dir
   OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
 
+build CMakeFiles/RushRoyal.dir/Enemy.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt/RushRoyal/Enemy.cpp || cmake_object_order_depends_target_RushRoyal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RushRoyal.dir\Enemy.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\RushRoyal.dir
+  OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
+
+build CMakeFiles/RushRoyal.dir/Soldierenemy.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt/RushRoyal/Soldierenemy.cpp || cmake_object_order_depends_target_RushRoyal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RushRoyal.dir\Soldierenemy.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\RushRoyal.dir
+  OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
+
+build CMakeFiles/RushRoyal.dir/Bossenemy.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt/RushRoyal/Bossenemy.cpp || cmake_object_order_depends_target_RushRoyal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RushRoyal.dir\Bossenemy.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\RushRoyal.dir
+  OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
+
 build CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp || cmake_object_order_depends_target_RushRoyal
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\RushRoyal.dir\RushRoyal_autogen\EWIEGA46WW\qrc_images.cpp.obj.d
@@ -145,7 +169,7 @@ build CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj: 
 #############################################
 # Link the executable RushRoyal.exe
 
-build RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/Agentbase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Bombice.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
+build RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/Agentbase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Bombice.cpp.obj CMakeFiles/RushRoyal.dir/Enemy.cpp.obj CMakeFiles/RushRoyal.dir/Soldierenemy.cpp.obj CMakeFiles/RushRoyal.dir/Bossenemy.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -249,7 +273,7 @@ build RushRoyal_autogen/timestamp RushRoyal_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Custom command for RushRoyal_autogen\EWIEGA46WW\qrc_images.cpp
 
-build RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp | ${cmake_ninja_workdir}RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp: CUSTOM_COMMAND E$:/darsi/mabani/Qt/RushRoyal/images.qrc CMakeFiles/RushRoyal_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json E$:/darsi/mabani/Qt/RushRoyal/images/jolback2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb_level2.png E$:/darsi/mabani/Qt/RushRoyal/images/6_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/sanng.png E$:/darsi/mabani/Qt/RushRoyal/images/5_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/hendone2.png E$:/darsi/mabani/Qt/RushRoyal/images/golmoshaki2.png E$:/darsi/mabani/Qt/RushRoyal/images/gandom22.png E$:/darsi/mabani/Qt/RushRoyal/images/1_edit.png E$:/darsi/mabani/Qt/RushRoyal/images/felfelmoshaki2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb.png E$:/darsi/mabani/Qt/RushRoyal/images/33_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/map_gamplayedit2.jpg E$:/darsi/mabani/Qt/RushRoyal/images/map_gamplay.jpg E$:/darsi/mabani/Qt/RushRoyal/images/hendone_yakhi22.png E$:/darsi/mabani/Qt/RushRoyal/images/2_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/kalam2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb_ice.png E$:/darsi/mabani/Qt/RushRoyal/images/4_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/gorbemahi2.png E$:/darsi/mabani/Qt/RushRoyal/images/welcom_page.png E$:/darsi/mabani/Qt/RushRoyal/images/abi_playbutton.png C$:/Qt/6.8.0/mingw_64/bin/rcc.exe C$:/Qt/6.8.0/mingw_64/bin/rcc.exe || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
+build RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp | ${cmake_ninja_workdir}RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp: CUSTOM_COMMAND E$:/darsi/mabani/Qt/RushRoyal/images.qrc CMakeFiles/RushRoyal_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json E$:/darsi/mabani/Qt/RushRoyal/SoldierEnemy.png E$:/darsi/mabani/Qt/RushRoyal/BossEnemy.png E$:/darsi/mabani/Qt/RushRoyal/images/jolback2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb_level2.png E$:/darsi/mabani/Qt/RushRoyal/images/6_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/sanng.png E$:/darsi/mabani/Qt/RushRoyal/images/hendone2.png E$:/darsi/mabani/Qt/RushRoyal/images/golmoshaki2.png E$:/darsi/mabani/Qt/RushRoyal/images/gandom22.png E$:/darsi/mabani/Qt/RushRoyal/images/1_edit.png E$:/darsi/mabani/Qt/RushRoyal/images/felfelmoshaki2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb.png E$:/darsi/mabani/Qt/RushRoyal/images/33_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/map_gamplayedit2.jpg E$:/darsi/mabani/Qt/RushRoyal/images/map_gamplay.jpg E$:/darsi/mabani/Qt/RushRoyal/images/hendone_yakhi22.png E$:/darsi/mabani/Qt/RushRoyal/images/kalam2.png E$:/darsi/mabani/Qt/RushRoyal/images/bomb_ice.png E$:/darsi/mabani/Qt/RushRoyal/images/4_editai.png E$:/darsi/mabani/Qt/RushRoyal/images/gorbemahi2.png E$:/darsi/mabani/Qt/RushRoyal/images/welcom_page.png E$:/darsi/mabani/Qt/RushRoyal/images/abi_playbutton.png C$:/Qt/6.8.0/mingw_64/bin/rcc.exe C$:/Qt/6.8.0/mingw_64/bin/rcc.exe || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\darsi\mabani\Qt\RushRoyal\build\Desktop_Qt_6_8_0_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/RushRoyal_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for images.qrc
   restat = 1
