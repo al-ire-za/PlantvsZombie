@@ -1,6 +1,13 @@
 #include "Gameplay_page.h"
 #include "ui_Gameplay_page.h"
-
+#include "Gorbemahi.h"
+#include "Gandom.h"
+#include "Golmoshaki.h"
+#include "Bomb.h"
+#include "Bombice.h"
+#include "Soldierenemy.h"
+#include "Bossenemy.h"
+#include "Enemy.h"
 #include <QGuiApplication>
 #include <QScreen>
 #include <QLabel>
@@ -15,14 +22,8 @@
 #include <QPoint>
 #include <QFile>
 #include <QTextStream>
-#include "Gorbemahi.h"
-#include "Gandom.h"
-#include "Golmoshaki.h"
-#include "Bomb.h"
-#include "Bombice.h"
-#include "Soldierenemy.h"
-#include "Bossenemy.h"
-#include "Enemy.h"
+
+
 
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
@@ -55,7 +56,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     initializeAgents();
 
-
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Gandom(this);
@@ -67,7 +67,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
 
     agent_board.resize(16);
-
     for (int i = 0; i < 16; ++i) {
         agent_board[i] = nullptr;
 
@@ -77,9 +76,9 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
+
     timer->start(2000); //5000
 }
-
 
 
 void Gameplay_page::create_enemi() {
@@ -102,11 +101,9 @@ void Gameplay_page::create_enemi() {
         logEvent(QString("Boss enemy created."));
         count_enemi++;
         bossSpawned = true;
+        removeRandomAgentFromBoard();
     }
 
-    if (wave == 10) {
-        QApplication::quit();
-    }
 
     if (count_enemi % 5 != 0) {
         randomInterval = (std::rand() % 1500) + 500;
@@ -116,6 +113,7 @@ void Gameplay_page::create_enemi() {
         count_enemi = 0;
         bossSpawned = false;
         logEvent(QString("Wave %1 completed.").arg(wave));
+        printAgentBoard();
     }
 
     timer->start(randomInterval);
@@ -146,11 +144,12 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
     group->addAnimation(animation3);
 
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
-        enemy->hide();
+        removeEnemy(enemy);
     });
 
     group->start();
 }
+
 
 void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
@@ -212,7 +211,6 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                 current_choice->move(event->pos().x(), event->pos().y());
                 logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
                 logEvent(logMessage);
-
                 updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                       (current_choice == agent_choice2) ? 1 :
                                                       (current_choice == agent_choice3) ? 2 : 3);
@@ -234,15 +232,14 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
                         current_choice->setGeometry(rect);
                         current_choice->show();
                         agent_board[i] = current_choice;
-
                         updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                               (current_choice == agent_choice2) ? 1 :
                                                               (current_choice == agent_choice3) ? 2 : 3);
 
-
-
                         logMessage = QString("Changed tile agent board at index %1 to new agent.").arg(i);
                         logEvent(logMessage);
+                        connect(current_choice, &AgentBase::bulletFired, this, &Gameplay_page::onBulletFired);
+                        current_choice->startShooting();
                         current_choice = nullptr;
                     }
                 }
@@ -250,6 +247,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
         }
     }
 }
+
 
 void Gameplay_page::logEvent(const QString &event) {
     QFile file("game_log.txt");
@@ -260,6 +258,7 @@ void Gameplay_page::logEvent(const QString &event) {
     }
 }
 
+
 void Gameplay_page::initializeAgents() {
     agents.append(new Gorbemahi(this));
     agents.append(new Gandom(this));
@@ -267,6 +266,7 @@ void Gameplay_page::initializeAgents() {
     agents.append(new Bomb(this));
     agents.append(new Bombice(this));
 }
+
 
 void Gameplay_page::createRandomAgent(AgentBase *&agent){
     int randomIndex = std::rand() % agents.size();
@@ -283,6 +283,7 @@ void Gameplay_page::createRandomAgent(AgentBase *&agent){
         agent = new Bombice(this);
     }
 }
+
 
 void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
     AgentBase *new_agentChoice = nullptr;
@@ -303,6 +304,94 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
         new_agentChoice->show();
     }
 }
+
+
+void Gameplay_page::printAgentBoard() const{
+    qDebug() << "Agent Board State:";
+    for (int i = 0; i < agent_board.size(); ++i) {
+        if (agent_board[i]) {
+            qDebug() << "Index" << i << ":" << agent_board[i]->metaObject()->className();
+        } else {
+            qDebug() << "Index: " << i << " khalii";
+        }
+    }
+}
+
+
+void Gameplay_page::removeRandomAgentFromBoard() {
+    QVector<int> occupiedIndices;
+    for (int i = 0; i < agent_board.size(); ++i) {
+        if (agent_board[i] != nullptr) {
+            occupiedIndices.append(i);
+        }
+    }
+
+    if (!occupiedIndices.isEmpty()) {
+        int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
+        agent_board[randomIndex]->hide();
+        agent_board[randomIndex] = nullptr;
+        logEvent(QString("Agent removed from agent_board at index %1.").arg(randomIndex));
+    }
+}
+
+
+void Gameplay_page::onEnemyDefeated(){
+    logEvent("Enemy defeated!");
+}
+
+
+void Gameplay_page::onBulletFired(int damage, const QRect &startRect) {
+    Enemy* target = nullptr;
+    int minY = INT_MAX;
+
+    for (auto enemy : enemies) {
+        if (enemy->y() < minY) {
+            minY = enemy->y();
+            target = enemy;
+        }
+    }
+
+    if (target) {
+        QLabel *bullet = new QLabel(this);
+        bullet->setStyleSheet("background-color: yellow;");
+        bullet->setGeometry(startRect.x() + startRect.width() / 2 - 5, startRect.y() - 10, 10, 10);
+        bullet->setProperty("damage", damage);
+        bullet->show();
+
+        QPropertyAnimation *animation = new QPropertyAnimation(bullet, "geometry");
+        animation->setDuration(1000);
+        animation->setStartValue(bullet->geometry());
+        animation->setEndValue(QRect(target->x() + target->width() / 2, target->y() + target->height() / 2, bullet->width(), bullet->height()));
+
+        connect(animation, &QPropertyAnimation::finished, bullet, &QLabel::deleteLater);
+        connect(animation, &QPropertyAnimation::finished, this, &Gameplay_page::checkBulletCollision);
+        animation->start();
+    }
+}
+
+
+void Gameplay_page::checkBulletCollision() {
+    for (auto enemy : enemies) {
+        for (auto bullet : findChildren<QLabel*>()) {
+            if (bullet->styleSheet().contains("background-color: yellow;") && bullet->geometry().intersects(enemy->geometry())) {
+                enemy->takeDamage(bullet->property("damage").toInt());
+                bullet->hide();
+                bullet->deleteLater();
+                if (enemy->gethealth() <= 0){
+                    removeEnemy(enemy);
+                }
+            }
+        }
+    }
+}
+
+
+void Gameplay_page::removeEnemy(Enemy* enemy) {
+    enemies.removeOne(enemy);
+    enemy->hide();
+    enemy->deleteLater();
+}
+
 
 Gameplay_page::~Gameplay_page()
 {

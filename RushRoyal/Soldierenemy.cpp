@@ -23,7 +23,7 @@ SoldierEnemy::~SoldierEnemy()
 }
 
 void SoldierEnemy::move(){
-    int durationFactor = 1000 / EnemySpeed;  // محاسبه مدت زمان انیمیشن بر اساس سرعت انمی
+    int durationFactor = 1000 / EnemySpeed;
 
     QPropertyAnimation *animation1 = new QPropertyAnimation(this, "geometry");
     animation1->setDuration(durationFactor * 4); // مدت زمان انیمیشن مرحله اول

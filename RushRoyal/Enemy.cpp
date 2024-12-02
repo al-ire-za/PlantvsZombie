@@ -1,6 +1,7 @@
 #include "Enemy.h"
 #include <QLabel>
 #include <QPropertyAnimation>
+
 Enemy::Enemy(QWidget *parent, int health, int speed, const QString &imageUrl)
     : QLabel(parent), EnemyHealth(health), EnemySpeed(speed), EnemyImageUrl(imageUrl)
 
@@ -59,3 +60,14 @@ void Enemy::updateimage(const QString &imageUrl){
     EnemyImageUrl = imageUrl;
     setStyleSheet("background-image: url(" + imageUrl + ");");
 }
+
+void Enemy::takeDamage(int damage){
+    EnemyHealth -= damage;
+    if (EnemyHealth <= 0){
+        this->hide();
+        emit enemyDefeated();
+        this->deleteLater();
+    }
+}
+
+

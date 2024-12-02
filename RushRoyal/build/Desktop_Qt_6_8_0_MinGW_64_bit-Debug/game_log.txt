@@ -2034,3 +2034,949 @@ Changed tile agent board at index 2 to new agent.
 Agent choice 3 selected.
 Placed bomb on the map at position: (224, 493).
 Soldier enemy #1 created.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 0 to new agent.
+Agent choice 2 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 1 to new agent.
+Agent choice 4 selected.
+Soldier enemy #4 created.
+Placed bomb on the map at position: (949, 154).
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 4 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 3 to new agent.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #4 created.
+Agent choice 2 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Agent choice 3 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 2 to new agent.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Soldier enemy #5 created.
+Soldier enemy #6 created.
+Placed bomb on the map at position: (233, 154).
+Agent choice 1 selected.
+Soldier enemy #7 created.
+Placed bomb on the map at position: (953, 150).
+Soldier enemy #8 created.
+Agent choice 2 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 1 selected.
+Soldier enemy #9 created.
+Changed tile agent board at index 4 to new agent.
+Soldier enemy #10 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 6 to new agent.
+Agent choice 3 selected.
+Placed bomb on the map at position: (690, 143).
+Agent choice 3 selected.
+Changed tile agent board at index 7 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 1 selected.
+Placed bomb on the map at position: (458, 170).
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 2.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #1 created.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 4 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 3 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 12 to new agent.
+Agent choice 2 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 15 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (238, 154).
+Agent choice 2 selected.
+Placed bomb on the map at position: (882, 146).
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 1 selected.
+Placed bomb on the map at position: (548, 158).
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 3.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 0 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 2 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (231, 147).
+Agent choice 1 selected.
+Agent choice 2 selected.
+Changed tile agent board at index 4 to new agent.
+Agent choice 2 selected.
+Agent choice 1 selected.
+Changed tile agent board at index 5 to new agent.
+Agent choice 2 selected.
+Agent choice 2 deselected.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 2.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Agent choice 2 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 1 to new agent.
+Agent choice 1 selected.
+Soldier enemy #5 created.
+Wave 3 completed.
+Changed tile agent board at index 2 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 3 selected.
+Placed bomb on the map at position: (225, 147).
+Agent choice 4 selected.
+Placed bomb on the map at position: (904, 155).
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (930, 474).
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 1.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #4 created.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 2 selected.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 1 to new agent.
+Agent choice 2 selected.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 2.
+Changed tile agent board at index 3 to new agent.
+Agent choice 4 selected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 12.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 6 to new agent.
+Soldier enemy #1 created.
+Agent choice 4 selected.
+Placed bomb on the map at position: (914, 169).
+Soldier enemy #2 created.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 3 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (230, 154).
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 12 to new agent.
+Agent choice 4 selected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 4 deselected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (912, 171).
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 13 to new agent.
+Agent choice 3 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 3 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 0 to new agent.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 1 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 7 to new agent.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 12.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 3 selected.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 8 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 15.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 6 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 5 to new agent.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 4 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 2 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 2.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 9.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 1 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 2 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 3 selected.
+Soldier enemy #1 created.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #2 created.
+Agent choice 3 selected.
+Changed tile agent board at index 6 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 12.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #2 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #4 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #2 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (248, 157).
+Agent choice 1 selected.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Changed tile agent board at index 10 to new agent.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (962, 368).
+Agent choice 3 selected.
+Placed bomb on the map at position: (673, 158).
+Agent choice 3 selected.
+Changed tile agent board at index 15 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #1 created.
+Agent choice 3 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 4 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 11 to new agent.
+Agent choice 3 selected.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Changed tile agent board at index 3 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 8 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (455, 150).
+Agent choice 2 selected.
+Soldier enemy #1 created.
+Placed bomb on the map at position: (604, 169).
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 1 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 6 completed.
+Agent choice 2 selected.
+Agent choice 1 selected.
+Placed bomb on the map at position: (220, 532).
+Agent choice 2 selected.
+Placed bomb on the map at position: (242, 413).
+Agent choice 3 selected.
+Placed bomb on the map at position: (274, 308).
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 14.
+Agent choice 1 selected.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Changed tile agent board at index 2 to new agent.
+Soldier enemy #5 created.
+Wave 7 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 3 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #2 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 13 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Agent choice 1 selected.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 10 to new agent.
+Soldier enemy #4 created.
+Agent choice 3 selected.
+Changed tile agent board at index 15 to new agent.
+Agent choice 1 selected.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 deselected.
+Agent choice 1 selected.
+Changed tile agent board at index 11 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 7 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #2 created.
+Agent choice 3 selected.
+Soldier enemy #3 created.
+Changed tile agent board at index 10 to new agent.
+Agent choice 2 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 6 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 10 to new agent.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Agent choice 3 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 10.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 4 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 14.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 5 completed.
+Agent choice 1 selected.
+Soldier enemy #1 created.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #2 created.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 6 completed.
+Soldier enemy #1 created.
+Agent choice 1 selected.
+Changed tile agent board at index 13 to new agent.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 9 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 5 to new agent.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Soldier enemy #4 created.
+Changed tile agent board at index 6 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 2 selected.
+Placed bomb on the map at position: (239, 162).
+Agent choice 1 selected.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 9 to new agent.
+Soldier enemy #4 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #5 created.
+Wave 2 completed.
+Agent choice 1 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 11 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 15 to new agent.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 14.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Soldier enemy #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 13.
+Soldier enemy #3 created.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Soldier enemy #1 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Agent choice 1 selected.
+Soldier enemy #2 created.
+Changed tile agent board at index 9 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 10 to new agent.
+Soldier enemy #3 created.
+Agent choice 1 selected.
+Changed tile agent board at index 14 to new agent.
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 2 completed.
+Soldier enemy #1 created.
+Boss enemy created.
+Agent removed from agent_board at index 14.
+Agent choice 2 selected.
+Soldier enemy #3 created.
+Placed bomb on the map at position: (223, 156).
+Soldier enemy #4 created.
+Soldier enemy #5 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (905, 151).
+Agent choice 2 selected.
+Changed tile agent board at index 14 to new agent.

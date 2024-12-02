@@ -26,13 +26,20 @@ public:
     void createRandomAgent(AgentBase *&agent);
     void updateAgentChoice(AgentBase *&currentChoice, int index);
     void initializeAgents();
-
-
-
+    void printAgentBoard() const;
+    void removeRandomAgentFromBoard();
+    void removeEnemy(Enemy* enemy);
 
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
+
+
+private slots:
+    void onEnemyDefeated();
+    void onBulletFired(int damage, const QRect &startRect);
+    void checkBulletCollision();
+
 
 private:
     Ui::Gameplay_page *ui;

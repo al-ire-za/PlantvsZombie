@@ -21,6 +21,10 @@ public:
     int gethealth() const;
     int getspeed() const;
     void updateimage(const QString &imageUrl);
+    void takeDamage(int damage);
+
+signals:
+    void enemyDefeated(); // log Enemy defeated
 
 protected:
     Ui::Enemy *ui;

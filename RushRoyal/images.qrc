@@ -24,5 +24,6 @@
         <file>images/bomb.png</file>
         <file>images/bomb_ice.png</file>
         <file>images/bomb_level2.png</file>
+        <file>images/black.png</file>
     </qresource>
 </RCC>

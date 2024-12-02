@@ -3,7 +3,7 @@
 
 
 Gandom::Gandom(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gandom22.png", 10, 1)
+    : AgentBase(parent, ":/prefix2/images/gandom22.png", 15, 800)
 {
 
 }
