@@ -25,7 +25,7 @@ int AgentBase::getpower() const{
     return AgentBasePower;
 }
 
-int AgentBase::getspeed() const{
+double AgentBase::getspeed() const{
     return AgentBaseFireRate;
 }
 
@@ -40,4 +40,8 @@ void AgentBase::shoot() {
 
 void AgentBase::startShooting(){
     fireTimer->start(AgentBaseFireRate);
+}
+
+void AgentBase::stopShooting() {
+    fireTimer->stop();
 }

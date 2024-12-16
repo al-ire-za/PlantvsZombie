@@ -29,6 +29,7 @@ public:
     void printAgentBoard() const;
     void removeRandomAgentFromBoard();
     void removeEnemy(Enemy* enemy);
+    void startNextWave();
 
 
 protected:

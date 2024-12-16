@@ -16,9 +16,10 @@ public:
     AgentBase(const AgentBase &other);
     virtual ~AgentBase();
     int getpower() const;
-    int getspeed() const;
+    double getspeed() const;
     void updateimagUrl(const QString &image);
     void startShooting();
+    void stopShooting();
 
 
 public slots:
@@ -31,7 +32,7 @@ signals:
 
 protected:
     int AgentBasePower;
-    int AgentBaseFireRate;
+    double AgentBaseFireRate;
     QTimer *fireTimer;
     QString AgentBaseimageUrl;
 

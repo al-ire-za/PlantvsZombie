@@ -19,7 +19,7 @@ public:
     virtual ~Enemy();
     virtual void move();
     int gethealth() const;
-    int getspeed() const;
+    double getspeed() const;
     void updateimage(const QString &imageUrl);
     void takeDamage(int damage);
 
@@ -29,7 +29,7 @@ signals:
 protected:
     Ui::Enemy *ui;
     int EnemyHealth;
-    int EnemySpeed;
+    double EnemySpeed;
     QString EnemyImageUrl;
     QSequentialAnimationGroup *animationGroup;
 };

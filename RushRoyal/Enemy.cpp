@@ -20,7 +20,7 @@ Enemy::~Enemy()
 }
 
 void Enemy::move(){
-    int durationFactor = 1000 / EnemySpeed;
+    double durationFactor = 1000 / EnemySpeed;
 
     QPropertyAnimation *animation1 = new QPropertyAnimation(this, "geometry");
     animation1->setDuration(durationFactor * 4);
@@ -52,7 +52,7 @@ int Enemy::gethealth() const{
     return EnemyHealth;
 }
 
-int Enemy::getspeed() const{
+double Enemy::getspeed() const{
     return EnemySpeed;
 }
 
@@ -61,13 +61,14 @@ void Enemy::updateimage(const QString &imageUrl){
     setStyleSheet("background-image: url(" + imageUrl + ");");
 }
 
-void Enemy::takeDamage(int damage){
+void Enemy::takeDamage(int damage) {
     EnemyHealth -= damage;
-    if (EnemyHealth <= 0){
-        this->hide();
+    if (EnemyHealth <= 0) {
         emit enemyDefeated();
-        this->deleteLater();
+        hide();
+        deleteLater();
     }
 }
+
 
 

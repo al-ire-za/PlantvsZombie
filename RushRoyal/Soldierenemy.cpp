@@ -5,7 +5,7 @@
 // background-image: url(:/prefix2/SoldierEnemy.png);
 
 SoldierEnemy::SoldierEnemy(QWidget *parent)
-    : Enemy(parent, 100, 2, ":/prefix2/SoldierEnemy.png")
+    : Enemy(parent, 100, 1.5, ":/prefix2/SoldierEnemy.png")
 
 {
 
