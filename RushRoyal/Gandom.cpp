@@ -1,6 +1,5 @@
 #include "Gandom.h"
-#include "Agentbase.h"
-
+#include "AgentBase.h"
 
 Gandom::Gandom(QWidget *parent)
     : AgentBase(parent, ":/prefix2/images/gandom22.png", 15, 800)

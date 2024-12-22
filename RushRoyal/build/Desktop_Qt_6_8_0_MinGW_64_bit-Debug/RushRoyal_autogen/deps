@@ -540,17 +540,19 @@ RushRoyal_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	E:/darsi/mabani/Qt/RushRoyal/Agentbase.cpp \
-	E:/darsi/mabani/Qt/RushRoyal/Agentbase.h \
+	E:/darsi/mabani/Qt/RushRoyal/AgentBase.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/AgentBase.h \
 	E:/darsi/mabani/Qt/RushRoyal/Bomb.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Bomb.h \
-	E:/darsi/mabani/Qt/RushRoyal/Bombice.cpp \
-	E:/darsi/mabani/Qt/RushRoyal/Bombice.h \
-	E:/darsi/mabani/Qt/RushRoyal/Bossenemy.cpp \
-	E:/darsi/mabani/Qt/RushRoyal/Bossenemy.h \
 	E:/darsi/mabani/Qt/RushRoyal/CMakeLists.txt \
+	E:/darsi/mabani/Qt/RushRoyal/Disarmer.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Disarmer.h \
 	E:/darsi/mabani/Qt/RushRoyal/Enemy.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Enemy.h \
+	E:/darsi/mabani/Qt/RushRoyal/Eraser.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Eraser.h \
+	E:/darsi/mabani/Qt/RushRoyal/Freezer.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Freezer.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gameplay_page.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Gameplay_page.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gandom.cpp \
@@ -559,8 +561,13 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt/RushRoyal/Golmoshaki.h \
 	E:/darsi/mabani/Qt/RushRoyal/Gorbemahi.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Gorbemahi.h \
-	E:/darsi/mabani/Qt/RushRoyal/Soldierenemy.cpp \
-	E:/darsi/mabani/Qt/RushRoyal/Soldierenemy.h \
+	E:/darsi/mabani/Qt/RushRoyal/Kalam.h \
+	E:/darsi/mabani/Qt/RushRoyal/Runner.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Runner.h \
+	E:/darsi/mabani/Qt/RushRoyal/Shielder.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Shielder.h \
+	E:/darsi/mabani/Qt/RushRoyal/Trap.cpp \
+	E:/darsi/mabani/Qt/RushRoyal/Trap.h \
 	E:/darsi/mabani/Qt/RushRoyal/Welcom_page.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Welcom_page.h \
 	E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
@@ -569,6 +576,7 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
 	E:/darsi/mabani/Qt/RushRoyal/images.qrc \
+	E:/darsi/mabani/Qt/RushRoyal/kalam.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/main.cpp \
 	E:/darsi/mabani/Qt/RushRoyal/Gameplay_page.ui \
 	E:/darsi/mabani/Qt/RushRoyal/Welcom_page.ui \

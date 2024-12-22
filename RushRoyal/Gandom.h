@@ -1,7 +1,7 @@
 #ifndef GANDOM_H
 #define GANDOM_H
 
-#include "Agentbase.h"
+#include "AgentBase.h"
 
 
 namespace Ui {

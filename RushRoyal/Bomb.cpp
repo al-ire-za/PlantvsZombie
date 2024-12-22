@@ -1,5 +1,5 @@
 #include "Bomb.h"
-#include "Agentbase.h"
+#include "AgentBase.h"
 #include "QLabel"
 
 

@@ -1,5 +1,5 @@
 #include "Golmoshaki.h"
-#include "Agentbase.h"
+#include "AgentBase.h"
 
 
 Golmoshaki::Golmoshaki(QWidget *parent)

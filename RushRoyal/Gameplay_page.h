@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QPoint>
-#include "Agentbase.h"
+#include "AgentBase.h"
 #include "Enemy.h"
 
 
@@ -28,18 +28,12 @@ public:
     void initializeAgents();
     void printAgentBoard() const;
     void removeRandomAgentFromBoard();
-    void removeEnemy(Enemy* enemy);
     void startNextWave();
 
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
-
-private slots:
-    void onEnemyDefeated();
-    void onBulletFired(int damage, const QRect &startRect);
-    void checkBulletCollision();
 
 
 private:
@@ -56,7 +50,7 @@ private:
     int count_enemi;
     int wave;
     bool bossSpawned;
-
+    void updateAgentsEnemies();
 
 
 };

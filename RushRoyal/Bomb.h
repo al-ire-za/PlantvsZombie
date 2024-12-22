@@ -1,7 +1,7 @@
 #ifndef BOMB_H
 #define BOMB_H
 
-#include "Agentbase.h"
+#include "AgentBase.h"
 
 
 namespace Ui {

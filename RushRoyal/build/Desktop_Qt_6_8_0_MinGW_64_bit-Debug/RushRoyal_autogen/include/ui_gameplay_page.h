@@ -37,10 +37,7 @@ public:
     QLabel *label_27;
     QLabel *label_28;
     QLabel *label_29;
-    QLabel *label_30;
-    QLabel *label_31;
-    QLabel *label_32;
-    QLabel *label_33;
+    QLabel *label;
 
     void setupUi(QMainWindow *Gameplay_page)
     {
@@ -58,7 +55,7 @@ public:
         label_15 = new QLabel(centralwidget);
         label_15->setObjectName("label_15");
         label_15->setGeometry(QRect(350, 520, 90, 80));
-        label_15->setStyleSheet(QString::fromUtf8("image: url(:/prefix2/images/SANG3.png);\n"
+        label_15->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
         label_16 = new QLabel(centralwidget);
         label_16->setObjectName("label_16");
@@ -118,19 +115,9 @@ public:
         label_29->setGeometry(QRect(350, 250, 90, 80));
         label_29->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
-        label_30 = new QLabel(centralwidget);
-        label_30->setObjectName("label_30");
-        label_30->setGeometry(QRect(710, 640, 90, 80));
-        label_31 = new QLabel(centralwidget);
-        label_31->setObjectName("label_31");
-        label_31->setGeometry(QRect(410, 640, 90, 80));
-        label_31->setStyleSheet(QString::fromUtf8(""));
-        label_32 = new QLabel(centralwidget);
-        label_32->setObjectName("label_32");
-        label_32->setGeometry(QRect(510, 640, 90, 80));
-        label_33 = new QLabel(centralwidget);
-        label_33->setObjectName("label_33");
-        label_33->setGeometry(QRect(610, 640, 90, 80));
+        label = new QLabel(centralwidget);
+        label->setObjectName("label");
+        label->setGeometry(QRect(0, 0, 151, 101));
         Gameplay_page->setCentralWidget(centralwidget);
 
         retranslateUi(Gameplay_page);
@@ -157,10 +144,7 @@ public:
         label_27->setText(QString());
         label_28->setText(QString());
         label_29->setText(QString());
-        label_30->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
-        label_31->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
-        label_32->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
-        label_33->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
+        label->setText(QString());
     } // retranslateUi
 
 };

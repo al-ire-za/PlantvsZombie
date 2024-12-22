@@ -7,7 +7,6 @@
 *****************************************************************************/
 
 #include "../../../../Bossenemy.h"
-#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -34,16 +33,16 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSBossEnemyENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSBossEnemyENDCLASS = QtMocHelpers::stringData(
-    "BossEnemy"
+struct qt_meta_stringdata_CLASSBossenemyENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSBossenemyENDCLASS = QtMocHelpers::stringData(
+    "Bossenemy"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSBossEnemyENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSBossenemyENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -59,20 +58,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBossEnemyENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject BossEnemy::staticMetaObject = { {
-    QMetaObject::SuperData::link<Enemy::staticMetaObject>(),
-    qt_meta_stringdata_CLASSBossEnemyENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSBossEnemyENDCLASS,
+Q_CONSTINIT const QMetaObject Bossenemy::staticMetaObject = { {
+    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBossenemyENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBossenemyENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBossEnemyENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBossenemyENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<BossEnemy, std::true_type>
+        QtPrivate::TypeAndForceComplete<Bossenemy, std::true_type>
     >,
     nullptr
 } };
 
-void BossEnemy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Bossenemy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -80,22 +79,22 @@ void BossEnemy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     (void)_a;
 }
 
-const QMetaObject *BossEnemy::metaObject() const
+const QMetaObject *Bossenemy::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *BossEnemy::qt_metacast(const char *_clname)
+void *Bossenemy::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSBossEnemyENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBossenemyENDCLASS.stringdata0))
         return static_cast<void*>(this);
-    return Enemy::qt_metacast(_clname);
+    return QMainWindow::qt_metacast(_clname);
 }
 
-int BossEnemy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Bossenemy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = Enemy::qt_metacall(_c, _id, _a);
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP

@@ -14,17 +14,15 @@ class Enemy : public QLabel
     Q_OBJECT
 
 public:
-    Enemy(QWidget *parent = nullptr, int health = 100, int speed = 1, const QString &imageUrl = "");
+    Enemy(QWidget *parent = nullptr, int health = 100, double speed = 1, const QString &imageUrl = "");
     Enemy(const Enemy &other);
     virtual ~Enemy();
     virtual void move();
     int gethealth() const;
     double getspeed() const;
     void updateimage(const QString &imageUrl);
-    void takeDamage(int damage);
 
-signals:
-    void enemyDefeated(); // log Enemy defeated
+
 
 protected:
     Ui::Enemy *ui;

@@ -1,7 +1,7 @@
 #ifndef GORBEMAHI_H
 #define GORBEMAHI_H
 
-#include "Agentbase.h"
+#include "AgentBase.h"
 
 namespace Ui {
 class Gorbemahi;

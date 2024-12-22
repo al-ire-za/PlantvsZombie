@@ -4,10 +4,14 @@
 #include "Gandom.h"
 #include "Golmoshaki.h"
 #include "Bomb.h"
-#include "Bombice.h"
-#include "Soldierenemy.h"
-#include "Bossenemy.h"
+#include "Trap.h"
 #include "Enemy.h"
+#include "Kalam.h"
+#include "Eraser.h"
+#include "Freezer.h"
+#include "Disarmer.h"
+#include "Runner.h"
+#include "Shielder.h"
 #include <QGuiApplication>
 #include <QScreen>
 #include <QLabel>
@@ -22,6 +26,7 @@
 #include <QPoint>
 #include <QFile>
 #include <QTextStream>
+#include <QThread>
 
 
 
@@ -54,7 +59,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     int y = (screenRect.height() - height()) / 2;
     move(x, y);
 
-    initializeAgents();
 
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -64,6 +68,8 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+
+
 
 
     agent_board.resize(16);
@@ -83,49 +89,77 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 // sakht enemy boss v renemy soldier
 void Gameplay_page::create_enemi() {
     Enemy *new_enemy = nullptr;
+    int enemyType = std::rand() % 2;
 
-    new_enemy = new SoldierEnemy(this);
-    new_enemy->setGeometry(220, 700, 90, 80);
-    new_enemy->show();
-    enemies.append(new_enemy);
-    move_enemi(new_enemy);
-    logEvent(QString("Soldier enemy #%1 created.").arg(++count_enemi));
+    switch (enemyType) {
+    case 0:
+        new_enemy = new Runner(this);
+        break;
+    case 1:
+        new_enemy = new Shielder(this);
+        break;
+    }
 
-    connect(new_enemy, &Enemy::enemyDefeated, this, &Gameplay_page::onEnemyDefeated);
-
-    if (wave % 2 == 0 && !bossSpawned) {
-        new_enemy = new BossEnemy(this);
+    if (new_enemy != nullptr) {
         new_enemy->setGeometry(220, 700, 90, 80);
         new_enemy->show();
         enemies.append(new_enemy);
         move_enemi(new_enemy);
-        logEvent(QString("Boss enemy created."));
-        count_enemi++;
-        bossSpawned = true;
-        removeRandomAgentFromBoard();
-
-        connect(new_enemy, &Enemy::enemyDefeated, this, &Gameplay_page::onEnemyDefeated);
+        logEvent(QString("Enemy (type %1) #%2 created.").arg(enemyType).arg(++count_enemi));
+    } else {
+        logEvent("Failed to create new enemy.");
     }
 
-    if (count_enemi % 5 == 0) {
+    if (wave % 2 == 0 && !bossSpawned) {
+        int bossType = std::rand() % 3;
+        Enemy *boss_enemy = nullptr;
+
+        switch (bossType) {
+        case 0:
+            boss_enemy = new Eraser(this);
+            break;
+        case 1:
+            boss_enemy = new Freezer(this);
+            break;
+        case 2:
+            boss_enemy = new Disarmer(this);
+            break;
+        }
+
+        if (boss_enemy != nullptr) {
+            boss_enemy->setGeometry(220, 700, 90, 80);
+            boss_enemy->show();
+            enemies.append(boss_enemy);
+            move_enemi(boss_enemy);
+            logEvent(QString("Boss enemy (type %1) created.").arg(bossType));
+            bossSpawned = true;
+            count_enemi++;
+
+
+            QTimer *abilityTimer = new QTimer(this);
+            connect(abilityTimer, &QTimer::timeout, this, &Gameplay_page::removeRandomAgentFromBoard);
+            abilityTimer->start(5000);
+        } else {
+            logEvent("Failed to create boss enemy.");
+        }
+    }
+
+    if (count_enemi % 20 == 0 && count_enemi != 0) {
         wave++;
         count_enemi = 0;
         bossSpawned = false;
         logEvent(QString("Wave %1 completed.").arg(wave));
         printAgentBoard();
         timer->stop();
-        QTimer::singleShot(10000, this, &Gameplay_page::startNextWave);
+        int delay = (wave % 2 == 0) ? 10000 : 10000;
+        QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
     } else {
         timer->start(500);
     }
 }
 
-// shoroe wave baadi
-void Gameplay_page::startNextWave() {
-    create_enemi();
-}
 
-// harekat enemy ha
+
 void Gameplay_page::move_enemi(Enemy *enemy) {
     double durationFactor = 1000.0 / enemy->getspeed();
 
@@ -150,100 +184,18 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
     group->addAnimation(animation3);
 
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
-        if (enemies.contains(enemy)) {
-            removeEnemy(enemy);
-        }
-        if (enemies.isEmpty()) {
-            logEvent("All enemies defeated. Preparing for next wave.");
-            QTimer::singleShot(1000, this, &Gameplay_page::startNextWave);
-        }
+        enemy->hide();
+        delete enemy;
     });
 
     group->start();
-
-}
-
-// hazf enemy ha
-void Gameplay_page::removeEnemy(Enemy* enemy) {
-    if (enemies.contains(enemy)) {
-        enemies.removeOne(enemy);
-        enemy->hide();
-        enemy->deleteLater();
-    }
-
-    if (enemies.isEmpty()) {
-        logEvent("All enemies defeated. Preparing for next wave.");
-        QTimer::singleShot(1000, this, &Gameplay_page::startNextWave);
-    }
-}
-
-// sakht glole v shelik
-void Gameplay_page::onBulletFired(int damage, const QRect &startRect) {
-    Enemy* targetEnemy = nullptr;
-    int maxDistance = -1;
-
-    for (auto enemy : enemies) {
-        int distanceTravelled = enemy->y();
-        if (distanceTravelled > maxDistance) {
-            maxDistance = distanceTravelled;
-            targetEnemy = enemy;
-        }
-    }
-
-    if (targetEnemy) {
-        QLabel *bullet = new QLabel(this);
-        bullet->setStyleSheet("background-color: yellow;");
-        bullet->setGeometry(startRect.x() + startRect.width() / 2 - 5, startRect.y() - 10, 10, 10);
-        bullet->setProperty("damage", damage);
-        bullet->show();
-
-        QPropertyAnimation *animation = new QPropertyAnimation(bullet, "geometry");
-        animation->setDuration(1000);
-        animation->setStartValue(bullet->geometry());
-        animation->setEndValue(QRect(targetEnemy->x() + targetEnemy->width() / 2 - 5, targetEnemy->y() + targetEnemy->height() / 2 - 5, bullet->width(), bullet->height()));
-
-        connect(animation, &QPropertyAnimation::finished, bullet, &QLabel::deleteLater);
-        connect(animation, &QPropertyAnimation::finished, this, &Gameplay_page::checkBulletCollision);
-        animation->start();
-    }
-}
-
-// check kardan barkhord glole
-void Gameplay_page::checkBulletCollision() {
-    QList<Enemy*> enemiesToRemove;
-
-    for (auto enemy : enemies) {
-        for (auto bullet : findChildren<QLabel*>()) {
-            if (bullet->styleSheet().contains("background-color: yellow;") && bullet->geometry().intersects(enemy->geometry())) {
-                int damage = bullet->property("damage").toInt();
-                enemy->takeDamage(damage);
-                bullet->hide();
-                bullet->deleteLater();
-                if (enemy->gethealth() <= 0) {
-                    logEvent("Enemy defeated!");
-                    enemiesToRemove.append(enemy);
-                }
-            }
-        }
-    }
-
-    for (auto enemy : enemiesToRemove) {
-        removeEnemy(enemy);
-    }
-}
-
-
-// signal koshte shodan enemy
-void Gameplay_page::onEnemyDefeated() {
-    logEvent("Enemy defeated!");
-    if (enemies.isEmpty()) {
-        QTimer::singleShot(1000, this, &Gameplay_page::startNextWave);
-    }
 }
 
 
 // event hay mouse baray jaygozari agent ha
 void Gameplay_page :: mousePressEvent(QMouseEvent *event){
+
+        initializeAgents();
 
     if(event->button() == Qt::LeftButton){
         QString logMessage;
@@ -297,7 +249,7 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
         // bomb v bomb ice gozashtan roye map bazi
         if (current_choice &&
             (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);")||
-            current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb_ice.png);"))) {
+            current_choice->styleSheet().contains("background-image: url(:/prefix2/images/trap.png);"))) {
 
             if ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
                 (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
@@ -334,8 +286,6 @@ void Gameplay_page :: mousePressEvent(QMouseEvent *event){
 
                         logMessage = QString("Changed tile agent board at index %1 to new agent.").arg(i);
                         logEvent(logMessage);
-                        connect(current_choice, &AgentBase::bulletFired, this, &Gameplay_page::onBulletFired);
-                        current_choice->startShooting();
                         current_choice = nullptr;
                     }
                 }
@@ -360,11 +310,13 @@ void Gameplay_page::initializeAgents() {
     agents.append(new Gandom(this));
     agents.append(new Golmoshaki(this));
     agents.append(new Bomb(this));
-    agents.append(new Bombice(this));
+    agents.append(new Trap(this));
+    agents.append(new Kalam(this));
 }
 
+
 // random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
-void Gameplay_page::createRandomAgent(AgentBase *&agent){
+void Gameplay_page::createRandomAgent(AgentBase *&agent) {
     int randomIndex = std::rand() % agents.size();
 
     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
@@ -375,10 +327,13 @@ void Gameplay_page::createRandomAgent(AgentBase *&agent){
         agent = new Golmoshaki(this);
     } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
         agent = new Bomb(this);
-    } else if (auto bombice = dynamic_cast<Bombice*>(agents[randomIndex])) {
-        agent = new Bombice(this);
+    } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
+        agent = new Trap(this);
+    } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
+        agent = new Kalam(this);
     }
 }
+
 
 // ezafe karadan agent random be agent choice
 void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
@@ -424,7 +379,6 @@ void Gameplay_page::removeRandomAgentFromBoard() {
 
     if (!occupiedIndices.isEmpty()) {
         int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
-        agent_board[randomIndex]->stopShooting();
         agent_board[randomIndex]->hide();
         logEvent(QString("Agent removed from agent_board at index %1.").arg(randomIndex));
         agent_board[randomIndex] = nullptr;

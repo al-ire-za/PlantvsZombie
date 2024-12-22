@@ -25,17 +25,26 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         images.qrc
         Gameplay_page.h Gameplay_page.cpp Gameplay_page.ui
-        Agentbase.h Agentbase.cpp
+        AgentBase.h AgentBase.cpp
         Gorbemahi.h Gorbemahi.cpp
 
 
         Gandom.h Gandom.cpp
         Bomb.h Bomb.cpp
         Golmoshaki.h Golmoshaki.cpp
-        Bombice.h Bombice.cpp
+        Trap.h Trap.cpp
         Enemy.h Enemy.cpp
-        Soldierenemy.h Soldierenemy.cpp
-        Bossenemy.h Bossenemy.cpp
+
+        Kalam.h Kalam.cpp
+        Eraser.h Eraser.cpp
+        Freezer.h Freezer.cpp
+        Disarmer.h Disarmer.cpp
+        Shielder.h Shielder.cpp
+        Runner.h Runner.cpp
+
+
+
+
 
 
 
