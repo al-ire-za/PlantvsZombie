@@ -21,8 +21,7 @@ public:
     int gethealth() const;
     double getspeed() const;
     void updateimage(const QString &imageUrl);
-
-
+    void reduceHealth(int amount);
 
 protected:
     Ui::Enemy *ui;

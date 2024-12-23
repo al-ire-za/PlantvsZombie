@@ -6681,3 +6681,687 @@ Enemy (type 0) #18 created.
 Enemy (type 0) #19 created.
 Enemy (type 0) #20 created.
 Wave 5 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 0) #19 created.
+Agent choice 2 selected.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Changed tile agent board at index 14 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 12 to new agent.
+Agent choice 3 selected.
+Changed tile agent board at index 15 to new agent.
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Agent removed from agent_board at index 14.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 3 completed.
+Agent removed from agent_board at index 15.
+Agent removed from agent_board at index 12.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent removed from agent_board at index 13.
+Enemy (type 0) #4 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 1 selected.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 0) #12 created.
+Agent removed from agent_board at index 13.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 1) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 1) #19 created.
+Agent choice 3 selected.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Changed tile agent board at index 14 to new agent.
+Agent choice 2 selected.
+Changed tile agent board at index 10 to new agent.
+Agent choice 1 selected.
+Changed tile agent board at index 15 to new agent.
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Agent choice 1 selected.
+Enemy (type 1) #18 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 0) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Agent removed from agent_board at index 9.
+Enemy (type 1) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 1) #16 created.
+Agent choice 1 selected.
+Enemy (type 0) #17 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 1) #18 created.
+Agent choice 3 selected.
+Enemy (type 1) #19 created.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Agent choice 3 selected.
+Enemy (type 0) #9 created.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Agent choice 2 selected.
+Enemy (type 1) #5 created.
+Agent choice 2 deselected.
+Enemy (type 1) #6 created.
+Agent choice 3 selected.
+Enemy (type 0) #7 created.
+Changed tile agent board at index 6 to new agent.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #3 created.
+Agent choice 3 selected.
+Enemy (type 1) #4 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 1) #5 created.
+Agent choice 1 selected.
+Changed tile agent board at index 5 to new agent.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Agent choice 1 selected.
+Changed tile agent board at index 1 to new agent.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Agent choice 1 selected.
+Enemy (type 1) #10 created.
+Placed bomb on the map at position: (238, 409).
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Agent choice 1 selected.
+Enemy (type 1) #14 created.
+Changed tile agent board at index 10 to new agent.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 3 selected.
+Enemy (type 0) #3 created.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 0) #4 created.
+Agent choice 2 selected.
+Enemy (type 1) #5 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 0) #6 created.
+Agent choice 3 selected.
+Enemy (type 1) #7 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #8 created.
+Agent choice 2 selected.
+Enemy (type 1) #9 created.
+Changed tile agent board at index 10 to new agent.
+Enemy (type 0) #10 created.
+Agent choice 1 selected.
+Enemy (type 0) #11 created.
+Changed tile agent board at index 5 to new agent.
+Enemy (type 0) #12 created.
+Agent choice 1 selected.
+Enemy (type 0) #13 created.
+Changed tile agent board at index 6 to new agent.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 0) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #5 created.
+Agent choice 2 selected.
+Enemy (type 1) #6 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 0) #7 created.
+Agent choice 1 selected.
+Enemy (type 1) #8 created.
+Changed tile agent board at index 5 to new agent.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 0) #11 created.
+Enemy (type 1) #12 created.
+Agent choice 1 selected.
+Enemy (type 0) #13 created.
+Changed tile agent board at index 10 to new agent.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Agent choice 2 deselected.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Agent choice 3 selected.
+Enemy (type 1) #5 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 1) #9 created.
+Agent choice 3 selected.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 0) #10 created.
+Agent choice 1 selected.
+Enemy (type 0) #11 created.
+Changed tile agent board at index 10 to new agent.
+Enemy (type 1) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (949, 410).
+Agent choice 2 selected.
+Changed tile agent board at index 2 to new agent.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Agent choice 2 selected.
+Enemy (type 1) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Agent choice 3 selected.
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Enemy (type 0) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 0) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #5 created.
+Agent choice 1 selected.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Changed tile agent board at index 9 to new agent.
+Enemy (type 1) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 1) #12 created.
+Agent choice 2 selected.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Changed tile agent board at index 5 to new agent.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 1) #4 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 0) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 1) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 0) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 0) #11 created.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 0) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 1) #20 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 0) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 0) #15 created.
+Enemy (type 0) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 1) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 0) #20 created.
+Wave 3 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 1) #9 created.
+Agent choice 3 selected.
+Enemy (type 1) #10 created.
+Changed tile agent board at index 14 to new agent.
+Enemy (type 1) #11 created.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Enemy (type 1) #10 created.
+Enemy (type 1) #11 created.
+Enemy (type 0) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 1) #14 created.
+Enemy (type 1) #15 created.
+Agent choice 1 selected.
+Enemy (type 1) #16 created.
+Enemy (type 1) #17 created.
+Enemy (type 0) #18 created.
+Enemy (type 1) #19 created.
+Enemy (type 0) #20 created.
+Wave 2 completed.
+Agent choice 1 deselected.
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Enemy (type 0) #9 created.
+Agent choice 1 selected.
+Enemy (type 0) #10 created.
+Enemy (type 0) #11 created.
+Changed tile agent board at index 13 to new agent.
+Agent removed from agent_board at index 13.
+Enemy (type 1) #12 created.
+Enemy (type 1) #13 created.
+Enemy (type 0) #14 created.
+Agent choice 2 selected.
+Enemy (type 1) #15 created.
+Enemy (type 1) #16 created.
+Changed tile agent board at index 13 to new agent.
+Enemy (type 0) #17 created.
+Enemy (type 0) #18 created.

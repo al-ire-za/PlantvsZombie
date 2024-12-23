@@ -29,12 +29,15 @@ public:
     void printAgentBoard() const;
     void removeRandomAgentFromBoard();
     void startNextWave();
+    void removeAgentFromBoard(AgentBase* agent);
 
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
-
+private slots:
+    void checkCollisions();
+    void agentShoot();
 
 private:
     Ui::Gameplay_page *ui;
@@ -47,10 +50,12 @@ private:
     AgentBase *agent_choice3;
     AgentBase *agent_choice4;
     QVector<Enemy*> enemies;
+    Enemy* findNearestEnemy(AgentBase* agent);
     int count_enemi;
     int wave;
     bool bossSpawned;
     void updateAgentsEnemies();
+    QTimer *shootTimer;
 
 
 };

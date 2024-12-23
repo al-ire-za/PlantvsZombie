@@ -1,6 +1,6 @@
 #ifndef AGENTBASE_H
 #define AGENTBASE_H
-
+#include "Enemy.h"
 #include <QLabel>
 
 namespace Ui {
@@ -18,6 +18,7 @@ public:
     int getpower() const;
     double getspeed() const;
     void updateimagUrl(const QString &image);
+    virtual void shootAt(const QVector<Enemy*>& enemies); // شلیک به لیست انمی‌ها
 
 protected:
     int AgentBasePower;

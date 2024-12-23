@@ -15,6 +15,7 @@ class Kalam : public AgentBase
 public:
     Kalam(QWidget *parent = nullptr);
     Kalam(const Kalam &other);
+    void shootAt(const QVector<Enemy*>& enemies) override;
     virtual ~Kalam();
 
 private:

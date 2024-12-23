@@ -15,6 +15,7 @@ class Gandom : public AgentBase
 public:
     Gandom(QWidget *parent = nullptr);
     Gandom(const Gandom &other);
+    void shootAt(const QVector<Enemy*>& enemies) override;
     virtual ~Gandom();
 
 private:

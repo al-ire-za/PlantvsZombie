@@ -36,6 +36,14 @@ void Enemy::updateimage(const QString &imageUrl){
     setStyleSheet("background-image: url(" + imageUrl + ");");
 }
 
+void Enemy::reduceHealth(int amount)
+{
+    EnemyHealth -= amount;
+    if (EnemyHealth <= 0) {
+        hide(); // پنهان کردن انمی در صورت رسیدن سلامت به صفر یا کمتر
+        deleteLater(); // حذف انمی از حافظه
+    }
+}
 
 
 

@@ -12,6 +12,7 @@
 #include "Disarmer.h"
 #include "Runner.h"
 #include "Shielder.h"
+#include "Bullet.h"
 #include <QGuiApplication>
 #include <QScreen>
 #include <QLabel>
@@ -82,9 +83,27 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
-
     timer->start(2000); //5000
+
+    shootTimer = new QTimer(this);
+    connect(shootTimer, &QTimer::timeout, this, &Gameplay_page::agentShoot);
+    shootTimer->start(1000); // هر 1 ثانیه ایجنت‌ها شلیک کنند
+
+    QTimer *collisionTimer = new QTimer(this);
+    connect(collisionTimer, &QTimer::timeout, this, &Gameplay_page::checkCollisions);
+    collisionTimer->start(50); // هر 50 میلی‌ثانیه برخوردها را بررسی می‌کند
 }
+
+
+void Gameplay_page::agentShoot()
+{
+    for (AgentBase* agent : agent_board) {
+        if (agent != nullptr) {
+            agent->shootAt(enemies);
+        }
+    }
+}
+
 
 // sakht enemy boss v renemy soldier
 void Gameplay_page::create_enemi() {
@@ -185,7 +204,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
 
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
         enemy->hide();
-        delete enemy;
+        enemy->deleteLater();
     });
 
     group->start();
@@ -379,12 +398,57 @@ void Gameplay_page::removeRandomAgentFromBoard() {
 
     if (!occupiedIndices.isEmpty()) {
         int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
-        agent_board[randomIndex]->hide();
+        AgentBase* agent = agent_board[randomIndex];
+        removeAgentFromBoard(agent);  // استفاده از تابع برای حذف ایجنت
         logEvent(QString("Agent removed from agent_board at index %1.").arg(randomIndex));
-        agent_board[randomIndex] = nullptr;
     }
 }
 
+
+void Gameplay_page::checkCollisions()
+{
+    for (Bullet* bullet : findChildren<Bullet*>()) {
+        for (Enemy* enemy : enemies) {
+            if (bullet->geometry().intersects(enemy->geometry())) {
+                enemy->reduceHealth(bullet->getDamage());
+                bullet->destroyBullet();
+                if (enemy->gethealth() <= 0) {
+                    enemy->hide();
+                    enemies.removeOne(enemy);
+                    enemy->deleteLater();
+                }
+                break;
+            }
+        }
+    }
+}
+
+Enemy* Gameplay_page::findNearestEnemy(AgentBase* agent)
+{
+    Enemy* nearestEnemy = nullptr;
+    qreal minDistance = std::numeric_limits<qreal>::max();
+
+    for (Enemy* enemy : enemies) {
+        qreal distance = QLineF(agent->geometry().center(), enemy->geometry().center()).length();
+        if (distance < minDistance) {
+            minDistance = distance;
+            nearestEnemy = enemy;
+        }
+    }
+
+    return nearestEnemy;
+}
+
+void Gameplay_page::removeAgentFromBoard(AgentBase* agent)
+{
+    for (int i = 0; i < agent_board.size(); ++i) {
+        if (agent_board[i] == agent) {
+            agent_board[i] = nullptr;
+            delete agent;  // حذف ایجنت
+            break;
+        }
+    }
+}
 
 Gameplay_page::~Gameplay_page()
 {

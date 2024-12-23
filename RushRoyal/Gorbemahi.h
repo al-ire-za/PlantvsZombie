@@ -14,6 +14,7 @@ class Gorbemahi : public AgentBase
 public:
     Gorbemahi(QWidget *parent = nullptr);
     Gorbemahi(const Gorbemahi &other);
+    void shootAt(const QVector<Enemy*>& enemies) override;
     virtual ~Gorbemahi();
 
 private:
