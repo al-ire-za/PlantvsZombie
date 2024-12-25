@@ -3,7 +3,7 @@
 
 
 Golmoshaki::Golmoshaki(QWidget *parent)
-    :AgentBase(parent, ":/prefix2/images/golmoshaki2.png", 35, 1200)
+    :AgentBase(parent, ":/prefix2/images/golmoshaki2.png", 35, 1200, 2)
 {
 
 }
@@ -21,6 +21,11 @@ void Golmoshaki::shootAt(const QVector<Enemy*>& enemies)
     if (target) {
         AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
     }
+}
+
+int Golmoshaki::getElixirCost() const
+{
+    return AgentBaseElixirCost;
 }
 
 Golmoshaki::~Golmoshaki()

@@ -33,7 +33,7 @@
 
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
-const int startx_agent_choice = 410;
+const int startx_agent_choice = 385;
 const int starty_aghant_choice = 640;
 const int spacing = 100;
 
@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(5)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -80,6 +80,17 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     }
 
     current_choice = nullptr;
+
+    elixirLabel = new QLabel(this);
+    elixirLabel->setGeometry(790, 655, 50, 50);
+    elixirLabel->setStyleSheet("background-image: url(:/prefix2/images/banafsh.png); border-radius: 25px; color: white; text-align: center;font-weight: bold;");
+    elixirLabel->setAlignment(Qt::AlignCenter);
+    elixirLabel->setText(QString::number(elixir));
+    elixirLabel->show();
+
+    elixirTimer = new QTimer(this);
+    connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
+    elixirTimer->start(3000);
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
@@ -168,7 +179,7 @@ void Gameplay_page::create_enemi() {
         count_enemi = 0;
         bossSpawned = false;
         logEvent(QString("Wave %1 completed.").arg(wave));
-        printAgentBoard();
+
         timer->stop();
         int delay = (wave % 2 == 0) ? 10000 : 10000;
         QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
@@ -204,110 +215,103 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
 
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
         enemy->hide();
-        enemy->deleteLater();
+        // enemy->deleteLater();
     });
 
     group->start();
 }
 
+void Gameplay_page::mousePressEvent(QMouseEvent *event)
+{
+    initializeAgents();
 
-// event hay mouse baray jaygozari agent ha
-void Gameplay_page :: mousePressEvent(QMouseEvent *event){
-
-        initializeAgents();
-
-    if(event->button() == Qt::LeftButton){
+    if (event->button() == Qt::LeftButton) {
         QString logMessage;
 
-        // bedast avardan agent choice
-        if (event->pos().x() >= 410 && event->pos().x() <= 500 && event->pos().y() >= 640 && event->pos().y() <= 720){
-            if (current_choice == agent_choice1) {
-                current_choice = nullptr;
-                logMessage = "Agent choice 1 deselected.";
-                logEvent(logMessage);
-            } else {
-                current_choice = agent_choice1;
-                logMessage = "Agent choice 1 selected.";
-                logEvent(logMessage);
-            }
-        }
-        if (event->pos().x() >= 510 && event->pos().x() <= 600 && event->pos().y() >= 640 && event->pos().y() <= 720){
-            if (current_choice == agent_choice2) {
-                current_choice = nullptr;
-                logMessage = "Agent choice 2 deselected.";
-                logEvent(logMessage);
-            } else {
-                current_choice = agent_choice2;
-                logMessage = "Agent choice 2 selected.";
-                logEvent(logMessage);
-            }
-        }
-        if (event->pos().x() >= 610 && event->pos().x() <= 700 && event->pos().y() >= 640 && event->pos().y() <= 720){
-            if (current_choice == agent_choice3) {
-                current_choice = nullptr;
-                logMessage = "Agent choice 3 deselected.";
-                logEvent(logMessage);
-            } else {
-                current_choice = agent_choice3;
-                logMessage = "Agent choice 3 selected.";
-                logEvent(logMessage);
-            }
-        }
-        if (event->pos().x() >= 710 && event->pos().x() <= 800 && event->pos().y() >= 640 && event->pos().y() <= 720){
-            if (current_choice == agent_choice4) {
-                current_choice = nullptr;
-                logMessage = "Agent choice 4 deselected.";
-                logEvent(logMessage);
-            } else {
-                current_choice = agent_choice4;
-                logMessage = "Agent choice 4 selected.";
-                logEvent(logMessage);
+        // تعیین محدوده انتخاب ایجنت‌ها با استفاده از مقادیر ثابت
+        for (int i = 0; i < 4; ++i) {
+            int xStart = startx_agent_choice + i * spacing;
+            int xEnd = xStart + width_aghent_choice;
+            int yStart = starty_aghant_choice;
+            int yEnd = yStart + hight_aghent_choice;
+
+            if (event->pos().x() >= xStart && event->pos().x() <= xEnd && event->pos().y() >= yStart && event->pos().y() <= yEnd) {
+                AgentBase *agentChoice = (i == 0) ? agent_choice1 :
+                                             (i == 1) ? agent_choice2 :
+                                             (i == 2) ? agent_choice3 : agent_choice4;
+
+                if (current_choice == agentChoice) {
+                    current_choice = nullptr;
+                    logMessage = QString("Agent choice %1 deselected.").arg(i + 1);
+                    logEvent(logMessage);
+                } else {
+                    current_choice = agentChoice;
+                    logMessage = QString("Agent choice %1 selected.").arg(i + 1);
+                    logEvent(logMessage);
+                }
+                break;
             }
         }
 
-        // bomb v bomb ice gozashtan roye map bazi
+
         if (current_choice &&
-            (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);")||
-            current_choice->styleSheet().contains("background-image: url(:/prefix2/images/trap.png);"))) {
+            (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);") ||
+             current_choice->styleSheet().contains("background-image: url(:/prefix2/images/trap.png);"))) {
 
-            if ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
-                (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
-                (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620)) {
+            int requiredElixir = current_choice->getElixirCost();  // استفاده از getElixirCost
+
+            if (elixir >= requiredElixir &&
+                ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
+                 (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
+                 (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620))) {
 
                 current_choice->move(event->pos().x(), event->pos().y());
                 logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
                 logEvent(logMessage);
+                elixir -= requiredElixir;
+                elixirLabel->setText(QString::number(elixir));
                 updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                       (current_choice == agent_choice2) ? 1 :
                                                       (current_choice == agent_choice3) ? 2 : 3);
-                current_choice = nullptr;
 
+                if (Bomb* bomb = dynamic_cast<Bomb*>(current_choice)) {
+                    bomb->startTimer();
+                }
+                current_choice = nullptr;
             }
         }
 
-        // agent gozas roye agent board
-        if (current_choice && !current_choice->styleSheet().contains("bomb")) {
-            for (int i = 0; i < 16; ++i) {
-                int x = startX + (i % 4) * xOffset;
-                int y = startY + (i / 4) * yOffset;
+        // قرار دادن ایجنت روی تخته ایجنت‌ها
+        if (current_choice && !current_choice->styleSheet().contains("bomb") && !current_choice->styleSheet().contains("trap")) {
+            int requiredElixir = current_choice->getElixirCost();  // استفاده از getElixirCost
 
-                QRect rect(x, y, width_agent_board, height_agent_board);
-                if (rect.contains(event->pos())) {
-                    if (agent_board[i] == nullptr) {
+            if (elixir >= requiredElixir) {
+                for (int i = 0; i < 16; ++i) {
+                    int x = startX + (i % 4) * xOffset;
+                    int y = startY + (i / 4) * yOffset;
 
-                        current_choice->setParent(this);
-                        current_choice->setGeometry(rect);
-                        current_choice->show();
-                        agent_board[i] = current_choice;
-                        updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
-                                                              (current_choice == agent_choice2) ? 1 :
-                                                              (current_choice == agent_choice3) ? 2 : 3);
+                    QRect rect(x, y, width_agent_board, height_agent_board);
+                    if (rect.contains(event->pos())) {
+                        if (agent_board[i] == nullptr) {
+                            current_choice->setParent(this);
+                            current_choice->setGeometry(rect);
+                            current_choice->show();
+                            agent_board[i] = current_choice;
+                            updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
+                                                                  (current_choice == agent_choice2) ? 1 :
+                                                                  (current_choice == agent_choice3) ? 2 : 3);
 
-                        logMessage = QString("Changed tile agent board at index %1 to new agent.").arg(i);
-                        logEvent(logMessage);
-                        current_choice = nullptr;
+                            elixir -= requiredElixir;
+                            elixirLabel->setText(QString::number(elixir));
+                            logMessage = QString("Placed agent on the board at index %1.").arg(i);
+                            logEvent(logMessage);
+                            current_choice = nullptr;
+                        }
                     }
                 }
+            } else {
+                logMessage = "Not enough elixir to place the agent.";
+                logEvent(logMessage);
             }
         }
     }
@@ -403,15 +407,13 @@ void Gameplay_page::removeRandomAgentFromBoard() {
         logEvent(QString("Agent removed from agent_board at index %1.").arg(randomIndex));
     }
 }
-
-
 void Gameplay_page::checkCollisions()
 {
     for (Bullet* bullet : findChildren<Bullet*>()) {
         for (Enemy* enemy : enemies) {
             if (bullet->geometry().intersects(enemy->geometry())) {
                 enemy->reduceHealth(bullet->getDamage());
-                bullet->destroyBullet();
+                bullet->destroyBullet();  // حذف گلوله پس از برخورد
                 if (enemy->gethealth() <= 0) {
                     enemy->hide();
                     enemies.removeOne(enemy);
@@ -421,7 +423,51 @@ void Gameplay_page::checkCollisions()
             }
         }
     }
+
+    // بررسی برخورد انمی با بمب و تله
+    for (AgentBase* agent : findChildren<AgentBase*>()) {
+        if (Bomb* bomb = dynamic_cast<Bomb*>(agent)) {
+            bomb->checkCollision(enemies);
+
+            // اتصال سیگنال‌ها و اسلات‌ها فقط یک بار انجام شود
+            if (!bomb->getTimer()->isActive()) {
+                connect(bomb, &Bomb::removeEnemies, this, &Gameplay_page::removeEnemies);
+                connect(bomb, &Bomb::removeEnemies, this, [=]() {
+                    if (bomb->getcollisionCount() >= 2) {
+                        removeBombTrap(bomb);
+                    }
+                });
+                connect(bomb, &Bomb::bombExpired, this, [=]() {
+                    removeBombTrap(bomb);
+                });
+
+            }
+        } else if (Trap* trap = dynamic_cast<Trap*>(agent)) {
+            trap->checkCollision(enemies);
+            connect(trap, &Trap::removeEnemies, this, &Gameplay_page::removeEnemies);
+            connect(trap, &Trap::removeEnemies, this, [=]() {
+                if (trap->getcollisionCount() >= 2) {
+                    removeBombTrap(trap);
+                }
+            });
+        }
+    }
 }
+
+void Gameplay_page::removeBombTrap(AgentBase* agent) {
+    agent->hide();
+    agent->deleteLater();
+}
+
+void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
+{
+    for (Enemy* enemy : enemiesToRemove) {
+        enemies.removeOne(enemy);
+        enemy->hide();
+        enemy->deleteLater();
+    }
+}
+
 
 Enemy* Gameplay_page::findNearestEnemy(AgentBase* agent)
 {
@@ -447,6 +493,15 @@ void Gameplay_page::removeAgentFromBoard(AgentBase* agent)
             delete agent;  // حذف ایجنت
             break;
         }
+    }
+}
+
+void Gameplay_page::updateElixir()
+{
+    if (elixir < 10) {
+        elixir += 2;
+        if (elixir > 10) elixir = 10;
+        elixirLabel->setText(QString::number(elixir));
     }
 }
 

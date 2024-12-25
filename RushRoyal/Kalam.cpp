@@ -2,7 +2,7 @@
 
 
 Kalam::Kalam(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/kalam2.png", 20, 900)
+    : AgentBase(parent, ":/prefix2/images/kalam2.png", 20, 900, 3)
 {
 
 }
@@ -29,6 +29,11 @@ void Kalam::shootAt(const QVector<Enemy*>& enemies)
     if (target) {
         AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
     }
+}
+
+int Kalam::getElixirCost() const
+{
+    return AgentBaseElixirCost;
 }
 
 Kalam::~Kalam()

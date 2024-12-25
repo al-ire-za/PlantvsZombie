@@ -2,8 +2,8 @@
 #include "Bullet.h"
 #include <QTimer>
 
-AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate)
+AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate, int elixirCost)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost)
 
 {
     updateimagUrl(imageUrl);
@@ -31,7 +31,7 @@ double AgentBase::getspeed() const{
 
 void AgentBase::updateimagUrl(const QString &image){
     AgentBaseimageUrl = image;
-    setStyleSheet("background-image: url(" + image + "); background-color: rgb(238, 145, 84);");
+    setStyleSheet("background-image: url(" + image + "); background-color: rgb(223, 194, 138);");
 }
 
 

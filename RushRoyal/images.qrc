@@ -28,5 +28,7 @@
         <file>images/Disaemer1.png</file>
         <file>images/freezerai1.png</file>
         <file>images/trap.png</file>
+        <file>images/banafsh.png</file>
+        <file>images/backgrandGroupPow.png</file>
     </qresource>
 </RCC>

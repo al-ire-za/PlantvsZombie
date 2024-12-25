@@ -38,6 +38,10 @@ protected:
 private slots:
     void checkCollisions();
     void agentShoot();
+    void updateElixir();
+    void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
+    void removeBombTrap(AgentBase* agent);
+
 
 private:
     Ui::Gameplay_page *ui;
@@ -51,11 +55,15 @@ private:
     AgentBase *agent_choice4;
     QVector<Enemy*> enemies;
     Enemy* findNearestEnemy(AgentBase* agent);
+    QTimer *elixirTimer;
+    QLabel *elixirLabel;
+    QTimer *shootTimer;
+    int elixir;
     int count_enemi;
     int wave;
     bool bossSpawned;
     void updateAgentsEnemies();
-    QTimer *shootTimer;
+
 
 
 };

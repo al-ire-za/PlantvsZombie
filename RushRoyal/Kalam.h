@@ -16,6 +16,7 @@ public:
     Kalam(QWidget *parent = nullptr);
     Kalam(const Kalam &other);
     void shootAt(const QVector<Enemy*>& enemies) override;
+    int getElixirCost() const override;
     virtual ~Kalam();
 
 private:

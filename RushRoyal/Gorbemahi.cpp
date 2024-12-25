@@ -3,7 +3,7 @@
 #include "AgentBase.h"
 
 Gorbemahi::Gorbemahi(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gorbemahi2.png", 25, 1000)
+    : AgentBase(parent, ":/prefix2/images/gorbemahi2.png", 25, 1000, 4)
 {
 
 }
@@ -23,6 +23,12 @@ void Gorbemahi::shootAt(const QVector<Enemy*>& enemies)
         AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
     }
 }
+
+int Gorbemahi::getElixirCost() const
+{
+    return AgentBaseElixirCost;
+}
+
 
 Gorbemahi::~Gorbemahi()
 {

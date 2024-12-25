@@ -15,6 +15,7 @@ public:
     Gorbemahi(QWidget *parent = nullptr);
     Gorbemahi(const Gorbemahi &other);
     void shootAt(const QVector<Enemy*>& enemies) override;
+    int getElixirCost() const override;
     virtual ~Gorbemahi();
 
 private:

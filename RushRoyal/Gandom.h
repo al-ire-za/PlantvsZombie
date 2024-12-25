@@ -16,6 +16,7 @@ public:
     Gandom(QWidget *parent = nullptr);
     Gandom(const Gandom &other);
     void shootAt(const QVector<Enemy*>& enemies) override;
+    int getElixirCost() const override;
     virtual ~Gandom();
 
 private:

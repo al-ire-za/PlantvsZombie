@@ -16,6 +16,7 @@ public:
     Golmoshaki(QWidget *parent = nullptr);
     Golmoshaki(const Golmoshaki &other);
     void shootAt(const QVector<Enemy*>& enemies) override;
+    int getElixirCost() const override;
     virtual ~Golmoshaki();
 
 private:
