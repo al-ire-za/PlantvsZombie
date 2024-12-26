@@ -33,7 +33,7 @@ double AgentBase::getspeed() const{
 
 void AgentBase::updateimagUrl(const QString &image){
     AgentBaseimageUrl = image;
-    setStyleSheet("background-image: url(" + image + "); background-color: rgb(223, 194, 138);");
+    setStyleSheet("background-image: url(" + image + ");");
 }
 
 

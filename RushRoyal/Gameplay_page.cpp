@@ -47,7 +47,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(5)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(5), waveInProgress(true)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -62,15 +62,17 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Gandom(this);
+    agent_choice2 = new Golmoshaki(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Trap(this);
+    agent_choice3 = new Gandom(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
-
+    eraser = nullptr;
+    disarmer = nullptr;
+    freezer = nullptr;
 
     agent_board.resize(16);
     for (int i = 0; i < 16; ++i) {
@@ -89,7 +91,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     elixirTimer = new QTimer(this);
     connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
-    elixirTimer->start(3000);
+    elixirTimer->start(2000);
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
@@ -115,46 +117,58 @@ void Gameplay_page::agentShoot()
 }
 
 
-// sakht enemy boss v renemy soldier
 void Gameplay_page::create_enemi()
 {
-    Enemy *new_enemy = nullptr;
-    int enemyType = std::rand() % 2;
+    if (waveInProgress) {
+        Enemy *new_enemy = nullptr;
+        int enemyType = std::rand() % 2;
 
-    switch (enemyType) {
-    case 0:
-        new_enemy = new Runner(this);
-        break;
-    case 1:
-        new_enemy = new Shielder(this);
-        break;
+        switch (enemyType) {
+        case 0:
+            new_enemy = new Runner(this);
+            break;
+        case 1:
+            new_enemy = new Shielder(this);
+            break;
+        }
+
+        if (new_enemy != nullptr) {
+            new_enemy->setGeometry(220, 700, 90, 80);
+            new_enemy->show();
+            enemies.append(new_enemy);
+            move_enemi(new_enemy);
+            logEvent(QString("Enemy (type %1) #%2 created.").arg(enemyType).arg(++count_enemi));
+        } else {
+            logEvent("Failed to create new enemy.");
+        }
+
+        if (wave % 2 == 0 && !bossSpawned) {
+            createBoss();
+        }
+
+        if (count_enemi % 20 == 0 && count_enemi != 0) {
+            waveInProgress = false;
+            logEvent(QString("Wave %1 completed.").arg(wave));
+            checkWaveCompletion();
+        } else {
+            timer->start(500);
+        }
     }
+}
 
-    if (new_enemy != nullptr) {
-        new_enemy->setGeometry(220, 700, 90, 80);
-        new_enemy->show();
-        enemies.append(new_enemy);
-        move_enemi(new_enemy);
-        logEvent(QString("Enemy (type %1) #%2 created.").arg(enemyType).arg(++count_enemi));
-    } else {
-        logEvent("Failed to create new enemy.");
-    }
 
-    if (wave % 2 == 0 && !bossSpawned) {
-        createBoss();
-    }
 
-    if (count_enemi % 5 == 0 && count_enemi != 0) {
+void Gameplay_page::checkWaveCompletion()
+{
+    if (enemies.isEmpty()) {
         wave++;
         count_enemi = 0;
         bossSpawned = false;
-        logEvent(QString("Wave %1 completed.").arg(wave));
+        waveInProgress = true;
+        logEvent(QString("Starting wave %1...").arg(wave));
 
-        timer->stop();
-        int delay = (wave % 2 == 0) ? 10000 : 10000;
+        int delay = (wave % 2 == 0) ? 15000 : 15000;
         QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
-    } else {
-        timer->start(500);
     }
 }
 
@@ -162,7 +176,7 @@ void Gameplay_page::create_enemi()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = 0;/*std::rand() % 3;*/
+        int bossType = std::rand() % 3;
         Enemy *boss_enemy = nullptr;
 
         switch (bossType) {
@@ -185,7 +199,6 @@ void Gameplay_page::createBoss()
             logEvent(QString("Boss enemy (type %1) created.").arg(bossType));
             bossSpawned = true;
 
-            // اضافه کردن قابلیت‌های ویژه Boss ها
             QTimer *abilityTimer = new QTimer(this);
             switch (bossType) {
             case 0:
@@ -204,6 +217,7 @@ void Gameplay_page::createBoss()
         }
     }
 }
+
 
 
 void Gameplay_page::move_enemi(Enemy *enemy) {
@@ -230,7 +244,9 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
     group->addAnimation(animation3);
 
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
+        enemies.removeOne(enemy);
         enemy->hide();
+        checkWaveCompletion();
         // enemy->deleteLater();
     });
 
@@ -281,7 +297,25 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                  (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) ||
                  (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620))) {
 
-                current_choice->move(event->pos().x(), event->pos().y());
+                int centerX = event->pos().x();
+                int centerY = event->pos().y();
+
+                if (event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) {
+                    centerX = (210 + 300) / 2;
+                    centerY = event->pos().y();
+                } else if (event->pos().x() >= 310 && event->pos().x() <= 890 && event->pos().y() >= 140 && event->pos().y() <= 220) {
+                    centerX = event->pos().x();
+                    centerY = (140 + 220) / 2;
+                } else if (event->pos().x() >= 900 && event->pos().x() <= 990 && event->pos().y() >= 150 && event->pos().y() <= 620) {
+                    centerX = (900 + 990) / 2;
+                    centerY = event->pos().y();
+                }
+
+                // تنظیم موقعیت به گونه‌ای که مرکز بمب یا تله در مرکز مسیر قرار گیرد
+                int adjustedX = centerX - (current_choice->width() / 2);
+                int adjustedY = centerY - (current_choice->height() / 2);
+
+                current_choice->move(adjustedX, adjustedY);
                 logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
                 logEvent(logMessage);
                 elixir -= requiredElixir;

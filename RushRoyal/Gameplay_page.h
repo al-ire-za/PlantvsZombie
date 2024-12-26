@@ -32,7 +32,7 @@ public:
     void printAgentBoard() const;
     void startNextWave();
     void removeAgentFromBoard(AgentBase* agent);
-
+    void checkWaveCompletion();
 
 protected:
     void mousePressEvent(QMouseEvent *event) override;
@@ -67,6 +67,7 @@ private:
     int count_enemi;
     int wave;
     bool bossSpawned;
+    bool waveInProgress;
     void updateAgentsEnemies();
     friend class Freezer;
     friend class Eraser;

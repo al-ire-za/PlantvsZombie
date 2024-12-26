@@ -36,20 +36,20 @@ void Bullet::moveBullet() {
         if ((currentPos - (targetenemy->pos() + QPoint(targetenemy->width() / 2, targetenemy->height() / 2))).manhattanLength() < 60) {
             targetenemy->reduceHealth(damage); // کاهش سلامت انمی
             moveTimer->stop();
-            // delete this;
+            delete this;
         }
     }
 }
 
 void Bullet::onAnimationFinished() {
     this->hide();
-    // delete this;
+    delete this;
 }
 
 void Bullet::checkTarget() {
     if (!targetenemy->isalive()) {
         checkTimer->stop();
         this->hide();
-        // delete this;
+        delete this;
     }
 }
