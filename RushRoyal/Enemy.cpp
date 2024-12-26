@@ -41,8 +41,12 @@ void Enemy::reduceHealth(int amount)
     EnemyHealth -= amount;
     if (EnemyHealth <= 0) {
         hide(); // پنهان کردن انمی در صورت رسیدن سلامت به صفر یا کمتر
-        deleteLater(); // حذف انمی از حافظه
+        // deleteLater(); // حذف انمی از حافظه
     }
+}
+
+bool Enemy::isalive() const{
+    return EnemyHealth > 0;
 }
 
 

@@ -17,7 +17,7 @@ Bomb::Bomb(const Bomb &other)
 }
 
 void Bomb::startTimer() {
-    timerStart->start(3000);
+    timerStart->start(8000);
 }
 
 int Bomb::getElixirCost() const

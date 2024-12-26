@@ -16,8 +16,13 @@ public:
     virtual ~Disarmer();
     void move() override;
 
+private slots:
+    void disarmTrapsAndBombs();
+
 private:
     Ui::Disarmer *ui;
+    QTimer *disarmTimer;
+    friend class Gameplay_page;
 };
 
 #endif // DISARMER_H

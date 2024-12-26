@@ -1,28 +1,31 @@
 #ifndef BULLET_H
 #define BULLET_H
 
+#include "Enemy.h"
 #include <QLabel>
 #include <QTimer>
-#include <QPointF>
+#include <QPropertyAnimation>
 
-class Bullet : public QLabel
-{
+class Bullet : public QLabel {
     Q_OBJECT
 
 public:
-    Bullet(QWidget *parent = nullptr, int damage = 10, const QPointF& direction = QPointF());
-    ~Bullet();
+    explicit Bullet(QWidget *parent = nullptr, int damage = 10);
+    void shoot(const QPoint &start, Enemy *targetenemy);
 
-    int getDamage() const;
-
-public slots:
+private slots:
     void moveBullet();
-    void destroyBullet();
+    void onAnimationFinished();
+    void checkTarget();
 
 private:
-    int damage;
-    QTimer *timer;
-    QPointF direction;
+    QPropertyAnimation *animation;
+    Enemy *targetenemy;
+    QTimer *moveTimer;
+    QTimer *checkTimer;
+    int damage; // قدرت تیر
 };
 
-#endif // BULLET_H
+#endif
+
+

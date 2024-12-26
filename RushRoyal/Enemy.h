@@ -22,6 +22,7 @@ public:
     double getspeed() const;
     void updateimage(const QString &imageUrl);
     void reduceHealth(int amount);
+    bool isalive() const;
 
 protected:
     Ui::Enemy *ui;

@@ -17,8 +17,14 @@ public:
     virtual ~Eraser();
     void move() override;
 
+private slots:
+    void removeRandomAgent();
+
+
 private:
     Ui::Eraser *ui;
+    QTimer *eraseTimer;
+    friend class Gameplay_page;
 };
 
 #endif // ERASER_H

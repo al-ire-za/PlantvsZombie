@@ -19,13 +19,16 @@ public:
     double getspeed() const;
     void updateimagUrl(const QString &image);
     virtual int getElixirCost() const = 0;
-    virtual void shootAt(const QVector<Enemy*>& enemies); // شلیک به لیست انمی‌ها
+    virtual void shootAt(const QVector<Enemy*>& enemies);
+    void startShooting();
+    void stopShooting();
 
 protected:
     int AgentBasePower;
     int AgentBaseElixirCost;
     double AgentBaseFireRate;
     QString AgentBaseimageUrl;
+    QTimer *shootTimer;
 
 
 private:

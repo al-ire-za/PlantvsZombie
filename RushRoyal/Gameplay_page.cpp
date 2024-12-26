@@ -12,7 +12,6 @@
 #include "Disarmer.h"
 #include "Runner.h"
 #include "Shielder.h"
-#include "Bullet.h"
 #include <QGuiApplication>
 #include <QScreen>
 #include <QLabel>
@@ -65,7 +64,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Gandom(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Golmoshaki(this);
+    agent_choice3 = new Trap(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -110,14 +109,15 @@ void Gameplay_page::agentShoot()
 {
     for (AgentBase* agent : agent_board) {
         if (agent != nullptr) {
-            agent->shootAt(enemies);
+            agent->shootAt(enemies); // شلیک ایجنت به لیست انمی‌ها
         }
     }
 }
 
 
 // sakht enemy boss v renemy soldier
-void Gameplay_page::create_enemi() {
+void Gameplay_page::create_enemi()
+{
     Enemy *new_enemy = nullptr;
     int enemyType = std::rand() % 2;
 
@@ -141,7 +141,28 @@ void Gameplay_page::create_enemi() {
     }
 
     if (wave % 2 == 0 && !bossSpawned) {
-        int bossType = std::rand() % 3;
+        createBoss();
+    }
+
+    if (count_enemi % 5 == 0 && count_enemi != 0) {
+        wave++;
+        count_enemi = 0;
+        bossSpawned = false;
+        logEvent(QString("Wave %1 completed.").arg(wave));
+
+        timer->stop();
+        int delay = (wave % 2 == 0) ? 10000 : 10000;
+        QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
+    } else {
+        timer->start(500);
+    }
+}
+
+
+void Gameplay_page::createBoss()
+{
+    if (!bossSpawned) {
+        int bossType = 0;/*std::rand() % 3;*/
         Enemy *boss_enemy = nullptr;
 
         switch (bossType) {
@@ -163,31 +184,26 @@ void Gameplay_page::create_enemi() {
             move_enemi(boss_enemy);
             logEvent(QString("Boss enemy (type %1) created.").arg(bossType));
             bossSpawned = true;
-            count_enemi++;
 
-
+            // اضافه کردن قابلیت‌های ویژه Boss ها
             QTimer *abilityTimer = new QTimer(this);
-            connect(abilityTimer, &QTimer::timeout, this, &Gameplay_page::removeRandomAgentFromBoard);
+            switch (bossType) {
+            case 0:
+                connect(abilityTimer, &QTimer::timeout, eraser, &Eraser::removeRandomAgent);
+                break;
+            case 1:
+                connect(abilityTimer, &QTimer::timeout, freezer, &Freezer::freezeRandomAgent);
+                break;
+            case 2:
+                connect(abilityTimer, &QTimer::timeout, disarmer, &Disarmer::disarmTrapsAndBombs);
+                break;
+            }
             abilityTimer->start(5000);
         } else {
             logEvent("Failed to create boss enemy.");
         }
     }
-
-    if (count_enemi % 20 == 0 && count_enemi != 0) {
-        wave++;
-        count_enemi = 0;
-        bossSpawned = false;
-        logEvent(QString("Wave %1 completed.").arg(wave));
-
-        timer->stop();
-        int delay = (wave % 2 == 0) ? 10000 : 10000;
-        QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
-    } else {
-        timer->start(500);
-    }
 }
-
 
 
 void Gameplay_page::move_enemi(Enemy *enemy) {
@@ -305,6 +321,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             elixirLabel->setText(QString::number(elixir));
                             logMessage = QString("Placed agent on the board at index %1.").arg(i);
                             logEvent(logMessage);
+                            current_choice->startShooting();
                             current_choice = nullptr;
                         }
                     }
@@ -391,38 +408,8 @@ void Gameplay_page::printAgentBoard() const{
     }
 }
 
-// hazf shodan random agent roye agent board ba amadan agent boss dar wave hay zoje
-void Gameplay_page::removeRandomAgentFromBoard() {
-    QVector<int> occupiedIndices;
-    for (int i = 0; i < agent_board.size(); ++i) {
-        if (agent_board[i] != nullptr) {
-            occupiedIndices.append(i);
-        }
-    }
-
-    if (!occupiedIndices.isEmpty()) {
-        int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
-        AgentBase* agent = agent_board[randomIndex];
-        removeAgentFromBoard(agent);  // استفاده از تابع برای حذف ایجنت
-        logEvent(QString("Agent removed from agent_board at index %1.").arg(randomIndex));
-    }
-}
 void Gameplay_page::checkCollisions()
 {
-    for (Bullet* bullet : findChildren<Bullet*>()) {
-        for (Enemy* enemy : enemies) {
-            if (bullet->geometry().intersects(enemy->geometry())) {
-                enemy->reduceHealth(bullet->getDamage());
-                bullet->destroyBullet();  // حذف گلوله پس از برخورد
-                if (enemy->gethealth() <= 0) {
-                    enemy->hide();
-                    enemies.removeOne(enemy);
-                    enemy->deleteLater();
-                }
-                break;
-            }
-        }
-    }
 
     // بررسی برخورد انمی با بمب و تله
     for (AgentBase* agent : findChildren<AgentBase*>()) {
@@ -452,6 +439,12 @@ void Gameplay_page::checkCollisions()
             });
         }
     }
+
+    for (Enemy* enemy : enemies) {
+        if (Disarmer* disarmer = dynamic_cast<Disarmer*>(enemy)) {
+            disarmer->disarmTrapsAndBombs();
+        }
+    }
 }
 
 void Gameplay_page::removeBombTrap(AgentBase* agent) {
@@ -462,28 +455,16 @@ void Gameplay_page::removeBombTrap(AgentBase* agent) {
 void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
 {
     for (Enemy* enemy : enemiesToRemove) {
+
+        if (dynamic_cast<Disarmer*>(enemy)) {
+            continue;
+        }
         enemies.removeOne(enemy);
         enemy->hide();
-        enemy->deleteLater();
+        // enemy->deleteLater();
     }
 }
 
-
-Enemy* Gameplay_page::findNearestEnemy(AgentBase* agent)
-{
-    Enemy* nearestEnemy = nullptr;
-    qreal minDistance = std::numeric_limits<qreal>::max();
-
-    for (Enemy* enemy : enemies) {
-        qreal distance = QLineF(agent->geometry().center(), enemy->geometry().center()).length();
-        if (distance < minDistance) {
-            minDistance = distance;
-            nearestEnemy = enemy;
-        }
-    }
-
-    return nearestEnemy;
-}
 
 void Gameplay_page::removeAgentFromBoard(AgentBase* agent)
 {

@@ -2,6 +2,7 @@
 #define FREEZER_H
 
 #include "Enemy.h"
+#include "AgentBase.h"
 
 namespace Ui {
 class Freezer;
@@ -17,8 +18,16 @@ public:
     virtual ~Freezer();
     void move() override;
 
+
+private slots:
+    void freezeRandomAgent();
+    void unfreezeAllAgents();
+
 private:
     Ui::Freezer *ui;
+    QTimer *freezeTimer;
+    QVector<AgentBase*> frozenAgents;
+    friend class Gameplay_page;
 };
 
 #endif // FREEZER_H

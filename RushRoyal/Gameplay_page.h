@@ -6,6 +6,9 @@
 #include <QPoint>
 #include "AgentBase.h"
 #include "Enemy.h"
+#include "Disarmer.h"
+#include "Eraser.h"
+#include "Freezer.h"
 
 
 
@@ -27,7 +30,6 @@ public:
     void updateAgentChoice(AgentBase *&currentChoice, int index);
     void initializeAgents();
     void printAgentBoard() const;
-    void removeRandomAgentFromBoard();
     void startNextWave();
     void removeAgentFromBoard(AgentBase* agent);
 
@@ -41,6 +43,7 @@ private slots:
     void updateElixir();
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
     void removeBombTrap(AgentBase* agent);
+    void createBoss();
 
 
 private:
@@ -53,8 +56,10 @@ private:
     AgentBase *agent_choice2;
     AgentBase *agent_choice3;
     AgentBase *agent_choice4;
+    Eraser *eraser;
+    Freezer *freezer;
+    Disarmer *disarmer;
     QVector<Enemy*> enemies;
-    Enemy* findNearestEnemy(AgentBase* agent);
     QTimer *elixirTimer;
     QLabel *elixirLabel;
     QTimer *shootTimer;
@@ -63,7 +68,8 @@ private:
     int wave;
     bool bossSpawned;
     void updateAgentsEnemies();
-
+    friend class Freezer;
+    friend class Eraser;
 
 
 };
