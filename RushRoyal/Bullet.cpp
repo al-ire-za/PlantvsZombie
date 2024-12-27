@@ -34,11 +34,18 @@ void Bullet::moveBullet() {
         move(currentPos - QPoint(width() / 2, height() / 2));
 
         if ((currentPos - (targetenemy->pos() + QPoint(targetenemy->width() / 2, targetenemy->height() / 2))).manhattanLength() < 60) {
-            targetenemy->reduceHealth(damage); // کاهش سلامت انمی
+            targetenemy->reduceHealth(damage);
+            if (targetenemy->gethealth() <= 0) {
+                emit enemyKilled(targetenemy);
+            }
             moveTimer->stop();
             delete this;
         }
     }
+}
+
+int Bullet::getdamage() const{
+    return damage;
 }
 
 void Bullet::onAnimationFinished() {
@@ -49,6 +56,7 @@ void Bullet::onAnimationFinished() {
 void Bullet::checkTarget() {
     if (!targetenemy->isalive()) {
         checkTimer->stop();
+        emit enemyKilled(targetenemy);
         this->hide();
         delete this;
     }

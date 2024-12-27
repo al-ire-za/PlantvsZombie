@@ -1,71 +1,83 @@
 # ninja log v5
-10084	14997	7569244187643792	CMakeFiles/RushRoyal.dir/Runner.cpp.obj	b1274145915ef7b6
-8212	14674	7569389846965533	CMakeFiles/RushRoyal.dir/Trap.cpp.obj	1509dba31de733df
-39	366	7569489868366137	RushRoyal_autogen/timestamp	97c42caad206a53f
-14674	20170	7569389902173731	CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj	96ae444e2d9394f9
-382	3078	7569473852354398	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
-384	5062	7569489936263038	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-1329	6031	7569421817099544	CMakeFiles/RushRoyal.dir/Eraser.cpp.obj	940df995e8a295f1
-1334	6035	7569421817149497	CMakeFiles/RushRoyal.dir/Freezer.cpp.obj	55bc896974992c3a
-3563	9867	7569244136043513	CMakeFiles/RushRoyal.dir/Enemy.cpp.obj	d1e64624af261892
-1315	7222	7569421828932861	CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj	240e09de31308894
-8191	17204	7569389872490826	CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj	99c37c4d40b85d51
-39	366	7569489868366137	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
 2344	8638	7567265441294769	CMakeFiles/RushRoyal.dir/AgentShooter.cpp.obj	ddda97e24ecb2d45
-9867	15038	7569244188043557	CMakeFiles/RushRoyal.dir/Shielder.cpp.obj	1a69d08693fe68a
-5062	6337	7569489948946885	RushRoyal.exe	4f0075db7bc7a1f5
-8	824	7567507823578976	build.ninja	d03e4d726e86ae9a
-8217	17019	7569389870461997	CMakeFiles/RushRoyal.dir/Kalam.cpp.obj	6d4f5863d243c0be
-8202	16942	7569389869672461	CMakeFiles/RushRoyal.dir/Bomb.cpp.obj	5eea7b300bc13388
-7071	16070	7566936341650550	CMakeFiles/RushRoyal.dir/main.cpp.obj	28cdb87eb9ade3ec
-39	366	7569489868366137	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-412	642	7567507693384181	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp	7b156d1d200648
-412	642	7567507693384181	RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp	7b156d1d200648
-39	366	7569489868366137	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-449	3949	7569432891089303	CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj	cdfca42f7ac20009
-648	7019	7567507757217389	CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj	c851a4d077ac132a
-381	3203	7569489917725627	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-8206	14301	7569389843217697	CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj	92266204b75af70f
-8197	14453	7569389844766814	CMakeFiles/RushRoyal.dir/Gandom.cpp.obj	77e35af4090dc0b6
-43	379	7569491366008245	RushRoyal_autogen/timestamp	97c42caad206a53f
-43	379	7569491366008245	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-43	379	7569491366008245	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-43	379	7569491366008245	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-394	3233	7569491399211318	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-397	5164	7569491418480189	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-5165	6407	7569491430852567	RushRoyal.exe	4f0075db7bc7a1f5
-40	365	7569491582884299	RushRoyal_autogen/timestamp	97c42caad206a53f
-40	365	7569491582884299	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-40	365	7569491582884299	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-40	365	7569491582884299	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-386	3580	7569491636313047	CMakeFiles/RushRoyal.dir/Shielder.cpp.obj	1a69d08693fe68a
+48	642	7569954742713497	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+2543	7728	7569913614439416	CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj	99c37c4d40b85d51
+1143	8199	7569936507481541	CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj	240e09de31308894
+398	3390	7569915412351256	CMakeFiles/RushRoyal.dir/Enemy.cpp.obj	d1e64624af261892
+1161	7168	7569936497225637	CMakeFiles/RushRoyal.dir/Freezer.cpp.obj	55bc896974992c3a
+1157	7001	7569936495538386	CMakeFiles/RushRoyal.dir/Eraser.cpp.obj	940df995e8a295f1
+682	6642	7569955566259387	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+1165	6654	7569936491972628	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+8052	12380	7569913661406230	CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj	96ae444e2d9394f9
+48	642	7569954742713497	RushRoyal_autogen/timestamp	97c42caad206a53f
+2558	7857	7569913616014871	CMakeFiles/RushRoyal.dir/Trap.cpp.obj	1509dba31de733df
 389	3617	7569491636662858	CMakeFiles/RushRoyal.dir/Runner.cpp.obj	b1274145915ef7b6
-380	3875	7569491639251350	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-383	5699	7569491657406691	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-5699	6977	7569491670119215	RushRoyal.exe	4f0075db7bc7a1f5
-39	365	7569494191025568	RushRoyal_autogen/timestamp	97c42caad206a53f
-39	365	7569494191025568	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-39	365	7569494191025568	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-39	365	7569494191025568	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-380	3210	7569494306317209	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-40	371	7569494592267303	RushRoyal_autogen/timestamp	97c42caad206a53f
-40	371	7569494592267303	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-40	371	7569494592267303	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-40	371	7569494592267303	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-387	3213	7569494677997432	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-390	5175	7569494697546204	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-5175	6422	7569494709924945	RushRoyal.exe	4f0075db7bc7a1f5
-18	354	7569495614893852	RushRoyal_autogen/timestamp	97c42caad206a53f
-18	354	7569495614893852	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-18	354	7569495614893852	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-18	354	7569495614893852	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-369	3119	7569495691050515	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-373	5063	7569495710422677	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-5064	6404	7569495723798892	RushRoyal.exe	4f0075db7bc7a1f5
-39	365	7569496497542141	RushRoyal_autogen/timestamp	97c42caad206a53f
-39	365	7569496497542141	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-39	365	7569496497542141	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
-39	365	7569496497542141	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
-381	3192	7569496554649341	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
-383	5077	7569496573417020	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
-5077	6349	7569496586059623	RushRoyal.exe	4f0075db7bc7a1f5
+386	3580	7569491636313047	CMakeFiles/RushRoyal.dir/Shielder.cpp.obj	1a69d08693fe68a
+2547	9351	7569913630644082	CMakeFiles/RushRoyal.dir/Gandom.cpp.obj	77e35af4090dc0b6
+392	3276	7569914721904787	CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj	92266204b75af70f
+678	4226	7569955542201442	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+648	7019	7567507757217389	CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj	c851a4d077ac132a
+1153	6908	7569936494613754	CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj	cdfca42f7ac20009
+48	642	7569954742713497	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+412	642	7567507693384181	RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp	7b156d1d200648
+7071	16070	7566936341650550	CMakeFiles/RushRoyal.dir/main.cpp.obj	28cdb87eb9ade3ec
+48	642	7569954742713497	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+412	642	7567507693384181	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp	7b156d1d200648
+2550	9697	7569913634404222	CMakeFiles/RushRoyal.dir/Bomb.cpp.obj	5eea7b300bc13388
+2563	9362	7569913631143801	CMakeFiles/RushRoyal.dir/Kalam.cpp.obj	6d4f5863d243c0be
+6642	8336	7569955583208495	RushRoyal.exe	4f0075db7bc7a1f5
+8	824	7567507823578976	build.ninja	d03e4d726e86ae9a
+40	487	7569960041866457	RushRoyal_autogen/timestamp	97c42caad206a53f
+40	487	7569960041866457	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+40	487	7569960041866457	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+40	487	7569960041866457	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+519	4904	7569960091759657	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+510	5009	7569960092819399	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+514	7836	7569960121044731	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+7836	9596	7569960138502326	RushRoyal.exe	4f0075db7bc7a1f5
+50	528	7569960373424472	RushRoyal_autogen/timestamp	97c42caad206a53f
+50	528	7569960373424472	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+50	528	7569960373424472	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+50	528	7569960373424472	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+575	4350	7569960437862679	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+565	4408	7569960438432329	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+570	6883	7569960463106174	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+6884	8681	7569960480966948	RushRoyal.exe	4f0075db7bc7a1f5
+51	486	7569960732509866	RushRoyal_autogen/timestamp	97c42caad206a53f
+51	486	7569960732509866	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+51	486	7569960732509866	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+51	486	7569960732509866	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+551	4270	7569960801988631	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+533	4525	7569960804542216	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+542	6968	7569960828879873	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+6968	8796	7569960847061181	RushRoyal.exe	4f0075db7bc7a1f5
+47	477	7569961058716918	RushRoyal_autogen/timestamp	97c42caad206a53f
+47	477	7569961058716918	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+47	477	7569961058716918	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+47	477	7569961058716918	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+503	4262	7569961121857673	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+496	4387	7569961123127140	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+499	6811	7569961147285820	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+6812	8413	7569961163207105	RushRoyal.exe	4f0075db7bc7a1f5
+52	452	7569961438019560	RushRoyal_autogen/timestamp	97c42caad206a53f
+52	452	7569961438019560	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+52	452	7569961438019560	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+52	452	7569961438019560	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+479	4129	7569961498797248	CMakeFiles/RushRoyal.dir/Bullet.cpp.obj	694507e577fbea30
+471	4306	7569961500596621	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+475	6996	7569961527412702	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+6996	8841	7569961545790094	RushRoyal.exe	4f0075db7bc7a1f5
+122	632	7569961710404845	RushRoyal_autogen/timestamp	97c42caad206a53f
+122	632	7569961710404845	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+122	632	7569961710404845	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+122	632	7569961710404845	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+652	4858	7569961972924273	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+656	7517	7569961999441479	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+7517	9229	7569962016430117	RushRoyal.exe	4f0075db7bc7a1f5
+52	535	7569962541949919	RushRoyal_autogen/timestamp	97c42caad206a53f
+52	535	7569962541949919	RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+52	535	7569962541949919	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/timestamp	97c42caad206a53f
+52	535	7569962541949919	E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/mocs_compilation.cpp	97c42caad206a53f
+555	4131	7569962598704158	CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj	4be6364a27abc7c8
+564	6660	7569962623931401	CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj	f4a0ad9d64beee63
+6660	8401	7569962641229458	RushRoyal.exe	4f0075db7bc7a1f5

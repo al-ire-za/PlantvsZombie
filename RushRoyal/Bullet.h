@@ -12,11 +12,16 @@ class Bullet : public QLabel {
 public:
     explicit Bullet(QWidget *parent = nullptr, int damage = 10);
     void shoot(const QPoint &start, Enemy *targetenemy);
+    int getdamage() const;
 
 private slots:
     void moveBullet();
     void onAnimationFinished();
     void checkTarget();
+
+signals:
+    void enemyKilled(Enemy* enemy);
+
 
 private:
     QPropertyAnimation *animation;

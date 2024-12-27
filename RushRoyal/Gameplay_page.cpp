@@ -64,7 +64,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Golmoshaki(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Gandom(this);
+    agent_choice3 = new Kalam(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -176,7 +176,7 @@ void Gameplay_page::checkWaveCompletion()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = std::rand() % 3;
+        int bossType =0 ;/* std::rand() % 3;*/
         Enemy *boss_enemy = nullptr;
 
         switch (bossType) {
@@ -445,7 +445,6 @@ void Gameplay_page::printAgentBoard() const{
 void Gameplay_page::checkCollisions()
 {
 
-    // بررسی برخورد انمی با بمب و تله
     for (AgentBase* agent : findChildren<AgentBase*>()) {
         if (Bomb* bomb = dynamic_cast<Bomb*>(agent)) {
             bomb->checkCollision(enemies);
@@ -518,6 +517,15 @@ void Gameplay_page::updateElixir()
         if (elixir > 10) elixir = 10;
         elixirLabel->setText(QString::number(elixir));
     }
+}
+
+void Gameplay_page::onEnemyKilled(Enemy* enemy)
+{
+    enemies.removeOne(enemy); // حذف انمی از لیست enemies
+    enemy->hide();
+    // enemy->deleteLater();
+    logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
+    checkWaveCompletion(); // بررسی تکمیل موج پس از حذف انمی
 }
 
 Gameplay_page::~Gameplay_page()

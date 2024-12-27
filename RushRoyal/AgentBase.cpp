@@ -1,4 +1,5 @@
 #include "AgentBase.h"
+#include "Gameplay_page.h"
 #include "Bullet.h"
 #include <QTimer>
 
@@ -47,6 +48,12 @@ void AgentBase::shootAt(const QVector<Enemy*>& enemies)
     Bullet* bullet = new Bullet(parentWidget(), AgentBasePower); // تنظیم قدرت گلوله
     bullet->setGeometry(geometry().center().x() - 5, geometry().y() - 20, 10, 20);
     bullet->show();
+
+    Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
+    if (gamePage) {
+        connect(bullet, &Bullet::enemyKilled, gamePage, &Gameplay_page::onEnemyKilled); // اتصال سیگنال enemyKilled به تابع onEnemyKilled
+    }
+
     bullet->shoot(this->pos(), target); // شروع به شلیک تیر
 }
 

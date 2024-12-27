@@ -45,6 +45,9 @@ private slots:
     void removeBombTrap(AgentBase* agent);
     void createBoss();
 
+public slots:
+    void onEnemyKilled(Enemy* enemy);
+
 
 private:
     Ui::Gameplay_page *ui;
