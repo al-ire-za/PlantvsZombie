@@ -18,8 +18,17 @@
         <file>images/1_edit.png</file>
         <file>images/33_editai.png</file>
         <file>images/4_editai.png</file>
-        <file>images/2_editai.png</file>
-        <file>images/5_editai.png</file>
         <file>images/6_editai.png</file>
+        <file>images/bomb.png</file>
+        <file>images/bomb_ice.png</file>
+        <file>images/bomb_level2.png</file>
+        <file>images/black.png</file>
+        <file>images/Eraser.png</file>
+        <file>images/boss ezafiai1.png</file>
+        <file>images/Disaemer1.png</file>
+        <file>images/freezerai1.png</file>
+        <file>images/trap.png</file>
+        <file>images/banafsh.png</file>
+        <file>images/backgrandGroupPow.png</file>
     </qresource>
 </RCC>
