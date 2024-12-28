@@ -27,21 +27,21 @@
 		],
 		"files" : 
 		[
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
 			"CMakeLists.txt",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"D:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -322,32 +322,32 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include"
+					"path" : "C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.8.0/mingw_64/include/QtCore"
+					"path" : "D:/Qt/6.8.0/mingw_64/include/QtCore"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.8.0/mingw_64/include"
+					"path" : "D:/Qt/6.8.0/mingw_64/include"
 				},
 				{
 					"backtrace" : 14,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++"
+					"path" : "D:/Qt/6.8.0/mingw_64/mkspecs/win32-g++"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.8.0/mingw_64/include/QtWidgets"
+					"path" : "D:/Qt/6.8.0/mingw_64/include/QtWidgets"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.8.0/mingw_64/include/QtGui"
+					"path" : "D:/Qt/6.8.0/mingw_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -380,18 +380,18 @@
 				32,
 				34,
 				36,
-				42
+				40
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df"
+			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "RushRoyal::@6890427a1f51a3e7e1df",
@@ -423,17 +423,17 @@
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"fragment" : "D:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Widgets.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
-				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Gui.a",
+				"fragment" : "D:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 14,
-				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Core.a",
+				"fragment" : "D:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Core.a",
 				"role" : "libraries"
 			},
 			{
@@ -453,7 +453,7 @@
 			},
 			{
 				"backtrace" : 32,
-				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6EntryPoint.a",
+				"fragment" : "D:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6EntryPoint.a",
 				"role" : "libraries"
 			},
 			{
@@ -519,7 +519,7 @@
 				32,
 				34,
 				36,
-				42
+				40
 			]
 		},
 		{
@@ -542,9 +542,8 @@
 				31,
 				33,
 				35,
-				38,
-				39,
-				40
+				37,
+				38
 			]
 		},
 		{
@@ -554,16 +553,15 @@
 				4,
 				5,
 				8,
-				37,
-				41
+				39
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				43,
-				44
+				41,
+				42
 			]
 		}
 	],
@@ -704,7 +702,7 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "kalam.cpp",
+			"path" : "Kalam.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -774,11 +772,6 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
-			"path" : "Bullet.ui",
-			"sourceGroupIndex" : 2
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include/ui_Welcom_page.h",
@@ -788,12 +781,6 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include/ui_Gameplay_page.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/include/ui_Bullet.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -37,7 +37,17 @@ public:
     QLabel *label_27;
     QLabel *label_28;
     QLabel *label_29;
-    QLabel *label;
+    QLabel *BoxUpgrade;
+    QLabel *LabelPow1;
+    QLabel *LabelPow5;
+    QLabel *LabelPow4;
+    QLabel *LabelPow3;
+    QLabel *LabelPow2;
+    QLabel *LabelPow5_2;
+    QLabel *label_30;
+    QLabel *label_31;
+    QLabel *label_32;
+    QLabel *label_33;
 
     void setupUi(QMainWindow *Gameplay_page)
     {
@@ -115,9 +125,49 @@ public:
         label_29->setGeometry(QRect(350, 250, 90, 80));
         label_29->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(0, 0, 151, 101));
+        BoxUpgrade = new QLabel(centralwidget);
+        BoxUpgrade->setObjectName("BoxUpgrade");
+        BoxUpgrade->setGeometry(QRect(1090, 110, 110, 550));
+        BoxUpgrade->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/backgrandGroupPow.png);"));
+        LabelPow1 = new QLabel(centralwidget);
+        LabelPow1->setObjectName("LabelPow1");
+        LabelPow1->setGeometry(QRect(1100, 120, 90, 80));
+        LabelPow5 = new QLabel(centralwidget);
+        LabelPow5->setObjectName("LabelPow5");
+        LabelPow5->setGeometry(QRect(1100, 480, 90, 80));
+        LabelPow4 = new QLabel(centralwidget);
+        LabelPow4->setObjectName("LabelPow4");
+        LabelPow4->setGeometry(QRect(1100, 390, 90, 80));
+        LabelPow3 = new QLabel(centralwidget);
+        LabelPow3->setObjectName("LabelPow3");
+        LabelPow3->setGeometry(QRect(1100, 300, 90, 80));
+        LabelPow2 = new QLabel(centralwidget);
+        LabelPow2->setObjectName("LabelPow2");
+        LabelPow2->setGeometry(QRect(1100, 210, 90, 80));
+        LabelPow5_2 = new QLabel(centralwidget);
+        LabelPow5_2->setObjectName("LabelPow5_2");
+        LabelPow5_2->setGeometry(QRect(1100, 570, 90, 80));
+        label_30 = new QLabel(centralwidget);
+        label_30->setObjectName("label_30");
+        label_30->setGeometry(QRect(385, 640, 90, 80));
+        label_30->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/sanng.png);"));
+        label_31 = new QLabel(centralwidget);
+        label_31->setObjectName("label_31");
+        label_31->setGeometry(QRect(485, 640, 90, 80));
+        label_31->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/sanng.png);"));
+        label_32 = new QLabel(centralwidget);
+        label_32->setObjectName("label_32");
+        label_32->setGeometry(QRect(585, 640, 90, 80));
+        label_32->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/sanng.png);"));
+        label_33 = new QLabel(centralwidget);
+        label_33->setObjectName("label_33");
+        label_33->setGeometry(QRect(685, 640, 90, 80));
+        label_33->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/sanng.png);"));
         Gameplay_page->setCentralWidget(centralwidget);
 
         retranslateUi(Gameplay_page);
@@ -144,7 +194,17 @@ public:
         label_27->setText(QString());
         label_28->setText(QString());
         label_29->setText(QString());
-        label->setText(QString());
+        BoxUpgrade->setText(QString());
+        LabelPow1->setText(QString());
+        LabelPow5->setText(QString());
+        LabelPow4->setText(QString());
+        LabelPow3->setText(QString());
+        LabelPow2->setText(QString());
+        LabelPow5_2->setText(QString());
+        label_30->setText(QString());
+        label_31->setText(QString());
+        label_32->setText(QString());
+        label_33->setText(QString());
     } // retranslateUi
 
 };

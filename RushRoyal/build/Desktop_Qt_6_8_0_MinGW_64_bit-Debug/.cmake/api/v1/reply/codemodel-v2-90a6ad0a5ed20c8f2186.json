@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RushRoyal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RushRoyal-Debug-fc09be31b3e086ec04d1.json",
+					"jsonFile" : "target-RushRoyal-Debug-7264662d1da7c935c3ff.json",
 					"name" : "RushRoyal",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/darsi/mabani/Qt/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
-		"source" : "E:/darsi/mabani/Qt/RushRoyal"
+		"build" : "C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal"
 	},
 	"version" : 
 	{
