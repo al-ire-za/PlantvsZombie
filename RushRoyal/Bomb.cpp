@@ -17,7 +17,7 @@ Bomb::Bomb(const Bomb &other)
 }
 
 void Bomb::startTimer() {
-    timerStart->start(8000);
+    timerStart->start(3000);
 }
 
 int Bomb::getElixirCost() const
@@ -47,7 +47,6 @@ void Bomb::checkCollision(const QVector<Enemy*>& enemies)
         emit removeEnemies(enemiesToRemove);
     }
 
-    // اگر برخوردها به ۲ رسید، تایمر را متوقف کنیم
     if (collisionCount >= 2) {
         timerStart->stop();
     }
@@ -59,7 +58,7 @@ QTimer* Bomb::getTimer() const {
 
 void Bomb::onTimeout()
 {
-    emit bombExpired(this);  // ارسال سیگنال به پایان رسیدن بمب
+    emit bombExpired(this);
 }
 
 

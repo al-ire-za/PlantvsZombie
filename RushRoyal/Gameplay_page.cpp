@@ -1,5 +1,6 @@
 #include "Gameplay_page.h"
 #include "ui_Gameplay_page.h"
+#include "ResultWindow.h"
 #include "Gorbemahi.h"
 #include "Gandom.h"
 #include "Golmoshaki.h"
@@ -60,6 +61,13 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     move(x, y);
 
 
+    enemyReachedEndCount = 0;
+    enemyCountLabel = new QLabel(this);
+    enemyCountLabel->setObjectName("enemyCountLabel");
+    enemyCountLabel->setGeometry(1010,600, 60, 20);
+    enemyCountLabel->setText("0");
+    enemyCountLabel->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
+
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Golmoshaki(this);
@@ -111,7 +119,7 @@ void Gameplay_page::agentShoot()
 {
     for (AgentBase* agent : agent_board) {
         if (agent != nullptr) {
-            agent->shootAt(enemies); // شلیک ایجنت به لیست انمی‌ها
+            agent->shootAt(enemies);
         }
     }
 }
@@ -144,9 +152,10 @@ void Gameplay_page::create_enemi()
 
         if (wave % 2 == 0 && !bossSpawned) {
             createBoss();
+
         }
 
-        if (count_enemi % 20 == 0 && count_enemi != 0) {
+        if (count_enemi % 5 == 0 && count_enemi != 0) {
             waveInProgress = false;
             logEvent(QString("Wave %1 completed.").arg(wave));
             checkWaveCompletion();
@@ -176,7 +185,7 @@ void Gameplay_page::checkWaveCompletion()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType =0 ;/* std::rand() % 3;*/
+        int bossType = 1/* std::rand() % 3*/;
         Enemy *boss_enemy = nullptr;
 
         switch (bossType) {
@@ -247,6 +256,11 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         enemies.removeOne(enemy);
         enemy->hide();
         checkWaveCompletion();
+        if (enemy->isalive()){
+            enemyReachedEndCount++;
+            updateEnemyCountLabel();
+            checkGameOver();
+        }
         // enemy->deleteLater();
     });
 
@@ -260,7 +274,6 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
     if (event->button() == Qt::LeftButton) {
         QString logMessage;
 
-        // تعیین محدوده انتخاب ایجنت‌ها با استفاده از مقادیر ثابت
         for (int i = 0; i < 4; ++i) {
             int xStart = startx_agent_choice + i * spacing;
             int xEnd = xStart + width_aghent_choice;
@@ -311,7 +324,6 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                     centerY = event->pos().y();
                 }
 
-                // تنظیم موقعیت به گونه‌ای که مرکز بمب یا تله در مرکز مسیر قرار گیرد
                 int adjustedX = centerX - (current_choice->width() / 2);
                 int adjustedY = centerY - (current_choice->height() / 2);
 
@@ -331,9 +343,8 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
             }
         }
 
-        // قرار دادن ایجنت روی تخته ایجنت‌ها
         if (current_choice && !current_choice->styleSheet().contains("bomb") && !current_choice->styleSheet().contains("trap")) {
-            int requiredElixir = current_choice->getElixirCost();  // استفاده از getElixirCost
+            int requiredElixir = current_choice->getElixirCost();
 
             if (elixir >= requiredElixir) {
                 for (int i = 0; i < 16; ++i) {
@@ -449,7 +460,7 @@ void Gameplay_page::checkCollisions()
         if (Bomb* bomb = dynamic_cast<Bomb*>(agent)) {
             bomb->checkCollision(enemies);
 
-            // اتصال سیگنال‌ها و اسلات‌ها فقط یک بار انجام شود
+
             if (!bomb->getTimer()->isActive()) {
                 connect(bomb, &Bomb::removeEnemies, this, &Gameplay_page::removeEnemies);
                 connect(bomb, &Bomb::removeEnemies, this, [=]() {
@@ -494,6 +505,7 @@ void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
         }
         enemies.removeOne(enemy);
         enemy->hide();
+        enemy->reduceHealth(5000);
         // enemy->deleteLater();
     }
 }
@@ -504,7 +516,7 @@ void Gameplay_page::removeAgentFromBoard(AgentBase* agent)
     for (int i = 0; i < agent_board.size(); ++i) {
         if (agent_board[i] == agent) {
             agent_board[i] = nullptr;
-            delete agent;  // حذف ایجنت
+            delete agent;
             break;
         }
     }
@@ -521,14 +533,37 @@ void Gameplay_page::updateElixir()
 
 void Gameplay_page::onEnemyKilled(Enemy* enemy)
 {
-    enemies.removeOne(enemy); // حذف انمی از لیست enemies
+    enemies.removeOne(enemy);
     enemy->hide();
+    enemy->stopAllTimers();
+    enemy->disable();
+    enemy->reduceHealth(5000);
     // enemy->deleteLater();
     logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
-    checkWaveCompletion(); // بررسی تکمیل موج پس از حذف انمی
+    checkWaveCompletion();
+}
+
+void Gameplay_page::checkGameOver()
+{
+    if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
+        logEvent("Game Over: Too many enemies reached the end.");
+        // ResultWindow *resultwindow = new ResultWindow;
+        // resultwindow->setRecordWave(wave);
+        // resultwindow->setNOEnemyKilled(count_enemi);
+        // resultwindow->setElixirUsed(elixir);
+        // resultwindow->setRecordGame(enemyReachedEndCount);
+        // resultwindow->show();
+        // QTimer::singleShot(0, this, &QMainWindow::close);
+    }
+}
+
+void Gameplay_page::updateEnemyCountLabel()
+{
+    enemyCountLabel->setText(QString("%1").arg(enemyReachedEndCount));
 }
 
 Gameplay_page::~Gameplay_page()
 {
     delete ui;
+
 }

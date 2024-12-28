@@ -34,6 +34,7 @@ public:
     void removeAgentFromBoard(AgentBase* agent);
     void checkWaveCompletion();
 
+
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
@@ -66,11 +67,16 @@ private:
     QTimer *elixirTimer;
     QLabel *elixirLabel;
     QTimer *shootTimer;
+    QLabel *enemyCountLabel;
     int elixir;
     int count_enemi;
     int wave;
     bool bossSpawned;
     bool waveInProgress;
+    int enemyReachedEndCount;
+    const int maxEnemiesAllowedToReachEnd = 3;
+    void checkGameOver();
+    void updateEnemyCountLabel();
     void updateAgentsEnemies();
     friend class Freezer;
     friend class Eraser;

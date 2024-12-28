@@ -28,7 +28,7 @@ private:
     Enemy *targetenemy;
     QTimer *moveTimer;
     QTimer *checkTimer;
-    int damage; // قدرت تیر
+    int damage;
 };
 
 #endif

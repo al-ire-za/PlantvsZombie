@@ -1,6 +1,7 @@
 #include "Enemy.h"
 #include <QLabel>
 #include <QPropertyAnimation>
+#include <QTimer>
 
 Enemy::Enemy(QWidget *parent, int health, double speed, const QString &imageUrl)
     : QLabel(parent), EnemyHealth(health), EnemySpeed(speed), EnemyImageUrl(imageUrl)
@@ -45,10 +46,22 @@ void Enemy::reduceHealth(int amount)
     }
 }
 
-bool Enemy::isalive() const{
-    return EnemyHealth > 0;
+void Enemy::stopAllTimers() {
+    QList<QTimer*> timers = findChildren<QTimer*>();
+    for (QTimer* timer : timers) {
+        timer->stop();
+        delete timer;
+    }
+
+}
+
+void Enemy::disable() {
+    this->setDisabled(true);
 }
 
 
+bool Enemy::isalive() const{
+    return EnemyHealth > 0;
+}
 
 

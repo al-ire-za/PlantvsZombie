@@ -23,6 +23,8 @@ public:
     void updateimage(const QString &imageUrl);
     void reduceHealth(int amount);
     bool isalive() const;
+    void disable();
+    void stopAllTimers();
 
 protected:
     Ui::Enemy *ui;

@@ -42,6 +42,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Shielder.h Shielder.cpp
         Runner.h Runner.cpp
         Bullet.h Bullet.cpp
+        ResultWindow.h ResultWindow.cpp ResultWindow.ui
 
 
 

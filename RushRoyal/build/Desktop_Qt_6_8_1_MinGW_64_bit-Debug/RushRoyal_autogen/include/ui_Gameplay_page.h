@@ -48,6 +48,7 @@ public:
     QLabel *label_31;
     QLabel *label_32;
     QLabel *label_33;
+    QLabel *label;
 
     void setupUi(QMainWindow *Gameplay_page)
     {
@@ -168,6 +169,9 @@ public:
         label_33->setGeometry(QRect(685, 640, 90, 80));
         label_33->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
+        label = new QLabel(centralwidget);
+        label->setObjectName("label");
+        label->setGeometry(QRect(1010, 600, 60, 20));
         Gameplay_page->setCentralWidget(centralwidget);
 
         retranslateUi(Gameplay_page);
@@ -205,6 +209,7 @@ public:
         label_31->setText(QString());
         label_32->setText(QString());
         label_33->setText(QString());
+        label->setText(QCoreApplication::translate("Gameplay_page", "TextLabel", nullptr));
     } // retranslateUi
 
 };

@@ -572,6 +572,8 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gorbemahi.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Kalam.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Kalam.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Runner.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Runner.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Shielder.cpp \
@@ -588,5 +590,6 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/images.qrc \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/main.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gameplay_page.ui \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.ui \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Welcom_page.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

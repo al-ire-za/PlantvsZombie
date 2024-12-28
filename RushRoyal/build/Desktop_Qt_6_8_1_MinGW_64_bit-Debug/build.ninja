@@ -193,6 +193,14 @@ build CMakeFiles/RushRoyal.dir/Bullet.cpp.obj: CXX_COMPILER__RushRoyal_unscanned
   OBJECT_DIR = CMakeFiles\RushRoyal.dir
   OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
 
+build CMakeFiles/RushRoyal.dir/ResultWindow.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt$ Jadid/RushRoyal/RushRoyal/ResultWindow.cpp || cmake_object_order_depends_target_RushRoyal
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\RushRoyal.dir\ResultWindow.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/include" -isystem C:/Qt/6.8.1/mingw_64/include/QtCore -isystem C:/Qt/6.8.1/mingw_64/include -isystem C:/Qt/6.8.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\RushRoyal.dir
+  OBJECT_FILE_DIR = CMakeFiles\RushRoyal.dir
+
 build CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj: CXX_COMPILER__RushRoyal_unscanned_Debug E$:/darsi/mabani/Qt$ Jadid/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp || cmake_object_order_depends_target_RushRoyal
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\RushRoyal.dir\RushRoyal_autogen\EWIEGA46WW\qrc_images.cpp.obj.d
@@ -209,7 +217,7 @@ build CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj: 
 #############################################
 # Link the executable RushRoyal.exe
 
-build RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Trap.cpp.obj CMakeFiles/RushRoyal.dir/Enemy.cpp.obj CMakeFiles/RushRoyal.dir/Kalam.cpp.obj CMakeFiles/RushRoyal.dir/Eraser.cpp.obj CMakeFiles/RushRoyal.dir/Freezer.cpp.obj CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj CMakeFiles/RushRoyal.dir/Shielder.cpp.obj CMakeFiles/RushRoyal.dir/Runner.cpp.obj CMakeFiles/RushRoyal.dir/Bullet.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | C$:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
+build RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Trap.cpp.obj CMakeFiles/RushRoyal.dir/Enemy.cpp.obj CMakeFiles/RushRoyal.dir/Kalam.cpp.obj CMakeFiles/RushRoyal.dir/Eraser.cpp.obj CMakeFiles/RushRoyal.dir/Freezer.cpp.obj CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj CMakeFiles/RushRoyal.dir/Shielder.cpp.obj CMakeFiles/RushRoyal.dir/Runner.cpp.obj CMakeFiles/RushRoyal.dir/Bullet.cpp.obj CMakeFiles/RushRoyal.dir/ResultWindow.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | C$:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -296,7 +304,7 @@ build RushRoyal_autogen_timestamp_deps: phony
 #############################################
 # Utility command for RushRoyal_autogen
 
-build RushRoyal_autogen: phony CMakeFiles/RushRoyal_autogen RushRoyal_autogen/include/ui_Welcom_page.h RushRoyal_autogen/include/ui_Gameplay_page.h RushRoyal_autogen/timestamp RushRoyal_autogen/mocs_compilation.cpp RushRoyal_autogen_timestamp_deps
+build RushRoyal_autogen: phony CMakeFiles/RushRoyal_autogen RushRoyal_autogen/include/ui_Welcom_page.h RushRoyal_autogen/include/ui_Gameplay_page.h RushRoyal_autogen/include/ui_ResultWindow.h RushRoyal_autogen/timestamp RushRoyal_autogen/mocs_compilation.cpp RushRoyal_autogen_timestamp_deps
 
 
 #############################################
@@ -322,7 +330,7 @@ build RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp | ${cmake_ninja_workdir}RushRo
 #############################################
 # Phony custom command for CMakeFiles\RushRoyal_autogen
 
-build CMakeFiles/RushRoyal_autogen RushRoyal_autogen/include/ui_Welcom_page.h RushRoyal_autogen/include/ui_Gameplay_page.h | ${cmake_ninja_workdir}CMakeFiles/RushRoyal_autogen ${cmake_ninja_workdir}RushRoyal_autogen/include/ui_Welcom_page.h ${cmake_ninja_workdir}RushRoyal_autogen/include/ui_Gameplay_page.h: phony RushRoyal_autogen/timestamp || RushRoyal_autogen_timestamp_deps
+build CMakeFiles/RushRoyal_autogen RushRoyal_autogen/include/ui_Welcom_page.h RushRoyal_autogen/include/ui_Gameplay_page.h RushRoyal_autogen/include/ui_ResultWindow.h | ${cmake_ninja_workdir}CMakeFiles/RushRoyal_autogen ${cmake_ninja_workdir}RushRoyal_autogen/include/ui_Welcom_page.h ${cmake_ninja_workdir}RushRoyal_autogen/include/ui_Gameplay_page.h ${cmake_ninja_workdir}RushRoyal_autogen/include/ui_ResultWindow.h: phony RushRoyal_autogen/timestamp || RushRoyal_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

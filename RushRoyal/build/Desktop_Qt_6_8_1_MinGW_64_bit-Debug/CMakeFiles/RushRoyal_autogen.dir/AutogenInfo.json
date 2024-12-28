@@ -339,6 +339,12 @@
 			null
 		],
 		[
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/ResultWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_ResultWindow.cpp",
+			null
+		],
+		[
 			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Runner.h",
 			"MU",
 			"EWIEGA46WW/moc_Runner.cpp",
@@ -470,6 +476,11 @@
 			null
 		],
 		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Kalam.cpp", "MU", null ],
+		[
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/ResultWindow.cpp",
+			"MU",
+			null
+		],
 		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Runner.cpp", "MU", null ],
 		[
 			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.cpp",

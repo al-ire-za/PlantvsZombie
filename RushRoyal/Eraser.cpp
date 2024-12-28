@@ -22,6 +22,11 @@ Eraser::Eraser(const Eraser &other)
 
 void Eraser::removeRandomAgent()
 {
+
+    if (!this->isalive()) {
+        return;
+    }
+
     Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
     if (gamePage) {
         QVector<int> occupiedIndices;
@@ -42,7 +47,9 @@ void Eraser::removeRandomAgent()
     }
 }
 
-Eraser::~Eraser() {}
+Eraser::~Eraser() {
+    delete eraseTimer;
+}
 
 void Eraser::move() {
 

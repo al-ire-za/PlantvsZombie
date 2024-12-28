@@ -27,6 +27,9 @@ Freezer::~Freezer()
 
 void Freezer::freezeRandomAgent()
 {
+    if (!this->isalive()) {
+        return;
+    }
     Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
     if (gamePage) {
         QVector<int> occupiedIndices;
@@ -40,7 +43,7 @@ void Freezer::freezeRandomAgent()
             int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
             AgentBase* agent = gamePage->agent_board[randomIndex];
             if (agent) {
-                agent->setEnabled(false); // فریز کردن ایجنت
+                agent->setEnabled(false);
                 frozenAgents.append(agent);
                 gamePage->logEvent(QString("Agent frozen at index %1.").arg(randomIndex));
             }
