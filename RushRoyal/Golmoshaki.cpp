@@ -15,7 +15,7 @@ Golmoshaki::Golmoshaki(const Golmoshaki &other)
 
 void Golmoshaki::shootAt(const QVector<Enemy*>& enemies)
 {
-    if (enemies.isEmpty()) return;
+    if (enemies.isEmpty() || isFrozen()) return;
 
     Enemy* target = enemies.first();  // هدف: نفر اول لیست
 

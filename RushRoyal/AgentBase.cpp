@@ -4,7 +4,7 @@
 #include <QTimer>
 
 AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate, int elixirCost)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false)
 
 {
     updateimagUrl(imageUrl);
@@ -13,7 +13,7 @@ AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int fi
 }
 
 AgentBase::AgentBase(const AgentBase &other): AgentBasePower(other.AgentBasePower), AgentBaseFireRate(other.AgentBaseFireRate),
-    AgentBaseimageUrl(other.AgentBaseimageUrl)
+    AgentBaseimageUrl(other.AgentBaseimageUrl), frozen(false)
 {
     updateimagUrl(other.AgentBaseimageUrl);
     shootTimer = new QTimer(this);
@@ -55,6 +55,17 @@ void AgentBase::shootAt(const QVector<Enemy*>& enemies)
     }
 
     bullet->shoot(this->pos(), target);
+}
+
+bool AgentBase::isFrozen() const
+{
+    return frozen;
+}
+
+void AgentBase::setFrozen(bool frozen)
+{
+    this->frozen = frozen;
+    setEnabled(!frozen);
 }
 
 void AgentBase::stopShooting()

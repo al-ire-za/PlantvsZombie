@@ -2,6 +2,7 @@
 #include <QLabel>
 #include <QPropertyAnimation>
 #include <QTimer>
+#include "Freezer.h"
 
 Enemy::Enemy(QWidget *parent, int health, double speed, const QString &imageUrl)
     : QLabel(parent), EnemyHealth(health), EnemySpeed(speed), EnemyImageUrl(imageUrl)
@@ -43,6 +44,11 @@ void Enemy::reduceHealth(int amount)
     if (EnemyHealth <= 0) {
         hide(); // پنهان کردن انمی در صورت رسیدن سلامت به صفر یا کمتر
         // deleteLater(); // حذف انمی از حافظه
+        Freezer *freezer = dynamic_cast<Freezer*>(this);
+        if (freezer) {
+            freezer->unfreezeAllAgents();
+        }
+
     }
 }
 

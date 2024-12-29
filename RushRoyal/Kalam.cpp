@@ -14,7 +14,7 @@ Kalam::Kalam(const Kalam &other)
 
 void Kalam::shootAt(const QVector<Enemy*>& enemies)
 {
-    if (enemies.isEmpty()) return;
+    if (enemies.isEmpty()|| isFrozen()) return;
 
     Enemy* target = nullptr;
     int maxHealth = 0;

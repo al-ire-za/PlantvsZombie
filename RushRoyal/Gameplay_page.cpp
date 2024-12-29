@@ -70,7 +70,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Golmoshaki(this);
+    agent_choice2 = new Trap(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice3 = new Kalam(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -155,7 +155,7 @@ void Gameplay_page::create_enemi()
 
         }
 
-        if (count_enemi % 5 == 0 && count_enemi != 0) {
+        if (count_enemi % 3 == 0 && count_enemi != 0) {
             waveInProgress = false;
             logEvent(QString("Wave %1 completed.").arg(wave));
             checkWaveCompletion();
@@ -185,7 +185,7 @@ void Gameplay_page::checkWaveCompletion()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = 1/* std::rand() % 3*/;
+        int bossType = 0/*std::rand() % 3*/;
         Enemy *boss_enemy = nullptr;
 
         switch (bossType) {
@@ -261,6 +261,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
             updateEnemyCountLabel();
             checkGameOver();
         }
+        enemy->reduceHealth(5000);
         // enemy->deleteLater();
     });
 

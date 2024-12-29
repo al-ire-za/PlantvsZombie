@@ -22,6 +22,8 @@ public:
     virtual void shootAt(const QVector<Enemy*>& enemies) ;
     void startShooting();
     void stopShooting();
+    bool isFrozen() const;
+    void setFrozen(bool frozen);
 
 protected:
     int AgentBasePower;
@@ -33,6 +35,7 @@ protected:
 
 private:
     Ui::AgentBase *ui;
+    bool frozen;
 };
 
 #endif // AGENTBASE_H

@@ -4,7 +4,7 @@
 #include <QTimer>
 #include "Gameplay_page.h"
 Freezer::Freezer(QWidget *parent)
-    : Enemy(parent, 2000, 0.25, ":/prefix2/images/boss ezafiai1.png")
+    : Enemy(parent, 2000, 1.00, ":/prefix2/images/boss ezafiai1.png")
 {
     freezeTimer = new QTimer(this);
     connect(freezeTimer, &QTimer::timeout, this, &Freezer::freezeRandomAgent);
@@ -43,7 +43,7 @@ void Freezer::freezeRandomAgent()
             int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
             AgentBase* agent = gamePage->agent_board[randomIndex];
             if (agent) {
-                agent->setEnabled(false);
+                agent->setFrozen(true);
                 frozenAgents.append(agent);
                 gamePage->logEvent(QString("Agent frozen at index %1.").arg(randomIndex));
             }
@@ -54,7 +54,7 @@ void Freezer::freezeRandomAgent()
 void Freezer::unfreezeAllAgents()
 {
     for (AgentBase* agent : frozenAgents) {
-        agent->setEnabled(true); // بازگرداندن ایجنت‌ها به حالت عادی
+        agent->setFrozen(false); // بازگرداندن ایجنت‌ها به حالت عادی
     }
     frozenAgents.clear();
 }

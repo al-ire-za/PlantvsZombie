@@ -28,6 +28,7 @@ private:
     QTimer *freezeTimer;
     QVector<AgentBase*> frozenAgents;
     friend class Gameplay_page;
+    friend class Enemy;
 };
 
 #endif // FREEZER_H
