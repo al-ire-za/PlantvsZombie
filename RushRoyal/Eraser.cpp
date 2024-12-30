@@ -4,8 +4,8 @@
 #include <QTimer>
 #include "Gameplay_page.h"
 
-Eraser::Eraser(QWidget *parent)
-    : Enemy(parent, 2000, 1.25, ":/prefix2/images/Eraser.png")
+Eraser::Eraser(QWidget *parent, int health, double speed)
+    : Enemy(parent, health, speed, ":/prefix2/images/Eraser.png")
 {
     eraseTimer = new QTimer(this);
     connect(eraseTimer, &QTimer::timeout, this, &Eraser::removeRandomAgent);

@@ -24,6 +24,7 @@ public:
     void stopShooting();
     bool isFrozen() const;
     void setFrozen(bool frozen);
+    virtual int type() const = 0;
 
 protected:
     int AgentBasePower;

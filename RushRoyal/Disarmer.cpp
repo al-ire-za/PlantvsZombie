@@ -6,8 +6,8 @@
 #include "Bomb.h"
 #include "Trap.h"
 
-Disarmer::Disarmer(QWidget *parent)
-    : Enemy(parent, 2000, 0.25, ":/prefix2/images/Disaemer1.png")
+Disarmer::Disarmer(QWidget *parent, int health, double speed)
+    : Enemy(parent, health, speed, ":/prefix2/images/Disaemer1.png")
 {
     disarmTimer = new QTimer(this);
     connect(disarmTimer, &QTimer::timeout, this, &Disarmer::disarmTrapsAndBombs);

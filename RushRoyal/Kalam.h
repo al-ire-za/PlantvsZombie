@@ -18,6 +18,7 @@ public:
     void shootAt(const QVector<Enemy*>& enemies) override;
     int getElixirCost() const override;
     virtual ~Kalam();
+    int type() const override { return 4;}
 
 private:
     Ui::Kalam *ui;

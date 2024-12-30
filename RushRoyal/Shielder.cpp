@@ -3,8 +3,8 @@
 #include <QSequentialAnimationGroup>
 
 
-Shielder::Shielder(QWidget *parent)
-    : Enemy(parent, 100, 0.5, ":/prefix2/images/4_editai.png") {}
+Shielder::Shielder(QWidget *parent, int health, double speed)
+    : Enemy(parent, health, speed, ":/prefix2/images/4_editai.png") {}
 
 Shielder::Shielder(const Shielder &other)
     : Enemy(other) {}

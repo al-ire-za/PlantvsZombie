@@ -3,8 +3,8 @@
 #include <QSequentialAnimationGroup>
 #include <QTimer>
 #include "Gameplay_page.h"
-Freezer::Freezer(QWidget *parent)
-    : Enemy(parent, 2000, 1.00, ":/prefix2/images/boss ezafiai1.png")
+Freezer::Freezer(QWidget *parent, int health, double speed)
+    : Enemy(parent, health, speed, ":/prefix2/images/boss ezafiai1.png")
 {
     freezeTimer = new QTimer(this);
     connect(freezeTimer, &QTimer::timeout, this, &Freezer::freezeRandomAgent);

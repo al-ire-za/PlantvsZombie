@@ -18,6 +18,7 @@ public:
     void shootAt(const QVector<Enemy*>& enemies) override;
     int getElixirCost() const override;
     virtual ~Gandom();
+    int type() const override { return 1;}
 
 private:
     Ui::Gandom *ui;

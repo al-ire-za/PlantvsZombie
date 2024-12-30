@@ -12,7 +12,7 @@ class Eraser : public Enemy
     Q_OBJECT
 
 public:
-    Eraser(QWidget *parent = nullptr);
+    Eraser(QWidget *parent = nullptr, int health = 2000, double speed = 0.25);
     Eraser(const Eraser &other);
     virtual ~Eraser();
     void move() override;

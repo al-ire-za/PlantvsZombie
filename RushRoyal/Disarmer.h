@@ -11,7 +11,7 @@ class Disarmer : public Enemy
     Q_OBJECT
 
 public:
-    Disarmer(QWidget *parent = nullptr);
+    Disarmer(QWidget *parent = nullptr, int health = 2000, double speed = 0.25);
     Disarmer(const Disarmer &other);
     virtual ~Disarmer();
     void move() override;

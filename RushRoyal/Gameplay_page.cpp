@@ -70,7 +70,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Trap(this);
+    agent_choice2 = new Golmoshaki(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice3 = new Kalam(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -114,7 +114,6 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     collisionTimer->start(50); // هر 50 میلی‌ثانیه برخوردها را بررسی می‌کند
 }
 
-
 void Gameplay_page::agentShoot()
 {
     for (AgentBase* agent : agent_board) {
@@ -131,12 +130,29 @@ void Gameplay_page::create_enemi()
         Enemy *new_enemy = nullptr;
         int enemyType = std::rand() % 2;
 
+        int baseHealth = 0;
+        double baseSpeed = 0.0;
+
         switch (enemyType) {
         case 0:
-            new_enemy = new Runner(this);
+            baseHealth = 50;
+            baseSpeed = 1.5;
             break;
         case 1:
-            new_enemy = new Shielder(this);
+            baseHealth = 100;
+            baseSpeed = 1.5;
+            break;
+        }
+
+        int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
+        double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
+
+        switch (enemyType) {
+        case 0:
+            new_enemy = new Runner(this, currentHealth, currentSpeed);
+            break;
+        case 1:
+            new_enemy = new Shielder(this, currentHealth, currentSpeed);
             break;
         }
 
@@ -165,40 +181,45 @@ void Gameplay_page::create_enemi()
     }
 }
 
-
-
-void Gameplay_page::checkWaveCompletion()
-{
-    if (enemies.isEmpty()) {
-        wave++;
-        count_enemi = 0;
-        bossSpawned = false;
-        waveInProgress = true;
-        logEvent(QString("Starting wave %1...").arg(wave));
-
-        int delay = (wave % 2 == 0) ? 15000 : 15000;
-        QTimer::singleShot(delay, this, &Gameplay_page::create_enemi);
-    }
-}
-
-
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = 0/*std::rand() % 3*/;
+        int bossType = std::rand() % 3;
         Enemy *boss_enemy = nullptr;
+
+        int baseHealth = 0;
+        double baseSpeed = 0.0;
 
         switch (bossType) {
         case 0:
-            boss_enemy = new Eraser(this);
+            baseHealth = 2000;
+            baseSpeed = 0.25;
             break;
         case 1:
-            boss_enemy = new Freezer(this);
+            baseHealth = 2000;
+            baseSpeed = 0.25;
             break;
         case 2:
-            boss_enemy = new Disarmer(this);
+            baseHealth = 2000;
+            baseSpeed = 0.25;
             break;
         }
+
+        int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
+        double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
+
+        switch (bossType) {
+        case 0:
+            boss_enemy = new Eraser(this, currentHealth, currentSpeed);
+            break;
+        case 1:
+            boss_enemy = new Freezer(this, currentHealth, currentSpeed);
+            break;
+        case 2:
+            boss_enemy = new Disarmer(this, currentHealth, currentSpeed);
+            break;
+        }
+
 
         if (boss_enemy != nullptr) {
             boss_enemy->setGeometry(220, 700, 90, 80);
@@ -227,23 +248,36 @@ void Gameplay_page::createBoss()
     }
 }
 
-
+void Gameplay_page::checkWaveCompletion()
+{
+    if (enemies.isEmpty()) {
+        waveInProgress = false;
+        QTimer::singleShot(3000, this, [this]() {
+            wave++;
+            count_enemi = 0;
+            bossSpawned = false;
+            waveInProgress = true;
+            logEvent(QString("Starting wave %1...").arg(wave));
+            create_enemi();
+        });
+    }
+}
 
 void Gameplay_page::move_enemi(Enemy *enemy) {
     double durationFactor = 1000.0 / enemy->getspeed();
 
     QPropertyAnimation *animation1 = new QPropertyAnimation(enemy, "geometry");
-    animation1->setDuration(static_cast<int>(durationFactor * 4));
+    animation1->setDuration(static_cast<int>(durationFactor * 5));
     animation1->setStartValue(QRect(215, 700, 90, 80));
     animation1->setEndValue(QRect(215, 140, 90, 80));
 
     QPropertyAnimation *animation2 = new QPropertyAnimation(enemy, "geometry");
-    animation2->setDuration(static_cast<int>(durationFactor * 4));
+    animation2->setDuration(static_cast<int>(durationFactor * 5));
     animation2->setStartValue(QRect(215, 140, 90, 80));
     animation2->setEndValue(QRect(900, 140, 90, 80));
 
     QPropertyAnimation *animation3 = new QPropertyAnimation(enemy, "geometry");
-    animation3->setDuration(static_cast<int>(durationFactor * 4));
+    animation3->setDuration(static_cast<int>(durationFactor * 5));
     animation3->setStartValue(QRect(900, 140, 90, 80));
     animation3->setEndValue(QRect(900, 625, 90, 80));
 
@@ -261,7 +295,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
             updateEnemyCountLabel();
             checkGameOver();
         }
-        enemy->reduceHealth(5000);
+        enemy->reduceHealth(enemy->gethealth());
         // enemy->deleteLater();
     });
 
@@ -506,7 +540,7 @@ void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
         }
         enemies.removeOne(enemy);
         enemy->hide();
-        enemy->reduceHealth(5000);
+        enemy->reduceHealth(enemy->gethealth());
         // enemy->deleteLater();
     }
 }
@@ -526,7 +560,7 @@ void Gameplay_page::removeAgentFromBoard(AgentBase* agent)
 void Gameplay_page::updateElixir()
 {
     if (elixir < 10) {
-        elixir += 2;
+        elixir += 1;
         if (elixir > 10) elixir = 10;
         elixirLabel->setText(QString::number(elixir));
     }
@@ -538,7 +572,7 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
     enemy->hide();
     enemy->stopAllTimers();
     enemy->disable();
-    enemy->reduceHealth(5000);
+    enemy->reduceHealth(enemy->gethealth());
     // enemy->deleteLater();
     logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
     checkWaveCompletion();

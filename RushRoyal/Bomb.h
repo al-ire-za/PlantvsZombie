@@ -21,6 +21,7 @@ public:
     QTimer* getTimer() const;
     virtual ~Bomb();
     void startTimer();
+    int type() const override { return 5;}
 
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
