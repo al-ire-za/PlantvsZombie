@@ -20778,3 +20778,17 @@ Enemy (type 1) #1 created.
 Enemy (type 1) #2 created.
 Enemy (type 0) #3 created.
 Wave 3 completed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Wave 1 completed.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Wave 1 completed.
