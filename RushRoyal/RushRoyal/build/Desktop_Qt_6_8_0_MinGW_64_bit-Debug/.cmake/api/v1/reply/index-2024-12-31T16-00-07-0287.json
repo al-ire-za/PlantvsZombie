@@ -1,0 +1,97 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "D:/Qt/Tools/CMake_64/bin/cmake.exe",
+			"cpack" : "D:/Qt/Tools/CMake_64/bin/cpack.exe",
+			"ctest" : "D:/Qt/Tools/CMake_64/bin/ctest.exe",
+			"root" : "D:/Qt/Tools/CMake_64/share/cmake-3.29"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 29,
+			"patch" : 3,
+			"string" : "3.29.3",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+<<<<<<<< HEAD:RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.cmake/api/v1/reply/index-2024-12-31T16-00-07-0287.json
+			"jsonFile" : "codemodel-v2-5de82ae41b6e39034118.json",
+========
+			"jsonFile" : "codemodel-v2-cadbdcac18028e70fe9c.json",
+>>>>>>>> 6745e38d3d1ca6148786d27c66a1be4f60c22876:RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.cmake/api/v1/reply/index-2024-12-31T13-23-16-0307.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 7
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-b3b68d84015715da1350.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-1f75e9aaa12e590b011f.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-b3b68d84015715da1350.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-1f75e9aaa12e590b011f.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+<<<<<<<< HEAD:RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.cmake/api/v1/reply/index-2024-12-31T16-00-07-0287.json
+			"jsonFile" : "codemodel-v2-5de82ae41b6e39034118.json",
+========
+			"jsonFile" : "codemodel-v2-cadbdcac18028e70fe9c.json",
+>>>>>>>> 6745e38d3d1ca6148786d27c66a1be4f60c22876:RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.cmake/api/v1/reply/index-2024-12-31T13-23-16-0307.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 7
+			}
+		}
+	}
+}

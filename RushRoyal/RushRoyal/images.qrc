@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/welcom_page.png</file>
+        <file>images/abi_playbutton.png</file>
+    </qresource>
+    <qresource prefix="/prefix2">
+        <file>images/map_gamplayedit2.jpg</file>
+        <file>images/map_gamplay.jpg</file>
+        <file>images/felfelmoshaki2.png</file>
+        <file>images/golmoshaki2.png</file>
+        <file>images/gorbemahi2.png</file>
+        <file>images/hendone_yakhi22.png</file>
+        <file>images/hendone2.png</file>
+        <file>images/jolback2.png</file>
+        <file>images/kalam2.png</file>
+        <file>images/sanng.png</file>
+        <file>images/gandom22.png</file>
+        <file>images/1_edit.png</file>
+        <file>images/33_editai.png</file>
+        <file>images/4_editai.png</file>
+        <file>images/6_editai.png</file>
+        <file>images/bomb.png</file>
+        <file>images/bomb_ice.png</file>
+        <file>images/bomb_level2.png</file>
+        <file>images/black.png</file>
+        <file>images/Eraser.png</file>
+        <file>images/boss ezafiai1.png</file>
+        <file>images/Disaemer1.png</file>
+        <file>images/freezerai1.png</file>
+        <file>images/trap.png</file>
+        <file>images/banafsh.png</file>
+        <file>images/backgrandGroupPow.png</file>
+        <file>images/resultbackgrand.jpg</file>
+    </qresource>
+</RCC>
