@@ -11,6 +11,7 @@
 #include "EWIEGA46WW/moc_Golmoshaki.cpp"
 #include "EWIEGA46WW/moc_Gorbemahi.cpp"
 #include "EWIEGA46WW/moc_Kalam.cpp"
+#include "EWIEGA46WW/moc_ResultWindow.cpp"
 #include "EWIEGA46WW/moc_Runner.cpp"
 #include "EWIEGA46WW/moc_Shielder.cpp"
 #include "EWIEGA46WW/moc_Trap.cpp"

@@ -30,5 +30,9 @@
         <file>images/trap.png</file>
         <file>images/banafsh.png</file>
         <file>images/backgrandGroupPow.png</file>
+        <file>../../../result-background.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>../../../create_a_leaderboard_for_my_game_that_no_numbers_or_names_are_written_in_it_and_it_has_a_nice_backg_qcyucmwqsyjsqhtuyjcb_3.png</file>
     </qresource>
 </RCC>
