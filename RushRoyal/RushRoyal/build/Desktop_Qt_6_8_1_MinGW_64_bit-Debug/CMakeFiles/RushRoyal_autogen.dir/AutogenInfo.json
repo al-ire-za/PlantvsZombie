@@ -3,15 +3,68 @@
 	"BUILD_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen",
 	"CMAKE_BINARY_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/CMakeLists.txt",
+		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/CMakeLists.txt",
 		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystem.cmake.in",
 		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
 		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
@@ -25,11 +78,27 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in",
 		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
+		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -258,112 +327,112 @@
 		"C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/images.qrc"
+		"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/images.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal",
+	"CMAKE_SOURCE_DIR" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "RushRoyal_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/AgentBase.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/AgentBase.h",
 			"MU",
 			"EWIEGA46WW/moc_AgentBase.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Bomb.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Bomb.h",
 			"MU",
 			"EWIEGA46WW/moc_Bomb.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Bullet.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Bullet.h",
 			"MU",
 			"EWIEGA46WW/moc_Bullet.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Disarmer.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Disarmer.h",
 			"MU",
 			"EWIEGA46WW/moc_Disarmer.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Enemy.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Enemy.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Eraser.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Eraser.h",
 			"MU",
 			"EWIEGA46WW/moc_Eraser.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Freezer.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Freezer.h",
 			"MU",
 			"EWIEGA46WW/moc_Freezer.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gameplay_page.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gameplay_page.h",
 			"MU",
 			"EWIEGA46WW/moc_Gameplay_page.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gandom.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.h",
 			"MU",
 			"EWIEGA46WW/moc_Gandom.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Golmoshaki.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Golmoshaki.h",
 			"MU",
 			"EWIEGA46WW/moc_Golmoshaki.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gorbemahi.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gorbemahi.h",
 			"MU",
 			"EWIEGA46WW/moc_Gorbemahi.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Kalam.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Kalam.h",
 			"MU",
 			"EWIEGA46WW/moc_Kalam.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/ResultWindow.h",
 			"MU",
 			"EWIEGA46WW/moc_ResultWindow.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Runner.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Runner.h",
 			"MU",
 			"EWIEGA46WW/moc_Runner.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Shielder.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.h",
 			"MU",
 			"EWIEGA46WW/moc_Shielder.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Trap.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Trap.h",
 			"MU",
 			"EWIEGA46WW/moc_Trap.cpp",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Welcom_page.h",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Welcom_page.h",
 			"MU",
 			"EWIEGA46WW/moc_Welcom_page.cpp",
 			null
@@ -441,95 +510,59 @@
 	"SOURCES" : 
 	[
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/AgentBase.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/AgentBase.cpp",
+			"MU",
+			null
+		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Bomb.cpp", "MU", null ],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Bullet.cpp", "MU", null ],
+		[
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Disarmer.cpp",
+			"MU",
+			null
+		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Enemy.cpp", "MU", null ],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Eraser.cpp", "MU", null ],
+		[
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Freezer.cpp",
 			"MU",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Bomb.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gameplay_page.cpp",
+			"MU",
+			null
+		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.cpp", "MU", null ],
+		[
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Golmoshaki.cpp",
 			"MU",
 			null
 		],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Bullet.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gorbemahi.cpp",
 			"MU",
 			null
 		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Kalam.cpp", "MU", null ],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Disarmer.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/ResultWindow.cpp",
 			"MU",
 			null
 		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Runner.cpp", "MU", null ],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Enemy.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.cpp",
 			"MU",
 			null
 		],
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Trap.cpp", "MU", null ],
 		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Eraser.cpp",
+			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Welcom_page.cpp",
 			"MU",
 			null
 		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Freezer.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gameplay_page.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gandom.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Golmoshaki.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Gorbemahi.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Kalam.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Runner.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Shielder.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Trap.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/Welcom_page.cpp",
-			"MU",
-			null
-		],
-		[
-			"E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/main.cpp",
-			"MU",
-			null
-		]
+		[ "E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

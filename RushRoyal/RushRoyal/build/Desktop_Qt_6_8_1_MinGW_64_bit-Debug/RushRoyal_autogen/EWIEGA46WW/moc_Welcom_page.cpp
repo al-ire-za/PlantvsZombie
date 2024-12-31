@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../Welcom_page.h"
+#include "../../../../../Welcom_page.h"
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>

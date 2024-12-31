@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../Trap.h"
+#include "../../../../../Trap.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 #include <QtCore/QList>

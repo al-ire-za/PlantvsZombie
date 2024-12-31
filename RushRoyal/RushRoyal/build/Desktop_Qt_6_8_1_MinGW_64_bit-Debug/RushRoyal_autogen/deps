@@ -309,31 +309,94 @@ RushRoyal_autogen/timestamp: \
 	C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/Qt/6.8.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessAliasTargets.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindPackageMessage.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindVulkan.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake \
@@ -547,49 +610,49 @@ RushRoyal_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/AgentBase.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/AgentBase.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Bomb.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Bomb.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Bullet.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Bullet.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/CMakeLists.txt \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Disarmer.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Disarmer.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Enemy.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Enemy.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Eraser.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Eraser.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Freezer.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Freezer.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gameplay_page.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gameplay_page.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gandom.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gandom.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Golmoshaki.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Golmoshaki.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gorbemahi.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gorbemahi.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Kalam.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Kalam.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Runner.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Runner.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Shielder.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Shielder.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Trap.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Trap.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Welcom_page.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Welcom_page.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/AgentBase.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/AgentBase.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Bomb.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Bomb.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Bullet.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Bullet.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/CMakeLists.txt \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Disarmer.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Disarmer.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Enemy.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Enemy.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Eraser.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Eraser.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Freezer.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Freezer.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gameplay_page.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gameplay_page.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gandom.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gandom.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Golmoshaki.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Golmoshaki.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gorbemahi.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gorbemahi.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Kalam.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Kalam.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Runner.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Runner.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/images.qrc \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/main.cpp \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gameplay_page.ui \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.ui \
-	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Welcom_page.ui \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Shielder.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Shielder.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Trap.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Trap.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Welcom_page.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Welcom_page.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/images.qrc \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/main.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gameplay_page.ui \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.ui \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Welcom_page.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

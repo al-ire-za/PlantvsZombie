@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../AgentBase.h"
+#include "../../../../../AgentBase.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 

@@ -347,7 +347,7 @@ RushRoyal_BINARY_DIR:STATIC=E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoy
 RushRoyal_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-RushRoyal_SOURCE_DIR:STATIC=E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal
+RushRoyal_SOURCE_DIR:STATIC=E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
@@ -433,7 +433,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal
+CMAKE_HOME_DIRECTORY:INTERNAL=E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

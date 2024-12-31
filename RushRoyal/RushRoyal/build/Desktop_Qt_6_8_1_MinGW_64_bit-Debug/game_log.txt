@@ -1,24 +1,7 @@
 Enemy (type 0) #1 created.
-Agent choice 3 selected.
-Enemy (type 1) #2 created.
-Enemy (type 0) #3 created.
-Enemy (type 1) #4 created.
-Agent choice 2 selected.
-Enemy (type 0) #5 created.
-Wave 1 completed.
-Placed agent on the board at index 9.
-Agent choice 3 selected.
-Enemy (type 6Runner) killed.
-Placed agent on the board at index 10.
-Agent choice 4 selected.
-Enemy (type 8Shielder) killed.
-Placed bomb on the map at position: (958, 392).
-Enemy (type 6Runner) killed.
-Enemy (type 6Runner) killed.
-Enemy (type 1) #1 created.
 Enemy (type 0) #2 created.
-Enemy (type 1) #3 created.
-Enemy (type 1) #4 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
 Enemy (type 1) #5 created.
 Wave 1 completed.
 Game Over: Too many enemies reached the end.
@@ -26,76 +9,6 @@ Game Over: Too many enemies reached the end.
 Game Over: Too many enemies reached the end.
 Starting wave 2...
 Enemy (type 0) #1 created.
-Boss enemy (type 2) created.
+Boss enemy (type 1) created.
 Enemy (type 1) #2 created.
 Enemy (type 0) #3 created.
-Enemy (type 0) #4 created.
-Enemy (type 0) #5 created.
-Wave 2 completed.
-Enemy (type 0) #1 created.
-Enemy (type 0) #2 created.
-Enemy (type 0) #3 created.
-Enemy (type 1) #4 created.
-Enemy (type 0) #5 created.
-Wave 1 completed.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Starting wave 2...
-Enemy (type 1) #1 created.
-Boss enemy (type 2) created.
-Enemy (type 1) #2 created.
-Enemy (type 0) #3 created.
-Enemy (type 1) #4 created.
-Enemy (type 0) #5 created.
-Wave 2 completed.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Enemy (type 1) #1 created.
-Enemy (type 1) #2 created.
-Enemy (type 1) #3 created.
-Enemy (type 1) #4 created.
-Enemy (type 0) #5 created.
-Wave 1 completed.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Starting wave 2...
-Enemy (type 0) #1 created.
-Boss enemy (type 2) created.
-Enemy (type 0) #2 created.
-Enemy (type 1) #3 created.
-Enemy (type 1) #4 created.
-Enemy (type 0) #5 created.
-Wave 2 completed.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Enemy (type 0) #1 created.
-Enemy (type 1) #2 created.
-Enemy (type 1) #3 created.
-Enemy (type 1) #4 created.
-Enemy (type 0) #5 created.
-Wave 1 completed.
-Agent choice 3 selected.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Starting wave 2...
-Enemy (type 1) #1 created.
-Boss enemy (type 0) created.
-Enemy (type 1) #2 created.
-Enemy (type 0) #3 created.
-Enemy (type 0) #4 created.
-Enemy (type 0) #5 created.
-Wave 2 completed.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.
-Game Over: Too many enemies reached the end.

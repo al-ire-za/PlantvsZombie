@@ -1,4 +1,4 @@
-E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_ResultWindow.cpp: E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/ResultWindow.h \
+E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_ResultWindow.cpp: E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/ResultWindow.h \
   E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \

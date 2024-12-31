@@ -1,4 +1,4 @@
-E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_Gorbemahi.cpp: E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Gorbemahi.h \
+E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_Gorbemahi.cpp: E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gorbemahi.h \
   E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QSequentialAnimationGroup \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
@@ -367,5 +367,5 @@ E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_M
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/AgentBase.h \
-  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/Enemy.h
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/AgentBase.h \
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Enemy.h

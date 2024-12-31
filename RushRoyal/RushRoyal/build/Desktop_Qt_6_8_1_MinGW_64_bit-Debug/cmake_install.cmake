@@ -1,4 +1,4 @@
-# Install script for directory: E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal
+# Install script for directory: E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
