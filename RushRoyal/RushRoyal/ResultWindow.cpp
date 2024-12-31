@@ -5,7 +5,7 @@
 #include <QScreen>
 
 
-ResultWindow::ResultWindow(int wave, int count, int elixir, int record, QWidget *parent) :
+ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::ResultWindow)
 {
@@ -40,7 +40,6 @@ ResultWindow::ResultWindow(int wave, int count, int elixir, int record, QWidget 
     int startY = (windowHeight - 4 * labelHeight - 3 * spacing) / 1;
 
 
-    int number = 10; //باید رکورد ها و چیز هایی که میخوایم چاپ کنیم رو بچای این  قرار بدیم بعدا
     recordwave->setGeometry((windowWidth - labelWidth) / 2, startY - (labelHeight + spacing) +20, labelWidth, labelHeight);
     setRecordWave(wave);
     recordwave->setStyleSheet(" background: transparent;"
@@ -56,7 +55,7 @@ ResultWindow::ResultWindow(int wave, int count, int elixir, int record, QWidget 
                                  " background-color: rgba(255, 170, 0, 200);"
                                  " border: 2px solid black;"
                                  " border-radius: 15px ;"
-                                 " font: bold 27px;"
+                                 " font: bold 26px;"
                                  );
 
     elixirused->setGeometry((windowWidth - labelWidth) / 2, startY + (labelHeight + spacing) +20, labelWidth, labelHeight);
@@ -74,7 +73,7 @@ ResultWindow::ResultWindow(int wave, int count, int elixir, int record, QWidget 
                              " background-color: rgba(255, 170, 0, 200);"
                              " border: 2px solid black;"
                              " border-radius: 15px ;"
-                             " font: bold 28px;");
+                             " font: bold 27px;");
 
 
     QScreen *screen = QGuiApplication::primaryScreen();
@@ -93,7 +92,7 @@ void ResultWindow::setRecordWave(int wave)
 
 void ResultWindow::setNOEnemyKilled(int count)
 {
-    NOEnemyKilled->setText(QString("Killed Enemies : "+ QString::number(count)));
+    NOEnemyKilled->setText(QString("Killed Enemies :  "+ QString::number(count)));
 }
 
 void ResultWindow::setElixirUsed(int elixir)
@@ -103,7 +102,7 @@ void ResultWindow::setElixirUsed(int elixir)
 
 void ResultWindow::setRecordGame(int record)
 {
-    recorGame->setText(QString("Game Record : "+ QString::number(record)));
+    recorGame->setText(QString("Game Record :  "+ QString::number(record)));
 }
 
 ResultWindow::~ResultWindow()
