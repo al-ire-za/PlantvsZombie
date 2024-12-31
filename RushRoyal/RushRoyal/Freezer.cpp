@@ -3,8 +3,8 @@
 #include <QSequentialAnimationGroup>
 #include <QTimer>
 #include "Gameplay_page.h"
-Freezer::Freezer(QWidget *parent)
-    : Enemy(parent, 2000, 0.25, ":/prefix2/images/boss ezafiai1.png")
+Freezer::Freezer(QWidget *parent, int health, double speed)
+    : Enemy(parent, health, speed, ":/prefix2/images/boss ezafiai1.png")
 {
     freezeTimer = new QTimer(this);
     connect(freezeTimer, &QTimer::timeout, this, &Freezer::freezeRandomAgent);
@@ -43,7 +43,11 @@ void Freezer::freezeRandomAgent()
             int randomIndex = occupiedIndices[std::rand() % occupiedIndices.size()];
             AgentBase* agent = gamePage->agent_board[randomIndex];
             if (agent) {
+<<<<<<< HEAD:RushRoyal/RushRoyal/Freezer.cpp
                 agent->setEnabled(false);
+=======
+                agent->setFrozen(true);
+>>>>>>> 2810e8069d1a50aa421431c3fe073b5bae208eb1:RushRoyal/Freezer.cpp
                 frozenAgents.append(agent);
                 gamePage->logEvent(QString("Agent frozen at index %1.").arg(randomIndex));
             }
@@ -54,7 +58,7 @@ void Freezer::freezeRandomAgent()
 void Freezer::unfreezeAllAgents()
 {
     for (AgentBase* agent : frozenAgents) {
-        agent->setEnabled(true); // بازگرداندن ایجنت‌ها به حالت عادی
+        agent->setFrozen(false); // بازگرداندن ایجنت‌ها به حالت عادی
     }
     frozenAgents.clear();
 }

@@ -13,7 +13,7 @@ class Freezer : public Enemy
     Q_OBJECT
 
 public:
-    Freezer(QWidget *parent = nullptr);
+    Freezer(QWidget *parent = nullptr, int health = 2000, double speed = 0.25);
     Freezer(const Freezer &other);
     virtual ~Freezer();
     void move() override;
@@ -28,6 +28,7 @@ private:
     QTimer *freezeTimer;
     QVector<AgentBase*> frozenAgents;
     friend class Gameplay_page;
+    friend class Enemy;
 };
 
 #endif // FREEZER_H

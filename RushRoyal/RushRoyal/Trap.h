@@ -18,6 +18,7 @@ public:
     virtual ~Trap();
     void checkCollision(const QVector<Enemy*>& enemies);
     int getcollisionCount() const;
+    int type() const override { return 6;}
 
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);

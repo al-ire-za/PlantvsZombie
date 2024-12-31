@@ -17,6 +17,7 @@ public:
     void shootAt(const QVector<Enemy*>& enemies) override;
     int getElixirCost() const override;
     virtual ~Gorbemahi();
+    int type() const override { return 3;}
 
 private:
     Ui::Gorbemahi *ui;

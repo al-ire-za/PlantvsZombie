@@ -37,13 +37,6 @@ public:
     QLabel *label_27;
     QLabel *label_28;
     QLabel *label_29;
-    QLabel *BoxUpgrade;
-    QLabel *LabelPow1;
-    QLabel *LabelPow5;
-    QLabel *LabelPow4;
-    QLabel *LabelPow3;
-    QLabel *LabelPow2;
-    QLabel *LabelPow5_2;
     QLabel *label_30;
     QLabel *label_31;
     QLabel *label_32;
@@ -126,29 +119,6 @@ public:
         label_29->setGeometry(QRect(350, 250, 90, 80));
         label_29->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
-        BoxUpgrade = new QLabel(centralwidget);
-        BoxUpgrade->setObjectName("BoxUpgrade");
-        BoxUpgrade->setGeometry(QRect(1090, 110, 110, 550));
-        BoxUpgrade->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/backgrandGroupPow.png);"));
-        LabelPow1 = new QLabel(centralwidget);
-        LabelPow1->setObjectName("LabelPow1");
-        LabelPow1->setGeometry(QRect(1100, 120, 90, 80));
-        LabelPow5 = new QLabel(centralwidget);
-        LabelPow5->setObjectName("LabelPow5");
-        LabelPow5->setGeometry(QRect(1100, 480, 90, 80));
-        LabelPow4 = new QLabel(centralwidget);
-        LabelPow4->setObjectName("LabelPow4");
-        LabelPow4->setGeometry(QRect(1100, 390, 90, 80));
-        LabelPow3 = new QLabel(centralwidget);
-        LabelPow3->setObjectName("LabelPow3");
-        LabelPow3->setGeometry(QRect(1100, 300, 90, 80));
-        LabelPow2 = new QLabel(centralwidget);
-        LabelPow2->setObjectName("LabelPow2");
-        LabelPow2->setGeometry(QRect(1100, 210, 90, 80));
-        LabelPow5_2 = new QLabel(centralwidget);
-        LabelPow5_2->setObjectName("LabelPow5_2");
-        LabelPow5_2->setGeometry(QRect(1100, 570, 90, 80));
         label_30 = new QLabel(centralwidget);
         label_30->setObjectName("label_30");
         label_30->setGeometry(QRect(385, 640, 90, 80));
@@ -198,13 +168,6 @@ public:
         label_27->setText(QString());
         label_28->setText(QString());
         label_29->setText(QString());
-        BoxUpgrade->setText(QString());
-        LabelPow1->setText(QString());
-        LabelPow5->setText(QString());
-        LabelPow4->setText(QString());
-        LabelPow3->setText(QString());
-        LabelPow2->setText(QString());
-        LabelPow5_2->setText(QString());
         label_30->setText(QString());
         label_31->setText(QString());
         label_32->setText(QString());

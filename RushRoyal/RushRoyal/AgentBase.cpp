@@ -4,7 +4,7 @@
 #include <QTimer>
 
 AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate, int elixirCost)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false)
 
 {
     updateimagUrl(imageUrl);
@@ -13,7 +13,7 @@ AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int fi
 }
 
 AgentBase::AgentBase(const AgentBase &other): AgentBasePower(other.AgentBasePower), AgentBaseFireRate(other.AgentBaseFireRate),
-    AgentBaseimageUrl(other.AgentBaseimageUrl)
+    AgentBaseimageUrl(other.AgentBaseimageUrl), frozen(false)
 {
     updateimagUrl(other.AgentBaseimageUrl);
     shootTimer = new QTimer(this);
@@ -55,6 +55,20 @@ void AgentBase::shootAt(const QVector<Enemy*>& enemies)
     }
 
     bullet->shoot(this->pos(), target);
+<<<<<<< HEAD:RushRoyal/RushRoyal/AgentBase.cpp
+=======
+}
+
+bool AgentBase::isFrozen() const
+{
+    return frozen;
+}
+
+void AgentBase::setFrozen(bool frozen)
+{
+    this->frozen = frozen;
+    setEnabled(!frozen);
+>>>>>>> 2810e8069d1a50aa421431c3fe073b5bae208eb1:RushRoyal/AgentBase.cpp
 }
 
 void AgentBase::stopShooting()

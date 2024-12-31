@@ -2,6 +2,10 @@
 #include <QLabel>
 #include <QPropertyAnimation>
 #include <QTimer>
+<<<<<<< HEAD:RushRoyal/RushRoyal/Enemy.cpp
+=======
+#include "Freezer.h"
+>>>>>>> 2810e8069d1a50aa421431c3fe073b5bae208eb1:RushRoyal/Enemy.cpp
 
 Enemy::Enemy(QWidget *parent, int health, double speed, const QString &imageUrl)
     : QLabel(parent), EnemyHealth(health), EnemySpeed(speed), EnemyImageUrl(imageUrl)
@@ -43,6 +47,11 @@ void Enemy::reduceHealth(int amount)
     if (EnemyHealth <= 0) {
         hide(); // پنهان کردن انمی در صورت رسیدن سلامت به صفر یا کمتر
         // deleteLater(); // حذف انمی از حافظه
+        Freezer *freezer = dynamic_cast<Freezer*>(this);
+        if (freezer) {
+            freezer->unfreezeAllAgents();
+        }
+
     }
 }
 

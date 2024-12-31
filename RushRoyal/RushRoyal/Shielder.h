@@ -12,7 +12,7 @@ class Shielder : public Enemy
     Q_OBJECT
 
 public:
-    Shielder(QWidget *parent = nullptr);
+    Shielder(QWidget *parent = nullptr, int health = 100, double speed = 0.5);
     Shielder(const Shielder &other);
     virtual ~Shielder();
     void move() override;

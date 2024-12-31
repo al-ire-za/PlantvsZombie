@@ -215,16 +215,16 @@ build CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj: 
 
 
 #############################################
-# Link the executable RushRoyal.exe
+# Link the executable ======RushRoyal.exe
 
-build RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Trap.cpp.obj CMakeFiles/RushRoyal.dir/Enemy.cpp.obj CMakeFiles/RushRoyal.dir/Kalam.cpp.obj CMakeFiles/RushRoyal.dir/Eraser.cpp.obj CMakeFiles/RushRoyal.dir/Freezer.cpp.obj CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj CMakeFiles/RushRoyal.dir/Shielder.cpp.obj CMakeFiles/RushRoyal.dir/Runner.cpp.obj CMakeFiles/RushRoyal.dir/Bullet.cpp.obj CMakeFiles/RushRoyal.dir/ResultWindow.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | D$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
+build ======RushRoyal.exe: CXX_EXECUTABLE_LINKER__RushRoyal_Debug CMakeFiles/RushRoyal.dir/RushRoyal_autogen/mocs_compilation.cpp.obj CMakeFiles/RushRoyal.dir/main.cpp.obj CMakeFiles/RushRoyal.dir/Welcom_page.cpp.obj CMakeFiles/RushRoyal.dir/Gameplay_page.cpp.obj CMakeFiles/RushRoyal.dir/AgentBase.cpp.obj CMakeFiles/RushRoyal.dir/Gorbemahi.cpp.obj CMakeFiles/RushRoyal.dir/Gandom.cpp.obj CMakeFiles/RushRoyal.dir/Bomb.cpp.obj CMakeFiles/RushRoyal.dir/Golmoshaki.cpp.obj CMakeFiles/RushRoyal.dir/Trap.cpp.obj CMakeFiles/RushRoyal.dir/Enemy.cpp.obj CMakeFiles/RushRoyal.dir/Kalam.cpp.obj CMakeFiles/RushRoyal.dir/Eraser.cpp.obj CMakeFiles/RushRoyal.dir/Freezer.cpp.obj CMakeFiles/RushRoyal.dir/Disarmer.cpp.obj CMakeFiles/RushRoyal.dir/Shielder.cpp.obj CMakeFiles/RushRoyal.dir/Runner.cpp.obj CMakeFiles/RushRoyal.dir/Bullet.cpp.obj CMakeFiles/RushRoyal.dir/ResultWindow.cpp.obj CMakeFiles/RushRoyal.dir/RushRoyal_autogen/EWIEGA46WW/qrc_images.cpp.obj | D$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || RushRoyal_autogen RushRoyal_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  D:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RushRoyal.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = RushRoyal.exe
+  TARGET_FILE = ======RushRoyal.exe
   TARGET_IMPLIB = libRushRoyal.dll.a
   TARGET_PDB = RushRoyal.exe.dbg
 
@@ -335,7 +335,7 @@ build CMakeFiles/RushRoyal_autogen RushRoyal_autogen/include/ui_welcom_page.h Ru
 # =============================================================================
 # Target aliases.
 
-build RushRoyal: phony RushRoyal.exe
+build RushRoyal: phony ======RushRoyal.exe
 
 # =============================================================================
 # Folder targets.
@@ -345,7 +345,7 @@ build RushRoyal: phony RushRoyal.exe
 #############################################
 # Folder: C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
 
-build all: phony RushRoyal.exe
+build all: phony ======RushRoyal.exe
 
 # =============================================================================
 # Built-in targets

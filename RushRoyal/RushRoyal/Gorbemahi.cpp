@@ -15,7 +15,7 @@ Gorbemahi::Gorbemahi(const Gorbemahi &other)
 
 void Gorbemahi::shootAt(const QVector<Enemy*>& enemies)
 {
-    if (enemies.isEmpty()) return;
+    if (enemies.isEmpty()|| isFrozen()) return;
 
     int randomIndex = std::rand() % enemies.size();
     Enemy* target = enemies[randomIndex];  // هدف: انمی تصادفی

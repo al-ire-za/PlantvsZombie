@@ -12,7 +12,7 @@ class Runner : public Enemy
     Q_OBJECT
 
 public:
-    Runner(QWidget *parent = nullptr);
+    Runner(QWidget *parent = nullptr, int health = 50, double speed = 1.00);
     Runner(const Runner &other);
     virtual ~Runner();
     void move() override;
