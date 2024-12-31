@@ -16,7 +16,47 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/prefix2/result-background.png);</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="leaderboard">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>220</y>
+      <width>321</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+ background-color: rgba(135, 230, 250, 150); 
+border-radius: 25px;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultText">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+color: black;
+font: bold 50px;</string>
+    </property>
+    <property name="text">
+     <string> result</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="enabled">
     <bool>true</bool>

@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QWidget>
@@ -21,6 +22,8 @@ class Ui_ResultWindow
 {
 public:
     QWidget *centralwidget;
+    QLabel *leaderboard;
+    QLabel *resultText;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *ResultWindow)
@@ -31,6 +34,21 @@ public:
         ResultWindow->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/result-background.png);"));
         centralwidget = new QWidget(ResultWindow);
         centralwidget->setObjectName("centralwidget");
+        leaderboard = new QLabel(centralwidget);
+        leaderboard->setObjectName("leaderboard");
+        leaderboard->setGeometry(QRect(160, 220, 321, 361));
+        leaderboard->setStyleSheet(QString::fromUtf8("background: transparent;\n"
+" background-color: rgba(135, 230, 250, 150); \n"
+"border-radius: 25px;\n"
+"\n"
+"\n"
+""));
+        resultText = new QLabel(centralwidget);
+        resultText->setObjectName("resultText");
+        resultText->setGeometry(QRect(240, 230, 161, 51));
+        resultText->setStyleSheet(QString::fromUtf8("background: transparent;\n"
+"color: black;\n"
+"font: bold 50px;"));
         ResultWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ResultWindow);
         menubar->setObjectName("menubar");
@@ -46,6 +64,8 @@ public:
     void retranslateUi(QMainWindow *ResultWindow)
     {
         ResultWindow->setWindowTitle(QCoreApplication::translate("ResultWindow", "MainWindow", nullptr));
+        leaderboard->setText(QString());
+        resultText->setText(QCoreApplication::translate("ResultWindow", " result", nullptr));
     } // retranslateUi
 
 };

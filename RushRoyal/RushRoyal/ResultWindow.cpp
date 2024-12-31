@@ -5,7 +5,7 @@
 #include <QScreen>
 
 
-ResultWindow::ResultWindow(QWidget *parent) :
+ResultWindow::ResultWindow(int wave, int count, int elixir, int record, QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::ResultWindow)
 {
@@ -18,25 +18,65 @@ ResultWindow::ResultWindow(QWidget *parent) :
     elixirused = new QLabel(this);
     recorGame = new QLabel(this);
 
+    ui->leaderboard->setText("RESULT");
+
+    ui->leaderboard->setStyleSheet(
+        "background: transparent;"
+        " background-color: rgba(135, 230, 250, 150);"
+        " border: 8px;"
+        " font: bold 40px; "
+        " color:  orange; "
+        "border-radius: 25px;"
+        "padding-top: 5px;"
+        );
+
+
     int windowWidth = 640;
     int windowHeight = 600;
-    int labelWidth = 200;
-    int labelHeight = 50;
-    int spacing = 20;
+    int labelWidth = 280;
+    int labelHeight = 55;
+    int spacing = 10;
 
     int startY = (windowHeight - 4 * labelHeight - 3 * spacing) / 1;
 
-    recordwave->setGeometry((windowWidth - labelWidth) / 2, startY, labelWidth, labelHeight);
-    NOEnemyKilled->setGeometry((windowWidth - labelWidth) / 2, startY + labelHeight + spacing, labelWidth, labelHeight);
-    elixirused->setGeometry((windowWidth - labelWidth) / 2, startY + 2 * (labelHeight + spacing), labelWidth, labelHeight);
-    recorGame->setGeometry((windowWidth - labelWidth) / 2, startY - 1 * (labelHeight + spacing), labelWidth, labelHeight);
+
+    int number = 10; //باید رکورد ها و چیز هایی که میخوایم چاپ کنیم رو بچای این  قرار بدیم بعدا
+    recordwave->setGeometry((windowWidth - labelWidth) / 2, startY - (labelHeight + spacing) +20, labelWidth, labelHeight);
+    setRecordWave(wave);
+    recordwave->setStyleSheet(" background: transparent;"
+                              " background-color: rgba(255, 170, 0, 200);"
+                              " border: 2px solid black;"
+                              " border-radius: 15px ;"
+                              " font: bold 28px;"
+                              );
+
+    NOEnemyKilled->setGeometry((windowWidth - labelWidth) / 2, startY +20 , labelWidth, labelHeight);
+    setNOEnemyKilled(count);
+    NOEnemyKilled->setStyleSheet(" background: transparent;"
+                                 " background-color: rgba(255, 170, 0, 200);"
+                                 " border: 2px solid black;"
+                                 " border-radius: 15px ;"
+                                 " font: bold 27px;"
+                                 );
+
+    elixirused->setGeometry((windowWidth - labelWidth) / 2, startY + (labelHeight + spacing) +20, labelWidth, labelHeight);
+    setElixirUsed(elixir);
+    elixirused->setStyleSheet(" background: transparent;"
+                              " background-color: rgba(255, 170, 0, 200);"
+                              " border: 2px solid black;"
+                              " border-radius: 15px ;"
+                              " font: bold 28px;"
+                              );
+
+    recorGame->setGeometry((windowWidth - labelWidth) / 2, startY + 2 * (labelHeight + spacing) +20, labelWidth, labelHeight);
+    setRecordGame(record);
+    recorGame->setStyleSheet(" background: transparent;"
+                             " background-color: rgba(255, 170, 0, 200);"
+                             " border: 2px solid black;"
+                             " border-radius: 15px ;"
+                             " font: bold 28px;");
 
 
-    recordwave->setStyleSheet("background-color: white; background: transparent; border: 2px solid black; font: bold 14px; text-align: center;");
-   /* NOEnemyKilled->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
-    elixirused->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
-    recorGame->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
-*/
     QScreen *screen = QGuiApplication::primaryScreen();
     QRect screenRect = screen->availableGeometry();
     int x = (screenRect.width() - width()) / 2;
@@ -48,25 +88,26 @@ ResultWindow::ResultWindow(QWidget *parent) :
 
 void ResultWindow::setRecordWave(int wave)
 {
-    recordwave->setText(QString("Record Wave: %1").arg(wave));
+    recordwave->setText(QString("Wave Record :  "+ QString::number(wave)));
 }
 
 void ResultWindow::setNOEnemyKilled(int count)
 {
-    NOEnemyKilled->setText(QString("Number of Enemies Killed: %1").arg(count));
+    NOEnemyKilled->setText(QString("Killed Enemies : "+ QString::number(count)));
 }
 
 void ResultWindow::setElixirUsed(int elixir)
 {
-    elixirused->setText(QString("Elixir Used: %1").arg(elixir));
+    elixirused->setText(QString("Elixir Used :      "+ QString::number(elixir)));
 }
 
 void ResultWindow::setRecordGame(int record)
 {
-    recorGame->setText(QString("Record Game: %1").arg(record));
+    recorGame->setText(QString("Game Record : "+ QString::number(record)));
 }
 
 ResultWindow::~ResultWindow()
 {
     delete ui;
 }
+

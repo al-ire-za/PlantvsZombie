@@ -13,7 +13,7 @@ class ResultWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit ResultWindow(QWidget *parent = nullptr);
+    explicit ResultWindow(int wave = 0, int count = 0, int elixir = 0, int record = 0, QWidget *parent = nullptr);
     ~ResultWindow();
     QLabel *recordwave;
     QLabel *NOEnemyKilled;
