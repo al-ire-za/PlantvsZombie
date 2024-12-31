@@ -89,7 +89,8 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     }
 
     current_choice = nullptr;
-
+    isGameOver = false;
+    usedElixir = 0;
     elixirLabel = new QLabel(this);
     elixirLabel->setGeometry(790, 655, 50, 50);
     elixirLabel->setStyleSheet("background-image: url(:/prefix2/images/banafsh.png); border-radius: 25px; color: white; text-align: center;font-weight: bold;");
@@ -367,6 +368,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                 logMessage = "Placed bomb on the map at position: (" + QString::number(event->pos().x()) + ", " + QString::number(event->pos().y()) + ").";
                 logEvent(logMessage);
                 elixir -= requiredElixir;
+                usedElixir += requiredElixir;
                 elixirLabel->setText(QString::number(elixir));
                 updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                       (current_choice == agent_choice2) ? 1 :
@@ -399,6 +401,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                                                                   (current_choice == agent_choice3) ? 2 : 3);
 
                             elixir -= requiredElixir;
+                            usedElixir += requiredElixir;
                             elixirLabel->setText(QString::number(elixir));
                             logMessage = QString("Placed agent on the board at index %1.").arg(i);
                             logEvent(logMessage);
@@ -582,14 +585,12 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
 
 void Gameplay_page::checkGameOver()
 {
+    if (isGameOver) return;
     if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
         logEvent("Game Over: Too many enemies reached the end.");
-        ResultWindow *resultwindow = new ResultWindow;
-        resultwindow->setRecordWave(wave);
-        resultwindow->setNOEnemyKilled(count_enemi);
-        resultwindow->setElixirUsed(elixir);
-        resultwindow->setRecordGame(enemyReachedEndCount);
+        ResultWindow *resultwindow = new ResultWindow(wave,count_enemi,usedElixir,enemyReachedEndCount);
         resultwindow->show();
+        isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
     }
 }

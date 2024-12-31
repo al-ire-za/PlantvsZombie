@@ -1,5 +1,5 @@
-C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_Welcom_page.cpp: C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/RushRoyal/Welcom_page.h \
-  C:/Users/Moeen/Desktop/AP_Project_Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
+C:/Users/Moeen/Desktop/AP-Project-Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_Welcom_page.cpp: C:/Users/Moeen/Desktop/AP-Project-Fall1403/RushRoyal/RushRoyal/Welcom_page.h \
+  C:/Users/Moeen/Desktop/AP-Project-Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   D:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \

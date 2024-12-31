@@ -71,8 +71,10 @@ private:
     int elixir;
     int count_enemi;
     int wave;
+    int usedElixir;
     bool bossSpawned;
     bool waveInProgress;
+    bool isGameOver;
     int enemyReachedEndCount;
     const int maxEnemiesAllowedToReachEnd = 3;
     void checkGameOver();

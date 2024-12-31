@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b2f536d18108ed33d1dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RushRoyal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RushRoyal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RushRoyal-Debug-1095e3fb35bc4ddd744c.json",
+					"name" : "RushRoyal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RushRoyal_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RushRoyal_autogen-Debug-47e8d2fa713cbd0a15bd.json",
+					"name" : "RushRoyal_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RushRoyal_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RushRoyal_autogen_timestamp_deps-Debug-c68c5df8f924751ce4c9.json",
+					"name" : "RushRoyal_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Moeen/Desktop/AP-Project-Fall1403/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Moeen/Desktop/AP-Project-Fall1403/RushRoyal/RushRoyal"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
