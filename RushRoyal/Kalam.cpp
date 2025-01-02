@@ -2,7 +2,7 @@
 
 
 Kalam::Kalam(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/kalam2.png", 20, 900, 3)
+    : AgentBase(parent, ":/prefix2/images/kalam2.png", 22, 900, 3)
 {
 
 }

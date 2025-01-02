@@ -4,11 +4,12 @@
 #include <QTimer>
 
 AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate, int elixirCost)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBasePower(power), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false)
 
 {
     updateimagUrl(imageUrl);
     shootTimer = new QTimer(this);
+    setpower(power);
 
 }
 
@@ -37,6 +38,9 @@ void AgentBase::updateimagUrl(const QString &image){
     setStyleSheet("background-image: url(" + image + ");");
 }
 
+void AgentBase::setpower(int po){
+    AgentBasePower = po;
+}
 
 void AgentBase::shootAt(const QVector<Enemy*>& enemies)
 {

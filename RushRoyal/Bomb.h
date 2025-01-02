@@ -22,6 +22,8 @@ public:
     virtual ~Bomb();
     void startTimer();
     int type() const override { return 5;}
+    void setpowerkill(int pow);
+    int getpowerkill() const;
 
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
@@ -32,6 +34,7 @@ private slots:
 
 private:
     int collisionCount;
+    int powerkill;
     QTimer *timerStart;
     Ui::Bomb *ui;
 

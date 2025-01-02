@@ -5,7 +5,7 @@
 
 
 Trap::Trap(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/trap.png", 40, 2, 2), collisionCount(0)
+    : AgentBase(parent, ":/prefix2/images/trap.png", 40, 2, 2), collisionCount(0), powerkill(2)
 
 {
 
@@ -27,14 +27,26 @@ int Trap::getcollisionCount() const{
 }
 
 
+void Trap::setpowerkill(int pow){
+    powerkill = pow;
+}
+
+int Trap::getpowerkill() const{
+    return powerkill;
+}
+
 void Trap::checkCollision(const QVector<Enemy*>& enemies)
 {
     QVector<Enemy*> enemiesToRemove;
     for (Enemy* enemy : enemies) {
+
         if (geometry().intersects(enemy->geometry())) {
             enemiesToRemove.append(enemy);
             collisionCount++;
-            if (collisionCount == 2) {
+
+
+            if (collisionCount == powerkill) {
+
                 break;
             }
         }
@@ -44,7 +56,6 @@ void Trap::checkCollision(const QVector<Enemy*>& enemies)
         emit removeEnemies(enemiesToRemove);
     }
 }
-
 
 Trap::~Trap()
 {

@@ -19,12 +19,15 @@ public:
     void checkCollision(const QVector<Enemy*>& enemies);
     int getcollisionCount() const;
     int type() const override { return 6;}
+    void setpowerkill(int pow);
+    int getpowerkill() const;
 
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
 
 private:
     Ui::Trap *ui;
+    int powerkill;
     int collisionCount;
 };
 

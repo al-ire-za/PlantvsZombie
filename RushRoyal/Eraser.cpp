@@ -9,7 +9,7 @@ Eraser::Eraser(QWidget *parent, int health, double speed)
 {
     eraseTimer = new QTimer(this);
     connect(eraseTimer, &QTimer::timeout, this, &Eraser::removeRandomAgent);
-    eraseTimer->start(7000);
+    eraseTimer->start(3000);
 }
 
 Eraser::Eraser(const Eraser &other)
@@ -17,7 +17,7 @@ Eraser::Eraser(const Eraser &other)
 {
     eraseTimer = new QTimer(this);
     connect(eraseTimer, &QTimer::timeout, this, &Eraser::removeRandomAgent);
-    eraseTimer->start(7000);
+    eraseTimer->start(3000);
 }
 
 void Eraser::removeRandomAgent()

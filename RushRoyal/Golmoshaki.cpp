@@ -3,7 +3,7 @@
 
 
 Golmoshaki::Golmoshaki(QWidget *parent)
-    :AgentBase(parent, ":/prefix2/images/golmoshaki2.png", 35, 1200, 2)
+    :AgentBase(parent, ":/prefix2/images/golmoshaki2.png", 15, 1200, 2)
 {
 
 }

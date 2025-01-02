@@ -46,6 +46,18 @@ private slots:
     void removeBombTrap(AgentBase* agent);
     void createBoss();
 
+    void on_PGolmushaki_clicked();
+
+    void on_PGorbemahi_clicked();
+
+    void on_PKalam_clicked();
+
+    void on_PGandom_clicked();
+
+    void on_PBomb_clicked();
+
+    void on_PTrap_clicked();
+
 public slots:
     void onEnemyKilled(Enemy* enemy);
 
@@ -64,6 +76,7 @@ private:
     Freezer *freezer;
     Disarmer *disarmer;
     QVector<Enemy*> enemies;
+    QList<int> levels;
     QTimer *elixirTimer;
     QLabel *elixirLabel;
     QTimer *shootTimer;
@@ -76,6 +89,7 @@ private:
     bool waveInProgress;
     bool isGameOver;
     int enemyReachedEndCount;
+    int enemiesKilled;
     const int maxEnemiesAllowedToReachEnd = 3;
     void checkGameOver();
     void updateEnemyCountLabel();

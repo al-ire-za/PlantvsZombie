@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(5), waveInProgress(true)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -68,6 +68,13 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemyCountLabel->setText("0");
     enemyCountLabel->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
 
+    levels.resize(6);
+    for(int i = 0 ; i < levels.size(); i++){
+        levels[i] = 1;
+    }
+
+    // initializeAgents();
+
     agent_choice1 = new Gorbemahi(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Golmoshaki(this);
@@ -76,6 +83,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+
 
 
     eraser = nullptr;
@@ -88,6 +96,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     }
 
+
     current_choice = nullptr;
     isGameOver = false;
     usedElixir = 0;
@@ -98,9 +107,9 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     elixirLabel->setText(QString::number(elixir));
     elixirLabel->show();
 
-    elixirTimer = new QTimer(this);
-    connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
-    elixirTimer->start(2000);
+    // elixirTimer = new QTimer(this);
+    // connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
+    // elixirTimer->start(2000);
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
@@ -113,7 +122,268 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     QTimer *collisionTimer = new QTimer(this);
     connect(collisionTimer, &QTimer::timeout, this, &Gameplay_page::checkCollisions);
     collisionTimer->start(50); // هر 50 میلی‌ثانیه برخوردها را بررسی می‌کند
+    initializeAgents();
 }
+
+void Gameplay_page::initializeAgents() {
+    agents.append(new Gorbemahi(this));
+    agents.append(new Gandom(this));
+    agents.append(new Golmoshaki(this));
+    agents.append(new Bomb(this));
+    agents.append(new Trap(this));
+    agents.append(new Kalam(this));
+}
+
+
+void Gameplay_page::on_PGolmushaki_clicked()
+{
+    if (elixir < levels[0] * 2){
+
+    }
+    else{
+        if (levels[0] <= 5){
+            if (levels[0] == 4){
+                ui->PGolmushaki->setEnabled(false);
+            }
+            elixir -= levels[0] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[0] += 1;
+            agents[2]->setpower(15 * pow(2, (levels[0] - 1)));
+            QString buttonText = ui->PGolmushaki->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PGolmushaki->setText(QString::number(currentNumber));
+
+        }
+
+        for (AgentBase *t : agent_board) {
+            if (auto golmoshaki = dynamic_cast<Golmoshaki*>(t)) {
+                golmoshaki->setpower(15 * pow(2 ,(levels[0] - 1)));
+            }
+        }
+        qDebug() << "Power: " << agents[2]->getpower();
+        }
+}
+
+
+
+void Gameplay_page::on_PGorbemahi_clicked()
+{
+    if (elixir < levels[1] * 2){
+
+    }
+    else{
+        if (levels[1] <= 5){
+            if (levels[1] == 4){
+                ui->PGorbemahi->setEnabled(false);
+            }
+            elixir -= levels[1] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[1] += 1;
+            agents[0]->setpower(30 * pow(2, (levels[1] - 1)));
+            QString buttonText = ui->PGorbemahi->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PGorbemahi->setText(QString::number(currentNumber));
+
+        }
+
+        for (AgentBase *t : agent_board) {
+            if (auto gorbehmahi = dynamic_cast<Gorbemahi*>(t)) {
+                gorbehmahi->setpower(30 * pow(2 ,(levels[1] - 1)));
+            }
+        }
+        qDebug() << "Power: " << agents[0]->getpower();
+    }
+}
+
+void Gameplay_page::on_PKalam_clicked()
+{
+    if (elixir < levels[2] * 2){
+
+    }
+    else{
+        if (levels[2] <= 5){
+            if (levels[2] == 4){
+                ui->PKalam->setEnabled(false);
+            }
+            elixir -= levels[2] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[2] += 1;
+            agents[5]->setpower(22 * pow(2, (levels[2] - 1)));
+            QString buttonText = ui->PKalam->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PKalam->setText(QString::number(currentNumber));
+
+        }
+
+        for (AgentBase *t : agent_board) {
+            if (auto kalam = dynamic_cast<Kalam*>(t)) {
+                kalam->setpower(22 * pow(2 ,(levels[2] - 1)));
+            }
+        }
+        qDebug() << "Power: " << agents[5]->getpower();
+    }
+}
+
+
+void Gameplay_page::on_PGandom_clicked()
+{
+    if (elixir < levels[3] * 2){
+
+    }
+    else{
+        if (levels[3] <= 5){
+            if (levels[3] == 4){
+                ui->PGandom->setEnabled(false);
+            }
+            elixir -= levels[3] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[3] += 1;
+            agents[1]->setpower(15 * pow(2, (levels[3] - 1)));
+            QString buttonText = ui->PGandom->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PGandom->setText(QString::number(currentNumber));
+
+        }
+
+        for (AgentBase *t : agent_board) {
+            if (auto gandom = dynamic_cast<Gandom*>(t)) {
+                gandom->setpower(15 * pow(2 ,(levels[3] - 1)));
+            }
+        }
+        qDebug() << "Power: " << agents[1]->getpower();
+    }
+}
+
+
+void Gameplay_page::on_PBomb_clicked()
+{
+    if (elixir < levels[4] * 2){
+
+    }
+    else{
+        if (levels[4] <= 5){
+            if (levels[4] == 4){
+                ui->PBomb->setEnabled(false);
+            }
+            elixir -= levels[4] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[4] += 1;
+            Bomb* bomb = dynamic_cast<Bomb*>(agents[3]);
+            bomb->setpowerkill(levels[4] + 1);
+            QString buttonText = ui->PBomb->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PBomb->setText(QString::number(currentNumber));
+
+        }
+
+
+    }
+}
+
+
+
+void Gameplay_page::on_PTrap_clicked()
+{
+    if (elixir < levels[5] * 2){
+
+    }
+    else{
+        if (levels[5] <= 5){
+            if (levels[5] == 4){
+                ui->PTrap->setEnabled(false);
+            }
+            elixir -= levels[5] * 2;
+            elixirLabel->setText(QString::number(elixir));
+            levels[5] += 1;
+            Trap* trap = dynamic_cast<Trap*>(agents[4]);
+            trap->setpowerkill(levels[5] + 1);
+            QString buttonText = ui->PTrap->text();
+            int currentNumber = buttonText.toInt();
+            currentNumber += 1;
+            ui->PTrap->setText(QString::number(currentNumber));
+
+        }
+
+
+    }
+}
+
+// random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
+void Gameplay_page::createRandomAgent(AgentBase *&agent) {
+    int randomIndex = 4/*std::rand() % agents.size()*/;
+
+    if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
+        agent = new Gorbemahi(this);
+    } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
+        agent = new Gandom(this);
+    } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
+        agent = new Golmoshaki(this);
+    } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
+        agent = new Bomb(this);
+    } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
+        agent = new Trap(this);
+    } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
+        agent = new Kalam(this);
+    }
+}
+
+
+// ezafe karadan agent random be agent choice
+void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
+    // qDebug() << "level gol moshaki" << levels[0];
+    AgentBase *new_agentChoice = nullptr;
+
+    createRandomAgent(new_agentChoice);
+
+    if(auto golmoushaki = dynamic_cast<Golmoshaki*>(new_agentChoice)){
+        new_agentChoice->setpower(15 * pow(2, (levels[0] - 1)));
+    }
+
+    if(auto gorbemahi = dynamic_cast<Gorbemahi*>(new_agentChoice)){
+        new_agentChoice->setpower(30 * pow(2, (levels[1] - 1)));
+    }
+
+    if(auto kalam = dynamic_cast<Kalam*>(new_agentChoice)){
+        new_agentChoice->setpower(22 * pow(2, (levels[2] - 1)));
+    }
+
+    if(auto gandom = dynamic_cast<Gandom*>(new_agentChoice)){
+        new_agentChoice->setpower(15 * pow(2, (levels[3] - 1)));
+    }
+
+    if(auto bomb = dynamic_cast<Bomb*>(new_agentChoice)){
+        bomb->setpowerkill(levels[4] + 1);
+        // qDebug() << "pooow bomb: " << bomb->getpowerkill();
+    }
+
+    if(auto trap = dynamic_cast<Trap*>(new_agentChoice)){
+        trap->setpowerkill(levels[5] + 1);
+        // qDebug() << "pooow trap: " << trap->getpowerkill();
+    }
+
+
+    qDebug() << "Power random: " << new_agentChoice->getpower();
+    if (new_agentChoice) {
+        new_agentChoice->setGeometry(startx_agent_choice + index * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
+
+        if (currentChoice == agent_choice1) {
+            agent_choice1 = new_agentChoice;
+        } else if (currentChoice == agent_choice2) {
+            agent_choice2 = new_agentChoice;
+        } else if (currentChoice == agent_choice3) {
+            agent_choice3 = new_agentChoice;
+        } else if (currentChoice == agent_choice4) {
+            agent_choice4 = new_agentChoice;
+        }
+        new_agentChoice->show();
+    }
+}
+
 
 void Gameplay_page::agentShoot()
 {
@@ -129,7 +399,7 @@ void Gameplay_page::create_enemi()
 {
     if (waveInProgress) {
         Enemy *new_enemy = nullptr;
-        int enemyType = std::rand() % 2;
+        int enemyType = 0/*std::rand() % 2*/;
 
         int baseHealth = 0;
         double baseSpeed = 0.0;
@@ -172,7 +442,7 @@ void Gameplay_page::create_enemi()
 
         }
 
-        if (count_enemi % 5 == 0 && count_enemi != 0) {
+        if (count_enemi % 8 == 0 && count_enemi != 0) {
             waveInProgress = false;
             logEvent(QString("Wave %1 completed.").arg(wave));
             checkWaveCompletion();
@@ -185,7 +455,7 @@ void Gameplay_page::create_enemi()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = std::rand() % 3;
+        int bossType = 0/*std::rand() % 3*/;
         Enemy *boss_enemy = nullptr;
 
         int baseHealth = 0;
@@ -294,7 +564,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            checkGameOver();
+            // checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
 
@@ -306,7 +576,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
 
 void Gameplay_page::mousePressEvent(QMouseEvent *event)
 {
-    initializeAgents();
+    // initializeAgents();
 
     if (event->button() == Qt::LeftButton) {
         QString logMessage;
@@ -333,6 +603,32 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                 }
                 break;
             }
+        }
+
+        if(auto golmoushaki = dynamic_cast<Golmoshaki*>(current_choice)){
+            current_choice->setpower(15 * pow(2, (levels[0] - 1)));
+        }
+
+        if(auto gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)){
+            current_choice->setpower(30 * pow(2, (levels[1] - 1)));
+        }
+
+        if(auto kalam = dynamic_cast<Kalam*>(current_choice)){
+            current_choice->setpower(22 * pow(2, (levels[2] - 1)));
+        }
+
+        if(auto gandom = dynamic_cast<Gandom*>(current_choice)){
+            current_choice->setpower(15 * pow(2, (levels[3] - 1)));
+        }
+
+        if(auto bomb = dynamic_cast<Bomb*>(current_choice)){
+            bomb->setpowerkill(levels[4] + 1);
+            qDebug() << "pooow bomb: " << bomb->getpowerkill();
+        }
+
+        if(auto trap = dynamic_cast<Trap*>(current_choice)){
+            trap->setpowerkill(levels[5] + 1);
+            qDebug() << "pooow trap: " << trap->getpowerkill();
         }
 
 
@@ -428,58 +724,6 @@ void Gameplay_page::logEvent(const QString &event) {
     }
 }
 
-// ezafe kardan agent ha be vector agents
-void Gameplay_page::initializeAgents() {
-    agents.append(new Gorbemahi(this));
-    agents.append(new Gandom(this));
-    agents.append(new Golmoshaki(this));
-    agents.append(new Bomb(this));
-    agents.append(new Trap(this));
-    agents.append(new Kalam(this));
-}
-
-
-// random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
-void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-    int randomIndex = std::rand() % agents.size();
-
-    if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
-        agent = new Gorbemahi(this);
-    } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
-        agent = new Gandom(this);
-    } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
-        agent = new Golmoshaki(this);
-    } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
-        agent = new Bomb(this);
-    } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
-        agent = new Trap(this);
-    } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
-        agent = new Kalam(this);
-    }
-}
-
-
-// ezafe karadan agent random be agent choice
-void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
-    AgentBase *new_agentChoice = nullptr;
-    createRandomAgent(new_agentChoice);
-
-    if (new_agentChoice) {
-        new_agentChoice->setGeometry(startx_agent_choice + index * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-
-        if (currentChoice == agent_choice1) {
-            agent_choice1 = new_agentChoice;
-        } else if (currentChoice == agent_choice2) {
-            agent_choice2 = new_agentChoice;
-        } else if (currentChoice == agent_choice3) {
-            agent_choice3 = new_agentChoice;
-        } else if (currentChoice == agent_choice4) {
-            agent_choice4 = new_agentChoice;
-        }
-        new_agentChoice->show();
-    }
-}
-
 // ezafi bayad pak beshe
 void Gameplay_page::printAgentBoard() const{
     qDebug() << "Agent Board State:";
@@ -503,7 +747,7 @@ void Gameplay_page::checkCollisions()
             if (!bomb->getTimer()->isActive()) {
                 connect(bomb, &Bomb::removeEnemies, this, &Gameplay_page::removeEnemies);
                 connect(bomb, &Bomb::removeEnemies, this, [=]() {
-                    if (bomb->getcollisionCount() >= 2) {
+                    if (bomb->getcollisionCount() >= bomb->getpowerkill()) {
                         removeBombTrap(bomb);
                     }
                 });
@@ -516,7 +760,7 @@ void Gameplay_page::checkCollisions()
             trap->checkCollision(enemies);
             connect(trap, &Trap::removeEnemies, this, &Gameplay_page::removeEnemies);
             connect(trap, &Trap::removeEnemies, this, [=]() {
-                if (trap->getcollisionCount() >= 2) {
+                if (trap->getcollisionCount() >= trap->getpowerkill()) {
                     removeBombTrap(trap);
                 }
             });
@@ -545,6 +789,7 @@ void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
         enemies.removeOne(enemy);
         enemy->hide();
         enemy->reduceHealth(enemy->gethealth());
+        enemiesKilled++;
 
         // enemy->deleteLater();
     }
@@ -573,6 +818,7 @@ void Gameplay_page::updateElixir()
 
 void Gameplay_page::onEnemyKilled(Enemy* enemy)
 {
+    enemiesKilled++;
     enemies.removeOne(enemy);
     enemy->hide();
     enemy->stopAllTimers();
@@ -588,7 +834,7 @@ void Gameplay_page::checkGameOver()
     if (isGameOver) return;
     if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
         logEvent("Game Over: Too many enemies reached the end.");
-        ResultWindow *resultwindow = new ResultWindow(wave,count_enemi,usedElixir,enemyReachedEndCount);
+        ResultWindow *resultwindow = new ResultWindow(wave,enemiesKilled,usedElixir,enemiesKilled);
         resultwindow->show();
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
@@ -605,3 +851,6 @@ Gameplay_page::~Gameplay_page()
     delete ui;
 
 }
+
+
+

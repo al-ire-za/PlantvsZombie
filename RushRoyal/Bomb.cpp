@@ -4,7 +4,7 @@
 #include <QTimer>
 
 Bomb::Bomb(QWidget *parent)
-    :AgentBase(parent, ":/prefix2/images/bomb.png", 50, 1, 2),collisionCount(0)
+    :AgentBase(parent, ":/prefix2/images/bomb.png", 50, 1, 2),collisionCount(0),powerkill(2)
 {
     timerStart = new QTimer(this);
     connect(timerStart, &QTimer::timeout, this, &Bomb::onTimeout);
@@ -29,6 +29,13 @@ int Bomb::getcollisionCount() const{
     return collisionCount;
 }
 
+void Bomb::setpowerkill(int pow){
+    powerkill = pow;
+}
+
+int Bomb::getpowerkill() const{
+    return powerkill;
+}
 
 void Bomb::checkCollision(const QVector<Enemy*>& enemies)
 {
@@ -37,7 +44,7 @@ void Bomb::checkCollision(const QVector<Enemy*>& enemies)
         if (geometry().intersects(enemy->geometry())) {
             enemiesToRemove.append(enemy);
             collisionCount++;
-            if (collisionCount == 2) {
+            if (collisionCount == powerkill) {
                 break;
             }
         }
@@ -47,10 +54,11 @@ void Bomb::checkCollision(const QVector<Enemy*>& enemies)
         emit removeEnemies(enemiesToRemove);
     }
 
-    if (collisionCount >= 2) {
+    if (collisionCount >= powerkill) {
         timerStart->stop();
     }
 }
+
 
 QTimer* Bomb::getTimer() const {
     return timerStart;
