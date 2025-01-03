@@ -4,12 +4,13 @@
 #include <QTimer>
 
 Bomb::Bomb(QWidget *parent)
-    :AgentBase(parent, ":/prefix2/images/bomb.png", 50, 1, 2),collisionCount(0),powerkill(2)
+    :AgentBase(parent, ":/prefix2/images/bomb1.png", 50, 1, 2),collisionCount(0),powerkill(2)
 {
     timerStart = new QTimer(this);
     connect(timerStart, &QTimer::timeout, this, &Bomb::onTimeout);
 
 }
+
 
 Bomb::Bomb(const Bomb &other)
     :AgentBase(other){

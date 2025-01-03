@@ -2,7 +2,7 @@
 #include "AgentBase.h"
 
 Gandom::Gandom(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gandom22.png", 15, 800, 2)
+    : AgentBase(parent, ":/prefix2/images/gandom1.png", 15, 800, 2)
 {
 
 }

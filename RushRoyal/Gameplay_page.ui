@@ -361,7 +361,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_34">
+   <widget class="QLabel" name="LGorbehmahi">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -371,14 +371,13 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/gorbemahi2.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/gorbemahi1.png);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_35">
+   <widget class="QLabel" name="LKalam">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -388,14 +387,13 @@ background-image: url(:/prefix2/images/gorbemahi2.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/kalam2.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/kalam1.png);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_36">
+   <widget class="QLabel" name="LGandom">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -405,14 +403,14 @@ background-image: url(:/prefix2/images/kalam2.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/gandom22.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/gandom1.png);
+</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_37">
+   <widget class="QLabel" name="LGolmushaki">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -422,14 +420,13 @@ background-image: url(:/prefix2/images/gandom22.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/golmoshaki2.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/golmoshaki1.png);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_38">
+   <widget class="QLabel" name="LTrap">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -440,13 +437,13 @@ background-image: url(:/prefix2/images/golmoshaki2.png);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">
-background-image: url(:/prefix2/images/trap.png);</string>
+background-image: url(:/prefix2/images/trap1.png);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_41">
+   <widget class="QLabel" name="LBomb">
     <property name="geometry">
      <rect>
       <x>1100</x>
@@ -457,7 +454,8 @@ background-image: url(:/prefix2/images/trap.png);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">
-background-image: url(:/prefix2/images/bomb.png);</string>
+background-image: url(:/prefix2/images/bomb1.png);
+</string>
     </property>
     <property name="text">
      <string/>

@@ -3,7 +3,7 @@
 #include "AgentBase.h"
 
 Gorbemahi::Gorbemahi(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gorbemahi2.png", 30, 1000, 4)
+    : AgentBase(parent, ":/prefix2/images/gorbemahi1.png", 30, 1000, 4)
 {
 
 }

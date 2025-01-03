@@ -43,12 +43,12 @@ public:
     QLabel *label_32;
     QLabel *label_33;
     QLabel *label;
-    QLabel *label_34;
-    QLabel *label_35;
-    QLabel *label_36;
-    QLabel *label_37;
-    QLabel *label_38;
-    QLabel *label_41;
+    QLabel *LGorbehmahi;
+    QLabel *LKalam;
+    QLabel *LGandom;
+    QLabel *LGolmushaki;
+    QLabel *LTrap;
+    QLabel *LBomb;
     QPushButton *PGolmushaki;
     QPushButton *PTrap;
     QPushButton *PBomb;
@@ -156,36 +156,34 @@ public:
         label->setObjectName("label");
         label->setGeometry(QRect(1090, 50, 111, 671));
         label->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/banafsh.png);"));
-        label_34 = new QLabel(centralwidget);
-        label_34->setObjectName("label_34");
-        label_34->setGeometry(QRect(1100, 170, 90, 80));
-        label_34->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/gorbemahi2.png);"));
-        label_35 = new QLabel(centralwidget);
-        label_35->setObjectName("label_35");
-        label_35->setGeometry(QRect(1100, 280, 90, 80));
-        label_35->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/kalam2.png);"));
-        label_36 = new QLabel(centralwidget);
-        label_36->setObjectName("label_36");
-        label_36->setGeometry(QRect(1100, 390, 90, 80));
-        label_36->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/gandom22.png);"));
-        label_37 = new QLabel(centralwidget);
-        label_37->setObjectName("label_37");
-        label_37->setGeometry(QRect(1100, 60, 90, 80));
-        label_37->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/golmoshaki2.png);"));
-        label_38 = new QLabel(centralwidget);
-        label_38->setObjectName("label_38");
-        label_38->setGeometry(QRect(1100, 610, 90, 80));
-        label_38->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/trap.png);"));
-        label_41 = new QLabel(centralwidget);
-        label_41->setObjectName("label_41");
-        label_41->setGeometry(QRect(1100, 500, 90, 80));
-        label_41->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/bomb.png);"));
+        LGorbehmahi = new QLabel(centralwidget);
+        LGorbehmahi->setObjectName("LGorbehmahi");
+        LGorbehmahi->setGeometry(QRect(1100, 170, 90, 80));
+        LGorbehmahi->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/gorbemahi1.png);"));
+        LKalam = new QLabel(centralwidget);
+        LKalam->setObjectName("LKalam");
+        LKalam->setGeometry(QRect(1100, 280, 90, 80));
+        LKalam->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/kalam1.png);"));
+        LGandom = new QLabel(centralwidget);
+        LGandom->setObjectName("LGandom");
+        LGandom->setGeometry(QRect(1100, 390, 90, 80));
+        LGandom->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/gandom1.png);\n"
+""));
+        LGolmushaki = new QLabel(centralwidget);
+        LGolmushaki->setObjectName("LGolmushaki");
+        LGolmushaki->setGeometry(QRect(1100, 60, 90, 80));
+        LGolmushaki->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/golmoshaki1.png);"));
+        LTrap = new QLabel(centralwidget);
+        LTrap->setObjectName("LTrap");
+        LTrap->setGeometry(QRect(1100, 610, 90, 80));
+        LTrap->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/trap1.png);"));
+        LBomb = new QLabel(centralwidget);
+        LBomb->setObjectName("LBomb");
+        LBomb->setGeometry(QRect(1100, 500, 90, 80));
+        LBomb->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/bomb1.png);\n"
+""));
         PGolmushaki = new QPushButton(centralwidget);
         PGolmushaki->setObjectName("PGolmushaki");
         PGolmushaki->setGeometry(QRect(1100, 140, 90, 20));
@@ -235,12 +233,12 @@ public:
         label_32->setText(QString());
         label_33->setText(QString());
         label->setText(QString());
-        label_34->setText(QString());
-        label_35->setText(QString());
-        label_36->setText(QString());
-        label_37->setText(QString());
-        label_38->setText(QString());
-        label_41->setText(QString());
+        LGorbehmahi->setText(QString());
+        LKalam->setText(QString());
+        LGandom->setText(QString());
+        LGolmushaki->setText(QString());
+        LTrap->setText(QString());
+        LBomb->setText(QString());
         PGolmushaki->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
         PTrap->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
         PBomb->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));

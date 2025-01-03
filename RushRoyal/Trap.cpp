@@ -5,7 +5,7 @@
 
 
 Trap::Trap(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/trap.png", 40, 2, 2), collisionCount(0), powerkill(2)
+    : AgentBase(parent, ":/prefix2/images/trap1.png", 40, 2, 2), collisionCount(0), powerkill(2)
 
 {
 

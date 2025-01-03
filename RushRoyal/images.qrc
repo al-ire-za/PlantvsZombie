@@ -6,30 +6,46 @@
     <qresource prefix="/prefix2">
         <file>images/map_gamplayedit2.jpg</file>
         <file>images/map_gamplay.jpg</file>
-        <file>images/felfelmoshaki2.png</file>
-        <file>images/golmoshaki2.png</file>
-        <file>images/gorbemahi2.png</file>
-        <file>images/hendone_yakhi22.png</file>
-        <file>images/hendone2.png</file>
-        <file>images/jolback2.png</file>
-        <file>images/kalam2.png</file>
+        <file>images/golmoshaki1.png</file>
         <file>images/sanng.png</file>
-        <file>images/gandom22.png</file>
         <file>images/1_edit.png</file>
         <file>images/33_editai.png</file>
         <file>images/4_editai.png</file>
         <file>images/6_editai.png</file>
-        <file>images/bomb.png</file>
-        <file>images/bomb_ice.png</file>
-        <file>images/bomb_level2.png</file>
+        <file>images/bomb1.png</file>
         <file>images/black.png</file>
         <file>images/Eraser.png</file>
         <file>images/boss ezafiai1.png</file>
         <file>images/Disaemer1.png</file>
-        <file>images/freezerai1.png</file>
-        <file>images/trap.png</file>
+        <file>images/trap1.png</file>
         <file>images/banafsh.png</file>
-        <file>images/backgrandGroupPow.png</file>
         <file>images/resultbackgrand.jpg</file>
+        <file>images/bomb2.png</file>
+        <file>images/bomb3.png</file>
+        <file>images/bomb4.png</file>
+        <file>images/bomb5.png</file>
+        <file>images/gandom1.png</file>
+        <file>images/gandom2.png</file>
+        <file>images/gandom3.png</file>
+        <file>images/gandom4.png</file>
+        <file>images/gandom5.png</file>
+        <file>images/golmoshaki2.png</file>
+        <file>images/golmoshaki3.png</file>
+        <file>images/golmoshaki4.png</file>
+        <file>images/golmoshaki5.png</file>
+        <file>images/gorbemahi1.png</file>
+        <file>images/gorbemahi2.png</file>
+        <file>images/gorbemahi3.png</file>
+        <file>images/gorbemahi4.png</file>
+        <file>images/gorbemahi5.png</file>
+        <file>images/kalam1.png</file>
+        <file>images/kalam3.png</file>
+        <file>images/kalam4.png</file>
+        <file>images/kalam5.png</file>
+        <file>images/trap2.png</file>
+        <file>images/trap3.png</file>
+        <file>images/trap4.png</file>
+        <file>images/trap5.png</file>
+        <file>images/kalam2.png</file>
     </qresource>
 </RCC>

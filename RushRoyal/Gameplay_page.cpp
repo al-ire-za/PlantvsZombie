@@ -79,9 +79,9 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice2 = new Golmoshaki(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Kalam(this);
+    agent_choice3 = new Bomb(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice4 = new Bomb(this);
+    agent_choice4 = new Trap(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
@@ -126,17 +126,31 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 }
 
 void Gameplay_page::initializeAgents() {
-    agents.append(new Gorbemahi(this));
-    agents.append(new Gandom(this));
-    agents.append(new Golmoshaki(this));
-    agents.append(new Bomb(this));
-    agents.append(new Trap(this));
-    agents.append(new Kalam(this));
+    agents.append(new Gorbemahi());
+    agents.append(new Gandom());
+    agents.append(new Golmoshaki());
+    agents.append(new Bomb());
+    agents.append(new Trap());
+    agents.append(new Kalam());
 }
 
 
 void Gameplay_page::on_PGolmushaki_clicked()
 {
+
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto golmoushaki = dynamic_cast<Golmoshaki*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
+            agent_choice->setpower(15 * pow(2, (levels[0] - 1)));
+        }
+    }
+
+
+    ui->LGolmushaki->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
+
+
     if (elixir < levels[0] * 2){
 
     }
@@ -159,6 +173,7 @@ void Gameplay_page::on_PGolmushaki_clicked()
         for (AgentBase *t : agent_board) {
             if (auto golmoshaki = dynamic_cast<Golmoshaki*>(t)) {
                 golmoshaki->setpower(15 * pow(2 ,(levels[0] - 1)));
+                golmoshaki->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]));
             }
         }
         qDebug() << "Power: " << agents[2]->getpower();
@@ -166,9 +181,17 @@ void Gameplay_page::on_PGolmushaki_clicked()
 }
 
 
-
 void Gameplay_page::on_PGorbemahi_clicked()
 {
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto gorbehmahi = dynamic_cast<Gorbemahi*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1]+1));
+            agent_choice->setpower(30 * pow(2, (levels[1] - 1)));
+        }
+    }
+    ui->LGorbehmahi->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1] + 1));
     if (elixir < levels[1] * 2){
 
     }
@@ -191,6 +214,7 @@ void Gameplay_page::on_PGorbemahi_clicked()
         for (AgentBase *t : agent_board) {
             if (auto gorbehmahi = dynamic_cast<Gorbemahi*>(t)) {
                 gorbehmahi->setpower(30 * pow(2 ,(levels[1] - 1)));
+                gorbehmahi->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1]));
             }
         }
         qDebug() << "Power: " << agents[0]->getpower();
@@ -199,6 +223,16 @@ void Gameplay_page::on_PGorbemahi_clicked()
 
 void Gameplay_page::on_PKalam_clicked()
 {
+
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto kalam = dynamic_cast<Kalam*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2]+1));
+            agent_choice->setpower(22 * pow(2, (levels[2] - 1)));
+        }
+    }
+    ui->LKalam->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2] + 1));
     if (elixir < levels[2] * 2){
 
     }
@@ -221,6 +255,7 @@ void Gameplay_page::on_PKalam_clicked()
         for (AgentBase *t : agent_board) {
             if (auto kalam = dynamic_cast<Kalam*>(t)) {
                 kalam->setpower(22 * pow(2 ,(levels[2] - 1)));
+                kalam->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2]));
             }
         }
         qDebug() << "Power: " << agents[5]->getpower();
@@ -230,6 +265,15 @@ void Gameplay_page::on_PKalam_clicked()
 
 void Gameplay_page::on_PGandom_clicked()
 {
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto gandom = dynamic_cast<Gandom*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3]+1));
+            agent_choice->setpower(15 * pow(2, (levels[3] - 1)));
+        }
+    }
+    ui->LGandom->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3] + 1));
     if (elixir < levels[3] * 2){
 
     }
@@ -252,6 +296,7 @@ void Gameplay_page::on_PGandom_clicked()
         for (AgentBase *t : agent_board) {
             if (auto gandom = dynamic_cast<Gandom*>(t)) {
                 gandom->setpower(15 * pow(2 ,(levels[3] - 1)));
+                gandom->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3]));
             }
         }
         qDebug() << "Power: " << agents[1]->getpower();
@@ -261,6 +306,15 @@ void Gameplay_page::on_PGandom_clicked()
 
 void Gameplay_page::on_PBomb_clicked()
 {
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto bomb = dynamic_cast<Bomb*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4]+1));
+            bomb->setpowerkill(levels[4] + 2);
+        }
+    }
+    ui->LBomb->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4] + 1));
     if (elixir < levels[4] * 2){
 
     }
@@ -289,6 +343,16 @@ void Gameplay_page::on_PBomb_clicked()
 
 void Gameplay_page::on_PTrap_clicked()
 {
+    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+    for(auto agent_choice : agent_choices) {
+        if(auto trap = dynamic_cast<Trap*>(agent_choice)) {
+            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5]+1));
+            trap->setpowerkill(levels[5] + 2);
+        }
+    }
+
+    ui->LTrap->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5] + 1));
     if (elixir < levels[5] * 2){
 
     }
@@ -315,7 +379,7 @@ void Gameplay_page::on_PTrap_clicked()
 
 // random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
 void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-    int randomIndex = 4/*std::rand() % agents.size()*/;
+    int randomIndex = std::rand() % agents.size();
 
     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
         agent = new Gorbemahi(this);
@@ -342,32 +406,39 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
 
     if(auto golmoushaki = dynamic_cast<Golmoshaki*>(new_agentChoice)){
         new_agentChoice->setpower(15 * pow(2, (levels[0] - 1)));
+        new_agentChoice->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]));
     }
 
     if(auto gorbemahi = dynamic_cast<Gorbemahi*>(new_agentChoice)){
         new_agentChoice->setpower(30 * pow(2, (levels[1] - 1)));
+        new_agentChoice->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1]));
+
     }
 
     if(auto kalam = dynamic_cast<Kalam*>(new_agentChoice)){
         new_agentChoice->setpower(22 * pow(2, (levels[2] - 1)));
+        new_agentChoice->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2]));
     }
 
     if(auto gandom = dynamic_cast<Gandom*>(new_agentChoice)){
         new_agentChoice->setpower(15 * pow(2, (levels[3] - 1)));
+        new_agentChoice->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3]));
     }
 
     if(auto bomb = dynamic_cast<Bomb*>(new_agentChoice)){
         bomb->setpowerkill(levels[4] + 1);
+        bomb->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4]));
         // qDebug() << "pooow bomb: " << bomb->getpowerkill();
     }
 
     if(auto trap = dynamic_cast<Trap*>(new_agentChoice)){
         trap->setpowerkill(levels[5] + 1);
+        trap->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5]));
         // qDebug() << "pooow trap: " << trap->getpowerkill();
     }
 
 
-    qDebug() << "Power random: " << new_agentChoice->getpower();
+    // qDebug() << "Power random: " << new_agentChoice->getpower();
     if (new_agentChoice) {
         new_agentChoice->setGeometry(startx_agent_choice + index * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
@@ -399,7 +470,7 @@ void Gameplay_page::create_enemi()
 {
     if (waveInProgress) {
         Enemy *new_enemy = nullptr;
-        int enemyType = 0/*std::rand() % 2*/;
+        int enemyType = std::rand() % 2;
 
         int baseHealth = 0;
         double baseSpeed = 0.0;
@@ -455,7 +526,7 @@ void Gameplay_page::create_enemi()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = 0/*std::rand() % 3*/;
+        int bossType = std::rand() % 3;
         Enemy *boss_enemy = nullptr;
 
         int baseHealth = 0;
@@ -605,36 +676,38 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
             }
         }
 
-        if(auto golmoushaki = dynamic_cast<Golmoshaki*>(current_choice)){
-            current_choice->setpower(15 * pow(2, (levels[0] - 1)));
-        }
 
-        if(auto gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)){
-            current_choice->setpower(30 * pow(2, (levels[1] - 1)));
-        }
 
-        if(auto kalam = dynamic_cast<Kalam*>(current_choice)){
-            current_choice->setpower(22 * pow(2, (levels[2] - 1)));
-        }
+        // if(auto golmoushaki = dynamic_cast<Golmoshaki*>(current_choice)){
+        //     current_choice->setpower(15 * pow(2, (levels[0] - 1)));
+        // }
 
-        if(auto gandom = dynamic_cast<Gandom*>(current_choice)){
-            current_choice->setpower(15 * pow(2, (levels[3] - 1)));
-        }
+        // if(auto gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)){
+        //     current_choice->setpower(30 * pow(2, (levels[1] - 1)));
+        // }
 
-        if(auto bomb = dynamic_cast<Bomb*>(current_choice)){
-            bomb->setpowerkill(levels[4] + 1);
-            qDebug() << "pooow bomb: " << bomb->getpowerkill();
-        }
+        // if(auto kalam = dynamic_cast<Kalam*>(current_choice)){
+        //     current_choice->setpower(22 * pow(2, (levels[2] - 1)));
+        // }
 
-        if(auto trap = dynamic_cast<Trap*>(current_choice)){
-            trap->setpowerkill(levels[5] + 1);
-            qDebug() << "pooow trap: " << trap->getpowerkill();
-        }
+        // if(auto gandom = dynamic_cast<Gandom*>(current_choice)){
+        //     current_choice->setpower(15 * pow(2, (levels[3] - 1)));
+        // }
+
+        // if(auto bomb = dynamic_cast<Bomb*>(current_choice)){
+        //     bomb->setpowerkill(levels[4] + 1);
+        //     qDebug() << "pooow bomb: " << bomb->getpowerkill();
+        // }
+
+        // if(auto trap = dynamic_cast<Trap*>(current_choice)){
+        //     trap->setpowerkill(levels[5] + 1);
+        //     qDebug() << "pooow trap: " << trap->getpowerkill();
+        // }
 
 
         if (current_choice &&
-            (current_choice->styleSheet().contains("background-image: url(:/prefix2/images/bomb.png);") ||
-             current_choice->styleSheet().contains("background-image: url(:/prefix2/images/trap.png);"))) {
+            (current_choice->styleSheet().contains("bomb") ||
+             current_choice->styleSheet().contains("trap"))) {
 
             int requiredElixir = current_choice->getElixirCost();  // استفاده از getElixirCost
 
