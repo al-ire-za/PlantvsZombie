@@ -7010,3 +7010,3209 @@ Enemy (type 1) #7 created.
 Placed bomb on the map at position: (363, 162).
 Enemy (type 0) #8 created.
 Wave 2 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Agent choice 4 selected.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Placed bomb on the map at position: (484, 195).
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 13.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Enemy (type 8Shielder) killed.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 6Runner) killed.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Agent choice 3 selected.
+Enemy (type 1) #2 created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 3 deselected.
+Agent frozen at index 13.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Agent frozen at index 9.
+Enemy (type 0) #8 created.
+Wave 8 completed.
+Agent choice 3 selected.
+Enemy (type 7Freezer) killed.
+Placed bomb on the map at position: (922, 514).
+Agent frozen at index 9.
+Enemy (type 6Runner) killed.
+Agent frozen at index 9.
+Agent frozen at index 9.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Agent choice 3 selected.
+Enemy (type 1) #2 created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Placed bomb on the map at position: (265, 370).
+Enemy (type 1) #2 created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 1) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Agent frozen at index 10.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Agent frozen at index 10.
+Enemy (type 1) #8 created.
+Wave 9 completed.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (526, 197).
+Enemy (type 8Shielder) killed.
+Agent frozen at index 10.
+Enemy (type 8Disarmer) killed.
+Agent frozen at index 9.
+Agent choice 2 selected.
+Placed agent on the board at index 5.
+Agent frozen at index 10.
+Agent frozen at index 9.
+Agent choice 2 selected.
+Placed bomb on the map at position: (622, 190).
+Agent choice 2 selected.
+Agent frozen at index 9.
+Placed agent on the board at index 6.
+Agent choice 3 selected.
+Placed agent on the board at index 14.
+Agent choice 4 selected.
+Placed agent on the board at index 13.
+Agent choice 3 selected.
+Placed bomb on the map at position: (666, 180).
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Agent choice 4 selected.
+Placed agent on the board at index 1.
+Agent choice 2 selected.
+Placed agent on the board at index 2.
+Agent choice 1 selected.
+Starting wave 10...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Placed agent on the board at index 12.
+Starting wave 11...
+Enemy (type 1) #1 created.
+Starting wave 12...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 13...
+Enemy (type 0) #1 created.
+Starting wave 14...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 15...
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 15.
+Enemy (type 0) #3 created.
+Agent choice 2 selected.
+Enemy (type 0) #4 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (926, 544).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #8 created.
+Wave 15 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (942, 489).
+Agent frozen at index 15.
+Agent frozen at index 13.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (534, 192).
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Agent frozen at index 1.
+Agent choice 2 selected.
+Placed bomb on the map at position: (718, 178).
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 8Disarmer) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 11.
+Agent choice 4 selected.
+Placed agent on the board at index 8.
+Agent choice 3 selected.
+Starting wave 16...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 17...
+Enemy (type 1) #1 created.
+Placed bomb on the map at position: (270, 472).
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #6 created.
+Agent choice 1 selected.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 4.
+Enemy (type 0) #8 created.
+Wave 17 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (686, 186).
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Placed bomb on the map at position: (259, 520).
+Starting wave 3...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 3 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (250, 577).
+Enemy (type 6Eraser) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 5.
+Agent choice 1 selected.
+Placed bomb on the map at position: (246, 470).
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Agent choice 1 selected.
+Enemy (type 1) #2 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 6.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 1) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Agent choice 1 selected.
+Enemy (type 1) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Agent choice 1 deselected.
+Enemy (type 0) #2 created.
+Starting wave 11...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 0) #5 created.
+Agent frozen at index 9.
+Agent choice 1 selected.
+Enemy (type 1) #6 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #7 created.
+Agent choice 3 selected.
+Enemy (type 0) #8 created.
+Wave 11 completed.
+Placed bomb on the map at position: (271, 430).
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 14.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 1.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Agent choice 1 selected.
+Starting wave 12...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Placed agent on the board at index 12.
+Starting wave 13...
+Enemy (type 1) #1 created.
+Starting wave 14...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 15...
+Enemy (type 1) #1 created.
+Starting wave 16...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 17...
+Enemy (type 0) #1 created.
+Starting wave 18...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 19...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #6 created.
+Agent removed from agent_board at index 2 by Eraser.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 6 by Eraser.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 19 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 5 by Eraser.
+Placed agent on the board at index 6.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Agent choice 4 selected.
+Agent removed from agent_board at index 14 by Eraser.
+Enemy (type 6Eraser) killed.
+Enemy (type 6Eraser) killed.
+Agent removed from agent_board at index 1 by Eraser.
+Placed bomb on the map at position: (770, 216).
+Enemy (type 8Disarmer) killed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 10.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Agent removed from agent_board at index 9 by Eraser.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 5 completed.
+Agent removed from agent_board at index 6 by Eraser.
+Enemy (type 6Eraser) killed.
+Enemy (type 6Runner) killed.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #4 created.
+Agent choice 3 selected.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (968, 438).
+Enemy (type 1) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 6 completed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #4 created.
+Agent choice 1 selected.
+Enemy (type 0) #5 created.
+Placed agent on the board at index 10.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 2 completed.
+Agent frozen at index 10.
+Agent frozen at index 10.
+Agent choice 3 selected.
+Placed bomb on the map at position: (254, 262).
+Starting wave 3...
+Enemy (type 1) #1 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 3 selected.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #5 created.
+Agent choice 2 selected.
+Enemy (type 1) #6 created.
+Placed agent on the board at index 10.
+Enemy (type 1) #7 created.
+Agent choice 1 selected.
+Enemy (type 0) #8 created.
+Wave 2 completed.
+Placed agent on the board at index 13.
+Agent frozen at index 9.
+Agent frozen at index 13.
+Agent choice 4 selected.
+Placed bomb on the map at position: (262, 221).
+Starting wave 3...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 3 completed.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 0) #8 created.
+Wave 4 completed.
+Agent removed from agent_board at index 13 by Eraser.
+Agent removed from agent_board at index 9 by Eraser.
+Agent choice 2 selected.
+Placed bomb on the map at position: (241, 187).
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 5 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 1 selected.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed bomb on the map at position: (974, 362).
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Agent removed from agent_board at index 10 by Eraser.
+Agent choice 3 selected.
+Enemy (type 0) #8 created.
+Wave 4 completed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (739, 163).
+Agent removed from agent_board at index 9 by Eraser.
+Agent choice 3 selected.
+Placed bomb on the map at position: (958, 561).
+Agent choice 4 selected.
+Placed bomb on the map at position: (272, 231).
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Agent choice 4 selected.
+Placed agent on the board at index 6.
+Agent choice 4 selected.
+Placed agent on the board at index 11.
+Enemy (type 8Disarmer) killed.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #3 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #5 created.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Enemy (type 0) #6 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #7 created.
+Placed bomb on the map at position: (223, 384).
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 5 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 9.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 9...
+Enemy (type 0) #1 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 11...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 12...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #2 created.
+Starting wave 13...
+Enemy (type 0) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Starting wave 14...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 1) #2 created.
+Starting wave 15...
+Enemy (type 0) #1 created.
+Agent removed from agent_board at index 6 by Eraser.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 0) #2 created.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 11 by Eraser.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #5 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #6 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #7 created.
+Agent removed from agent_board at index 9 by Eraser.
+Enemy (type 1) #8 created.
+Wave 15 completed.
+Agent choice 3 selected.
+Placed bomb on the map at position: (374, 190).
+Agent choice 4 selected.
+Placed bomb on the map at position: (487, 182).
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Agent choice 1 selected.
+Not enough elixir to place the agent.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Not enough elixir to place the agent.
+Agent choice 1 deselected.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 5.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #1 created.
+Agent choice 3 selected.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Enemy (type 1) #7 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 2 selected.
+Enemy (type 0) #7 created.
+Placed agent on the board at index 10.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 1) #2 created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Agent removed from agent_board at index 9 by Eraser.
+Enemy (type 0) #5 created.
+Agent removed from agent_board at index 10 by Eraser.
+Agent choice 4 selected.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Placed bomb on the map at position: (245, 567).
+Enemy (type 1) #8 created.
+Wave 6 completed.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Agent choice 3 selected.
+Placed bomb on the map at position: (910, 491).
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 14 by Eraser.
+Agent choice 4 selected.
+Placed bomb on the map at position: (956, 543).
+Agent choice 3 selected.
+Placed bomb on the map at position: (326, 187).
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Agent choice 4 selected.
+Placed agent on the board at index 9.
+Agent choice 3 selected.
+Placed agent on the board at index 6.
+Agent choice 4 selected.
+Placed agent on the board at index 5.
+Agent choice 3 selected.
+Placed agent on the board at index 13.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Agent choice 4 selected.
+Placed agent on the board at index 1.
+Agent choice 3 selected.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Agent choice 1 selected.
+Enemy (type 0) #5 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #6 created.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Placed agent on the board at index 14.
+Agent choice 1 selected.
+Placed agent on the board at index 5.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (826, 168).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 8Shielder) killed.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 1) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #2 created.
+Starting wave 11...
+Enemy (type 0) #1 created.
+Agent removed from agent_board at index 14 by Eraser.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #4 created.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #5 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #6 created.
+Placed bomb on the map at position: (254, 590).
+Enemy (type 6Eraser) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #7 created.
+Agent choice 2 selected.
+Enemy (type 0) #8 created.
+Wave 11 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Starting wave 12...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 13...
+Enemy (type 1) #1 created.
+Starting wave 14...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 15...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #8 created.
+Wave 15 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 6.
+Enemy (type 7Freezer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 10.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent removed from agent_board at index 9 by Eraser.
+Enemy (type 0) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 3 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 1 selected.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (553, 163).
+Agent choice 1 selected.
+Placed agent on the board at index 4.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Agent choice 4 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 14.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 2 completed.
+Agent frozen at index 14.
+Agent frozen at index 14.
+Agent frozen at index 13.
+Agent frozen at index 14.
+Agent frozen at index 14.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Agent choice 2 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 14, new power: 30, new fire rate: 600.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Agent choice 4 selected.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Merged agent at index 9, new power: 30, new fire rate: 600.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #4 created.
+Agent choice 4 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 9, new power: 30, new fire rate: 600.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Agent choice 4 selected.
+Enemy (type 0) #5 created.
+Placed agent on the board at index 14.
+Merged agent at index 14, new power: 30, new fire rate: 600.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 14.
+Merged agent at index 14, new power: 30, new fire rate: 600.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Agent choice 4 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 6Runner) killed.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #2 created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Agent choice 4 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 deselected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 1) #4 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 14.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Agent frozen at index 13.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #6 created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 7 completed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Merged agent at index 9, new power: 60, new fire rate: 500.
+Enemy (type 6Runner) killed.
+Agent frozen at index 13.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 4 selected.
+Enemy (type 0) #7 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 0) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Agent removed from agent_board at index 14 by Eraser.
+Enemy (type 1) #2 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 10 completed.
+Enemy (type 1) #1 created.
+Agent choice 4 selected.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Agent choice 2 selected.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 1) #5 created.
+Agent choice 4 selected.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Enemy (type 0) #4 created.
+Merged agent at index 10, new power: 44, new fire rate: 450.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Agent frozen at index 13.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #2 created.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Agent removed from agent_board at index 9 by Eraser.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Agent choice 4 selected.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Agent choice 4 selected.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Merged agent at index 13, new power: 60, new fire rate: 600.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 6Runner) killed.
+Merged agent at index 13, new power: 60, new fire rate: 600.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 1) #4 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 8Shielder) killed.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Starting wave 9...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #1 created.
+Agent choice 4 selected.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Agent choice 2 selected.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Agent choice 1 selected.
+Enemy (type 1) #6 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 2 completed.
+Agent frozen at index 9.
+Agent choice 3 selected.
+Placed bomb on the map at position: (286, 431).
+Starting wave 3...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 3 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Agent choice 1 selected.
+Enemy (type 0) #5 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #2 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #3 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 0) #7 created.
+Agent choice 3 selected.
+Enemy (type 0) #8 created.
+Wave 4 completed.
+Placed bomb on the map at position: (287, 615).
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Agent choice 4 selected.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Merged agent at index 14, new power: 60, new fire rate: 500.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Agent choice 1 selected.
+Enemy (type 0) #5 created.
+Merged agent at index 10, new power: 60, new fire rate: 500.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 1) #4 created.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 3 selected.
+Enemy (type 0) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Merged agent at index 14, new power: 60, new fire rate: 500.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #2 created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #5 created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 5 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 13.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Agent frozen at index 13.
+Placed bomb on the map at position: (314, 178).
+Agent choice 1 selected.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 9...
+Enemy (type 0) #1 created.
+Starting wave 10...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Enemy (type 1) #2 created.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 10 completed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 13.
+Enemy (type 6Runner) killed.
+Agent frozen at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (287, 382).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Agent choice 4 selected.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 1 selected.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Merged agent at index 14, new power: 30, new fire rate: 400.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Agent choice 4 selected.
+Enemy (type 1) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 400.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Agent choice 1 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Merged agent at index 13, new power: 30, new fire rate: 400.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Agent choice 1 selected.
+Enemy (type 1) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Enemy (type 0) #7 created.
+Placed agent on the board at index 14.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Merged agent at index 10, new power: 60, new fire rate: 500.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Merged agent at index 13, new power: 30, new fire rate: 600.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #2 created.
+Starting wave 9...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Starting wave 11...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 12...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 6Runner) killed.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 1) #2 created.
+Agent removed from agent_board at index 15 by Eraser.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 0) #5 created.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Enemy (type 1) #6 created.
+Agent frozen at index 14.
+Merged agent at index 14, new power: 30, new fire rate: 400.
+Enemy (type 1) #7 created.
+Agent removed from agent_board at index 14 by Eraser.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #8 created.
+Wave 12 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 13.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 1 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 4 selected.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Merged agent at index 13, new power: 30, new fire rate: 400.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Agent choice 4 selected.
+Enemy (type 0) #4 created.
+Merged agent at index 13, new power: 30, new fire rate: 400.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Agent choice 2 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #5 created.
+Agent choice 1 selected.
+Enemy (type 0) #6 created.
+Merged agent at index 13, new power: 44, new fire rate: 450.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Placed agent on the board at index 13.
+Agent choice 1 selected.
+Placed agent on the board at index 12.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Merged agent at index 13, new power: 44, new fire rate: 450.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 14.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 1 selected.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 7 completed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 13.
+Agent frozen at index 14.
+Merged agent at index 14, new power: 60, new fire rate: 500.
+Agent choice 3 selected.
+Placed bomb on the map at position: (270, 486).
+Agent choice 4 selected.
+Placed bomb on the map at position: (265, 272).
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 1) #3 created.
+Agent choice 3 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 14.
+Enemy (type 1) #5 created.
+Agent choice 1 selected.
+Enemy (type 1) #6 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #7 created.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed bomb on the map at position: (958, 505).
+Agent choice 3 selected.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 12.
+Agent choice 1 selected.
+Placed agent on the board at index 8.
+Agent choice 2 selected.
+Placed agent on the board at index 15.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Agent choice 3 selected.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Placed agent on the board at index 11.
+Enemy (type 1) #2 created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Placed agent on the board at index 7.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 0) #2 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Placed agent on the board at index 4.
+Enemy (type 1) #2 created.
+Agent choice 1 selected.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 8 completed.
+Agent frozen at index 6.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 deselected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 6.
+Agent choice 3 selected.
+Placed bomb on the map at position: (329, 179).
+Agent choice 1 selected.
+Agent choice 1 deselected.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Agent choice 2 selected.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 13.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 3 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 14.
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Agent choice 4 selected.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 12.
+Agent choice 1 selected.
+Placed agent on the board at index 8.
+Agent choice 1 selected.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 5...
+Enemy (type 1) #1 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Starting wave 7...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 9...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 10...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Starting wave 11...
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Agent removed from agent_board at index 5 by Eraser.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Agent removed from agent_board at index 10 by Eraser.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 11 completed.
+Agent removed from agent_board at index 8 by Eraser.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 12 by Eraser.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 6 by Eraser.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Agent removed from agent_board at index 14 by Eraser.
+Agent removed from agent_board at index 6 by Eraser.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 3 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 14.
+Enemy (type 0) #5 created.
+Agent choice 4 selected.
+Enemy (type 0) #6 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 10.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 5.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 6.
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Agent choice 3 selected.
+Placed agent on the board at index 12.
+Agent choice 1 selected.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 2) created.
+Starting wave 3...
+Enemy (type 0) #1 created.
+Placed agent on the board at index 8.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Agent choice 4 selected.
+Enemy (type 0) #2 created.
+Placed agent on the board at index 11.
+Starting wave 6...
+Enemy (type 0) #1 created.
+Boss enemy (type 2) created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 1) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Agent choice 3 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 14.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 4 selected.
+Enemy (type 1) #6 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #7 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 1) #8 created.
+Wave 2 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #5 created.
+Agent choice 4 selected.
+Enemy (type 0) #6 created.
+Placed agent on the board at index 14.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (949, 548).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Starting wave 2...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 0) #1 created.
+Boss enemy (type 0) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent removed from agent_board at index 14 by Eraser.
+Enemy (type 0) #7 created.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 1) #8 created.
+Wave 4 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 1 selected.
+Enemy (type 0) #4 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 3 selected.
+Enemy (type 1) #7 created.
+Placed agent on the board at index 14.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Agent choice 4 selected.
+Placed bomb on the map at position: (960, 510).
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Starting wave 2...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 3...
+Enemy (type 1) #1 created.
+Starting wave 4...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Starting wave 5...
+Enemy (type 0) #1 created.
+Starting wave 6...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 1) #2 created.
+Starting wave 7...
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Starting wave 8...
+Enemy (type 0) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Agent frozen at index 14.
+Enemy (type 0) #7 created.
+Agent frozen at index 10.
+Enemy (type 0) #8 created.
+Wave 8 completed.
+Agent frozen at index 14.
+Agent frozen at index 10.
+Agent frozen at index 10.
+Agent frozen at index 10.
+Agent frozen at index 13.
+Agent frozen at index 13.
+Agent frozen at index 14.
+Agent frozen at index 14.
+Agent frozen at index 14.
+Agent frozen at index 10.
+Agent frozen at index 10.
+Agent frozen at index 10.
+Agent choice 2 selected.
+Agent frozen at index 10.
+Placed agent on the board at index 9.
+Agent frozen at index 14.
+Agent choice 4 selected.
+Placed agent on the board at index 5.
+Agent choice 4 selected.
+Placed bomb on the map at position: (926, 215).
+Agent frozen at index 10.
+Agent frozen at index 14.
+Agent choice 4 selected.
+Placed agent on the board at index 6.
+Agent choice 4 selected.
+Placed agent on the board at index 7.
+Agent choice 4 selected.
+Agent frozen at index 10.
+Agent frozen at index 9.
+Placed bomb on the map at position: (763, 190).
+Enemy (type 7Freezer) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (952, 258).
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Starting wave 9...
+Enemy (type 1) #1 created.
+Starting wave 10...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Starting wave 11...
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Starting wave 12...
+Enemy (type 1) #1 created.
+Boss enemy (type 1) created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #8 created.
+Wave 12 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 14.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent frozen at index 10.
+Agent frozen at index 6.
+Agent frozen at index 9.
+Agent frozen at index 10.
+Enemy (type 1) #1 created.
+Agent choice 2 selected.
+Enemy (type 1) #2 created.
+Placed agent on the board at index 13.
+Enemy (type 0) #3 created.
+Agent choice 1 selected.
+Enemy (type 1) #4 created.
+Placed agent on the board at index 9.
+Enemy (type 1) #5 created.
+Agent choice 3 selected.
+Enemy (type 0) #6 created.
+Placed agent on the board at index 14.
+Enemy (type 0) #7 created.
+Agent choice 2 selected.
+Placed agent on the board at index 10.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.

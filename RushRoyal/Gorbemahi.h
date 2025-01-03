@@ -14,10 +14,12 @@ class Gorbemahi : public AgentBase
 public:
     Gorbemahi(QWidget *parent = nullptr);
     Gorbemahi(const Gorbemahi &other);
-    void shootAt(const QVector<Enemy*>& enemies) override;
+    void shootAt() ;
     int getElixirCost() const override;
     virtual ~Gorbemahi();
     int type() const override { return 3;}
+    QTimer *timett;
+    void shot();
 
 private:
     Ui::Gorbemahi *ui;

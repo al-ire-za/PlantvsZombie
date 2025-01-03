@@ -1,10 +1,13 @@
 #include "Kalam.h"
+#include "Gameplay_page.h"
+#include <QTimer>
 
 
 Kalam::Kalam(QWidget *parent)
     : AgentBase(parent, ":/prefix2/images/kalam1.png", 22, 900, 3)
 {
-
+    timett = new QTimer();
+    connect(timett , &QTimer::timeout , this , &Kalam::shootAt );
 }
 
 Kalam::Kalam(const Kalam &other)
@@ -12,14 +15,15 @@ Kalam::Kalam(const Kalam &other)
 
 }
 
-void Kalam::shootAt(const QVector<Enemy*>& enemies)
+void Kalam::shootAt()
 {
-    if (enemies.isEmpty()|| isFrozen()) return;
+    Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
+    if (gamePage->enemies.isEmpty()|| isFrozen()) return;
 
     Enemy* target = nullptr;
     int maxHealth = 0;
 
-    for (Enemy* enemy : enemies) {
+    for (Enemy* enemy : gamePage->enemies) {
         if (enemy->gethealth() > maxHealth) {
             maxHealth = enemy->gethealth();
             target = enemy;
@@ -34,6 +38,10 @@ void Kalam::shootAt(const QVector<Enemy*>& enemies)
 int Kalam::getElixirCost() const
 {
     return AgentBaseElixirCost;
+}
+
+void Kalam::shot(){
+    timett->start(AgentBaseFireRate);
 }
 
 Kalam::~Kalam()

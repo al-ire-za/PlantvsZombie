@@ -15,10 +15,12 @@ class Kalam : public AgentBase
 public:
     Kalam(QWidget *parent = nullptr);
     Kalam(const Kalam &other);
-    void shootAt(const QVector<Enemy*>& enemies) override;
+    void shootAt() ;
     int getElixirCost() const override;
     virtual ~Kalam();
     int type() const override { return 4;}
+    QTimer *timett;
+    void shot();
 
 private:
     Ui::Kalam *ui;

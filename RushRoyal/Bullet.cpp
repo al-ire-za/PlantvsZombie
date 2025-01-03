@@ -4,12 +4,13 @@
 
 Bullet::Bullet(QWidget *parent, int damage)
     : QLabel(parent), animation(new QPropertyAnimation(this, "pos")), moveTimer(new QTimer(this)), checkTimer(new QTimer(this)), damage(damage) {
-    setStyleSheet("background-color: black; border-radius: 5%;");
+    setStyleSheet("background-image: url(:/prefix2/images/black.jpg); border-radius: 5%;");
     setFixedSize(10, 10);
     connect(moveTimer, &QTimer::timeout, this, &Bullet::moveBullet);
     connect(animation, &QPropertyAnimation::finished, this, &Bullet::onAnimationFinished);
     connect(checkTimer, &QTimer::timeout, this, &Bullet::checkTarget);
 }
+
 
 void Bullet::shoot(const QPoint &start, Enemy *targetenemy) {
     this->targetenemy = targetenemy;

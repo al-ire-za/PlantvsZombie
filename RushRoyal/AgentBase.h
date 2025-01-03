@@ -25,6 +25,7 @@ public:
     bool isFrozen() const;
     void setFrozen(bool frozen);
     void setpower(int po);
+    void setAgentBaseFireRate(double fire);
     virtual int type() const = 0;
 
 protected:

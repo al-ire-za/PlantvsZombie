@@ -83,3 +83,7 @@ void AgentBase::startShooting()
     shootTimer->start(AgentBaseFireRate * 1000);
 
 }
+
+void AgentBase::setAgentBaseFireRate(double fire){
+    AgentBaseFireRate = fire;
+}

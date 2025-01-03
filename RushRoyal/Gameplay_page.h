@@ -33,6 +33,7 @@ public:
     void startNextWave();
     void removeAgentFromBoard(AgentBase* agent);
     void checkWaveCompletion();
+    QVector<Enemy*> enemies;
 
 
 protected:
@@ -72,14 +73,13 @@ private:
     AgentBase *agent_choice2;
     AgentBase *agent_choice3;
     AgentBase *agent_choice4;
+    AgentBase *last_clicked_agent;
     Eraser *eraser;
     Freezer *freezer;
     Disarmer *disarmer;
-    QVector<Enemy*> enemies;
     QList<int> levels;
     QTimer *elixirTimer;
     QLabel *elixirLabel;
-    QTimer *shootTimer;
     QLabel *enemyCountLabel;
     int elixir;
     int count_enemi;

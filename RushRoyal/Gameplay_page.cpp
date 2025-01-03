@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -75,13 +75,13 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     // initializeAgents();
 
-    agent_choice1 = new Gorbemahi(this);
+    agent_choice1 = new Kalam(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Golmoshaki(this);
+    agent_choice2 = new Gandom(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Bomb(this);
+    agent_choice3 = new Gorbemahi(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice4 = new Trap(this);
+    agent_choice4 = new Kalam(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
@@ -107,21 +107,18 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     elixirLabel->setText(QString::number(elixir));
     elixirLabel->show();
 
-    // elixirTimer = new QTimer(this);
-    // connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
-    // elixirTimer->start(2000);
+    elixirTimer = new QTimer(this);
+    connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
+    elixirTimer->start(2000);
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
-    timer->start(2000); //5000
+    timer->start(2000);
 
-    shootTimer = new QTimer(this);
-    connect(shootTimer, &QTimer::timeout, this, &Gameplay_page::agentShoot);
-    shootTimer->start(1000); // هر 1 ثانیه ایجنت‌ها شلیک کنند
 
     QTimer *collisionTimer = new QTimer(this);
     connect(collisionTimer, &QTimer::timeout, this, &Gameplay_page::checkCollisions);
-    collisionTimer->start(50); // هر 50 میلی‌ثانیه برخوردها را بررسی می‌کند
+    collisionTimer->start(50);
     initializeAgents();
 }
 
@@ -428,17 +425,15 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
     if(auto bomb = dynamic_cast<Bomb*>(new_agentChoice)){
         bomb->setpowerkill(levels[4] + 1);
         bomb->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4]));
-        // qDebug() << "pooow bomb: " << bomb->getpowerkill();
+
     }
 
     if(auto trap = dynamic_cast<Trap*>(new_agentChoice)){
         trap->setpowerkill(levels[5] + 1);
         trap->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5]));
-        // qDebug() << "pooow trap: " << trap->getpowerkill();
+
     }
 
-
-    // qDebug() << "Power random: " << new_agentChoice->getpower();
     if (new_agentChoice) {
         new_agentChoice->setGeometry(startx_agent_choice + index * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
@@ -647,7 +642,6 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
 
 void Gameplay_page::mousePressEvent(QMouseEvent *event)
 {
-    // initializeAgents();
 
     if (event->button() == Qt::LeftButton) {
         QString logMessage;
@@ -676,40 +670,11 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
             }
         }
 
-
-
-        // if(auto golmoushaki = dynamic_cast<Golmoshaki*>(current_choice)){
-        //     current_choice->setpower(15 * pow(2, (levels[0] - 1)));
-        // }
-
-        // if(auto gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)){
-        //     current_choice->setpower(30 * pow(2, (levels[1] - 1)));
-        // }
-
-        // if(auto kalam = dynamic_cast<Kalam*>(current_choice)){
-        //     current_choice->setpower(22 * pow(2, (levels[2] - 1)));
-        // }
-
-        // if(auto gandom = dynamic_cast<Gandom*>(current_choice)){
-        //     current_choice->setpower(15 * pow(2, (levels[3] - 1)));
-        // }
-
-        // if(auto bomb = dynamic_cast<Bomb*>(current_choice)){
-        //     bomb->setpowerkill(levels[4] + 1);
-        //     qDebug() << "pooow bomb: " << bomb->getpowerkill();
-        // }
-
-        // if(auto trap = dynamic_cast<Trap*>(current_choice)){
-        //     trap->setpowerkill(levels[5] + 1);
-        //     qDebug() << "pooow trap: " << trap->getpowerkill();
-        // }
-
-
         if (current_choice &&
             (current_choice->styleSheet().contains("bomb") ||
              current_choice->styleSheet().contains("trap"))) {
 
-            int requiredElixir = current_choice->getElixirCost();  // استفاده از getElixirCost
+            int requiredElixir = current_choice->getElixirCost();
 
             if (elixir >= requiredElixir &&
                 ((event->pos().x() >= 210 && event->pos().x() <= 300 && event->pos().y() >= 140 && event->pos().y() <= 640) ||
@@ -765,6 +730,19 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             current_choice->setGeometry(rect);
                             current_choice->show();
                             agent_board[i] = current_choice;
+                            if (Golmoshaki* golmushaki = dynamic_cast<Golmoshaki*>(current_choice)) {
+                                golmushaki->shot();
+                            }
+                            if (Gorbemahi* gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)) {
+                                gorbemahi->shot();
+                            }
+                            if (Gandom* gandom = dynamic_cast<Gandom*>(current_choice)) {
+                                gandom->shot();
+                            }
+                            if (Kalam* kalam = dynamic_cast<Kalam*>(current_choice)) {
+                                kalam->shot();
+                            }
+                            current_choice->shootAt(enemies);
                             updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                                   (current_choice == agent_choice2) ? 1 :
                                                                   (current_choice == agent_choice3) ? 2 : 3);
@@ -775,6 +753,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             logMessage = QString("Placed agent on the board at index %1.").arg(i);
                             logEvent(logMessage);
                             current_choice->startShooting();
+
                             current_choice = nullptr;
                         }
                     }
@@ -786,6 +765,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
         }
     }
 }
+
 
 // sabt log hay bazi
 void Gameplay_page::logEvent(const QString &event) {

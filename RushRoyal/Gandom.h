@@ -15,10 +15,12 @@ class Gandom : public AgentBase
 public:
     Gandom(QWidget *parent = nullptr);
     Gandom(const Gandom &other);
-    void shootAt(const QVector<Enemy*>& enemies) override;
+    void shootAt() ;
     int getElixirCost() const override;
     virtual ~Gandom();
     int type() const override { return 1;}
+    QTimer *timett;
+    void shot();
 
 private:
     Ui::Gandom *ui;

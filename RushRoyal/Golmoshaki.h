@@ -15,10 +15,13 @@ class Golmoshaki : public AgentBase
 public:
     Golmoshaki(QWidget *parent = nullptr);
     Golmoshaki(const Golmoshaki &other);
-    void shootAt(const QVector<Enemy*>& enemies) override;
+    //void shootAt(const QVector<Enemy*>& enemies) override;
+    void shootAt();
     int getElixirCost() const override;
     virtual ~Golmoshaki();
     int type() const override { return 2;}
+    QTimer *timett;
+    void shot();
 
 private:
     Ui::Golmoshaki *ui;
