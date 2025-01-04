@@ -74,6 +74,7 @@ private:
     AgentBase *agent_choice3;
     AgentBase *agent_choice4;
     AgentBase *last_clicked_agent;
+    int last_clicked_index;
     Eraser *eraser;
     Freezer *freezer;
     Disarmer *disarmer;

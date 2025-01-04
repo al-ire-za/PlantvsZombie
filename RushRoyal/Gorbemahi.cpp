@@ -5,7 +5,7 @@
 #include <QTimer>
 
 Gorbemahi::Gorbemahi(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gorbemahi1.png", 30, 1000, 4)
+    : AgentBase(parent, ":/prefix2/images/gorbemahi1.png", 30, 1600, 4)
 {
     timett = new QTimer();
     connect(timett , &QTimer::timeout , this , &Gorbemahi::shootAt );

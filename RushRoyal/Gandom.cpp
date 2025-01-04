@@ -4,7 +4,7 @@
 #include <QTimer>
 
 Gandom::Gandom(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/gandom1.png", 15, 800, 2)
+    : AgentBase(parent, ":/prefix2/images/gandom1.png", 15, 1200, 2)
 {
     timett = new QTimer();
     connect(timett , &QTimer::timeout , this , &Gandom::shootAt );

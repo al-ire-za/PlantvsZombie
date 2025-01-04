@@ -4,7 +4,7 @@
 #include <QTimer>
 
 AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int firerate, int elixirCost)
-    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false)
+    : QLabel(parent), AgentBaseimageUrl(imageUrl), AgentBaseFireRate(firerate), AgentBaseElixirCost(elixirCost), frozen(false), levelspeedup(1)
 
 {
     updateimagUrl(imageUrl);
@@ -84,6 +84,18 @@ void AgentBase::startShooting()
 
 }
 
+void AgentBase::setlevelspeedup(int level){
+    levelspeedup = level;
+}
+
+int AgentBase::getlevelspeedup(){
+    return levelspeedup;
+}
+
 void AgentBase::setAgentBaseFireRate(double fire){
     AgentBaseFireRate = fire;
+}
+
+double AgentBase::getAgentBaseFireRate(){
+    return AgentBaseFireRate;
 }

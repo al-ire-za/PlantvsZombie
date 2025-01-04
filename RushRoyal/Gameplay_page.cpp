@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -75,11 +75,11 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     // initializeAgents();
 
-    agent_choice1 = new Kalam(this);
+    agent_choice1 = new Golmoshaki(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Gandom(this);
+    agent_choice2 = new Gorbemahi(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice3 = new Gorbemahi(this);
+    agent_choice3 = new Gandom(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice4 = new Kalam(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -376,7 +376,7 @@ void Gameplay_page::on_PTrap_clicked()
 
 // random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
 void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-    int randomIndex = std::rand() % agents.size();
+    int randomIndex = 0/*std::rand() % agents.size()*/;
 
     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
         agent = new Gorbemahi(this);
@@ -396,7 +396,6 @@ void Gameplay_page::createRandomAgent(AgentBase *&agent) {
 
 // ezafe karadan agent random be agent choice
 void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
-    // qDebug() << "level gol moshaki" << levels[0];
     AgentBase *new_agentChoice = nullptr;
 
     createRandomAgent(new_agentChoice);
@@ -473,11 +472,11 @@ void Gameplay_page::create_enemi()
         switch (enemyType) {
         case 0:
             baseHealth = 50;
-            baseSpeed = 1.5;
+            baseSpeed = 1.00;
             break;
         case 1:
             baseHealth = 100;
-            baseSpeed = 1.5;
+            baseSpeed = 0.5;
             break;
         }
 
@@ -521,7 +520,7 @@ void Gameplay_page::create_enemi()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType = std::rand() % 3;
+        int bossType =2/* std::rand() % 3*/;
         Enemy *boss_enemy = nullptr;
 
         int baseHealth = 0;
@@ -645,6 +644,66 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
     if (event->button() == Qt::LeftButton) {
         QString logMessage;
+
+        for (int i = 0; i < 16; ++i) {
+            int x = startX + (i % 4) * xOffset;
+            int y = startY + (i / 4) * yOffset;
+
+            QRect rect(x, y, width_agent_board, height_agent_board);
+            if (rect.contains(event->pos()) && agent_board[i] != nullptr) {
+                AgentBase *targetAgent = agent_board[i];
+                if (last_clicked_agent != nullptr && last_clicked_agent->metaObject()->className() == targetAgent->metaObject()->className()
+                    && targetAgent->getlevelspeedup() < 5 && targetAgent->getlevelspeedup() == last_clicked_agent->getlevelspeedup()) {
+
+                    // targetAgent->setpower(targetAgent->getpower() + last_clicked_agent->getpower());
+
+                    if (Golmoshaki* golmushaki = dynamic_cast<Golmoshaki*>(targetAgent)) {
+                        golmushaki->setlevelspeedup(golmushaki->getlevelspeedup() + 1);
+                        qDebug() << "level: " << golmushaki->getlevelspeedup();
+                        golmushaki->setAgentBaseFireRate(golmushaki->getAgentBaseFireRate() / 2);
+                        golmushaki->shot();
+                        agent_board[last_clicked_index]->deleteLater();
+                    }
+
+                    if (Gorbemahi* gorbemahi = dynamic_cast<Gorbemahi*>(targetAgent)) {
+                        gorbemahi->setlevelspeedup(gorbemahi->getlevelspeedup() + 1);
+                        qDebug() << "level: " << gorbemahi->getlevelspeedup();
+                        gorbemahi->setAgentBaseFireRate(gorbemahi->getAgentBaseFireRate() / 2);
+                        gorbemahi->shot();
+                        agent_board[last_clicked_index]->deleteLater();
+                    }
+
+                    if (Gandom* gandom = dynamic_cast<Gandom*>(targetAgent)) {
+                        gandom->setlevelspeedup(gandom->getlevelspeedup() + 1);
+                        qDebug() << "level: " << gandom->getlevelspeedup();
+                        gandom->setAgentBaseFireRate(gandom->getAgentBaseFireRate() / 2);
+                        gandom->shot();
+                        agent_board[last_clicked_index]->deleteLater();
+                    }
+
+                    if (Kalam* kalam = dynamic_cast<Kalam*>(targetAgent)) {
+                        kalam->setlevelspeedup(kalam->getlevelspeedup() + 1);
+                        qDebug() << "level: " << kalam->getlevelspeedup();
+                        kalam->setAgentBaseFireRate(kalam->getAgentBaseFireRate() / 2);
+                        kalam->shot();
+                        agent_board[last_clicked_index]->deleteLater();
+                    }
+
+
+
+
+                    agent_board[last_clicked_index] = nullptr; // خانه‌ی قبلی خالی می‌شود
+                    logMessage = QString("Merged agent at index %1, new power: %2.").arg(i).arg(targetAgent->getpower());
+                    logEvent(logMessage);
+                    last_clicked_agent = nullptr;
+                    last_clicked_index = -1; // ریست کردن اندیس آخرین ایجنت کلیک شده
+                } else {
+                    last_clicked_agent = targetAgent;
+                    last_clicked_index = i; // ذخیره اندیس ایجنت آخر کلیک شده
+                }
+                return; // خروج از تابع پس از پردازش کلیک
+            }
+        }
 
         for (int i = 0; i < 4; ++i) {
             int xStart = startx_agent_choice + i * spacing;

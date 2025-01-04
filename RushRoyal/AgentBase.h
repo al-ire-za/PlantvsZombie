@@ -26,7 +26,10 @@ public:
     void setFrozen(bool frozen);
     void setpower(int po);
     void setAgentBaseFireRate(double fire);
+    double getAgentBaseFireRate();
     virtual int type() const = 0;
+    void setlevelspeedup(int level);
+    int getlevelspeedup();
 
 protected:
     int AgentBasePower;
@@ -38,6 +41,7 @@ protected:
 
 private:
     Ui::AgentBase *ui;
+    int levelspeedup;
     bool frozen;
 };
 

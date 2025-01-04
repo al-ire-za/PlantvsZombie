@@ -4,7 +4,7 @@
 
 
 Kalam::Kalam(QWidget *parent)
-    : AgentBase(parent, ":/prefix2/images/kalam1.png", 22, 900, 3)
+    : AgentBase(parent, ":/prefix2/images/kalam1.png", 22, 1400, 3)
 {
     timett = new QTimer();
     connect(timett , &QTimer::timeout , this , &Kalam::shootAt );
