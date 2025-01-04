@@ -8,7 +8,7 @@ AgentBase::AgentBase(QWidget *parent, const QString &imageUrl, int power, int fi
 
 {
     updateimagUrl(imageUrl);
-    shootTimer = new QTimer(this);
+    // shootTimer = new QTimer(this);
     setpower(power);
 
 }
@@ -72,17 +72,17 @@ void AgentBase::setFrozen(bool frozen)
     setEnabled(!frozen);
 }
 
-void AgentBase::stopShooting()
-{
-    shootTimer->stop();
-}
+// void AgentBase::stopShooting()
+// {
+//     shootTimer->stop();
+// }
 
-void AgentBase::startShooting()
-{
+// void AgentBase::startShooting()
+// {
 
-    shootTimer->start(AgentBaseFireRate * 1000);
+//     shootTimer->start(AgentBaseFireRate * 1000);
 
-}
+// }
 
 void AgentBase::setlevelspeedup(int level){
     levelspeedup = level;

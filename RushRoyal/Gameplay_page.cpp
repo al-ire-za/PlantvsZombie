@@ -73,11 +73,9 @@ Gameplay_page::Gameplay_page(QWidget *parent)
         levels[i] = 1;
     }
 
-    // initializeAgents();
-
     agent_choice1 = new Golmoshaki(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Bomb(this);
+    agent_choice2 = new Gorbemahi(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice3 = new Gandom(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
@@ -375,23 +373,80 @@ void Gameplay_page::on_PTrap_clicked()
 }
 
 // random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
-void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-    int randomIndex = 3/*std::rand() % agents.size()*/;
+// void Gameplay_page::createRandomAgent(AgentBase *&agent) {
+//     int randomIndex = std::rand() % agents.size();
 
-    if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
-        agent = new Gorbemahi(this);
-    } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
-        agent = new Gandom(this);
-    } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
-        agent = new Golmoshaki(this);
-    } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
-        agent = new Bomb(this);
-    } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
-        agent = new Trap(this);
-    } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
-        agent = new Kalam(this);
+//     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
+//         agent = new Gorbemahi(this);
+//     } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
+//         agent = new Gandom(this);
+//     } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
+//         agent = new Golmoshaki(this);
+//     } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
+//         agent = new Bomb(this);
+//     } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
+//         agent = new Trap(this);
+//     } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
+//         agent = new Kalam(this);
+//     }
+// }
+
+void Gameplay_page::createRandomAgent(AgentBase *&agent) {
+    QList<QString> existingAgents;
+    QList<QString> allAgents = {"Gorbemahi", "Gandom", "Golmoshaki", "Bomb", "Trap", "Kalam"};
+
+
+    for (auto chosenAgent : {agent_choice1, agent_choice2, agent_choice3, agent_choice4}) {
+        if (chosenAgent != nullptr) {
+            existingAgents.append(chosenAgent->metaObject()->className());
+        }
+    }
+
+
+    QList<QString> remainingAgents;
+    for (const auto &agentName : allAgents) {
+        if (!existingAgents.contains(agentName)) {
+            remainingAgents.append(agentName);
+        }
+    }
+
+
+    if (!remainingAgents.isEmpty()) {
+        int randomIndex = std::rand() % remainingAgents.size();
+        QString chosenAgentName = remainingAgents[randomIndex];
+
+        if (chosenAgentName == "Gorbemahi") {
+            agent = new Gorbemahi(this);
+        } else if (chosenAgentName == "Gandom") {
+            agent = new Gandom(this);
+        } else if (chosenAgentName == "Golmoshaki") {
+            agent = new Golmoshaki(this);
+        } else if (chosenAgentName == "Bomb") {
+            agent = new Bomb(this);
+        } else if (chosenAgentName == "Trap") {
+            agent = new Trap(this);
+        } else if (chosenAgentName == "Kalam") {
+            agent = new Kalam(this);
+        }
+    } else {
+
+        int randomIndex = std::rand() % agents.size();
+        if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
+            agent = new Gorbemahi(this);
+        } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
+            agent = new Gandom(this);
+        } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
+            agent = new Golmoshaki(this);
+        } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
+            agent = new Bomb(this);
+        } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
+            agent = new Trap(this);
+        } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
+            agent = new Kalam(this);
+        }
     }
 }
+
 
 
 // ezafe karadan agent random be agent choice
@@ -629,7 +684,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            checkGameOver();
+            // checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
 
@@ -654,8 +709,6 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                 AgentBase *targetAgent = agent_board[i];
                 if (last_clicked_agent != nullptr && last_clicked_agent->metaObject()->className() == targetAgent->metaObject()->className()
                     && targetAgent->getlevelspeedup() < 5 && targetAgent->getlevelspeedup() == last_clicked_agent->getlevelspeedup()) {
-
-                    // targetAgent->setpower(targetAgent->getpower() + last_clicked_agent->getpower());
 
                     if (Golmoshaki* golmushaki = dynamic_cast<Golmoshaki*>(targetAgent)) {
                         golmushaki->setlevelspeedup(golmushaki->getlevelspeedup() + 1);
@@ -689,19 +742,16 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                         agent_board[last_clicked_index]->deleteLater();
                     }
 
-
-
-
-                    agent_board[last_clicked_index] = nullptr; // خانه‌ی قبلی خالی می‌شود
+                    agent_board[last_clicked_index] = nullptr;
                     logMessage = QString("Merged agent at index %1, new speed: %2.").arg(i).arg(targetAgent->getAgentBaseFireRate());
                     logEvent(logMessage);
                     last_clicked_agent = nullptr;
-                    last_clicked_index = -1; // ریست کردن اندیس آخرین ایجنت کلیک شده
+                    last_clicked_index = -1;
                 } else {
                     last_clicked_agent = targetAgent;
-                    last_clicked_index = i; // ذخیره اندیس ایجنت آخر کلیک شده
+                    last_clicked_index = i;
                 }
-                return; // خروج از تابع پس از پردازش کلیک
+                return;
             }
         }
 
@@ -811,7 +861,6 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             elixirLabel->setText(QString::number(elixir));
                             logMessage = QString("Placed agent on the board at index %1.").arg(i);
                             logEvent(logMessage);
-                            current_choice->startShooting();
 
                             current_choice = nullptr;
                         }
