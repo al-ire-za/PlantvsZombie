@@ -23,6 +23,8 @@ public:
     void setNOEnemyKilled(int count);
     void setElixirUsed(int elixir);
     void setRecordGame(int record);
+    void exitGame();
+    void restartGame();
 
 private:
     Ui::ResultWindow *ui;

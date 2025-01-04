@@ -24745,3 +24745,347 @@ Enemy (type 6Runner) killed.
 Enemy (type 6Runner) killed.
 Enemy (type 8Disarmer) killed.
 Enemy (type 8Disarmer) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 2 selected.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed agent on the board at index 13.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Game Over: Too many enemies reached the end.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Agent choice 2 selected.
+Enemy (type 1) #3 created.
+Placed agent on the board at index 13.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 8Shielder) killed.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Agent choice 2 selected.
+Enemy (type 1) #7 created.
+Placed bomb on the map at position: (270, 330).
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Agent choice 2 selected.
+Enemy (type 0) #5 created.
+Placed bomb on the map at position: (255, 442).
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Agent choice 2 selected.
+Enemy (type 1) #4 created.
+Placed bomb on the map at position: (694, 168).
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Agent choice 2 selected.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Placed bomb on the map at position: (520, 170).
+Agent choice 2 selected.
+Placed bomb on the map at position: (682, 166).
+Agent choice 2 selected.
+Placed bomb on the map at position: (774, 186).
+Agent choice 2 selected.
+Placed bomb on the map at position: (943, 190).
+Agent choice 2 selected.
+Placed bomb on the map at position: (942, 284).
+Agent choice 2 selected.
+Placed bomb on the map at position: (941, 382).
+Agent choice 2 selected.
+Placed bomb on the map at position: (259, 416).
+Agent choice 2 selected.
+Placed bomb on the map at position: (953, 254).
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (264, 287).
+Agent choice 2 selected.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Enemy (type 1) #7 created.
+Placed bomb on the map at position: (262, 326).
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (943, 174).
+Agent choice 2 selected.
+Placed bomb on the map at position: (930, 455).
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Agent choice 2 selected.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Placed bomb on the map at position: (258, 485).
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Agent choice 2 selected.
+Enemy (type 1) #6 created.
+Placed bomb on the map at position: (257, 389).
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (277, 370).
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Agent choice 2 selected.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Placed bomb on the map at position: (254, 314).
+Agent choice 2 selected.
+Placed bomb on the map at position: (274, 307).
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 2 selected.
+Placed bomb on the map at position: (264, 366).
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (510, 170).
+Agent choice 2 selected.
+Placed bomb on the map at position: (593, 177).
+Agent choice 2 selected.
+Placed bomb on the map at position: (746, 182).
+Agent choice 2 selected.
+Placed bomb on the map at position: (849, 185).
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (277, 249).
+Agent choice 2 selected.
+Placed bomb on the map at position: (258, 363).
+Enemy (type 0) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 0) #7 created.
+Enemy (type 1) #1 created.
+Enemy (type 1) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Enemy (type 0) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 1) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 1) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (266, 230).
+Agent choice 4 selected.
+Placed bomb on the map at position: (713, 168).
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (933, 486).
+Agent choice 4 selected.
+Placed bomb on the map at position: (263, 467).
+Agent choice 2 selected.
+Placed bomb on the map at position: (379, 181).
+Agent choice 4 selected.
+Placed bomb on the map at position: (597, 189).
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 0) #3 created.
+Enemy (type 0) #4 created.
+Enemy (type 0) #5 created.
+Enemy (type 1) #6 created.
+Agent choice 4 selected.
+Enemy (type 1) #7 created.
+Placed bomb on the map at position: (246, 376).
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (577, 186).
+Enemy (type 1) #1 created.
+Enemy (type 0) #2 created.
+Enemy (type 1) #3 created.
+Enemy (type 1) #4 created.
+Enemy (type 1) #5 created.
+Enemy (type 0) #6 created.
+Enemy (type 1) #7 created.
+Enemy (type 0) #8 created.
+Wave 1 completed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (285, 402).
+Agent choice 2 selected.
+Placed bomb on the map at position: (618, 182).

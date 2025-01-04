@@ -77,11 +77,11 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     agent_choice1 = new Golmoshaki(this);
     agent_choice1->setGeometry(startx_agent_choice, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice2 = new Gorbemahi(this);
+    agent_choice2 = new Bomb(this);
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice3 = new Gandom(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice4 = new Kalam(this);
+    agent_choice4 = new Trap(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
@@ -376,7 +376,7 @@ void Gameplay_page::on_PTrap_clicked()
 
 // random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
 void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-    int randomIndex = 0/*std::rand() % agents.size()*/;
+    int randomIndex = 3/*std::rand() % agents.size()*/;
 
     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
         agent = new Gorbemahi(this);
@@ -629,7 +629,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            // checkGameOver();
+            checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
 
@@ -693,7 +693,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
 
                     agent_board[last_clicked_index] = nullptr; // خانه‌ی قبلی خالی می‌شود
-                    logMessage = QString("Merged agent at index %1, new power: %2.").arg(i).arg(targetAgent->getpower());
+                    logMessage = QString("Merged agent at index %1, new speed: %2.").arg(i).arg(targetAgent->getAgentBaseFireRate());
                     logEvent(logMessage);
                     last_clicked_agent = nullptr;
                     last_clicked_index = -1; // ریست کردن اندیس آخرین ایجنت کلیک شده

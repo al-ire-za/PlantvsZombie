@@ -4,6 +4,7 @@
 #include <QPointer>
 #include <QGuiApplication>
 #include <QScreen>
+#include "ResultWindow.h"
 
 welcom_page::welcom_page(QWidget *parent)
     : QMainWindow(parent)
@@ -59,5 +60,7 @@ void welcom_page::on_play_button_clicked()
     Gameplay_page *window_game = new Gameplay_page;
     window_game->show();
     this->close();
+    // ResultWindow *r = new ResultWindow;
+    // r->show();
 }
 
