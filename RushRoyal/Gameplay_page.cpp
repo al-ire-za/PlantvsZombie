@@ -127,6 +127,7 @@ void Gameplay_page::initializeAgents() {
     agents.append(new Bomb());
     agents.append(new Trap());
     agents.append(new Kalam());
+
 }
 
 
@@ -505,14 +506,14 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
 }
 
 
-void Gameplay_page::agentShoot()
-{
-    for (AgentBase* agent : agent_board) {
-        if (agent != nullptr) {
-            agent->shootAt(enemies);
-        }
-    }
-}
+// void Gameplay_page::agentShoot()
+// {
+//     for (AgentBase* agent : agent_board) {
+//         if (agent != nullptr) {
+//             agent->shootAt(enemies);
+//         }
+//     }
+// }
 
 
 void Gameplay_page::create_enemi()
@@ -527,11 +528,11 @@ void Gameplay_page::create_enemi()
         switch (enemyType) {
         case 0:
             baseHealth = 50;
-            baseSpeed = 1.00;
+            baseSpeed = 1.50;
             break;
         case 1:
             baseHealth = 100;
-            baseSpeed = 0.5;
+            baseSpeed = 1.5;
             break;
         }
 
@@ -557,12 +558,12 @@ void Gameplay_page::create_enemi()
             logEvent("Failed to create new enemy.");
         }
 
-        if (wave % 2 == 0 && !bossSpawned) {
+        if (wave % 2 == 1 && !bossSpawned) {
             createBoss();
 
         }
 
-        if (count_enemi % 8 == 0 && count_enemi != 0) {
+        if (count_enemi % 10 == 0 && count_enemi != 0) {
             waveInProgress = false;
             logEvent(QString("Wave %1 completed.").arg(wave));
             checkWaveCompletion();
@@ -575,7 +576,7 @@ void Gameplay_page::create_enemi()
 void Gameplay_page::createBoss()
 {
     if (!bossSpawned) {
-        int bossType =2/* std::rand() % 3*/;
+        int bossType = 1/* std::rand() % 3*/;
         Enemy *boss_enemy = nullptr;
 
         int baseHealth = 0;
@@ -584,15 +585,15 @@ void Gameplay_page::createBoss()
         switch (bossType) {
         case 0:
             baseHealth = 2000;
-            baseSpeed = 0.25;
+            baseSpeed = 1.25;
             break;
         case 1:
             baseHealth = 2000;
-            baseSpeed = 0.25;
+            baseSpeed = 1.25;
             break;
         case 2:
             baseHealth = 2000;
-            baseSpeed = 0.25;
+            baseSpeed = 1.25;
             break;
         }
 
@@ -851,7 +852,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             if (Kalam* kalam = dynamic_cast<Kalam*>(current_choice)) {
                                 kalam->shot();
                             }
-                            current_choice->shootAt(enemies);
+
                             updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                                   (current_choice == agent_choice2) ? 1 :
                                                                   (current_choice == agent_choice3) ? 2 : 3);

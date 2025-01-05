@@ -1,11 +1,10 @@
-
 #include "Bullet.h"
 #include "Enemy.h"
 
 Bullet::Bullet(QWidget *parent, int damage)
     : QLabel(parent), animation(new QPropertyAnimation(this, "pos")), moveTimer(new QTimer(this)), checkTimer(new QTimer(this)), damage(damage) {
-    setStyleSheet("background-image: url(:/prefix2/images/black.jpg); border-radius: 5%;");
-    setFixedSize(10, 10);
+    // setStyleSheet("background-image: url(:/prefix2/images/black.jpg); border-radius: 5%;");
+    // setFixedSize(20, 20);
     connect(moveTimer, &QTimer::timeout, this, &Bullet::moveBullet);
     connect(animation, &QPropertyAnimation::finished, this, &Bullet::onAnimationFinished);
     connect(checkTimer, &QTimer::timeout, this, &Bullet::checkTarget);

@@ -47,5 +47,25 @@
         <file>images/trap4.png</file>
         <file>images/kalam2.png</file>
         <file>images/black.jpg</file>
+        <file>images/tirkalam1.png</file>
+        <file>images/tirgorbemahi4.png</file>
+        <file>images/tirgandom1.png</file>
+        <file>images/tirgolmushaki1.png</file>
+        <file>images/tirkalam2.png</file>
+        <file>images/tirkalam3.png</file>
+        <file>images/tirkalam4.png</file>
+        <file>images/tirkalam5.png</file>
+        <file>images/tirgorbemahi1.png</file>
+        <file>images/tirgorbemahi2.png</file>
+        <file>images/tirgorbemahi3.png</file>
+        <file>images/tirgorbemahi5.png</file>
+        <file>images/tirgandom2.png</file>
+        <file>images/tirgandom3.png</file>
+        <file>images/tirgandom4.png</file>
+        <file>images/tirgandom5.png</file>
+        <file>images/tirgolmushaki2.png</file>
+        <file>images/tirgolmushaki3.png</file>
+        <file>images/tirgolmushaki4.png</file>
+        <file>images/tirgolmushaki5.png</file>
     </qresource>
 </RCC>

@@ -1,5 +1,6 @@
 #include "Gandom.h"
 #include "AgentBase.h"
+#include "Bullet.h"
 #include "Gameplay_page.h"
 #include <QTimer>
 
@@ -22,11 +23,19 @@ void Gandom::shootAt()
     Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
     if (gamePage->enemies.isEmpty()|| isFrozen()) return;
 
-    Enemy* target = gamePage->enemies.last();  // هدف: نفر آخر لیست
+    Enemy* target = gamePage->enemies.last();
 
-    if (target) {
-        AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
+    Bullet* bullet = new Bullet(parentWidget(), AgentBasePower);
+    bullet->setGeometry(geometry().center().x() - 5, geometry().y() - 20, 10, 20);
+    bullet->setStyleSheet(QString("background-image: url(:/prefix2/images/tirgandom%1.png);").arg(gamePage->levels[3]));
+    bullet->setFixedSize(50, 50);
+    bullet->show();
+
+    if (gamePage) {
+        connect(bullet, &Bullet::enemyKilled, gamePage, &Gameplay_page::onEnemyKilled);
     }
+
+    bullet->shoot(this->pos(), target);
 }
 
 int Gandom::getElixirCost() const

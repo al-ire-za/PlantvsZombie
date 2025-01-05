@@ -1,6 +1,7 @@
 #include "Gorbemahi.h"
 
 #include "AgentBase.h"
+#include "Bullet.h"
 #include "Gameplay_page.h"
 #include <QTimer>
 
@@ -16,7 +17,6 @@ Gorbemahi::Gorbemahi(const Gorbemahi &other)
 
 }
 
-// const QVector<Enemy*>& enemies
 void Gorbemahi::shootAt()
 {
 
@@ -24,11 +24,20 @@ void Gorbemahi::shootAt()
     if (gamePage->enemies.isEmpty()|| isFrozen()) return;
 
     int randomIndex = std::rand() % gamePage->enemies.size();
-    Enemy* target = gamePage->enemies[randomIndex];  // هدف: انمی تصادفی
+    Enemy* target = gamePage->enemies[randomIndex];
 
-    if (target) {
-        AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
+    Bullet* bullet = new Bullet(parentWidget(), AgentBasePower);
+    bullet->setGeometry(geometry().center().x() - 5, geometry().y() - 20, 10, 20);
+    bullet->setStyleSheet(QString("background-image: url(:/prefix2/images/tirgorbemahi%1.png);").arg(gamePage->levels[1]));
+    bullet->setFixedSize(50, 50);
+    bullet->show();
+
+
+    if (gamePage) {
+        connect(bullet, &Bullet::enemyKilled, gamePage, &Gameplay_page::onEnemyKilled);
     }
+
+    bullet->shoot(this->pos(), target);
 }
 
 int Gorbemahi::getElixirCost() const

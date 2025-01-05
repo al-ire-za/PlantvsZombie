@@ -19,7 +19,6 @@ public:
     double getspeed() const;
     void updateimagUrl(const QString &image);
     virtual int getElixirCost() const = 0;
-    virtual void shootAt(const QVector<Enemy*>& enemies) ;
     void startShooting();
     void stopShooting();
     bool isFrozen() const;

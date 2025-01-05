@@ -3,6 +3,7 @@
 #include "Gameplay_page.h"
 #include <qtimer.h>
 #include <QTimer>
+#include "Bullet.h"
 
 
 Golmoshaki::Golmoshaki(QWidget *parent)
@@ -16,17 +17,27 @@ Golmoshaki::Golmoshaki(const Golmoshaki &other)
     : AgentBase(other){
 
 }
-//const QVector<Enemy*>& enemies
+
 void Golmoshaki::shootAt()
 {
     Gameplay_page* gamePage = qobject_cast<Gameplay_page*>(parentWidget());
     if (gamePage->enemies.isEmpty() || isFrozen()) return;
 
-    Enemy* target = gamePage->enemies.first();  // هدف: نفر اول لیست
+    Enemy* target = gamePage->enemies.first();
 
-    if (target) {
-        AgentBase::shootAt(QVector<Enemy*>{target});  // استفاده از target در فراخوانی تابع پایه
+    Bullet* bullet = new Bullet(parentWidget(), AgentBasePower);
+    bullet->setGeometry(geometry().center().x() - 5, geometry().y() - 20, 10, 20);
+    bullet->setStyleSheet(QString("background-image: url(:/prefix2/images/tirgolmushaki%1.png);").arg(gamePage->levels[0]));
+    bullet->setFixedSize(45, 45);
+    bullet->show();
+
+    if (gamePage) {
+        connect(bullet, &Bullet::enemyKilled, gamePage, &Gameplay_page::onEnemyKilled);
     }
+
+
+    bullet->shoot(this->pos(), target);
+
 }
 
 int Golmoshaki::getElixirCost() const

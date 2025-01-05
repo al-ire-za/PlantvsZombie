@@ -34,6 +34,7 @@ public:
     void removeAgentFromBoard(AgentBase* agent);
     void checkWaveCompletion();
     QVector<Enemy*> enemies;
+    QList<int> levels;
 
 
 protected:
@@ -41,7 +42,6 @@ protected:
 
 private slots:
     void checkCollisions();
-    void agentShoot();
     void updateElixir();
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
     void removeBombTrap(AgentBase* agent);
@@ -78,7 +78,6 @@ private:
     Eraser *eraser;
     Freezer *freezer;
     Disarmer *disarmer;
-    QList<int> levels;
     QTimer *elixirTimer;
     QLabel *elixirLabel;
     QLabel *enemyCountLabel;
