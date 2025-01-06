@@ -33,10 +33,6 @@
         <file>images/golmoshaki4.png</file>
         <file>images/golmoshaki5.png</file>
         <file>images/gorbemahi1.png</file>
-        <file>images/gorbemahi2.png</file>
-        <file>images/gorbemahi3.png</file>
-        <file>images/gorbemahi4.png</file>
-        <file>images/gorbemahi5.png</file>
         <file>images/kalam1.png</file>
         <file>images/kalam3.png</file>
         <file>images/kalam4.png</file>
@@ -67,5 +63,9 @@
         <file>images/tirgolmushaki3.png</file>
         <file>images/tirgolmushaki4.png</file>
         <file>images/tirgolmushaki5.png</file>
+        <file>images/gorbemahi2.png</file>
+        <file>images/gorbemahi3.png</file>
+        <file>images/gorbemahi4.png</file>
+        <file>images/gorbemahi5.png</file>
     </qresource>
 </RCC>

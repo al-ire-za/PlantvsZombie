@@ -373,25 +373,6 @@ void Gameplay_page::on_PTrap_clicked()
     }
 }
 
-// random ezafe kardan agent ba estefade az yek index random ba dar nazar gereftan size vector agents
-// void Gameplay_page::createRandomAgent(AgentBase *&agent) {
-//     int randomIndex = std::rand() % agents.size();
-
-//     if (auto gorbemahi = dynamic_cast<Gorbemahi*>(agents[randomIndex])) {
-//         agent = new Gorbemahi(this);
-//     } else if (auto gandom = dynamic_cast<Gandom*>(agents[randomIndex])) {
-//         agent = new Gandom(this);
-//     } else if (auto golmoshaki = dynamic_cast<Golmoshaki*>(agents[randomIndex])) {
-//         agent = new Golmoshaki(this);
-//     } else if (auto bomb = dynamic_cast<Bomb*>(agents[randomIndex])) {
-//         agent = new Bomb(this);
-//     } else if (auto trap = dynamic_cast<Trap*>(agents[randomIndex])) {
-//         agent = new Trap(this);
-//     } else if (auto kalam = dynamic_cast<Kalam*>(agents[randomIndex])) {
-//         agent = new Kalam(this);
-//     }
-// }
-
 void Gameplay_page::createRandomAgent(AgentBase *&agent) {
     QList<QString> existingAgents;
     QList<QString> allAgents = {"Gorbemahi", "Gandom", "Golmoshaki", "Bomb", "Trap", "Kalam"};
@@ -504,16 +485,6 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
         new_agentChoice->show();
     }
 }
-
-
-// void Gameplay_page::agentShoot()
-// {
-//     for (AgentBase* agent : agent_board) {
-//         if (agent != nullptr) {
-//             agent->shootAt(enemies);
-//         }
-//     }
-// }
 
 
 void Gameplay_page::create_enemi()
