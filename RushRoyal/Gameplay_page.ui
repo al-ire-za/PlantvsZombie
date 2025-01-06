@@ -345,61 +345,13 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>1090</x>
-      <y>50</y>
-      <width>111</width>
-      <height>671</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/banafsh.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="LGorbehmahi">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>170</y>
-      <width>90</width>
-      <height>80</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/gorbemahi1.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="LKalam">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>280</y>
-      <width>90</width>
-      <height>80</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/kalam1.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="LGandom">
     <property name="geometry">
      <rect>
-      <x>1100</x>
-      <y>390</y>
-      <width>90</width>
-      <height>80</height>
+      <x>1090</x>
+      <y>420</y>
+      <width>91</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -410,11 +362,94 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      <string/>
     </property>
    </widget>
+   <widget class="QPushButton" name="PBomb">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>540</y>
+      <width>101</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+ border: 8px;
+border: 5px solid white;
+color: white;</string>
+    </property>
+    <property name="text">
+     <string>lvl.1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>0</y>
+      <width>121</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+background-color: rgb(108, 128,70);
+
+
+        </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PKalam">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>280</y>
+      <width>101</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+color: white;
+ border: 8px;
+border: 5px solid white;</string>
+    </property>
+    <property name="text">
+     <string>lvl.1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PGorbemahi">
+    <property name="geometry">
+     <rect>
+      <x>1089</x>
+      <y>150</y>
+      <width>101</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+color: white;
+ border: 8px;
+border: 5px solid white;</string>
+    </property>
+    <property name="text">
+     <string>lvl.1</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="LGolmushaki">
     <property name="geometry">
      <rect>
       <x>1100</x>
-      <y>60</y>
+      <y>30</y>
       <width>90</width>
       <height>80</height>
      </rect>
@@ -426,30 +461,13 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="LTrap">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>610</y>
-      <width>90</width>
-      <height>80</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/trap1.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="LBomb">
     <property name="geometry">
      <rect>
-      <x>1100</x>
-      <y>500</y>
-      <width>90</width>
-      <height>80</height>
+      <x>1090</x>
+      <y>550</y>
+      <width>91</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -461,84 +479,152 @@ background-image: url(:/prefix2/images/bomb1.png);
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="PGolmushaki">
+   <widget class="QLabel" name="LGorbehmahi">
     <property name="geometry">
      <rect>
       <x>1100</x>
-      <y>140</y>
+      <y>160</y>
       <width>90</width>
-      <height>20</height>
+      <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/gorbemahi1.png);</string>
+    </property>
     <property name="text">
-     <string>1</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PGolmushaki">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>20</y>
+      <width>101</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+color: white;
+ border: 8px;
+border: 5px solid white;</string>
+    </property>
+    <property name="text">
+     <string>lvl.1</string>
     </property>
    </widget>
    <widget class="QPushButton" name="PTrap">
     <property name="geometry">
      <rect>
-      <x>1100</x>
-      <y>690</y>
-      <width>90</width>
-      <height>20</height>
+      <x>1090</x>
+      <y>670</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+ border: 8px;
+border: 5px solid white;
+color: white;
+</string>
+    </property>
     <property name="text">
-     <string>1</string>
+     <string>lvl.1</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="PBomb">
+   <widget class="QLabel" name="LTrap">
     <property name="geometry">
      <rect>
-      <x>1100</x>
-      <y>580</y>
+      <x>1090</x>
+      <y>670</y>
       <width>90</width>
-      <height>20</height>
+      <height>81</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/prefix2/images/trap1.png);</string>
+    </property>
     <property name="text">
-     <string>1</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LKalam">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>290</y>
+      <width>90</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/prefix2/images/kalam1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="PGandom">
     <property name="geometry">
      <rect>
-      <x>1100</x>
-      <y>470</y>
-      <width>90</width>
-      <height>20</height>
+      <x>1090</x>
+      <y>410</y>
+      <width>101</width>
+      <height>121</height>
      </rect>
     </property>
-    <property name="text">
-     <string>1</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="PKalam">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>360</y>
-      <width>90</width>
-      <height>20</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">background : transparent;
+font : bold 25px; 
+text-align: bottom;
+color: white;
+ border: 8px;
+border: 5px solid white;</string>
     </property>
     <property name="text">
-     <string>1</string>
+     <string>lvl.1</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="PGorbemahi">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>250</y>
-      <width>90</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>1</string>
-    </property>
-   </widget>
+   <zorder>label_14</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_18</zorder>
+   <zorder>label_19</zorder>
+   <zorder>label_20</zorder>
+   <zorder>label_21</zorder>
+   <zorder>label_22</zorder>
+   <zorder>label_23</zorder>
+   <zorder>label_24</zorder>
+   <zorder>label_25</zorder>
+   <zorder>label_26</zorder>
+   <zorder>label_27</zorder>
+   <zorder>label_28</zorder>
+   <zorder>label_29</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_31</zorder>
+   <zorder>label_32</zorder>
+   <zorder>label_33</zorder>
+   <zorder>label</zorder>
+   <zorder>LGolmushaki</zorder>
+   <zorder>LBomb</zorder>
+   <zorder>LGorbehmahi</zorder>
+   <zorder>LTrap</zorder>
+   <zorder>LKalam</zorder>
+   <zorder>LGandom</zorder>
+   <zorder>PGandom</zorder>
+   <zorder>PGolmushaki</zorder>
+   <zorder>PBomb</zorder>
+   <zorder>PGorbemahi</zorder>
+   <zorder>PKalam</zorder>
+   <zorder>PTrap</zorder>
   </widget>
  </widget>
  <resources/>

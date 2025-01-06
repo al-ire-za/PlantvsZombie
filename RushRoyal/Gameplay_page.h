@@ -91,6 +91,7 @@ private:
     bool isGameOver;
     int enemyReachedEndCount;
     int enemiesKilled;
+    int gandomLvl = 1,bombLvl = 1,trapLvl = 1,golmoshakiLvl = 1,kalamLvl = 1,gorbemahiLvl = 1;
     const int maxEnemiesAllowedToReachEnd = 3;
     void checkGameOver();
     void updateEnemyCountLabel();

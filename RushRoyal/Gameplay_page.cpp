@@ -160,10 +160,8 @@ void Gameplay_page::on_PGolmushaki_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[0] += 1;
             agents[2]->setpower(15 * pow(2, (levels[0] - 1)));
-            QString buttonText = ui->PGolmushaki->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGolmushaki->setText(QString::number(currentNumber));
+            int currentNumber = ++golmoshakiLvl;
+            ui->PGolmushaki->setText("lvl."+QString::number(currentNumber));
 
         }
 
@@ -201,10 +199,37 @@ void Gameplay_page::on_PGorbemahi_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[1] += 1;
             agents[0]->setpower(30 * pow(2, (levels[1] - 1)));
-            QString buttonText = ui->PGorbemahi->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGorbemahi->setText(QString::number(currentNumber));
+            int currentNumber = ++gorbemahiLvl;
+            ui->PGorbemahi->setText("lvl."+QString::number(currentNumber));
+            //baraye taghir rang border va text dar zamani ke level up mikonim. hanoz kamel nist
+            /*switch(levels[1])
+            {
+            case 2: ui->PGorbemahi->setStyleSheet(
+                    "background : transparent;"
+                    "font : bold 25px;"
+                    "text-align: bottom;"
+                    "color: white;"
+                    "border: 8px;"
+                    "border: 5px solid green;"
+                    "color: green;"
+                    );
+            case 3: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid yellow;"
+                    "color: yellow;"
+                    );
+            case 4: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid red;"
+                    "color: red;"
+                    );
+            case 5: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid purple;"
+                    "color: purple;"
+                    );
+            default : ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid white;"
+                    "color: white;"
+                    );
+            }*/
 
         }
 
@@ -242,11 +267,8 @@ void Gameplay_page::on_PKalam_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[2] += 1;
             agents[5]->setpower(22 * pow(2, (levels[2] - 1)));
-            QString buttonText = ui->PKalam->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PKalam->setText(QString::number(currentNumber));
-
+            int currentNumber = ++kalamLvl;
+            ui->PKalam->setText("lvl."+QString::number(currentNumber));
         }
 
         for (AgentBase *t : agent_board) {
@@ -283,10 +305,8 @@ void Gameplay_page::on_PGandom_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[3] += 1;
             agents[1]->setpower(15 * pow(2, (levels[3] - 1)));
-            QString buttonText = ui->PGandom->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGandom->setText(QString::number(currentNumber));
+            int currentNumber = ++gandomLvl;
+            ui->PGandom->setText("lvl."+QString::number(currentNumber));
 
         }
 
@@ -325,11 +345,8 @@ void Gameplay_page::on_PBomb_clicked()
             levels[4] += 1;
             Bomb* bomb = dynamic_cast<Bomb*>(agents[3]);
             bomb->setpowerkill(levels[4] + 1);
-            QString buttonText = ui->PBomb->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PBomb->setText(QString::number(currentNumber));
-
+            int currentNumber = ++bombLvl;
+            ui->PBomb->setText("lvl."+QString::number(currentNumber));
         }
 
 
@@ -363,10 +380,8 @@ void Gameplay_page::on_PTrap_clicked()
             levels[5] += 1;
             Trap* trap = dynamic_cast<Trap*>(agents[4]);
             trap->setpowerkill(levels[5] + 1);
-            QString buttonText = ui->PTrap->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PTrap->setText(QString::number(currentNumber));
+            int currentNumber = ++trapLvl;
+            ui->PTrap->setText("lvl."+QString::number(currentNumber));
 
         }
 
