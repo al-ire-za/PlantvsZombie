@@ -49,7 +49,6 @@ static constexpr auto qt_meta_stringdata_ZN13Gameplay_pageE = QtMocHelpers::stri
     "removeBombTrap",
     "AgentBase*",
     "agent",
-    "createBoss",
     "on_PGolmushaki_clicked",
     "on_PGorbemahi_clicked",
     "on_PKalam_clicked",
@@ -70,7 +69,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13Gameplay_pageE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-      12,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -78,18 +77,17 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13Gameplay_pageE[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   86,    2, 0x08,    1 /* Private */,
-       3,    0,   87,    2, 0x08,    2 /* Private */,
-       4,    1,   88,    2, 0x08,    3 /* Private */,
-       7,    1,   91,    2, 0x08,    5 /* Private */,
-      10,    0,   94,    2, 0x08,    7 /* Private */,
-      11,    0,   95,    2, 0x08,    8 /* Private */,
-      12,    0,   96,    2, 0x08,    9 /* Private */,
-      13,    0,   97,    2, 0x08,   10 /* Private */,
-      14,    0,   98,    2, 0x08,   11 /* Private */,
-      15,    0,   99,    2, 0x08,   12 /* Private */,
-      16,    0,  100,    2, 0x08,   13 /* Private */,
-      17,    1,  101,    2, 0x0a,   14 /* Public */,
+       1,    0,   80,    2, 0x08,    1 /* Private */,
+       3,    0,   81,    2, 0x08,    2 /* Private */,
+       4,    1,   82,    2, 0x08,    3 /* Private */,
+       7,    1,   85,    2, 0x08,    5 /* Private */,
+      10,    0,   88,    2, 0x08,    7 /* Private */,
+      11,    0,   89,    2, 0x08,    8 /* Private */,
+      12,    0,   90,    2, 0x08,    9 /* Private */,
+      13,    0,   91,    2, 0x08,   10 /* Private */,
+      14,    0,   92,    2, 0x08,   11 /* Private */,
+      15,    0,   93,    2, 0x08,   12 /* Private */,
+      16,    1,   94,    2, 0x0a,   13 /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -102,8 +100,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13Gameplay_pageE[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 18,   19,
+    QMetaType::Void, 0x80000000 | 17,   18,
 
        0        // eod
 };
@@ -127,8 +124,6 @@ Q_CONSTINIT const QMetaObject Gameplay_page::staticMetaObject = { {
         // method 'removeBombTrap'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<AgentBase *, std::false_type>,
-        // method 'createBoss'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_PGolmushaki_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_PGorbemahi_clicked'
@@ -157,14 +152,13 @@ void Gameplay_page::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 1: _t->updateElixir(); break;
         case 2: _t->removeEnemies((*reinterpret_cast< std::add_pointer_t<QList<Enemy*>>>(_a[1]))); break;
         case 3: _t->removeBombTrap((*reinterpret_cast< std::add_pointer_t<AgentBase*>>(_a[1]))); break;
-        case 4: _t->createBoss(); break;
-        case 5: _t->on_PGolmushaki_clicked(); break;
-        case 6: _t->on_PGorbemahi_clicked(); break;
-        case 7: _t->on_PKalam_clicked(); break;
-        case 8: _t->on_PGandom_clicked(); break;
-        case 9: _t->on_PBomb_clicked(); break;
-        case 10: _t->on_PTrap_clicked(); break;
-        case 11: _t->onEnemyKilled((*reinterpret_cast< std::add_pointer_t<Enemy*>>(_a[1]))); break;
+        case 4: _t->on_PGolmushaki_clicked(); break;
+        case 5: _t->on_PGorbemahi_clicked(); break;
+        case 6: _t->on_PKalam_clicked(); break;
+        case 7: _t->on_PGandom_clicked(); break;
+        case 8: _t->on_PBomb_clicked(); break;
+        case 9: _t->on_PTrap_clicked(); break;
+        case 10: _t->onEnemyKilled((*reinterpret_cast< std::add_pointer_t<Enemy*>>(_a[1]))); break;
         default: ;
         }
     }
@@ -185,7 +179,7 @@ void Gameplay_page::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< AgentBase* >(); break;
             }
             break;
-        case 11:
+        case 10:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
@@ -215,14 +209,14 @@ int Gameplay_page::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 12)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 12)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 11;
     }
     return _id;
 }

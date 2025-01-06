@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(false), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -60,6 +60,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     int y = (screenRect.height() - height()) / 2;
     move(x, y);
 
+    enemi_wave = 5;
 
     enemyReachedEndCount = 0;
     enemyCountLabel = new QLabel(this);
@@ -111,7 +112,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Gameplay_page::create_enemi);
-    timer->start(2000);
+    timer->start(1000);
 
 
     QTimer *collisionTimer = new QTimer(this);
@@ -487,144 +488,92 @@ void Gameplay_page::updateAgentChoice(AgentBase *&currentChoice, int index){
 }
 
 
-void Gameplay_page::create_enemi()
-{
-    if (waveInProgress) {
-        Enemy *new_enemy = nullptr;
-        int enemyType = std::rand() % 2;
+void Gameplay_page::create_enemi(){
+    Enemy *new_enemy = nullptr;
+            int enemyType = std::rand() % 2;
 
-        int baseHealth = 0;
-        double baseSpeed = 0.0;
+            int baseHealth = 0;
+            double baseSpeed = 0.0;
 
-        switch (enemyType) {
-        case 0:
-            baseHealth = 50;
-            baseSpeed = 1.50;
-            break;
-        case 1:
-            baseHealth = 100;
-            baseSpeed = 1.5;
-            break;
-        }
-
-        int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
-        double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
-
-        switch (enemyType) {
-        case 0:
-            new_enemy = new Runner(this, currentHealth, currentSpeed);
-            break;
-        case 1:
-            new_enemy = new Shielder(this, currentHealth, currentSpeed);
-            break;
-        }
-
-        if (new_enemy != nullptr) {
-            new_enemy->setGeometry(220, 700, 90, 80);
-            new_enemy->show();
-            enemies.append(new_enemy);
-            move_enemi(new_enemy);
-            logEvent(QString("Enemy (type %1) #%2 created.").arg(enemyType).arg(++count_enemi));
-        } else {
-            logEvent("Failed to create new enemy.");
-        }
-
-        if (wave % 2 == 1 && !bossSpawned) {
-            createBoss();
-
-        }
-
-        if (count_enemi % 10 == 0 && count_enemi != 0) {
-            waveInProgress = false;
-            logEvent(QString("Wave %1 completed.").arg(wave));
-            checkWaveCompletion();
-        } else {
-            timer->start(500);
-        }
-    }
-}
-
-void Gameplay_page::createBoss()
-{
-    if (!bossSpawned) {
-        int bossType = 1/* std::rand() % 3*/;
-        Enemy *boss_enemy = nullptr;
-
-        int baseHealth = 0;
-        double baseSpeed = 0.0;
-
-        switch (bossType) {
-        case 0:
-            baseHealth = 2000;
-            baseSpeed = 1.25;
-            break;
-        case 1:
-            baseHealth = 2000;
-            baseSpeed = 1.25;
-            break;
-        case 2:
-            baseHealth = 2000;
-            baseSpeed = 1.25;
-            break;
-        }
-
-        int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
-        double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
-
-        switch (bossType) {
-        case 0:
-            boss_enemy = new Eraser(this, currentHealth, currentSpeed);
-            break;
-        case 1:
-            boss_enemy = new Freezer(this, currentHealth, currentSpeed);
-            break;
-        case 2:
-            boss_enemy = new Disarmer(this, currentHealth, currentSpeed);
-            break;
-        }
-
-
-        if (boss_enemy != nullptr) {
-            boss_enemy->setGeometry(220, 700, 90, 80);
-            boss_enemy->show();
-            enemies.append(boss_enemy);
-            move_enemi(boss_enemy);
-            logEvent(QString("Boss enemy (type %1) created.").arg(bossType));
-            bossSpawned = true;
-
-            QTimer *abilityTimer = new QTimer(this);
-            switch (bossType) {
+            switch (enemyType) {
             case 0:
-                connect(abilityTimer, &QTimer::timeout, eraser, &Eraser::removeRandomAgent);
+                baseHealth = 50;
+                baseSpeed = 1.50;
                 break;
             case 1:
-                connect(abilityTimer, &QTimer::timeout, freezer, &Freezer::freezeRandomAgent);
-                break;
-            case 2:
-                connect(abilityTimer, &QTimer::timeout, disarmer, &Disarmer::disarmTrapsAndBombs);
+                baseHealth = 100;
+                baseSpeed = 1.5;
                 break;
             }
-            abilityTimer->start(5000);
-        } else {
-            logEvent("Failed to create boss enemy.");
-        }
-    }
+
+            int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
+            double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
+
+            switch (enemyType) {
+            case 0:
+                new_enemy = new Runner(this, currentHealth, currentSpeed);
+                break;
+            case 1:
+                new_enemy = new Shielder(this, currentHealth, currentSpeed);
+                break;
+            }
+
+            if(wave % 2 == 0 &&  bossSpawned == 0){
+                int bossType =  std::rand() % 3;
+
+                        int baseHealth = 0;
+                        double baseSpeed = 0.0;
+
+                        switch (bossType) {
+                        case 0:
+                            baseHealth = 2000;
+                            baseSpeed = 1.25;
+                            break;
+                        case 1:
+                            baseHealth = 2000;
+                            baseSpeed = 1.25;
+                            break;
+                        case 2:
+                            baseHealth = 2000;
+                            baseSpeed = 1.25;
+                            break;
+                        }
+
+                        int currentHealth = static_cast<int>(baseHealth * std::pow(1.1, wave - 1));
+                        double currentSpeed = baseSpeed * std::pow(1.1, wave - 1);
+
+                        switch (bossType) {
+                        case 0:
+                            new_enemy = new Eraser(this, currentHealth, currentSpeed);
+                            bossSpawned = 1;
+                            break;
+                        case 1:
+                            new_enemy = new Freezer(this, currentHealth, currentSpeed);
+                            bossSpawned = 1 ;
+                            break;
+                        case 2:
+                            new_enemy = new Disarmer(this, currentHealth, currentSpeed);
+                            bossSpawned = 1;
+                            break;
+                        }
+            }
+            count_enemi += 1;
+            enemies.append(new_enemy);
+            new_enemy->setGeometry(220, 700, 90, 80);
+            new_enemy->show();
+
+            if(count_enemi == enemi_wave + 1){
+                timer->setInterval(10000);
+                count_enemi = 1;
+                wave += 1;
+                bossSpawned = 0;
+            }else{
+                timer->setInterval(600);
+            }
+            move_enemi(new_enemy);
+
 }
 
-void Gameplay_page::checkWaveCompletion()
-{
-    if (enemies.isEmpty()) {
-        waveInProgress = false;
-        QTimer::singleShot(3000, this, [this]() {
-            wave++;
-            count_enemi = 0;
-            bossSpawned = false;
-            waveInProgress = true;
-            logEvent(QString("Starting wave %1...").arg(wave));
-            create_enemi();
-        });
-    }
-}
 
 void Gameplay_page::move_enemi(Enemy *enemy) {
     double durationFactor = 1000.0 / enemy->getspeed();
@@ -652,13 +601,14 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
     connect(group, &QSequentialAnimationGroup::finished, this, [this, enemy]() {
         enemies.removeOne(enemy);
         enemy->hide();
-        checkWaveCompletion();
+
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
             // checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
+         // checkWaveCompletion();
 
         // enemy->deleteLater();
     });
@@ -959,7 +909,6 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
     enemy->reduceHealth(enemy->gethealth());
     // enemy->deleteLater();
     logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
-    checkWaveCompletion();
 }
 
 void Gameplay_page::checkGameOver()

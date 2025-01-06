@@ -45,7 +45,7 @@ private slots:
     void updateElixir();
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
     void removeBombTrap(AgentBase* agent);
-    void createBoss();
+
 
     void on_PGolmushaki_clicked();
 
@@ -85,8 +85,9 @@ private:
     int count_enemi;
     int wave;
     int usedElixir;
-    bool bossSpawned;
+    int bossSpawned;
     bool waveInProgress;
+    int enemi_wave;
     bool isGameOver;
     int enemyReachedEndCount;
     int enemiesKilled;
