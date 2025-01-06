@@ -81,6 +81,8 @@ private:
     QTimer *elixirTimer;
     QLabel *elixirLabel;
     QLabel *enemyCountLabel;
+    QLabel *elixirText;
+    QLabel *enemyImage;
     int elixir;
     int count_enemi;
     int wave;

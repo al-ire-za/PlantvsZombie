@@ -33,8 +33,8 @@
 
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
-const int startx_agent_choice = 385;
-const int starty_aghant_choice = 640;
+const int startx_agent_choice = 370;
+const int starty_aghant_choice = 630;
 const int spacing = 100;
 
 
@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(5), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -65,10 +65,14 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemyReachedEndCount = 0;
     enemyCountLabel = new QLabel(this);
     enemyCountLabel->setObjectName("enemyCountLabel");
-    enemyCountLabel->setGeometry(1010,600, 60, 20);
+    enemyCountLabel->setGeometry(1000,580, 70, 50);
     enemyCountLabel->setText("0");
-    enemyCountLabel->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
-
+    enemyCountLabel->setStyleSheet("background: transparent; font: bold 35px;");
+    enemyCountLabel->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    /*enemyImage = new QLabel(this);
+    enemyImage->setGeometry(995,520, 80, 80);
+    enemyImage->setStyleSheet("background: transparent; background-image: url(:/prefix2/images/boss ezafiai1.png)");
+    */
     levels.resize(6);
     for(int i = 0 ; i < levels.size(); i++){
         levels[i] = 1;
@@ -100,11 +104,19 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     isGameOver = false;
     usedElixir = 0;
     elixirLabel = new QLabel(this);
-    elixirLabel->setGeometry(790, 655, 50, 50);
-    elixirLabel->setStyleSheet("background-image: url(:/prefix2/images/banafsh.png); border-radius: 25px; color: white; text-align: center;font-weight: bold;");
+    elixirLabel->setGeometry(790, 640, 50, 50);
+    elixirLabel->setStyleSheet("background: transparent; border-radius: 25px; color: black; text-align: center;font: bold 20px;");
     elixirLabel->setAlignment(Qt::AlignCenter);
     elixirLabel->setText(QString::number(elixir));
     elixirLabel->show();
+    elixirText = new QLabel(this);
+    elixirText->setGeometry(790, 670, 70, 50);
+    elixirText->setStyleSheet(
+        "background: transparent;"
+        "font: bold 20px"
+        );
+    elixirText->setText("Elixir");
+
 
     elixirTimer = new QTimer(this);
     connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
@@ -513,11 +525,11 @@ void Gameplay_page::create_enemi(){
             switch (enemyType) {
             case 0:
                 baseHealth = 50;
-                baseSpeed = 1.50;
+                baseSpeed = 1;
                 break;
             case 1:
                 baseHealth = 100;
-                baseSpeed = 1.5;
+                baseSpeed = 0.5;
                 break;
             }
 
@@ -542,15 +554,15 @@ void Gameplay_page::create_enemi(){
                         switch (bossType) {
                         case 0:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         case 1:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         case 2:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         }
 
@@ -620,10 +632,10 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            // checkGameOver();
+            checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
-         // checkWaveCompletion();
+        //checkWaveCompletion();
 
         // enemy->deleteLater();
     });
@@ -931,7 +943,7 @@ void Gameplay_page::checkGameOver()
     if (isGameOver) return;
     if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
         logEvent("Game Over: Too many enemies reached the end.");
-        ResultWindow *resultwindow = new ResultWindow(wave,enemiesKilled,usedElixir,enemiesKilled);
+        ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,enemiesKilled);
         resultwindow->show();
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
