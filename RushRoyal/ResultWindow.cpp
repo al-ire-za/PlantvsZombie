@@ -25,14 +25,14 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
     int windowHeight = 600;
     int labelWidth = 280;
     int labelHeight = 55;
-    int buttonWidth = 150;
+    int buttonWidth = 137;
     int buttonHeight = 40;
     int spacing = 10;
 
     int startY = (windowHeight - 4 * labelHeight - 3 * spacing) / 1.4;
 
 
-    recordwave->setGeometry((windowWidth - labelWidth) / 2, startY - (labelHeight + spacing) +20, labelWidth, labelHeight);
+    recordwave->setGeometry((windowWidth - labelWidth) / 2, startY - (labelHeight + spacing) +75, labelWidth, labelHeight);
     setRecordWave(wave);
     recordwave->setStyleSheet(" background: transparent;"
                               " background-color: rgba(255, 170, 0, 200);"
@@ -41,7 +41,7 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
                               " font: bold 28px;"
                               );
 
-    NOEnemyKilled->setGeometry((windowWidth - labelWidth) / 2, startY +20 , labelWidth, labelHeight);
+    NOEnemyKilled->setGeometry((windowWidth - labelWidth) / 2, startY +75 , labelWidth, labelHeight);
     setNOEnemyKilled(count);
     NOEnemyKilled->setStyleSheet(" background: transparent;"
                                  " background-color: rgba(255, 170, 0, 200);"
@@ -50,7 +50,7 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
                                  " font: bold 26px;"
                                  );
 
-    elixirused->setGeometry((windowWidth - labelWidth) / 2, startY + (labelHeight + spacing) +20, labelWidth, labelHeight);
+    elixirused->setGeometry((windowWidth - labelWidth) / 2, startY + (labelHeight + spacing) +75, labelWidth, labelHeight);
     setElixirUsed(elixir);
     elixirused->setStyleSheet(" background: transparent;"
                               " background-color: rgba(255, 170, 0, 200);"
@@ -59,7 +59,7 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
                               " font: bold 28px;"
                               );
 
-    recorGame->setGeometry((windowWidth - labelWidth) / 2, startY + 2 * (labelHeight + spacing) +20, labelWidth, labelHeight);
+    recorGame->setGeometry((windowWidth - labelWidth) / 2, startY + 2 * (labelHeight + spacing) +75, labelWidth, labelHeight);
     setRecordGame(record);
     recorGame->setStyleSheet(" background: transparent;"
                              " background-color: rgba(255, 170, 0, 200);"
@@ -68,25 +68,25 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
                              " font: bold 27px;");
 
 
-    QPushButton *restartButton = new QPushButton("Remath", this);
-    QPushButton *exitButton = new QPushButton("exit", this);
+    QPushButton *restartButton = new QPushButton("Rematch", this);
+    QPushButton *exitButton = new QPushButton("Exit", this);
 
     int buttonSpacing = 20;
-    exitButton->setGeometry((windowWidth - buttonWidth) / 1.9 - buttonWidth / 2 - spacing, startY + 3 * (labelHeight + spacing) + buttonSpacing, buttonWidth, buttonHeight);
-    restartButton->setGeometry((windowWidth - buttonWidth) / 2.05 + buttonWidth / 2 + spacing, startY + 3 * (labelHeight + spacing) + buttonSpacing, buttonWidth, buttonHeight);
+    exitButton->setGeometry((windowWidth - buttonWidth) / 1.9 - buttonWidth / 2 - spacing - 6, startY + 3 * (labelHeight + spacing) + buttonSpacing + 55, buttonWidth, buttonHeight);
+    restartButton->setGeometry((windowWidth - buttonWidth) / 2.05 + buttonWidth / 2 + spacing + 1 , startY + 3 * (labelHeight + spacing) + buttonSpacing + 55, buttonWidth, buttonHeight);
 
     connect(restartButton, &QPushButton::clicked, this, &ResultWindow::restartGame);
     connect(exitButton, &QPushButton::clicked, this, &ResultWindow::exitGame);
     restartButton->setStyleSheet("background-color: rgba(255, 170, 0, 200);"
                                  "border: 2px solid black;"
                                  "border-radius: 10px;"
-                                 "font: bold 18px;"
+                                 "font: bold 22px;"
                                  );
 
     exitButton->setStyleSheet("background-color: rgba(255, 170, 0, 200);"
                               "border: 2px solid black;"
                               "border-radius: 10px;"
-                              "font: bold 18px;"
+                              "font: bold 22px;"
                               );
 
     QScreen *screen = QGuiApplication::primaryScreen();
