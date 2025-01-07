@@ -32805,3 +32805,140 @@ Agent choice 4 selected.
 Placed bomb on the map at position: (930, 334).
 Agent removed from agent_board at index 11 by Eraser.
 Agent removed from agent_board at index 15 by Eraser.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 14.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (936, 571).
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Disarmer) killed.
+Enemy (type 8Disarmer) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 13.
+Merged agent at index 14, new speed: 700.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 12.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Merged agent at index 9, new speed: 750.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 12.
+Merged agent at index 13, new speed: 600.
+Agent choice 2 selected.
+Placed bomb on the map at position: (276, 463).
+Agent choice 2 selected.
+Placed agent on the board at index 6.
+Agent choice 2 selected.
+Placed bomb on the map at position: (276, 478).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (948, 486).
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (263, 201).
+Enemy (type 7Freezer) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 15 by Eraser.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (766, 161).
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed bomb on the map at position: (957, 344).
+Enemy (type 8Disarmer) killed.
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 14.
+Enemy (type 7Freezer) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
