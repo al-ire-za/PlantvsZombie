@@ -758,15 +758,19 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                             agent_board[i] = current_choice;
                             if (Golmoshaki* golmushaki = dynamic_cast<Golmoshaki*>(current_choice)) {
                                 golmushaki->shot();
+                                golmushaki->move(x - 3,y - 33);
                             }
                             if (Gorbemahi* gorbemahi = dynamic_cast<Gorbemahi*>(current_choice)) {
                                 gorbemahi->shot();
+                                gorbemahi->move(x - 7,y - 33);
                             }
                             if (Gandom* gandom = dynamic_cast<Gandom*>(current_choice)) {
                                 gandom->shot();
+                                gandom->move(x - 7,y - 33);
                             }
                             if (Kalam* kalam = dynamic_cast<Kalam*>(current_choice)) {
                                 kalam->shot();
+                                kalam->move(x - 10, y - 33);
                             }
 
                             updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :

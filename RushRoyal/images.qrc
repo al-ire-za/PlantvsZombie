@@ -68,5 +68,8 @@
         <file>images/trap3.png</file>
         <file>images/trap4.png</file>
         <file>images/trap5.png</file>
+        <file>images/pots.png</file>
+        <file>images/Soil layers.png</file>
+        <file>images/pots1.png</file>
     </qresource>
 </RCC>

@@ -28,7 +28,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -44,8 +44,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -61,7 +60,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -77,7 +76,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -93,7 +92,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -109,7 +108,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -125,7 +124,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -141,7 +140,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -157,7 +156,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -173,7 +172,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -189,7 +188,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -205,8 +204,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);
-</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -222,7 +220,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -238,7 +236,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -254,7 +252,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -270,8 +268,7 @@ background-image: url(:/prefix2/images/sanng.png);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-background-image: url(:/prefix2/images/sanng.png);</string>
+     <string notr="true">background-image: url(:/prefix2/images/pots1.png);</string>
     </property>
     <property name="text">
      <string/>

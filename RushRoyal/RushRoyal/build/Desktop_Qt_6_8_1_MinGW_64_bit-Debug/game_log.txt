@@ -33389,3 +33389,316 @@ Merged agent at index 14, new speed: 700.
 Game Over: Too many enemies reached the end.
 Game Over: Too many enemies reached the end.
 Game Over: Too many enemies reached the end.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 5.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 9.
+Agent choice 2 selected.
+Placed agent on the board at index 6.
+Enemy (type 7Freezer) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (271, 528).
+Agent choice 4 selected.
+Placed bomb on the map at position: (556, 190).
+Merged agent at index 6, new speed: 700.
+Merged agent at index 5, new speed: 600.
+Merged agent at index 9, new speed: 750.
+Merged agent at index 10, new speed: 600.
+Game Over: Too many enemies reached the end.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (951, 451).
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Agent frozen at index 10.
+Agent choice 2 selected.
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Agent frozen at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (275, 589).
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.
+Agent choice 2 selected.
+Placed agent on the board at index 0.
+Agent choice 3 selected.
+Placed agent on the board at index 0.
+Agent choice 3 selected.
+Placed agent on the board at index 0.
+Agent choice 1 selected.
+Merged agent at index 0, new speed: 600.
+Placed agent on the board at index 0.
+Merged agent at index 0, new speed: 600.
+Game Over: Too many enemies reached the end.
+Agent choice 2 selected.
+Placed agent on the board at index 0.
+Agent choice 2 selected.
+Placed agent on the board at index 0.
+Agent choice 1 selected.
+Placed agent on the board at index 1.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 0.
+Agent choice 3 selected.
+Placed agent on the board at index 2.
+Agent choice 2 selected.
+Placed agent on the board at index 2.
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Agent choice 3 selected.
+Agent choice 3 deselected.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (926, 384).
+Agent choice 4 selected.
+Placed bomb on the map at position: (966, 252).
+Agent choice 4 selected.
+Placed bomb on the map at position: (969, 256).
+Agent choice 4 selected.
+Placed bomb on the map at position: (915, 578).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Agent choice 4 selected.
+Placed bomb on the map at position: (943, 454).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (951, 496).
+Agent choice 4 selected.
+Placed bomb on the map at position: (958, 394).
+Agent choice 4 selected.
+Placed bomb on the map at position: (948, 308).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Agent choice 4 selected.
+Placed bomb on the map at position: (936, 478).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Game Over: Too many enemies reached the end.
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (606, 177).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Agent choice 3 selected.
+Placed agent on the board at index 6.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Placed bomb on the map at position: (474, 186).
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (903, 386).
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (947, 490).
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed agent on the board at index 10.
+Merged agent at index 2, new speed: 700.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Agent choice 3 selected.
+Placed agent on the board at index 1.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 2.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 1.
+Agent choice 3 selected.
+Placed agent on the board at index 2.
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 0.
+Agent removed from agent_board at index 2 by Eraser.
+Agent choice 4 selected.
+Placed bomb on the map at position: (812, 183).
+Agent choice 4 selected.
+Placed agent on the board at index 2.
+Agent choice 3 selected.
+Placed agent on the board at index 2.
+Agent choice 2 selected.
+Placed agent on the board at index 1.
+Agent choice 1 selected.
+Placed agent on the board at index 0.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (966, 522).
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Agent choice 2 selected.
+Placed agent on the board at index 1.
+Agent choice 2 selected.
+Placed bomb on the map at position: (931, 502).
+Agent choice 4 selected.
+Placed bomb on the map at position: (934, 424).
+Agent choice 4 selected.
+Placed bomb on the map at position: (952, 321).
+Agent choice 4 selected.
+Placed bomb on the map at position: (982, 233).
+Agent choice 4 selected.
+Placed bomb on the map at position: (931, 553).
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (958, 226).
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 6.
+Merged agent at index 1, new speed: 750.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Game Over: Too many enemies reached the end.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 10 by Eraser.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Agent choice 2 selected.
+Agent removed from agent_board at index 9 by Eraser.
+Placed bomb on the map at position: (813, 194).
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 7Freezer) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 13.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 5.
+Merged agent at index 9, new speed: 750.
+Agent choice 2 selected.
+Placed agent on the board at index 12.
+Enemy (type 6Runner) killed.
+Merged agent at index 13, new speed: 600.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Enemy (type 6Eraser) killed.
+Placed agent on the board at index 15.
+Enemy (type 6Eraser) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Merged agent at index 14, new speed: 700.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 13.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 2 selected.
+Placed agent on the board at index 10.
+Agent choice 2 selected.
+Placed bomb on the map at position: (982, 530).
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (925, 505).
+Agent choice 4 selected.
+Placed bomb on the map at position: (970, 533).
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Merged agent at index 9, new speed: 600.
+Agent removed from agent_board at index 10 by Eraser.
+Agent choice 2 selected.
+Placed agent on the board at index 14.
+Agent choice 2 selected.
+Agent removed from agent_board at index 9 by Eraser.
+Placed agent on the board at index 13.
+Agent choice 4 selected.
+Placed bomb on the map at position: (273, 491).
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
