@@ -33702,3 +33702,318 @@ Game Over: Too many enemies reached the end.
 Enemy (type 8Shielder) killed.
 Enemy (type 8Shielder) killed.
 Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 12.
+Agent choice 4 selected.
+Game Over: Too many enemies reached the end.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Disarmer) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (267, 530).
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Game Over: Too many enemies reached the end.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 5.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Enemy (type 6Runner) killed.
+Placed agent on the board at index 14.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (925, 482).
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (931, 580).
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Game Over: Too many enemies reached the end.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 13.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (677, 194).
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (534, 206).
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (806, 145).
+Enemy (type 8Shielder) killed.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (934, 181).
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed bomb on the map at position: (951, 454).
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Placed agent on the board at index 5.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (934, 438).
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent removed from agent_board at index 9 by Eraser.
+Agent choice 2 selected.
+Not enough elixir to place the agent.
+Agent choice 3 selected.
+Not enough elixir to place the agent.
+Not enough elixir to place the agent.
+Not enough elixir to place the agent.
+Agent choice 3 deselected.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent frozen at index 10.
+Agent choice 3 selected.
+Placed bomb on the map at position: (706, 195).
+Agent frozen at index 10.
+Agent choice 4 selected.
+Placed bomb on the map at position: (835, 219).
+Agent frozen at index 10.
+Agent choice 1 selected.
+Not enough elixir to place the agent.
+Not enough elixir to place the agent.
+Agent frozen at index 10.
+Agent choice 1 deselected.
+Agent frozen at index 10.
+Agent choice 1 selected.
+Placed agent on the board at index 9.
+Agent frozen at index 10.
+Agent frozen at index 9.
+Agent choice 4 selected.
+Placed bomb on the map at position: (625, 140).
+Agent choice 4 selected.
+Not enough elixir to place the agent.
+Placed agent on the board at index 15.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (914, 510).
+Agent choice 4 selected.
+Placed bomb on the map at position: (932, 462).
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (950, 484).

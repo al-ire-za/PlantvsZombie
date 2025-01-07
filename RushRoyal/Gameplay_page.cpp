@@ -49,7 +49,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(500), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(4), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -61,7 +61,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     int y = (screenRect.height() - height()) / 2;
     move(x, y);
 
-    enemi_wave = 5;
+    enemi_wave = 20;
 
     enemyReachedEndCount = 0;
     enemyCountLabel = new QLabel(this);
@@ -142,23 +142,19 @@ void Gameplay_page::initializeAgents() {
 void Gameplay_page::on_PGolmushaki_clicked()
 {
 
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
-
-    for(auto agent_choice : agent_choices) {
-        if(auto golmoushaki = dynamic_cast<Golmoshaki*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
-            agent_choice->setpower(15 * pow(2, (levels[0] - 1)));
-        }
-    }
-
-
-    ui->LGolmushaki->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
-
-
     if (elixir < levels[0] * 2){
 
     }
     else{
+        ui->LGolmushaki->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto golmoushaki = dynamic_cast<Golmoshaki*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/golmoshaki%1.png);").arg(levels[0]+1));
+                agent_choice->setpower(15 * pow(2, (levels[0] - 1)));
+            }
+        }
         if (levels[0] <= 5){
             if (levels[0] == 4){
                 ui->PGolmushaki->setEnabled(false);
@@ -185,19 +181,21 @@ void Gameplay_page::on_PGolmushaki_clicked()
 
 void Gameplay_page::on_PGorbemahi_clicked()
 {
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
 
-    for(auto agent_choice : agent_choices) {
-        if(auto gorbehmahi = dynamic_cast<Gorbemahi*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1]+1));
-            agent_choice->setpower(30 * pow(2, (levels[1] - 1)));
-        }
-    }
-    ui->LGorbehmahi->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1] + 1));
+
     if (elixir < levels[1] * 2){
 
     }
     else{
+        ui->LGorbehmahi->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1] + 1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto gorbehmahi = dynamic_cast<Gorbemahi*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gorbemahi%1.png);").arg(levels[1]+1));
+                agent_choice->setpower(30 * pow(2, (levels[1] - 1)));
+            }
+        }
         if (levels[1] <= 5){
             if (levels[1] == 4){
                 ui->PGorbemahi->setEnabled(false);
@@ -224,19 +222,21 @@ void Gameplay_page::on_PGorbemahi_clicked()
 void Gameplay_page::on_PKalam_clicked()
 {
 
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
 
-    for(auto agent_choice : agent_choices) {
-        if(auto kalam = dynamic_cast<Kalam*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2]+1));
-            agent_choice->setpower(22 * pow(2, (levels[2] - 1)));
-        }
-    }
-    ui->LKalam->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2] + 1));
+
     if (elixir < levels[2] * 2){
 
     }
     else{
+        ui->LKalam->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2] + 1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto kalam = dynamic_cast<Kalam*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/kalam%1.png);").arg(levels[2]+1));
+                agent_choice->setpower(22 * pow(2, (levels[2] - 1)));
+            }
+        }
         if (levels[2] <= 5){
             if (levels[2] == 4){
                 ui->PKalam->setEnabled(false);
@@ -262,19 +262,21 @@ void Gameplay_page::on_PKalam_clicked()
 
 void Gameplay_page::on_PGandom_clicked()
 {
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
 
-    for(auto agent_choice : agent_choices) {
-        if(auto gandom = dynamic_cast<Gandom*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3]+1));
-            agent_choice->setpower(15 * pow(2, (levels[3] - 1)));
-        }
-    }
-    ui->LGandom->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3] + 1));
+
     if (elixir < levels[3] * 2){
 
     }
     else{
+            ui->LGandom->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3] + 1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto gandom = dynamic_cast<Gandom*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/gandom%1.png);").arg(levels[3]+1));
+                agent_choice->setpower(15 * pow(2, (levels[3] - 1)));
+            }
+        }
         if (levels[3] <= 5){
             if (levels[3] == 4){
                 ui->PGandom->setEnabled(false);
@@ -301,19 +303,21 @@ void Gameplay_page::on_PGandom_clicked()
 
 void Gameplay_page::on_PBomb_clicked()
 {
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
 
-    for(auto agent_choice : agent_choices) {
-        if(auto bomb = dynamic_cast<Bomb*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4]+1));
-            bomb->setpowerkill(levels[4] + 2);
-        }
-    }
-    ui->LBomb->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4] + 1));
     if (elixir < levels[4] * 2){
 
     }
     else{
+        ui->LBomb->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4] + 1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto bomb = dynamic_cast<Bomb*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/bomb%1.png);").arg(levels[4]+1));
+                bomb->setpowerkill(levels[4] + 2);
+            }
+        }
+
         if (levels[4] <= 5){
             if (levels[4] == 4){
                 ui->PBomb->setEnabled(false);
@@ -335,20 +339,20 @@ void Gameplay_page::on_PBomb_clicked()
 
 void Gameplay_page::on_PTrap_clicked()
 {
-    QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
 
-    for(auto agent_choice : agent_choices) {
-        if(auto trap = dynamic_cast<Trap*>(agent_choice)) {
-            agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5]+1));
-            trap->setpowerkill(levels[5] + 2);
-        }
-    }
-
-    ui->LTrap->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5] + 1));
     if (elixir < levels[5] * 2){
 
     }
     else{
+         ui->LTrap->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5] + 1));
+        QList<AgentBase*> agent_choices = {agent_choice1, agent_choice2, agent_choice3, agent_choice4};
+
+        for(auto agent_choice : agent_choices) {
+            if(auto trap = dynamic_cast<Trap*>(agent_choice)) {
+                agent_choice->setStyleSheet(QString("background-image: url(:/prefix2/images/trap%1.png);").arg(levels[5]+1));
+                trap->setpowerkill(levels[5] + 2);
+            }
+        }
         if (levels[5] <= 5){
             if (levels[5] == 4){
                 ui->PTrap->setEnabled(false);
@@ -491,11 +495,11 @@ void Gameplay_page::create_enemi(){
             switch (enemyType) {
             case 0:
                 baseHealth = 50;
-                baseSpeed = 1.5;
+                baseSpeed = 1.0;
                 break;
             case 1:
                 baseHealth = 100;
-                baseSpeed = 1.5;
+                baseSpeed = 0.5;
                 break;
             }
 
@@ -599,7 +603,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            checkGameOver();
+            // checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
         //checkWaveCompletion();

@@ -1,6 +1,8 @@
 #ifndef GOLMOSHAKI_H
 #define GOLMOSHAKI_H
 
+#include "Gameplay_page.h"
+
 #include "AgentBase.h"
 
 
@@ -25,6 +27,8 @@ public:
 
 private:
     Ui::Golmoshaki *ui;
+    int calculateDistanceToFinish(Enemy* enemy);
+    Enemy* findClosestEnemy(Gameplay_page* gamePage);
 };
 
 #endif // GOLMOSHAKI_H

@@ -1,5 +1,6 @@
 E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/EWIEGA46WW/moc_Golmoshaki.cpp: E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Golmoshaki.h \
   E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QSequentialAnimationGroup \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \
@@ -154,9 +155,12 @@ E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_M
   C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -368,4 +372,8 @@ E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_M
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/AgentBase.h \
-  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Enemy.h
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Disarmer.h \
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Enemy.h \
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Eraser.h \
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Freezer.h \
+  E:/darsi/mabani/Qt\ Jadid/RushRoyal/RushRoyal/Gameplay_page.h
