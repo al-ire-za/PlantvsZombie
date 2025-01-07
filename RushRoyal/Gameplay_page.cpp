@@ -13,6 +13,7 @@
 #include "Disarmer.h"
 #include "Runner.h"
 #include "Shielder.h"
+#include "database_helpers.h"
 #include <QGuiApplication>
 #include <QScreen>
 #include <QLabel>
@@ -207,35 +208,6 @@ void Gameplay_page::on_PGorbemahi_clicked()
             agents[0]->setpower(30 * pow(2, (levels[1] - 1)));
             int currentNumber = ++gorbemahiLvl;
             ui->PGorbemahi->setText("lvl."+QString::number(currentNumber));
-            //baraye taghir rang border va text dar zamani ke level up mikonim. hanoz kamel nist
-            /*switch(levels[1])
-            {
-            case 2: ui->PGorbemahi->setStyleSheet(
-                    "background : transparent;"
-                    "font : bold 25px;"
-                    "text-align: bottom;"
-                    "color: white;"
-                    "border: 8px;"
-                    "border: 5px solid green;"
-                    "color: green;"
-                    );
-            case 3: ui->PGorbemahi->setStyleSheet(
-                    "border: 5px solid yellow;"
-                    "color: yellow;"
-                    );
-            case 4: ui->PGorbemahi->setStyleSheet(
-                    "border: 5px solid red;"
-                    "color: red;"
-                    );
-            case 5: ui->PGorbemahi->setStyleSheet(
-                    "border: 5px solid purple;"
-                    "color: purple;"
-                    );
-            default : ui->PGorbemahi->setStyleSheet(
-                    "border: 5px solid white;"
-                    "color: white;"
-                    );
-            }*/
 
         }
 
@@ -584,6 +556,7 @@ void Gameplay_page::create_enemi(){
             new_enemy->show();
 
             if(count_enemi == enemi_wave + 1){
+                // saveWaveRecord(wave);
                 timer->setInterval(10000);
                 count_enemi = 1;
                 wave += 1;
@@ -938,10 +911,13 @@ void Gameplay_page::checkGameOver()
     if (isGameOver) return;
     if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
         logEvent("Game Over: Too many enemies reached the end.");
-        ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,enemiesKilled);
+        int gamerecord = getMaxWaveRecord();
+        ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,gamerecord);
         resultwindow->show();
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
+
+        saveWaveRecord(wave);
     }
 }
 

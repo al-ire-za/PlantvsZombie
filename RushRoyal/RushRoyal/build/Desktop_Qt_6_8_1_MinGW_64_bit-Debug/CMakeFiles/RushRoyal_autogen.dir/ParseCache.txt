@@ -5963,6 +5963,7 @@ E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.h
 E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Shielder.cpp
+E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/database_helpers.h
 E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Trap.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QSequentialAnimationGroup

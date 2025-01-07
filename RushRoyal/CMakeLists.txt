@@ -9,14 +9,14 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Sql)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Sql)
 
 set(PROJECT_SOURCES
-        main.cpp
-        Welcom_page.cpp
-        Welcom_page.h
-        Welcom_page.ui
+    main.cpp
+    Welcom_page.cpp
+    Welcom_page.h
+    Welcom_page.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -27,14 +27,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Gameplay_page.h Gameplay_page.cpp Gameplay_page.ui
         AgentBase.h AgentBase.cpp
         Gorbemahi.h Gorbemahi.cpp
-
-
         Gandom.h Gandom.cpp
         Bomb.h Bomb.cpp
         Golmoshaki.h Golmoshaki.cpp
         Trap.h Trap.cpp
         Enemy.h Enemy.cpp
-
         Kalam.h Kalam.cpp
         Eraser.h Eraser.cpp
         Freezer.h Freezer.cpp
@@ -43,25 +40,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Runner.h Runner.cpp
         Bullet.h Bullet.cpp
         ResultWindow.h ResultWindow.cpp ResultWindow.ui
-
-
-
-
-
-
-
+        database_helpers.h
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET RushRoyal APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
         add_library(RushRoyal SHARED
             ${PROJECT_SOURCES}
         )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
         add_executable(RushRoyal
             ${PROJECT_SOURCES}
@@ -69,11 +54,8 @@ else()
     endif()
 endif()
 
-target_link_libraries(RushRoyal PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(RushRoyal PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql)
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
   set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.RushRoyal)
 endif()
