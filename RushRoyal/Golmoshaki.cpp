@@ -47,15 +47,15 @@ int Golmoshaki::calculateDistanceToFinish(Enemy* enemy) {
     // محاسبه فاصله از ابتدای مسیر تا موقعیت فعلی انمی
     // بخش اول از 215, 700 تا 215, 140
     if (enemyPos.x() == 215 && enemyPos.y() <= 700 && enemyPos.y() >= 140) {
-        distance += (enemyPos.y() - 140);
+        distance += (enemyPos.y() - 140) + (900 - 215) + (625 - 140);
     }
     // بخش دوم از 215, 140 تا 900, 140
     else if (enemyPos.y() == 140 && enemyPos.x() >= 215 && enemyPos.x() <= 900) {
-        distance += (700 - 140) + (900 - enemyPos.x());
+        distance += (900 - enemyPos.x()) + (625 - 140);
     }
     // بخش سوم از 900, 140 تا 900, 625
     else if (enemyPos.x() == 900 && enemyPos.y() >= 140 && enemyPos.y() <= 625) {
-        distance += (700 - 140) + (900 - 215) + (625 - enemyPos.y());
+        distance +=  (625 - enemyPos.y());
     }
 
     return distance;

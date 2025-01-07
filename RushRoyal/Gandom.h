@@ -2,6 +2,7 @@
 #define GANDOM_H
 
 #include "AgentBase.h"
+#include "Gameplay_page.h"
 
 
 namespace Ui {
@@ -24,6 +25,8 @@ public:
 
 private:
     Ui::Gandom *ui;
+    int calculateDistanceToFinish(Enemy* enemy);
+    Enemy* findFurthestEnemy(Gameplay_page* gamePage);
 };
 
 #endif // GANDOM_H

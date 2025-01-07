@@ -49,7 +49,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(4), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(400), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);

@@ -4121,6 +4121,7 @@ E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Runner.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h
 E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.h
  mmc:Q_OBJECT
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QPoint
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QSequentialAnimationGroup
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h
@@ -4275,9 +4276,12 @@ E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h
@@ -4489,7 +4493,11 @@ E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/AgentBase.h
+ mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Disarmer.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Enemy.h
+ mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Eraser.h
+ mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Freezer.h
+ mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gameplay_page.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Gandom.h
  mdp:E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/RushRoyal/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/RushRoyal_autogen/moc_predefs.h
 E:/darsi/mabani/Qt Jadid/RushRoyal/RushRoyal/Kalam.h
