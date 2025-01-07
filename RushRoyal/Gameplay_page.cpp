@@ -33,8 +33,8 @@
 
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
-const int startx_agent_choice = 385;
-const int starty_aghant_choice = 640;
+const int startx_agent_choice = 370;
+const int starty_aghant_choice = 630;
 const int spacing = 100;
 
 
@@ -48,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(1000), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(500), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -65,10 +65,14 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemyReachedEndCount = 0;
     enemyCountLabel = new QLabel(this);
     enemyCountLabel->setObjectName("enemyCountLabel");
-    enemyCountLabel->setGeometry(1010,600, 60, 20);
+    enemyCountLabel->setGeometry(1000,580, 70, 50);
     enemyCountLabel->setText("0");
-    enemyCountLabel->setStyleSheet("background-color: white; border: 2px solid black; font: bold 14px; text-align: center;");
-
+    enemyCountLabel->setStyleSheet("background: transparent; font: bold 35px;");
+    enemyCountLabel->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    /*enemyImage = new QLabel(this);
+    enemyImage->setGeometry(995,520, 80, 80);
+    enemyImage->setStyleSheet("background: transparent; background-image: url(:/prefix2/images/boss ezafiai1.png)");
+    */
     levels.resize(6);
     for(int i = 0 ; i < levels.size(); i++){
         levels[i] = 1;
@@ -100,11 +104,13 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     isGameOver = false;
     usedElixir = 0;
     elixirLabel = new QLabel(this);
-    elixirLabel->setGeometry(790, 655, 50, 50);
-    elixirLabel->setStyleSheet("background-image: url(:/prefix2/images/banafsh.png); border-radius: 25px; color: white; text-align: center;font-weight: bold;");
+    elixirLabel->setGeometry(770, 632, 90, 80);
+    elixirLabel->setStyleSheet("background: transparent; border-radius: 25px; color: black; text-align: center;font: bold 20px; background-image: url(:/prefix2/images/elixirLabel.png);");
     elixirLabel->setAlignment(Qt::AlignCenter);
     elixirLabel->setText(QString::number(elixir));
     elixirLabel->show();
+
+    // background-image: url(:/prefix2/images/elixirLabel.png);
 
     elixirTimer = new QTimer(this);
     connect(elixirTimer, &QTimer::timeout, this, &Gameplay_page::updateElixir);
@@ -160,10 +166,8 @@ void Gameplay_page::on_PGolmushaki_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[0] += 1;
             agents[2]->setpower(15 * pow(2, (levels[0] - 1)));
-            QString buttonText = ui->PGolmushaki->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGolmushaki->setText(QString::number(currentNumber));
+            int currentNumber = ++golmoshakiLvl;
+            ui->PGolmushaki->setText("lvl."+QString::number(currentNumber));
 
         }
 
@@ -201,10 +205,37 @@ void Gameplay_page::on_PGorbemahi_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[1] += 1;
             agents[0]->setpower(30 * pow(2, (levels[1] - 1)));
-            QString buttonText = ui->PGorbemahi->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGorbemahi->setText(QString::number(currentNumber));
+            int currentNumber = ++gorbemahiLvl;
+            ui->PGorbemahi->setText("lvl."+QString::number(currentNumber));
+            //baraye taghir rang border va text dar zamani ke level up mikonim. hanoz kamel nist
+            /*switch(levels[1])
+            {
+            case 2: ui->PGorbemahi->setStyleSheet(
+                    "background : transparent;"
+                    "font : bold 25px;"
+                    "text-align: bottom;"
+                    "color: white;"
+                    "border: 8px;"
+                    "border: 5px solid green;"
+                    "color: green;"
+                    );
+            case 3: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid yellow;"
+                    "color: yellow;"
+                    );
+            case 4: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid red;"
+                    "color: red;"
+                    );
+            case 5: ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid purple;"
+                    "color: purple;"
+                    );
+            default : ui->PGorbemahi->setStyleSheet(
+                    "border: 5px solid white;"
+                    "color: white;"
+                    );
+            }*/
 
         }
 
@@ -242,11 +273,8 @@ void Gameplay_page::on_PKalam_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[2] += 1;
             agents[5]->setpower(22 * pow(2, (levels[2] - 1)));
-            QString buttonText = ui->PKalam->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PKalam->setText(QString::number(currentNumber));
-
+            int currentNumber = ++kalamLvl;
+            ui->PKalam->setText("lvl."+QString::number(currentNumber));
         }
 
         for (AgentBase *t : agent_board) {
@@ -283,10 +311,8 @@ void Gameplay_page::on_PGandom_clicked()
             elixirLabel->setText(QString::number(elixir));
             levels[3] += 1;
             agents[1]->setpower(15 * pow(2, (levels[3] - 1)));
-            QString buttonText = ui->PGandom->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PGandom->setText(QString::number(currentNumber));
+            int currentNumber = ++gandomLvl;
+            ui->PGandom->setText("lvl."+QString::number(currentNumber));
 
         }
 
@@ -325,11 +351,8 @@ void Gameplay_page::on_PBomb_clicked()
             levels[4] += 1;
             Bomb* bomb = dynamic_cast<Bomb*>(agents[3]);
             bomb->setpowerkill(levels[4] + 1);
-            QString buttonText = ui->PBomb->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PBomb->setText(QString::number(currentNumber));
-
+            int currentNumber = ++bombLvl;
+            ui->PBomb->setText("lvl."+QString::number(currentNumber));
         }
 
 
@@ -363,10 +386,8 @@ void Gameplay_page::on_PTrap_clicked()
             levels[5] += 1;
             Trap* trap = dynamic_cast<Trap*>(agents[4]);
             trap->setpowerkill(levels[5] + 1);
-            QString buttonText = ui->PTrap->text();
-            int currentNumber = buttonText.toInt();
-            currentNumber += 1;
-            ui->PTrap->setText(QString::number(currentNumber));
+            int currentNumber = ++trapLvl;
+            ui->PTrap->setText("lvl."+QString::number(currentNumber));
 
         }
 
@@ -498,7 +519,7 @@ void Gameplay_page::create_enemi(){
             switch (enemyType) {
             case 0:
                 baseHealth = 50;
-                baseSpeed = 1.50;
+                baseSpeed = 1.5;
                 break;
             case 1:
                 baseHealth = 100;
@@ -527,15 +548,15 @@ void Gameplay_page::create_enemi(){
                         switch (bossType) {
                         case 0:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         case 1:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         case 2:
                             baseHealth = 2000;
-                            baseSpeed = 1.25;
+                            baseSpeed = 0.25;
                             break;
                         }
 
@@ -605,10 +626,10 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            // checkGameOver();
+            checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
-         // checkWaveCompletion();
+        //checkWaveCompletion();
 
         // enemy->deleteLater();
     });
@@ -738,6 +759,7 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                 updateAgentChoice(current_choice, (current_choice == agent_choice1) ? 0 :
                                                       (current_choice == agent_choice2) ? 1 :
                                                       (current_choice == agent_choice3) ? 2 : 3);
+
 
                 if (Bomb* bomb = dynamic_cast<Bomb*>(current_choice)) {
                     bomb->startTimer();
@@ -916,7 +938,7 @@ void Gameplay_page::checkGameOver()
     if (isGameOver) return;
     if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
         logEvent("Game Over: Too many enemies reached the end.");
-        ResultWindow *resultwindow = new ResultWindow(wave,enemiesKilled,usedElixir,enemiesKilled);
+        ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,enemiesKilled);
         resultwindow->show();
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);

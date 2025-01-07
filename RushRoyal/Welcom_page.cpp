@@ -22,7 +22,7 @@ welcom_page::welcom_page(QWidget *parent)
         "    background-position: center;"
         "    background-repeat: no-repeat;"
         "    color: white;"
-        "    font: bold 14pt 'Sitka Heading';"
+        "    font: bold 20pt 'Sitka Heading';"
         "    padding: 10px;"
         "    border: 2px solid #2E7D32;"
         "    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);"

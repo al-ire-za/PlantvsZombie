@@ -16,7 +16,6 @@
         <file>images/Eraser.png</file>
         <file>images/boss ezafiai1.png</file>
         <file>images/Disaemer1.png</file>
-        <file>images/trap1.png</file>
         <file>images/banafsh.png</file>
         <file>images/resultbackgrand.jpg</file>
         <file>images/bomb1.png</file>
@@ -37,10 +36,6 @@
         <file>images/kalam3.png</file>
         <file>images/kalam4.png</file>
         <file>images/kalam5.png</file>
-        <file>images/trap5.png</file>
-        <file>images/trap2.png</file>
-        <file>images/trap3.png</file>
-        <file>images/trap4.png</file>
         <file>images/kalam2.png</file>
         <file>images/black.jpg</file>
         <file>images/tirkalam1.png</file>
@@ -67,5 +62,11 @@
         <file>images/gorbemahi3.png</file>
         <file>images/gorbemahi4.png</file>
         <file>images/gorbemahi5.png</file>
+        <file>images/elixirLabel.png</file>
+        <file>images/trap1.png</file>
+        <file>images/trap2.png</file>
+        <file>images/trap3.png</file>
+        <file>images/trap4.png</file>
+        <file>images/trap5.png</file>
     </qresource>
 </RCC>

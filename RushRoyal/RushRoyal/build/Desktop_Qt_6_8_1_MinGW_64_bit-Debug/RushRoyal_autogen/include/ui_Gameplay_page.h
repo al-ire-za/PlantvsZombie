@@ -42,19 +42,19 @@ public:
     QLabel *label_31;
     QLabel *label_32;
     QLabel *label_33;
-    QLabel *label;
-    QLabel *LGorbehmahi;
-    QLabel *LKalam;
     QLabel *LGandom;
-    QLabel *LGolmushaki;
-    QLabel *LTrap;
-    QLabel *LBomb;
-    QPushButton *PGolmushaki;
-    QPushButton *PTrap;
     QPushButton *PBomb;
-    QPushButton *PGandom;
+    QLabel *label;
     QPushButton *PKalam;
     QPushButton *PGorbemahi;
+    QLabel *LGolmushaki;
+    QLabel *LBomb;
+    QLabel *LGorbehmahi;
+    QPushButton *PGolmushaki;
+    QPushButton *PTrap;
+    QLabel *LTrap;
+    QLabel *LKalam;
+    QPushButton *PGandom;
 
     void setupUi(QMainWindow *Gameplay_page)
     {
@@ -134,75 +134,149 @@ public:
 "background-image: url(:/prefix2/images/sanng.png);"));
         label_30 = new QLabel(centralwidget);
         label_30->setObjectName("label_30");
-        label_30->setGeometry(QRect(385, 640, 90, 80));
+        label_30->setGeometry(QRect(370, 630, 90, 80));
         label_30->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
         label_31 = new QLabel(centralwidget);
         label_31->setObjectName("label_31");
-        label_31->setGeometry(QRect(485, 640, 90, 80));
+        label_31->setGeometry(QRect(470, 630, 90, 80));
         label_31->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
         label_32 = new QLabel(centralwidget);
         label_32->setObjectName("label_32");
-        label_32->setGeometry(QRect(585, 640, 90, 80));
+        label_32->setGeometry(QRect(570, 630, 90, 80));
         label_32->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
         label_33 = new QLabel(centralwidget);
         label_33->setObjectName("label_33");
-        label_33->setGeometry(QRect(685, 640, 90, 80));
+        label_33->setGeometry(QRect(670, 630, 90, 80));
         label_33->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/sanng.png);"));
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(1090, 50, 111, 671));
-        label->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/banafsh.png);"));
-        LGorbehmahi = new QLabel(centralwidget);
-        LGorbehmahi->setObjectName("LGorbehmahi");
-        LGorbehmahi->setGeometry(QRect(1100, 170, 90, 80));
-        LGorbehmahi->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/gorbemahi1.png);"));
-        LKalam = new QLabel(centralwidget);
-        LKalam->setObjectName("LKalam");
-        LKalam->setGeometry(QRect(1100, 280, 90, 80));
-        LKalam->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/kalam1.png);"));
         LGandom = new QLabel(centralwidget);
         LGandom->setObjectName("LGandom");
-        LGandom->setGeometry(QRect(1100, 390, 90, 80));
+        LGandom->setGeometry(QRect(1080, 410, 91, 81));
         LGandom->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/gandom1.png);\n"
 ""));
+        PBomb = new QPushButton(centralwidget);
+        PBomb->setObjectName("PBomb");
+        PBomb->setGeometry(QRect(1070, 530, 131, 127));
+        PBomb->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+" border: 8px;\n"
+"border: 5px solid white;\n"
+"color: white;"));
+        label = new QLabel(centralwidget);
+        label->setObjectName("label");
+        label->setGeometry(QRect(1069, 0, 131, 810));
+        label->setStyleSheet(QString::fromUtf8("background: transparent;\n"
+"background-color: rgb(108, 128,70);\n"
+"\n"
+"\n"
+"        "));
+        PKalam = new QPushButton(centralwidget);
+        PKalam->setObjectName("PKalam");
+        PKalam->setGeometry(QRect(1070, 270, 131, 127));
+        PKalam->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+"color: white;\n"
+" border: 8px;\n"
+"border: 5px solid white;"));
+        PGorbemahi = new QPushButton(centralwidget);
+        PGorbemahi->setObjectName("PGorbemahi");
+        PGorbemahi->setGeometry(QRect(1070, 140, 131, 127));
+        PGorbemahi->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+"color: white;\n"
+" border: 8px;\n"
+"border: 5px solid white;"));
         LGolmushaki = new QLabel(centralwidget);
         LGolmushaki->setObjectName("LGolmushaki");
-        LGolmushaki->setGeometry(QRect(1100, 60, 90, 80));
+        LGolmushaki->setGeometry(QRect(1090, 20, 90, 80));
         LGolmushaki->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/golmoshaki1.png);"));
-        LTrap = new QLabel(centralwidget);
-        LTrap->setObjectName("LTrap");
-        LTrap->setGeometry(QRect(1100, 610, 90, 80));
-        LTrap->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/prefix2/images/trap1.png);"));
         LBomb = new QLabel(centralwidget);
         LBomb->setObjectName("LBomb");
-        LBomb->setGeometry(QRect(1100, 500, 90, 80));
+        LBomb->setGeometry(QRect(1090, 540, 91, 81));
         LBomb->setStyleSheet(QString::fromUtf8("\n"
 "background-image: url(:/prefix2/images/bomb1.png);\n"
 ""));
+        LGorbehmahi = new QLabel(centralwidget);
+        LGorbehmahi->setObjectName("LGorbehmahi");
+        LGorbehmahi->setGeometry(QRect(1090, 150, 90, 80));
+        LGorbehmahi->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/gorbemahi1.png);"));
         PGolmushaki = new QPushButton(centralwidget);
         PGolmushaki->setObjectName("PGolmushaki");
-        PGolmushaki->setGeometry(QRect(1100, 140, 90, 20));
+        PGolmushaki->setGeometry(QRect(1070, 10, 131, 127));
+        PGolmushaki->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+"color: white;\n"
+" border: 8px;\n"
+"border: 5px solid white;"));
         PTrap = new QPushButton(centralwidget);
         PTrap->setObjectName("PTrap");
-        PTrap->setGeometry(QRect(1100, 690, 90, 20));
-        PBomb = new QPushButton(centralwidget);
-        PBomb->setObjectName("PBomb");
-        PBomb->setGeometry(QRect(1100, 580, 90, 20));
+        PTrap->setGeometry(QRect(1070, 660, 131, 127));
+        PTrap->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+" border: 8px;\n"
+"border: 5px solid white;\n"
+"color: white;\n"
+""));
+        LTrap = new QLabel(centralwidget);
+        LTrap->setObjectName("LTrap");
+        LTrap->setGeometry(QRect(1090, 670, 90, 80));
+        LTrap->setStyleSheet(QString::fromUtf8("\n"
+"background-image: url(:/prefix2/images/trap1.png);"));
+        LKalam = new QLabel(centralwidget);
+        LKalam->setObjectName("LKalam");
+        LKalam->setGeometry(QRect(1080, 280, 90, 80));
+        LKalam->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/kalam1.png);"));
         PGandom = new QPushButton(centralwidget);
         PGandom->setObjectName("PGandom");
-        PGandom->setGeometry(QRect(1100, 470, 90, 20));
-        PKalam = new QPushButton(centralwidget);
-        PKalam->setObjectName("PKalam");
-        PKalam->setGeometry(QRect(1100, 360, 90, 20));
-        PGorbemahi = new QPushButton(centralwidget);
-        PGorbemahi->setObjectName("PGorbemahi");
-        PGorbemahi->setGeometry(QRect(1100, 250, 90, 20));
+        PGandom->setGeometry(QRect(1070, 400, 131, 127));
+        PGandom->setStyleSheet(QString::fromUtf8("background : transparent;\n"
+"font : bold 25px; \n"
+"text-align: bottom;\n"
+"color: white;\n"
+" border: 8px;\n"
+"border: 5px solid white;"));
         Gameplay_page->setCentralWidget(centralwidget);
+        label_14->raise();
+        label_15->raise();
+        label_16->raise();
+        label_17->raise();
+        label_18->raise();
+        label_19->raise();
+        label_20->raise();
+        label_21->raise();
+        label_22->raise();
+        label_23->raise();
+        label_24->raise();
+        label_25->raise();
+        label_26->raise();
+        label_27->raise();
+        label_28->raise();
+        label_29->raise();
+        label_30->raise();
+        label_31->raise();
+        label_32->raise();
+        label_33->raise();
+        label->raise();
+        LGolmushaki->raise();
+        LBomb->raise();
+        LGorbehmahi->raise();
+        LTrap->raise();
+        LKalam->raise();
+        LGandom->raise();
+        PGandom->raise();
+        PGolmushaki->raise();
+        PBomb->raise();
+        PGorbemahi->raise();
+        PKalam->raise();
+        PTrap->raise();
 
         retranslateUi(Gameplay_page);
 
@@ -232,19 +306,19 @@ public:
         label_31->setText(QString());
         label_32->setText(QString());
         label_33->setText(QString());
-        label->setText(QString());
-        LGorbehmahi->setText(QString());
-        LKalam->setText(QString());
         LGandom->setText(QString());
+        PBomb->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
+        label->setText(QString());
+        PKalam->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
+        PGorbemahi->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
         LGolmushaki->setText(QString());
-        LTrap->setText(QString());
         LBomb->setText(QString());
-        PGolmushaki->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
-        PTrap->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
-        PBomb->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
-        PGandom->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
-        PKalam->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
-        PGorbemahi->setText(QCoreApplication::translate("Gameplay_page", "1", nullptr));
+        LGorbehmahi->setText(QString());
+        PGolmushaki->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
+        PTrap->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
+        LTrap->setText(QString());
+        LKalam->setText(QString());
+        PGandom->setText(QCoreApplication::translate("Gameplay_page", "lvl.1", nullptr));
     } // retranslateUi
 
 };

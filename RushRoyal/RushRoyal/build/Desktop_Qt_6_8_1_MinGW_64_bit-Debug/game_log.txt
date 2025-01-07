@@ -32942,3 +32942,134 @@ Enemy (type 8Shielder) killed.
 Enemy (type 8Shielder) killed.
 Enemy (type 8Shielder) killed.
 Enemy (type 8Shielder) killed.
+Game Over: Too many enemies reached the end.
+Agent choice 3 selected.
+Agent choice 4 selected.
+Game Over: Too many enemies reached the end.
+Agent choice 3 selected.
+Placed agent on the board at index 14.
+Agent choice 2 selected.
+Placed agent on the board at index 13.
+Agent removed from agent_board at index 14 by Eraser.
+Agent choice 1 selected.
+Enemy (type 8Shielder) killed.
+Agent removed from agent_board at index 13 by Eraser.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 5.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed agent on the board at index 6.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Agent choice 1 selected.
+Placed bomb on the map at position: (498, 172).
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Enemy (type 6Runner) killed.
+Placed bomb on the map at position: (917, 522).
+Agent choice 4 selected.
+Agent frozen at index 5.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (261, 474).
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (550, 178).
+Agent choice 4 selected.
+Placed agent on the board at index 15.
+Agent choice 4 selected.
+Placed bomb on the map at position: (948, 558).
+Agent choice 4 selected.
+Placed bomb on the map at position: (738, 186).
+Agent choice 4 selected.
+Placed bomb on the map at position: (543, 190).
+Agent choice 4 selected.
+Placed bomb on the map at position: (625, 190).
+Agent choice 3 selected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (495, 173).
+Agent choice 4 selected.
+Placed bomb on the map at position: (510, 180).
+Agent choice 4 selected.
+Placed bomb on the map at position: (559, 150).
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 2 selected.
+Placed agent on the board at index 9.
+Enemy (type 8Shielder) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Enemy (type 6Runner) killed.
+Agent choice 4 selected.
+Placed bomb on the map at position: (706, 196).
+Agent choice 4 selected.
+Placed bomb on the map at position: (559, 172).
+Agent choice 4 selected.
+Placed bomb on the map at position: (668, 194).
+Agent choice 4 selected.
+Placed bomb on the map at position: (948, 412).
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Agent choice 4 selected.
+Placed bomb on the map at position: (801, 166).
+Agent choice 4 selected.
+Placed bomb on the map at position: (916, 523).
+Agent choice 4 selected.
+Placed bomb on the map at position: (250, 525).
+Enemy (type 7Freezer) killed.
+Enemy (type 8Shielder) killed.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (702, 208).
+Agent choice 4 selected.
+Placed bomb on the map at position: (930, 437).
+Agent choice 4 selected.
+Placed agent on the board at index 14.
+Agent choice 4 selected.
+Agent removed from agent_board at index 14 by Eraser.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (921, 484).
+Agent choice 4 selected.
+Placed bomb on the map at position: (258, 162).
+Agent choice 4 selected.
+Placed bomb on the map at position: (258, 277).
+Agent choice 4 selected.
+Placed bomb on the map at position: (672, 196).
+Agent choice 3 selected.
+Placed agent on the board at index 14.
+Agent choice 3 selected.
+Placed bomb on the map at position: (537, 183).
+Enemy (type 8Shielder) killed.
+Agent choice 3 selected.
+Placed agent on the board at index 10.
+Agent choice 3 selected.
+Placed bomb on the map at position: (918, 505).
+Agent removed from agent_board at index 14 by Eraser.
+Agent choice 4 selected.
+Placed bomb on the map at position: (950, 534).
+Agent choice 4 selected.
+Placed bomb on the map at position: (435, 176).
+Agent choice 4 selected.
+Placed bomb on the map at position: (442, 184).
+Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.
+Agent choice 4 selected.
+Placed bomb on the map at position: (917, 442).
+Game Over: Too many enemies reached the end.
