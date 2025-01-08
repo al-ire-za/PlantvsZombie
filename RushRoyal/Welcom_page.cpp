@@ -11,31 +11,31 @@ welcom_page::welcom_page(QWidget *parent)
     , ui(new Ui::welcom_page)
 {
     ui->setupUi(this);
-    resize(806, 800);
-    setMaximumSize(806, 800);
-    setMinimumSize(806, 800);
-    ui->play_button->setStyleSheet(
-        "QPushButton {"
-        "    border-radius: 20px;"
-        "    background-color: #4CAF50;"
-        "    background-image: url(:/new/prefix1/images/abi_playbutton.png);"
-        "    background-position: center;"
-        "    background-repeat: no-repeat;"
-        "    color: white;"
-        "    font: bold 20pt 'Sitka Heading';"
-        "    padding: 10px;"
-        "    border: 2px solid #2E7D32;"
-        "    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);"
-        "}"
-        "QPushButton:hover {"
-        "    background-color: #66BB6A;"
-        "    border: 2px solid #388E3C;"
-        "}"
-        "QPushButton:pressed {"
-        "    background-color: #388E3C;"
-        "    border: 2px solid #1B5E20;"
-        "}"
-        );
+    resize(800, 600);
+    setMaximumSize(800, 600);
+    setMinimumSize(800, 600);
+    // ui->play_button->setStyleSheet(
+    //     "QPushButton {"
+    //     "    border-radius: 20px;"
+    //     "    background-color: #4CAF50;"
+    //     "    background-image: url(:/new/prefix1/images/abi_playbutton.png);"
+    //     "    background-position: center;"
+    //     "    background-repeat: no-repeat;"
+    //     "    color: white;"
+    //     "    font: bold 20pt 'Sitka Heading';"
+    //     "    padding: 10px;"
+    //     "    border: 2px solid #2E7D32;"
+    //     "    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);"
+    //     "}"
+    //     "QPushButton:hover {"
+    //     "    background-color: #66BB6A;"
+    //     "    border: 2px solid #388E3C;"
+    //     "}"
+    //     "QPushButton:pressed {"
+    //     "    background-color: #388E3C;"
+    //     "    border: 2px solid #1B5E20;"
+    //     "}"
+    //     );
 
     ui->play_button->setCursor(Qt::PointingHandCursor);
 

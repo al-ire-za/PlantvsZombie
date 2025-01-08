@@ -27,18 +27,17 @@ public:
     {
         if (welcom_page->objectName().isEmpty())
             welcom_page->setObjectName("welcom_page");
-        welcom_page->resize(1054, 822);
+        welcom_page->resize(736, 554);
         welcom_page->setCursor(QCursor(Qt::CursorShape::ArrowCursor));
-        welcom_page->setStyleSheet(QString::fromUtf8("\n"
-"background-image: url(:/new/prefix1/images/welcom_page.png);"));
+        welcom_page->setStyleSheet(QString::fromUtf8("background-image: url(:/prefix2/images/themwelcom.jpg);"));
         centralwidget = new QWidget(welcom_page);
         centralwidget->setObjectName("centralwidget");
         play_button = new QPushButton(centralwidget);
         play_button->setObjectName("play_button");
-        play_button->setGeometry(QRect(340, 630, 121, 51));
+        play_button->setGeometry(QRect(390, 60, 341, 131));
         play_button->setCursor(QCursor(Qt::CursorShape::ArrowCursor));
         play_button->setMouseTracking(false);
-        play_button->setStyleSheet(QString::fromUtf8(""));
+        play_button->setStyleSheet(QString::fromUtf8("background : transparent;"));
         welcom_page->setCentralWidget(centralwidget);
 
         retranslateUi(welcom_page);
@@ -49,7 +48,7 @@ public:
     void retranslateUi(QMainWindow *welcom_page)
     {
         welcom_page->setWindowTitle(QCoreApplication::translate("welcom_page", "welcom_page", nullptr));
-        play_button->setText(QCoreApplication::translate("welcom_page", "Play", nullptr));
+        play_button->setText(QString());
     } // retranslateUi
 
 };

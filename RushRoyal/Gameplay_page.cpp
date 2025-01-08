@@ -85,7 +85,7 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     agent_choice2->setGeometry(startx_agent_choice + spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
     agent_choice3 = new Gandom(this);
     agent_choice3->setGeometry(startx_agent_choice + 2 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
-    agent_choice4 = new Trap(this);
+    agent_choice4 = new Bomb(this);
     agent_choice4->setGeometry(startx_agent_choice + 3 * spacing, starty_aghant_choice, width_aghent_choice, hight_aghent_choice);
 
 
@@ -603,7 +603,7 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         if (enemy->isalive()){
             enemyReachedEndCount++;
             updateEnemyCountLabel();
-            // checkGameOver();
+            checkGameOver();
         }
         enemy->reduceHealth(enemy->gethealth());
         //checkWaveCompletion();
@@ -835,10 +835,12 @@ void Gameplay_page::checkCollisions()
                 connect(bomb, &Bomb::removeEnemies, this, [=]() {
                     if (bomb->getcollisionCount() >= bomb->getpowerkill()) {
                         removeBombTrap(bomb);
+
                     }
                 });
                 connect(bomb, &Bomb::bombExpired, this, [=]() {
                     removeBombTrap(bomb);
+
                 });
 
             }
@@ -875,10 +877,12 @@ void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
         enemies.removeOne(enemy);
         enemy->hide();
         enemy->reduceHealth(enemy->gethealth());
-        enemiesKilled++;
+        // enemiesKilled++;
 
         // enemy->deleteLater();
     }
+
+    // qDebug() << "enemilkilld: " << enemiesKilled;
 }
 
 

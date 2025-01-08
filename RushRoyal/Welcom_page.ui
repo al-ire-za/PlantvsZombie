@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1054</width>
-    <height>822</height>
+    <width>736</width>
+    <height>554</height>
    </rect>
   </property>
   <property name="cursor">
@@ -17,17 +17,16 @@
    <string>welcom_page</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-background-image: url(:/new/prefix1/images/welcom_page.png);</string>
+   <string notr="true">background-image: url(:/prefix2/images/themwelcom.jpg);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="play_button">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>630</y>
-      <width>121</width>
-      <height>51</height>
+      <x>390</x>
+      <y>60</y>
+      <width>341</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="cursor">
@@ -37,10 +36,10 @@ background-image: url(:/new/prefix1/images/welcom_page.png);</string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background : transparent;</string>
     </property>
     <property name="text">
-     <string>Play</string>
+     <string/>
     </property>
    </widget>
   </widget>
