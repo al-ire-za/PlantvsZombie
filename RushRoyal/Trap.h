@@ -21,9 +21,17 @@ public:
     int type() const override { return 6;}
     void setpowerkill(int pow);
     int getpowerkill() const;
+    QTimer *timerStart;
+    void startTimer();
 
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
+    void bombExpired(Trap* tarp);
+
+
+private slots:
+    void onTimeout();
+
 
 private:
     Ui::Trap *ui;

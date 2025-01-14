@@ -72,5 +72,7 @@
         <file>images/Soil layers.png</file>
         <file>images/pots1.png</file>
         <file>images/themwelcom.jpg</file>
+        <file>images/heart.png</file>
+        <file>images/newboss.png</file>
     </qresource>
 </RCC>

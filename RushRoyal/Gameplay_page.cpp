@@ -49,7 +49,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(400), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(4), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -63,17 +63,15 @@ Gameplay_page::Gameplay_page(QWidget *parent)
 
     enemi_wave = 20;
 
-    enemyReachedEndCount = 0;
+    enemyReachedEndCount = 3;
     enemyCountLabel = new QLabel(this);
     enemyCountLabel->setObjectName("enemyCountLabel");
-    enemyCountLabel->setGeometry(1000,580, 70, 50);
-    enemyCountLabel->setText("0");
-    enemyCountLabel->setStyleSheet("background: transparent; font: bold 35px;");
+    enemyCountLabel->setGeometry(1005,580, 50, 45);
+    enemyCountLabel->setText("3");
+    enemyCountLabel->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
     enemyCountLabel->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
-    /*enemyImage = new QLabel(this);
-    enemyImage->setGeometry(995,520, 80, 80);
-    enemyImage->setStyleSheet("background: transparent; background-image: url(:/prefix2/images/boss ezafiai1.png)");
-    */
+
+
     levels.resize(6);
     for(int i = 0 ; i < levels.size(); i++){
         levels[i] = 1;
@@ -561,12 +559,14 @@ void Gameplay_page::create_enemi(){
 
             if(count_enemi == enemi_wave + 1){
                 // saveWaveRecord(wave);
-                timer->setInterval(10000);
+                // timer->setInterval(3000);
+                timer->stop();
+
                 count_enemi = 1;
                 wave += 1;
                 bossSpawned = 0;
             }else{
-                timer->setInterval(600);
+                timer->setInterval(300);
             }
             move_enemi(new_enemy);
 
@@ -600,13 +600,17 @@ void Gameplay_page::move_enemi(Enemy *enemy) {
         enemies.removeOne(enemy);
         enemy->hide();
 
+        if(enemies.isEmpty()){
+            timer->start(2000);
+        }
+
         if (enemy->isalive()){
-            enemyReachedEndCount++;
+            enemyReachedEndCount--;
             updateEnemyCountLabel();
             checkGameOver();
         }
+
         enemy->reduceHealth(enemy->gethealth());
-        //checkWaveCompletion();
 
         // enemy->deleteLater();
     });
@@ -741,6 +745,9 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
                 if (Bomb* bomb = dynamic_cast<Bomb*>(current_choice)) {
                     bomb->startTimer();
                 }
+                if (Trap* trap = dynamic_cast<Trap*>(current_choice)) {
+                    trap->startTimer();
+                }
                 current_choice = nullptr;
             }
         }
@@ -852,6 +859,10 @@ void Gameplay_page::checkCollisions()
                     removeBombTrap(trap);
                 }
             });
+            connect(trap, &Trap::bombExpired, this, [=]() {
+                removeBombTrap(trap);
+
+            });
         }
     }
 
@@ -869,6 +880,8 @@ void Gameplay_page::removeBombTrap(AgentBase* agent) {
 
 void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
 {
+
+
     for (Enemy* enemy : enemiesToRemove) {
 
         if (dynamic_cast<Disarmer*>(enemy)) {
@@ -877,12 +890,13 @@ void Gameplay_page::removeEnemies(const QVector<Enemy*>& enemiesToRemove)
         enemies.removeOne(enemy);
         enemy->hide();
         enemy->reduceHealth(enemy->gethealth());
-        // enemiesKilled++;
 
         // enemy->deleteLater();
     }
+    if(enemies.isEmpty()){
+        timer->start(2000);
+    }
 
-    // qDebug() << "enemilkilld: " << enemiesKilled;
 }
 
 
@@ -910,10 +924,14 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
 {
     enemiesKilled++;
     enemies.removeOne(enemy);
+    if(enemies.isEmpty()){
+        timer->start(2000);
+    }
     enemy->hide();
     enemy->stopAllTimers();
     enemy->disable();
     enemy->reduceHealth(enemy->gethealth());
+
     // enemy->deleteLater();
     logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
 }
@@ -921,7 +939,7 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
 void Gameplay_page::checkGameOver()
 {
     if (isGameOver) return;
-    if (enemyReachedEndCount >= maxEnemiesAllowedToReachEnd) {
+    if (enemyReachedEndCount <= 0) {
         logEvent("Game Over: Too many enemies reached the end.");
         int gamerecord = getMaxWaveRecord();
         ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,gamerecord);
@@ -929,7 +947,7 @@ void Gameplay_page::checkGameOver()
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
 
-        saveWaveRecord(wave);
+        saveWaveRecord(wave - 1);
     }
 }
 

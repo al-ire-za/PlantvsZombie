@@ -37,6 +37,7 @@ public:
     QList<int> levels;
 
 
+
 protected:
     void mousePressEvent(QMouseEvent *event) override;
 
