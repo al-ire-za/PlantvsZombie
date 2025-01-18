@@ -744,9 +744,11 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
                 if (Bomb* bomb = dynamic_cast<Bomb*>(current_choice)) {
                     bomb->startTimer();
+                    connect(bomb, &Bomb::enemyKilledByBomb, this, &Gameplay_page::incrementEnemyKilled);
                 }
                 if (Trap* trap = dynamic_cast<Trap*>(current_choice)) {
                     trap->startTimer();
+                    connect(trap, &Trap::enemyKilledByTrap, this, &Gameplay_page::incrementEnemyKilled);
                 }
                 current_choice = nullptr;
             }
@@ -934,6 +936,10 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
 
     // enemy->deleteLater();
     logEvent(QString("Enemy (type %1) killed.").arg(typeid(*enemy).name()));
+}
+
+void Gameplay_page::incrementEnemyKilled() {
+    enemiesKilled++;
 }
 
 void Gameplay_page::checkGameOver()

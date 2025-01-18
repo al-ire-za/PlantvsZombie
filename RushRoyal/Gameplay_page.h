@@ -33,6 +33,7 @@ public:
     void startNextWave();
     void removeAgentFromBoard(AgentBase* agent);
     void checkWaveCompletion();
+    void incrementEnemyKilled();
     QVector<Enemy*> enemies;
     QList<int> levels;
 

@@ -27,7 +27,7 @@ public:
 signals:
     void removeEnemies(const QVector<Enemy*>& enemiesToRemove);
     void bombExpired(Trap* tarp);
-
+    void enemyKilledByTrap();
 
 private slots:
     void onTimeout();

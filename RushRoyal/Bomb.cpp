@@ -45,6 +45,7 @@ void Bomb::checkCollision(const QVector<Enemy*>& enemies)
         if (geometry().intersects(enemy->geometry())) {
             enemiesToRemove.append(enemy);
             collisionCount++;
+            emit enemyKilledByBomb();
             if (collisionCount == powerkill) {
                 break;
             }
