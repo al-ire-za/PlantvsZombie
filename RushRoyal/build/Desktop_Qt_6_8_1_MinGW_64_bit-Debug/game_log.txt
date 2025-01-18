@@ -130,3 +130,4 @@ Merged agent at index 14, new speed: 375.
 Merged agent at index 11, new speed: 600.
 Merged agent at index 15, new speed: 700.
 Game Over: Too many enemies reached the end.
+Game Over: Too many enemies reached the end.

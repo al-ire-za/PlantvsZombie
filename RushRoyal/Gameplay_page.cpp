@@ -158,6 +158,7 @@ void Gameplay_page::on_PGolmushaki_clicked()
                 ui->PGolmushaki->setEnabled(false);
             }
             elixir -= levels[0] * 2;
+            usedElixir += levels[0] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[0] += 1;
             agents[2]->setpower(15 * pow(2, (levels[0] - 1)));
@@ -199,6 +200,7 @@ void Gameplay_page::on_PGorbemahi_clicked()
                 ui->PGorbemahi->setEnabled(false);
             }
             elixir -= levels[1] * 2;
+            usedElixir += levels[1] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[1] += 1;
             agents[0]->setpower(30 * pow(2, (levels[1] - 1)));
@@ -240,6 +242,7 @@ void Gameplay_page::on_PKalam_clicked()
                 ui->PKalam->setEnabled(false);
             }
             elixir -= levels[2] * 2;
+            usedElixir += levels[2] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[2] += 1;
             agents[5]->setpower(22 * pow(2, (levels[2] - 1)));
@@ -280,6 +283,7 @@ void Gameplay_page::on_PGandom_clicked()
                 ui->PGandom->setEnabled(false);
             }
             elixir -= levels[3] * 2;
+            usedElixir += levels[3] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[3] += 1;
             agents[1]->setpower(15 * pow(2, (levels[3] - 1)));
@@ -321,6 +325,7 @@ void Gameplay_page::on_PBomb_clicked()
                 ui->PBomb->setEnabled(false);
             }
             elixir -= levels[4] * 2;
+            usedElixir += levels[4] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[4] += 1;
             Bomb* bomb = dynamic_cast<Bomb*>(agents[3]);
@@ -356,6 +361,7 @@ void Gameplay_page::on_PTrap_clicked()
                 ui->PTrap->setEnabled(false);
             }
             elixir -= levels[5] * 2;
+            usedElixir += levels[5] * 2;
             elixirLabel->setText(QString::number(elixir));
             levels[5] += 1;
             Trap* trap = dynamic_cast<Trap*>(agents[4]);
