@@ -948,12 +948,16 @@ void Gameplay_page::checkGameOver()
     if (enemyReachedEndCount <= 0) {
         logEvent("Game Over: Too many enemies reached the end.");
         int gamerecord = getMaxWaveRecord();
+        if (wave - 1 > gamerecord) {
+            gamerecord = wave - 1;
+            saveWaveRecord(gamerecord);
+        }
         ResultWindow *resultwindow = new ResultWindow(wave-1,enemiesKilled,usedElixir,gamerecord);
         resultwindow->show();
         isGameOver = true;
         QTimer::singleShot(0, this, &QMainWindow::close);
 
-        saveWaveRecord(wave - 1);
+
     }
 }
 
