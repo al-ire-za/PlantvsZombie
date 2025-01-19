@@ -74,5 +74,14 @@
         <file>images/newboss.png</file>
         <file>images/themwelcom.jpg</file>
         <file>images/resultbackgrand.jpg</file>
+        <file>images/golmushakiwindow.PNG</file>
+        <file>images/gorbemahiwindow.PNG</file>
+        <file>images/kalamwindow.PNG</file>
+        <file>images/windowbomb.PNG</file>
+        <file>images/windowgandom.png</file>
+        <file>images/windowtrap.PNG</file>
+        <file>images/2222.PNG</file>
+        <file>images/13321.PNG</file>
+        <file>images/felsesh.png</file>
     </qresource>
 </RCC>

@@ -41,6 +41,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Bullet.h Bullet.cpp
         ResultWindow.h ResultWindow.cpp ResultWindow.ui
         database_helpers.h
+        AgentWindow.h AgentWindow.cpp AgentWindow.ui
+        EnemyWindow.h EnemyWindow.cpp EnemyWindow.ui
     )
 else()
     if(ANDROID)

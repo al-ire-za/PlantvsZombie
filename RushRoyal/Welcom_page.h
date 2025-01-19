@@ -20,6 +20,12 @@ public:
 private slots:
     void on_play_button_clicked();
 
+    void on_agents_clicked();
+
+    void on_enemy_clicked();
+
+    void on_exit_clicked();
+
 private:
     Ui::welcom_page *ui;
 };

@@ -574,6 +574,8 @@ RushRoyal_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/AgentBase.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/AgentBase.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/AgentWindow.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/AgentWindow.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Bomb.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Bomb.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Bullet.cpp \
@@ -583,6 +585,8 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Disarmer.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Enemy.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Enemy.h \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/EnemyWindow.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/EnemyWindow.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Eraser.cpp \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Eraser.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Freezer.cpp \
@@ -615,6 +619,8 @@ RushRoyal_autogen/timestamp: \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/database_helpers.h \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/images.qrc \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/main.cpp \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/AgentWindow.ui \
+	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/EnemyWindow.ui \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Gameplay_page.ui \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/ResultWindow.ui \
 	E:/darsi/mabani/Qt\ Jadid/RushRoyal/PlantvsZombie/RushRoyal/Welcom_page.ui \

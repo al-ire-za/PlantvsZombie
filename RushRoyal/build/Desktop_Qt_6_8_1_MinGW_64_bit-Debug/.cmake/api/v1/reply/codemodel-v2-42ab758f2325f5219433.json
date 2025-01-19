@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9ca7c0da09973f97d3c6.json",
+					"jsonFile" : "directory-.-Debug-155a135cdcf523f3fa9d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RushRoyal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RushRoyal-Debug-b60895206736fec7e0df.json",
+					"jsonFile" : "target-RushRoyal-Debug-3bca65193e292bab88ce.json",
 					"name" : "RushRoyal",
 					"projectIndex" : 0
 				},

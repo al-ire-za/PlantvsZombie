@@ -131,3 +131,11 @@ Merged agent at index 11, new speed: 600.
 Merged agent at index 15, new speed: 700.
 Game Over: Too many enemies reached the end.
 Game Over: Too many enemies reached the end.
+Agent choice 4 selected.
+Agent choice 4 deselected.
+Agent choice 4 selected.
+Placed bomb on the map at position: (258, 394).
+Game Over: Too many enemies reached the end.
+Agent choice 4 selected.
+Placed bomb on the map at position: (954, 531).
+Game Over: Too many enemies reached the end.

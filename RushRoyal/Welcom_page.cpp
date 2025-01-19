@@ -5,7 +5,8 @@
 #include <QGuiApplication>
 #include <QScreen>
 #include "ResultWindow.h"
-
+#include "AgentWindow.h"
+#include "EnemyWindow.h"
 welcom_page::welcom_page(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::welcom_page)
@@ -62,5 +63,27 @@ void welcom_page::on_play_button_clicked()
     this->close();
     // ResultWindow *r = new ResultWindow;
     // r->show();
+}
+
+
+void welcom_page::on_agents_clicked()
+{
+    AgentWindow *ag = new AgentWindow;
+    ag->show();
+    this->close();
+}
+
+
+void welcom_page::on_enemy_clicked()
+{
+    EnemyWindow *en = new EnemyWindow;
+    en->show();
+    this->close();
+}
+
+
+void welcom_page::on_exit_clicked()
+{
+    QCoreApplication::quit();
 }
 
