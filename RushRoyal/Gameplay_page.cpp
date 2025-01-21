@@ -64,12 +64,20 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemi_wave = 20;
 
     enemyReachedEndCount = 3;
-    enemyCountLabel = new QLabel(this);
-    enemyCountLabel->setObjectName("enemyCountLabel");
-    enemyCountLabel->setGeometry(1005,580, 50, 45);
-    enemyCountLabel->setText("3");
-    enemyCountLabel->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
-    enemyCountLabel->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+    enemyCountLabel1 = new QLabel(this);
+    //enemyCountLabel1->setObjectName("enemyCountLabel");
+    enemyCountLabel1->setGeometry(1005,590, 50, 45);
+    //enemyCountLabel1->setText("3");
+    enemyCountLabel1->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
+    //enemyCountLabel1->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+
+    enemyCountLabel2 = new QLabel(this);
+    enemyCountLabel2->setGeometry(1005,540, 50, 45);
+    enemyCountLabel2->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
+
+    enemyCountLabel3 = new QLabel(this);
+    enemyCountLabel3->setGeometry(1005,490, 50, 45);
+    enemyCountLabel3->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
 
 
     levels.resize(6);
@@ -867,10 +875,10 @@ void Gameplay_page::checkCollisions()
                     removeBombTrap(trap);
                 }
             });
-            connect(trap, &Trap::bombExpired, this, [=]() {
+            /*connect(trap, &Trap::bombExpired, this, [=]() {
                 removeBombTrap(trap);
 
-            });
+            });*/
         }
     }
 
@@ -969,7 +977,10 @@ void Gameplay_page::checkGameOver()
 
 void Gameplay_page::updateEnemyCountLabel()
 {
-    enemyCountLabel->setText(QString("%1").arg(enemyReachedEndCount));
+    //enemyCountLabel->setText(QString("%1").arg(enemyReachedEndCount));
+    if(enemyReachedEndCount == 2) enemyCountLabel3->hide();
+    else if(enemyReachedEndCount == 1) enemyCountLabel2->hide();
+    else if(enemyReachedEndCount == 0) enemyCountLabel1->hide();
 }
 
 Gameplay_page::~Gameplay_page()

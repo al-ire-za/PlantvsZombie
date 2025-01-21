@@ -82,7 +82,7 @@ private:
     Disarmer *disarmer;
     QTimer *elixirTimer;
     QLabel *elixirLabel;
-    QLabel *enemyCountLabel;
+    QLabel *enemyCountLabel1, *enemyCountLabel2, *enemyCountLabel3;
     QLabel *elixirText;
     QLabel *enemyImage;
     int elixir;
