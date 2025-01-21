@@ -31,7 +31,6 @@
 #include <QThread>
 
 
-
 const int width_aghent_choice = 90;
 const int hight_aghent_choice = 80;
 const int startx_agent_choice = 370;
@@ -49,7 +48,7 @@ const int yOffset = 90;
 
 Gameplay_page::Gameplay_page(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(4), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
+    , ui(new Ui::Gameplay_page),count_enemi(0), wave(1), bossSpawned(0), elixir(7), waveInProgress(true), enemiesKilled(0), last_clicked_agent(nullptr),last_clicked_index(-1)
 {
     ui->setupUi(this);
     setMaximumSize(1200, 800);
@@ -78,6 +77,25 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemyCountLabel3 = new QLabel(this);
     enemyCountLabel3->setGeometry(1005,490, 50, 45);
     enemyCountLabel3->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
+
+
+    // Wave progress bar
+    waveProgressBackground = new QLabel(this);
+    waveProgressBackground->setGeometry(440, 75, 320, 30);
+    waveProgressBackground->setStyleSheet("background: transparent; background-color : rgb(0, 0, 0); border: 8px solid rgb(80, 80, 80); border-radius: 7px;");
+
+    waveProgressForeground = new QLabel(this);
+    waveProgressForeground->setGeometry(440, 75, 0, 30);
+    waveProgressForeground->setStyleSheet("background: transparent; background-color : rgb( 0, 150, 0); border: 8px solid rgb(80, 80, 80); border-radius: 7px;");
+
+    waveProgressZombei = new QLabel(this);
+    waveProgressZombei->setGeometry(445, 45, 70, 80);
+    waveProgressZombei->setStyleSheet("background: transparent; background-image: url(:/prefix2/images/6_editai.png);");
+
+    waveProgressBackground->show();
+    waveProgressForeground->show();
+    waveProgressZombei->show();
+
 
 
     levels.resize(6);
@@ -529,7 +547,6 @@ void Gameplay_page::create_enemi(){
 
             if(wave % 2 == 0 &&  bossSpawned == 0){
                 int bossType =  std::rand() % 3;
-
                         int baseHealth = 0;
                         double baseSpeed = 0.0;
 
@@ -571,12 +588,11 @@ void Gameplay_page::create_enemi(){
             new_enemy->setGeometry(220, 700, 90, 80);
             new_enemy->show();
 
-            if(count_enemi == enemi_wave + 1){
+            if(count_enemi == enemi_wave ){
                 // saveWaveRecord(wave);
                 // timer->setInterval(3000);
                 timer->stop();
-
-                count_enemi = 1;
+                count_enemi = 0;
                 wave += 1;
                 bossSpawned = 0;
             }else{
@@ -939,6 +955,7 @@ void Gameplay_page::updateElixir()
 void Gameplay_page::onEnemyKilled(Enemy* enemy)
 {
     enemiesKilled++;
+    updateWaveProgress();
     enemies.removeOne(enemy);
     if(enemies.isEmpty()){
         timer->start(2000);
@@ -954,6 +971,7 @@ void Gameplay_page::onEnemyKilled(Enemy* enemy)
 
 void Gameplay_page::incrementEnemyKilled() {
     enemiesKilled++;
+    updateWaveProgress();
 }
 
 void Gameplay_page::checkGameOver()
@@ -981,6 +999,14 @@ void Gameplay_page::updateEnemyCountLabel()
     if(enemyReachedEndCount == 2) enemyCountLabel3->hide();
     else if(enemyReachedEndCount == 1) enemyCountLabel2->hide();
     else if(enemyReachedEndCount == 0) enemyCountLabel1->hide();
+    updateWaveProgress();
+}
+
+
+void Gameplay_page::updateWaveProgress() {
+    int progress = ((enemiesKilled-enemyReachedEndCount+3) % enemi_wave * 300) / enemi_wave;
+    waveProgressForeground->setGeometry(440, 75, progress, 30);
+    waveProgressZombei->setGeometry(432 + progress, 45, 70, 80);
 }
 
 Gameplay_page::~Gameplay_page()

@@ -85,6 +85,9 @@ private:
     QLabel *enemyCountLabel1, *enemyCountLabel2, *enemyCountLabel3;
     QLabel *elixirText;
     QLabel *enemyImage;
+    QLabel *waveProgressBackground;
+    QLabel *waveProgressForeground;
+    QLabel *waveProgressZombei;
     int elixir;
     int count_enemi;
     int wave;
@@ -100,6 +103,7 @@ private:
     void checkGameOver();
     void updateEnemyCountLabel();
     void updateAgentsEnemies();
+    void updateWaveProgress();
     friend class Freezer;
     friend class Eraser;
 
