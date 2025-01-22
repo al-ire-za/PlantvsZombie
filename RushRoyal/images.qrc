@@ -67,10 +67,8 @@
         <file>images/trap3.png</file>
         <file>images/trap4.png</file>
         <file>images/trap5.png</file>
-        <file>images/pots.png</file>
         <file>images/Soil layers.png</file>
         <file>images/pots1.png</file>
-        <file>images/heart.png</file>
         <file>images/newboss.png</file>
         <file>images/themwelcom.jpg</file>
         <file>images/resultbackgrand.jpg</file>
@@ -82,7 +80,12 @@
         <file>images/windowtrap.PNG</file>
         <file>images/2222.PNG</file>
         <file>images/13321.PNG</file>
-        <file>images/felsesh.png</file>
         <file>images/resultBackground.jpg</file>
+        <file>images/heart.png</file>
+        <file>images/pots11.png</file>
+        <file>images/pots12.png</file>
+        <file>images/pots13.png</file>
+        <file>images/pots14.png</file>
+        <file>images/pots15.png</file>
     </qresource>
 </RCC>

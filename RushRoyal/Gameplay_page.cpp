@@ -65,17 +65,17 @@ Gameplay_page::Gameplay_page(QWidget *parent)
     enemyReachedEndCount = 3;
     enemyCountLabel1 = new QLabel(this);
     //enemyCountLabel1->setObjectName("enemyCountLabel");
-    enemyCountLabel1->setGeometry(1005,590, 50, 45);
+    enemyCountLabel1->setGeometry(1005,580, 40, 36);
     //enemyCountLabel1->setText("3");
     enemyCountLabel1->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
     //enemyCountLabel1->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
 
     enemyCountLabel2 = new QLabel(this);
-    enemyCountLabel2->setGeometry(1005,540, 50, 45);
+    enemyCountLabel2->setGeometry(1005,545, 40, 36);
     enemyCountLabel2->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
 
     enemyCountLabel3 = new QLabel(this);
-    enemyCountLabel3->setGeometry(1005,490, 50, 45);
+    enemyCountLabel3->setGeometry(1005,510, 40, 36);
     enemyCountLabel3->setStyleSheet("background-image: url(:/prefix2/images/heart.png); font: bold 16px;");
 
 

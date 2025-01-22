@@ -12,9 +12,9 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
     ui(new Ui::ResultWindow)
 {
     ui->setupUi(this);
-    resize(640, 730);
-    setMaximumSize(640, 730);
-    setMinimumSize(640, 730);
+    resize(701, 800);
+    setMaximumSize(701, 800);
+    setMinimumSize(701, 800);
     leaderBoard = new QLabel(this);
     resultText = new QLabel(this);
     recordwave = new QLabel(this);
@@ -23,8 +23,8 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
     recorGame = new QLabel(this);
 
 
-    int windowWidth = 640;
-    int windowHeight = 730;
+    int windowWidth = 701;
+    int windowHeight = 800;
     int labelWidth = 280;
     int labelHeight = 55;
     int buttonWidth = 137;
@@ -45,7 +45,7 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
                                );
 
 
-    resultText->setGeometry(240, 285, labelWidth, labelHeight);
+    resultText->setGeometry(270, 340, labelWidth, labelHeight);
     resultText->setStyleSheet(
                             "background: transparent;"
                             "font: bold 48px;"
