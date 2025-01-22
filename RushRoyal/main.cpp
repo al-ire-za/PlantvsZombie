@@ -5,7 +5,6 @@
 #include <QSqlError>
 #include <QDebug>
 #include "database_helpers.h"
-#include "ResultWindow.h"
 
 void initializeDatabase() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
@@ -62,9 +61,8 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     initializeDatabase();
     welcom_page w;
-    ResultWindow x;
 
-    x.show();
+    w.show();
 
     return a.exec();
 }

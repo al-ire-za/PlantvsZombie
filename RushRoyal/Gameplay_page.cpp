@@ -662,10 +662,12 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
             if (rect.contains(event->pos()) && agent_board[i] != nullptr) {
                 AgentBase *targetAgent = agent_board[i];
                 if (last_clicked_agent != nullptr && last_clicked_agent->metaObject()->className() == targetAgent->metaObject()->className()
-                    && targetAgent->getlevelspeedup() < 5 && targetAgent->getlevelspeedup() == last_clicked_agent->getlevelspeedup()) {
+                    && targetAgent->getlevelspeedup() < 4 && targetAgent->getlevelspeedup() == last_clicked_agent->getlevelspeedup()) {
 
                     if (Golmoshaki* golmushaki = dynamic_cast<Golmoshaki*>(targetAgent)) {
                         golmushaki->setlevelspeedup(golmushaki->getlevelspeedup() + 1);
+                        updatePot(i, golmushaki->getlevelspeedup());
+                        updatePot(last_clicked_index,1);
                         qDebug() << "level: " << golmushaki->getlevelspeedup();
                         golmushaki->setAgentBaseFireRate(golmushaki->getAgentBaseFireRate() / 2);
                         golmushaki->shot();
@@ -674,6 +676,8 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
                     if (Gorbemahi* gorbemahi = dynamic_cast<Gorbemahi*>(targetAgent)) {
                         gorbemahi->setlevelspeedup(gorbemahi->getlevelspeedup() + 1);
+                        updatePot(i, gorbemahi->getlevelspeedup());
+                        updatePot(last_clicked_index,1);
                         qDebug() << "level: " << gorbemahi->getlevelspeedup();
                         gorbemahi->setAgentBaseFireRate(gorbemahi->getAgentBaseFireRate() / 2);
                         gorbemahi->shot();
@@ -682,6 +686,8 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
                     if (Gandom* gandom = dynamic_cast<Gandom*>(targetAgent)) {
                         gandom->setlevelspeedup(gandom->getlevelspeedup() + 1);
+                        updatePot(i, gandom->getlevelspeedup());
+                        updatePot(last_clicked_index,1);
                         qDebug() << "level: " << gandom->getlevelspeedup();
                         gandom->setAgentBaseFireRate(gandom->getAgentBaseFireRate() / 2);
                         gandom->shot();
@@ -690,6 +696,8 @@ void Gameplay_page::mousePressEvent(QMouseEvent *event)
 
                     if (Kalam* kalam = dynamic_cast<Kalam*>(targetAgent)) {
                         kalam->setlevelspeedup(kalam->getlevelspeedup() + 1);
+                        updatePot(i, kalam->getlevelspeedup());
+                        updatePot(last_clicked_index,1);
                         qDebug() << "level: " << kalam->getlevelspeedup();
                         kalam->setAgentBaseFireRate(kalam->getAgentBaseFireRate() / 2);
                         kalam->shot();
@@ -1000,6 +1008,43 @@ void Gameplay_page::updateEnemyCountLabel()
     else if(enemyReachedEndCount == 1) enemyCountLabel2->hide();
     else if(enemyReachedEndCount == 0) enemyCountLabel1->hide();
     updateWaveProgress();
+}
+
+
+void Gameplay_page::updatePot(int i, int speedupLvl)
+{
+    QString x;
+    if(speedupLvl >= 1 && speedupLvl <= 4) {
+        switch(speedupLvl) {
+        case 2: x = "url(:/prefix2/images/pots11.png);"; break;
+        case 3: x = "url(:/prefix2/images/pots12.png);"; break;
+        case 4: x = "url(:/prefix2/images/pots13.png);"; break;
+        default: x = "url(:/prefix2/images/pots1.png);"; break;
+        }
+    }
+
+    if(last_clicked_index == i) x = "url(:/prefix2/images/pots1.png);";
+
+    if (i >= 0 && i < 16) {
+        switch(i) {
+        case 0: ui->label_29->setStyleSheet("background-image: "+ x); break;
+        case 1: ui->label_28->setStyleSheet("background-image: "+ x); break;
+        case 2: ui->label_26->setStyleSheet("background-image: "+ x); break;
+        case 3: ui->label_27->setStyleSheet("background-image: "+ x); break;
+        case 4: ui->label_25->setStyleSheet("background-image: "+ x); break;
+        case 5: ui->label_24->setStyleSheet("background-image: "+ x); break;
+        case 6: ui->label_22->setStyleSheet("background-image: "+ x); break;
+        case 7: ui->label_23->setStyleSheet("background-image: "+ x); break;
+        case 8: ui->label_21->setStyleSheet("background-image: "+ x); break;
+        case 9: ui->label_20->setStyleSheet("background-image: "+ x); break;
+        case 10: ui->label_18->setStyleSheet("background-image: "+ x); break;
+        case 11: ui->label_19->setStyleSheet("background-image: "+ x); break;
+        case 12: ui->label_15->setStyleSheet("background-image: "+ x); break;
+        case 13: ui->label_14->setStyleSheet("background-image: "+ x); break;
+        case 14: ui->label_16->setStyleSheet("background-image: "+ x); break;
+        case 15: ui->label_17->setStyleSheet("background-image: "+ x); break;
+        }
+    }
 }
 
 

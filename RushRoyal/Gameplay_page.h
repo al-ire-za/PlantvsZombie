@@ -34,6 +34,7 @@ public:
     void removeAgentFromBoard(AgentBase* agent);
     void checkWaveCompletion();
     void incrementEnemyKilled();
+    void updatePot(int, int);
     QVector<Enemy*> enemies;
     QList<int> levels;
 

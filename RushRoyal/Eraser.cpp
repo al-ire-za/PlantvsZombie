@@ -42,6 +42,7 @@ void Eraser::removeRandomAgent()
             if (agent) {
                 gamePage->removeAgentFromBoard(agent);  // استفاده از تابع برای حذف ایجنت
                 gamePage->logEvent(QString("Agent removed from agent_board at index %1 by Eraser.").arg(randomIndex));
+                gamePage->updatePot(randomIndex,1);
             }
         }
     }
