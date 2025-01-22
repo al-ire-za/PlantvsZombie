@@ -19,6 +19,8 @@ public:
     QLabel *NOEnemyKilled;
     QLabel *elixirused;
     QLabel *recorGame;
+    QLabel *leaderBoard;
+    QLabel *resultText;
     void setRecordWave(int wave);
     void setNOEnemyKilled(int count);
     void setElixirUsed(int elixir);

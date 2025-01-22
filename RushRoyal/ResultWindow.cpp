@@ -12,9 +12,11 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
     ui(new Ui::ResultWindow)
 {
     ui->setupUi(this);
-    resize(640, 600);
-    setMaximumSize(640, 600);
-    setMinimumSize(640, 600);
+    resize(640, 730);
+    setMaximumSize(640, 730);
+    setMinimumSize(640, 730);
+    leaderBoard = new QLabel(this);
+    resultText = new QLabel(this);
     recordwave = new QLabel(this);
     NOEnemyKilled = new QLabel(this);
     elixirused = new QLabel(this);
@@ -22,7 +24,7 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
 
 
     int windowWidth = 640;
-    int windowHeight = 600;
+    int windowHeight = 730;
     int labelWidth = 280;
     int labelHeight = 55;
     int buttonWidth = 137;
@@ -30,6 +32,26 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
     int spacing = 10;
 
     int startY = (windowHeight - 4 * labelHeight - 3 * spacing) / 1.4;
+
+
+    leaderBoard->setGeometry((windowWidth - labelWidth) / 2 - 10, startY - (labelHeight + spacing) +5, labelWidth + 20,  4 * (labelHeight + spacing) + 120);
+    leaderBoard->setStyleSheet(
+                                "background: transparent;"
+                                "background-color: rgba(80, 80, 80, 180);"
+                                "border: 8px;"
+                                "font: bold 40px;"
+                                "border-radius: 25px;"
+                                "padding-top: 5px;"
+                               );
+
+
+    resultText->setGeometry(240, 285, labelWidth, labelHeight);
+    resultText->setStyleSheet(
+                            "background: transparent;"
+                            "font: bold 48px;"
+                            "color:  black;"
+                            );
+    resultText->setText("RESULT");
 
 
     recordwave->setGeometry((windowWidth - labelWidth) / 2, startY - (labelHeight + spacing) +75, labelWidth, labelHeight);
@@ -77,13 +99,15 @@ ResultWindow::ResultWindow(int wave , int count , int elixir , int record , QWid
 
     connect(restartButton, &QPushButton::clicked, this, &ResultWindow::restartGame);
     connect(exitButton, &QPushButton::clicked, this, &ResultWindow::exitGame);
-    restartButton->setStyleSheet("background-color: rgba(255, 170, 0, 200);"
+    restartButton->setStyleSheet(" background: transparent;"
+                                "background-color: rgba(100, 180, 255, 255);"
                                  "border: 2px solid black;"
                                  "border-radius: 10px;"
                                  "font: bold 22px;"
                                  );
 
-    exitButton->setStyleSheet("background-color: rgba(255, 170, 0, 200);"
+    exitButton->setStyleSheet(" background: transparent;"
+                              "background-color: rgba(100, 180, 255, 255);"
                               "border: 2px solid black;"
                               "border-radius: 10px;"
                               "font: bold 22px;"
