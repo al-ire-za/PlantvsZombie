@@ -43,7 +43,10 @@ void Trap::checkCollision(const QVector<Enemy*>& enemies)
         if (geometry().intersects(enemy->geometry())) {
             enemiesToRemove.append(enemy);
             collisionCount++;
-            emit enemyKilledByTrap();
+            if (enemy->preventBugForEnemyKillNum == 0){
+                emit enemyKilledByTrap();
+                enemy->preventBugForEnemyKillNum = 1;
+            }
 
             if (collisionCount == powerkill) {
 

@@ -962,7 +962,10 @@ void Gameplay_page::updateElixir()
 
 void Gameplay_page::onEnemyKilled(Enemy* enemy)
 {
-    enemiesKilled++;
+    if (enemy->preventBugForEnemyKillNum == 0){
+        enemiesKilled++;
+        enemy->preventBugForEnemyKillNum = 1;
+    }
     updateWaveProgress();
     enemies.removeOne(enemy);
     if(enemies.isEmpty()){

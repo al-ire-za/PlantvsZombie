@@ -25,6 +25,7 @@ public:
     bool isalive() const;
     void disable();
     void stopAllTimers();
+    int preventBugForEnemyKillNum = 0;
 
 protected:
     Ui::Enemy *ui;
